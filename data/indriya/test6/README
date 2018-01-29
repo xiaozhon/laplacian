@@ -1,0 +1,20 @@
+Indriya test 6: 2016-10-06 22:20:00  ~ 2016-10-07 08:17:00 am
+	- Based on aswp_app_eer_v4_1 TelosB relay application
+	- Fixed timer interval for all the packets
+		○ Data packet: 2 minutes
+		○ Summary packet: 5 minutes 
+		○ CS_packet: 5 minutes 
+	- Telosb regular application, only voltage is send
+	- APP_VERSION = 146
+	- Radio power level: 7 
+	- Sink: 7
+	- SerialForwarder commands:
+		○ Java net.tinyos.tools.Listen -comm sf@indriya.comp.nus.edu.sg:40031
+	- Gateway:
+		sinksource=sf@indriya.comp.nus.edu.sg:40031
+		userport=40031
+	- DEBUG:
+		○ Updated the Gateway jar file, now use Gateway_v6_0_3_1_debug.jar
+
+	- PRR too bad!
+

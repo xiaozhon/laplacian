@@ -1,0 +1,72 @@
+[23:23:11 - main] [Cooja.java:1324] [INFO] - > Starting Cooja
+[23:23:12 - main] [Cooja.java:2865] [INFO] - External tools default settings: /external_tools_linux.config
+[23:23:12 - main] [Cooja.java:2895] [INFO] - External tools user settings: /home/joy/.cooja.user.properties
+[23:23:12 - main] [Simulation.java:420] [INFO] - Simulation random seed: 123456
+[23:23:12 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:12 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest/build/telosb/main.exe
+[23:23:13 - main] [Cooja.java:1790] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+[23:23:13 - main] [Cooja.java:1790] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.Visualizer
+[23:23:13 - main] [Cooja.java:1790] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.LogListener
+[23:23:13 - main] [Cooja.java:1790] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.TimeLine
+[23:23:13 - main] [Cooja.java:1790] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.Notes
+[23:23:14 - main] [ScriptRunner.java:429] [INFO] - Test script deactivated
+[23:23:14 - main] [LogScriptEngine.java:265] [INFO] - Script timeout in 6600000 ms
+[23:23:14 - main] [ScriptRunner.java:386] [INFO] - Test script activated
+[23:23:14 - Thread-2] [Simulation.java:252] [INFO] - Simulation main loop started, system time: 1486527794808
+[23:25:47 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 5.00%, done in 2910.0 sec
+[23:27:17 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 10.00%, done in 2187.5 sec
+[23:28:41 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 15.00%, done in 1848.8 sec
+[23:30:18 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 20.00%, done in 1692.9 sec
+[23:32:03 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 25.00%, done in 1584.9 sec
+[23:33:05 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 30.00%, done in 1378.9 sec
+[23:33:42 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 35.00%, done in 1165.5 sec
+[23:34:24 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 40.00%, done in 1004.3 sec
+[23:34:59 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 45.00%, done in 860.8 sec
+[23:35:37 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 50.00%, done in 742.3 sec
+[23:36:16 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 55.00%, done in 639.5 sec
+[23:37:03 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 60.00%, done in 552.5 sec
+[23:37:46 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 65.00%, done in 469.3 sec
+[23:41:33 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 70.00%, done in 470.7 sec
+[23:42:20 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 75.00%, done in 382.0 sec
+[23:43:07 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 80.00%, done in 298.2 sec
+[23:46:24 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 85.00%, done in 245.2 sec
+[23:47:28 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 90.00%, done in 161.6 sec
+[23:48:18 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 95.00%, done in 79.1 sec
+[23:49:06 - Thread-2] [LogScriptEngine.java:375] [INFO] - Timeout event @ 6600000000
+[23:49:06 - Thread-1] [LogScriptEngine.java:309] [INFO] - Test script finished
+[23:49:06 - Thread-2] [Simulation.java:311] [INFO] - Simulation main loop stopped, system time: 1486529346867	Duration: 1552059 ms	Simulated time 6600000 ms	Ratio 4.252415662033466
+[23:49:07 - AWT-EventQueue-0] [ScriptRunner.java:429] [INFO] - Test script deactivated

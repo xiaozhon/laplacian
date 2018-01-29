@@ -1,0 +1,31 @@
+digraph "tos.chips.atm128.i2c.Atm128I2CMasterP" {
+  n0x411e6470 [shape=ellipse, style=filled, label="Resource", fontsize=12];
+  "Atm128I2CMasterP.I2C" [fontsize=12, shape=box, style=dashed, label="Atm128I2CMasterImplP\n(I2C)", URL="../chtml/tos.chips.atm128.i2c.Atm128I2CMasterImplP.html"];
+  n0x411e4010 [shape=ellipse, style=filled, label="I2CPacket", fontsize=12];
+  "Atm128I2CMasterP.I2C" [fontsize=12, shape=box, style=dashed, label="Atm128I2CMasterImplP\n(I2C)", URL="../chtml/tos.chips.atm128.i2c.Atm128I2CMasterImplP.html"];
+  "Atm128I2CMasterP.I2C" [fontsize=12, shape=box, style=dashed, label="Atm128I2CMasterImplP\n(I2C)", URL="../chtml/tos.chips.atm128.i2c.Atm128I2CMasterImplP.html"];
+  "Atm128I2CMasterP.Arbiter" [fontsize=12, shape=box,peripheries=2, style=dashed, label="FcfsArbiterC\n(Arbiter)", URL="../chtml/tos.system.FcfsArbiterC.html"];
+  "Atm128I2CMasterP.I2C" [fontsize=12, shape=box, style=dashed, label="Atm128I2CMasterImplP\n(I2C)", URL="../chtml/tos.chips.atm128.i2c.Atm128I2CMasterImplP.html"];
+  "Atm128I2CMasterP.Master" [fontsize=12, shape=box, style=dashed, label="Atm128I2CMasterPacketP\n(Master)", URL="../chtml/tos.chips.atm128.i2c.Atm128I2CMasterPacketP.html"];
+  "Atm128I2CMasterP.I2C" [fontsize=12, shape=box, style=dashed, label="Atm128I2CMasterImplP\n(I2C)", URL="../chtml/tos.chips.atm128.i2c.Atm128I2CMasterImplP.html"];
+  "Atm128I2CMasterP.Master" [fontsize=12, shape=box, style=dashed, label="Atm128I2CMasterPacketP\n(Master)", URL="../chtml/tos.chips.atm128.i2c.Atm128I2CMasterPacketP.html"];
+  "Atm128I2CMasterP.Power" [fontsize=12, shape=box, style=dashed, label="AsyncPowerManagerP\n(Power)", URL="../chtml/tos.lib.power.AsyncPowerManagerP.html"];
+  "Atm128I2CMasterP.Master" [fontsize=12, shape=box, style=dashed, label="Atm128I2CMasterPacketP\n(Master)", URL="../chtml/tos.chips.atm128.i2c.Atm128I2CMasterPacketP.html"];
+  "Atm128I2CMasterP.Power" [fontsize=12, shape=box, style=dashed, label="AsyncPowerManagerP\n(Power)", URL="../chtml/tos.lib.power.AsyncPowerManagerP.html"];
+  "Atm128I2CMasterP.Arbiter" [fontsize=12, shape=box,peripheries=2, style=dashed, label="FcfsArbiterC\n(Arbiter)", URL="../chtml/tos.system.FcfsArbiterC.html"];
+  "Atm128I2CMasterP.Master" [fontsize=12, shape=box, style=dashed, label="Atm128I2CMasterPacketP\n(Master)", URL="../chtml/tos.chips.atm128.i2c.Atm128I2CMasterPacketP.html"];
+  "HplAtm128I2CBusC" [fontsize=12, shape=box,peripheries=2, URL="../chtml/tos.chips.atm128.i2c.HplAtm128I2CBusC.html"];
+  "Atm128I2CMasterP.Master" [fontsize=12, shape=box, style=dashed, label="Atm128I2CMasterPacketP\n(Master)", URL="../chtml/tos.chips.atm128.i2c.Atm128I2CMasterPacketP.html"];
+  "NoLedsC" [fontsize=12, shape=box, URL="../chtml/tos.system.NoLedsC.html"];
+  "Atm128I2CMasterP.Master" [fontsize=12, shape=box, style=dashed, label="Atm128I2CMasterPacketP\n(Master)", URL="../chtml/tos.chips.atm128.i2c.Atm128I2CMasterPacketP.html"];
+  "n0x411e6470" -> "Atm128I2CMasterP.I2C" [label="Resource[uint8_t]", style=bold, URL="../ihtml/tos.interfaces.Resource.html", fontsize=10];
+  "n0x411e4010" -> "Atm128I2CMasterP.I2C" [label="I2CPacket<TI2CBasicAddr>[uint8_t]", style=bold, URL="../ihtml/tos.interfaces.I2CPacket.html", fontsize=10];
+  "Atm128I2CMasterP.I2C" -> "Atm128I2CMasterP.Arbiter" [label="Resource[uint8_t]", style=bold, URL="../ihtml/tos.interfaces.Resource.html", fontsize=10];
+  "Atm128I2CMasterP.I2C" -> "Atm128I2CMasterP.Master" [label="I2CPacket<TI2CBasicAddr>", URL="../ihtml/tos.interfaces.I2CPacket.html", fontsize=10];
+  "Atm128I2CMasterP.I2C" -> "Atm128I2CMasterP.Master" [label="Atm128I2C", URL="../ihtml/tos.chips.atm128.i2c.Atm128I2C.html", fontsize=10];
+  "Atm128I2CMasterP.Power" -> "Atm128I2CMasterP.Master" [label="AsyncStdControl", URL="../ihtml/tos.interfaces.AsyncStdControl.html", fontsize=10];
+  "Atm128I2CMasterP.Power" -> "Atm128I2CMasterP.Arbiter" [label="ResourceDefaultOwner", URL="../ihtml/tos.interfaces.ResourceDefaultOwner.html", fontsize=10];
+  "Atm128I2CMasterP.Master" -> "HplAtm128I2CBusC" [label="HplAtm128I2CBus", URL="../ihtml/tos.chips.atm128.i2c.HplAtm128I2CBus.html", fontsize=10];
+  "Atm128I2CMasterP.Master" -> "NoLedsC" [label="Leds", URL="../ihtml/tos.interfaces.Leds.html", fontsize=10];
+  "Atm128I2CMasterP.Master" -> "NoLedsC" [label="Leds", URL="../ihtml/tos.interfaces.Leds.html", fontsize=10];
+}

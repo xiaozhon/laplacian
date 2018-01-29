@@ -1,0 +1,164 @@
+<?xml version="1.0" ?><interfacedef loc="42:../../../net_EER/CollectionPacket.nc" nicename=".........net_EER.CollectionPacket" qname="CollectionPacket">
+      <function command="" loc="50:../../../net_EER/CollectionPacket.nc" name="setSequenceNumber" provided="0" ref="0x411aaf28">
+        <interfacedef-ref nicename=".........net_EER.CollectionPacket" qname="CollectionPacket"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-void alignment="I:1" size="I:1"/>
+          <function-parameters>
+            <type-pointer alignment="I:2" size="I:2">
+              <type-tag alignment="I:1" size="I:93"><nx_struct-ref name="message_t" ref="0x40623750"/>
+                <typename><typedef-ref name="message_t" ref="0x40622518"/></typename>
+              </type-tag>
+            </type-pointer>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="50:../../../net_EER/CollectionPacket.nc" name="msg" ref="0x411aabd0">
+            <type-pointer alignment="I:2" size="I:2">
+              <type-tag alignment="I:1" size="I:93"><nx_struct-ref name="message_t" ref="0x40623750"/>
+                <typename><typedef-ref name="message_t" ref="0x40622518"/></typename>
+              </type-tag>
+            </type-pointer>
+          </variable>
+          <variable loc="50:../../../net_EER/CollectionPacket.nc" name="seqno" ref="0x411aadc8">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="44:../../../net_EER/CollectionPacket.nc" name="setOrigin" provided="0" ref="0x411ab430">
+        <interfacedef-ref nicename=".........net_EER.CollectionPacket" qname="CollectionPacket"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-void alignment="I:1" size="I:1"/>
+          <function-parameters>
+            <type-pointer alignment="I:2" size="I:2">
+              <type-tag alignment="I:1" size="I:93"><nx_struct-ref name="message_t" ref="0x40623750"/>
+                <typename><typedef-ref name="message_t" ref="0x40622518"/></typename>
+              </type-tag>
+            </type-pointer>
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="am_addr_t" ref="0x40619010"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="44:../../../net_EER/CollectionPacket.nc" name="msg" ref="0x411ab0c8">
+            <type-pointer alignment="I:2" size="I:2">
+              <type-tag alignment="I:1" size="I:93"><nx_struct-ref name="message_t" ref="0x40623750"/>
+                <typename><typedef-ref name="message_t" ref="0x40622518"/></typename>
+              </type-tag>
+            </type-pointer>
+          </variable>
+          <variable loc="44:../../../net_EER/CollectionPacket.nc" name="addr" ref="0x411ab2d0">
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="am_addr_t" ref="0x40619010"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="47:../../../net_EER/CollectionPacket.nc" name="setType" provided="0" ref="0x411aa190">
+        <interfacedef-ref nicename=".........net_EER.CollectionPacket" qname="CollectionPacket"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-void alignment="I:1" size="I:1"/>
+          <function-parameters>
+            <type-pointer alignment="I:2" size="I:2">
+              <type-tag alignment="I:1" size="I:93"><nx_struct-ref name="message_t" ref="0x40623750"/>
+                <typename><typedef-ref name="message_t" ref="0x40622518"/></typename>
+              </type-tag>
+            </type-pointer>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="collection_id_t" ref="0x4065b010"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="47:../../../net_EER/CollectionPacket.nc" name="msg" ref="0x411abdf0">
+            <type-pointer alignment="I:2" size="I:2">
+              <type-tag alignment="I:1" size="I:93"><nx_struct-ref name="message_t" ref="0x40623750"/>
+                <typename><typedef-ref name="message_t" ref="0x40622518"/></typename>
+              </type-tag>
+            </type-pointer>
+          </variable>
+          <variable loc="47:../../../net_EER/CollectionPacket.nc" name="id" ref="0x411aa030">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="collection_id_t" ref="0x4065b010"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="43:../../../net_EER/CollectionPacket.nc" name="getOrigin" provided="0" ref="0x411aecb8">
+        <interfacedef-ref nicename=".........net_EER.CollectionPacket" qname="CollectionPacket"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="am_addr_t" ref="0x40619010"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-pointer alignment="I:2" size="I:2">
+              <type-tag alignment="I:1" size="I:93"><nx_struct-ref name="message_t" ref="0x40623750"/>
+                <typename><typedef-ref name="message_t" ref="0x40622518"/></typename>
+              </type-tag>
+            </type-pointer>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="43:../../../net_EER/CollectionPacket.nc" name="msg" ref="0x411aeb60">
+            <type-pointer alignment="I:2" size="I:2">
+              <type-tag alignment="I:1" size="I:93"><nx_struct-ref name="message_t" ref="0x40623750"/>
+                <typename><typedef-ref name="message_t" ref="0x40622518"/></typename>
+              </type-tag>
+            </type-pointer>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="49:../../../net_EER/CollectionPacket.nc" name="getSequenceNumber" provided="0" ref="0x411aa780">
+        <interfacedef-ref nicename=".........net_EER.CollectionPacket" qname="CollectionPacket"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-pointer alignment="I:2" size="I:2">
+              <type-tag alignment="I:1" size="I:93"><nx_struct-ref name="message_t" ref="0x40623750"/>
+                <typename><typedef-ref name="message_t" ref="0x40622518"/></typename>
+              </type-tag>
+            </type-pointer>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="49:../../../net_EER/CollectionPacket.nc" name="msg" ref="0x411aa628">
+            <type-pointer alignment="I:2" size="I:2">
+              <type-tag alignment="I:1" size="I:93"><nx_struct-ref name="message_t" ref="0x40623750"/>
+                <typename><typedef-ref name="message_t" ref="0x40622518"/></typename>
+              </type-tag>
+            </type-pointer>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="46:../../../net_EER/CollectionPacket.nc" name="getType" provided="0" ref="0x411aba08">
+        <interfacedef-ref nicename=".........net_EER.CollectionPacket" qname="CollectionPacket"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="collection_id_t" ref="0x4065b010"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-pointer alignment="I:2" size="I:2">
+              <type-tag alignment="I:1" size="I:93"><nx_struct-ref name="message_t" ref="0x40623750"/>
+                <typename><typedef-ref name="message_t" ref="0x40622518"/></typename>
+              </type-tag>
+            </type-pointer>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="46:../../../net_EER/CollectionPacket.nc" name="msg" ref="0x411ab8b0">
+            <type-pointer alignment="I:2" size="I:2">
+              <type-tag alignment="I:1" size="I:93"><nx_struct-ref name="message_t" ref="0x40623750"/>
+                <typename><typedef-ref name="message_t" ref="0x40622518"/></typename>
+              </type-tag>
+            </type-pointer>
+          </variable>
+        </parameters>
+      </function>
+    </interfacedef>

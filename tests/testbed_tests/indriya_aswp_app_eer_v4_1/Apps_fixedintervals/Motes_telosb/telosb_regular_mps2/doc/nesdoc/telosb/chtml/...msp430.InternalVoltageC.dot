@@ -1,0 +1,21 @@
+digraph "...msp430.InternalVoltageC" {
+  n0x4188cb50 [shape=ellipse, style=filled, label="Read", fontsize=12];
+  "InternalVoltageC.AdcReadClientC" [fontsize=12, shape=box,peripheries=2, style=dashed, label="AdcReadClientC", URL="../chtml/tos.chips.msp430.adc12.AdcReadClientC.html"];
+  n0x418c9d18 [shape=ellipse, style=filled, label="ReadNow", fontsize=12];
+  "InternalVoltageC.AdcReadNowClientC" [fontsize=12, shape=box,peripheries=2, style=dashed, label="AdcReadNowClientC", URL="../chtml/tos.chips.msp430.adc12.AdcReadNowClientC.html"];
+  n0x418c8eb8 [shape=ellipse, style=filled, label="ReadStream", fontsize=12];
+  "InternalVoltageC.AdcReadStreamClientC" [fontsize=12, shape=box,peripheries=2, style=dashed, label="AdcReadStreamClientC", URL="../chtml/tos.chips.msp430.adc12.AdcReadStreamClientC.html"];
+  n0x418c9530 [shape=ellipse, style=filled, label="Resource", fontsize=12];
+  "InternalVoltageC.AdcReadNowClientC" [fontsize=12, shape=box,peripheries=2, style=dashed, label="AdcReadNowClientC", URL="../chtml/tos.chips.msp430.adc12.AdcReadNowClientC.html"];
+  "InternalVoltageC.AdcReadClientC" [fontsize=12, shape=box,peripheries=2, style=dashed, label="AdcReadClientC", URL="../chtml/tos.chips.msp430.adc12.AdcReadClientC.html"];
+  "SensorSettingsC" [fontsize=12, shape=box, URL="../chtml/...msp430.SensorSettingsC.html"];
+  "InternalVoltageC.AdcReadStreamClientC" [fontsize=12, shape=box,peripheries=2, style=dashed, label="AdcReadStreamClientC", URL="../chtml/tos.chips.msp430.adc12.AdcReadStreamClientC.html"];
+  "InternalVoltageC.AdcReadNowClientC" [fontsize=12, shape=box,peripheries=2, style=dashed, label="AdcReadNowClientC", URL="../chtml/tos.chips.msp430.adc12.AdcReadNowClientC.html"];
+  "n0x4188cb50" -> "InternalVoltageC.AdcReadClientC" [label="Read<uint16_t>", URL="../ihtml/tos.interfaces.Read.html", fontsize=10];
+  "n0x418c9d18" -> "InternalVoltageC.AdcReadNowClientC" [label="ReadNow<uint16_t>", URL="../ihtml/tos.interfaces.ReadNow.html", fontsize=10];
+  "n0x418c8eb8" -> "InternalVoltageC.AdcReadStreamClientC" [label="ReadStream<uint16_t>", URL="../ihtml/tos.interfaces.ReadStream.html", fontsize=10];
+  "n0x418c9530" -> "InternalVoltageC.AdcReadNowClientC" [label="Resource", URL="../ihtml/tos.interfaces.Resource.html", fontsize=10];
+  "InternalVoltageC.AdcReadClientC" -> "SensorSettingsC" [label="AdcConfigure<msp430adc12_channel_config_t *>", URL="../ihtml/tos.interfaces.AdcConfigure.html", fontsize=10];
+  "InternalVoltageC.AdcReadStreamClientC" -> "SensorSettingsC" [label="AdcConfigure<msp430adc12_channel_config_t *>", URL="../ihtml/tos.interfaces.AdcConfigure.html", fontsize=10];
+  "InternalVoltageC.AdcReadNowClientC" -> "SensorSettingsC" [label="AdcConfigure<msp430adc12_channel_config_t *>", URL="../ihtml/tos.interfaces.AdcConfigure.html", fontsize=10];
+}

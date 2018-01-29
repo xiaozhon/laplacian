@@ -1,0 +1,23 @@
+<area shape="rect" id="node2" href="../chtml/...mda300final.ExcitationP.html" title="ExcitationP" alt="" coords="191,131,297,179">
+<area shape="poly" id="edge2" href="../ihtml/...mda300final.Power.html" title="Power" alt="" coords="100,53 171,104 195,121 192,125 168,109 96,57">
+<area shape="rect" id="edge2" href="../ihtml/...mda300final.Power.html" title="Power" alt="" coords="171,89,209,106">
+<area shape="rect" id="node6" href="../chtml/tos.platforms.mica.MicaBusC.html" title="MicaBusC" alt="" coords="191,245,297,304">
+<area shape="poly" id="edge10" href="../ihtml/tos.interfaces.GeneralIO.html" title="GeneralIO" alt="" coords="191,161 85,175 39,187 22,195 11,204 8,212 11,220 37,236 78,249 177,266 176,271 77,255 34,241 7,223 3,212 7,201 19,191 37,182 84,169 190,155">
+<area shape="rect" id="edge10" href="../ihtml/tos.interfaces.GeneralIO.html" title="GeneralIO" alt="" coords="9,203,73,221">
+<area shape="poly" id="edge12" href="../ihtml/tos.interfaces.GeneralIO.html" title="GeneralIO" alt="" coords="191,169 139,185 118,194 106,204 101,215 101,224 106,232 116,240 143,253 177,262 176,267 141,258 113,244 102,236 96,225 96,214 102,201 116,190 137,180 190,164">
+<area shape="rect" id="edge12" href="../ihtml/tos.interfaces.GeneralIO.html" title="GeneralIO" alt="" coords="104,203,168,221">
+<area shape="poly" id="edge14" href="../ihtml/tos.interfaces.GeneralIO.html" title="GeneralIO" alt="" coords="215,181 202,200 200,210 201,221 207,233 202,235 196,222 194,210 197,198 211,178">
+<area shape="rect" id="edge14" href="../ihtml/tos.interfaces.GeneralIO.html" title="GeneralIO" alt="" coords="200,203,264,221">
+<area shape="poly" id="edge16" href="../ihtml/tos.interfaces.GeneralIO.html" title="GeneralIO" alt="" coords="258,178 265,202 264,232 259,232 260,203 253,180">
+<area shape="rect" id="edge16" href="../ihtml/tos.interfaces.GeneralIO.html" title="GeneralIO" alt="" coords="263,203,327,221">
+<area shape="poly" id="edge18" href="../ihtml/tos.interfaces.GeneralIO.html" title="GeneralIO" alt="" coords="299,170 319,183 334,201 338,216 334,229 311,250 308,246 330,226 333,216 330,204 315,187 296,175">
+<area shape="rect" id="edge18" href="../ihtml/tos.interfaces.GeneralIO.html" title="GeneralIO" alt="" coords="335,203,399,221">
+<area shape="poly" id="edge20" href="../ihtml/tos.interfaces.GeneralIO.html" title="GeneralIO" alt="" coords="298,161 362,177 389,188 406,201 413,216 412,229 403,240 390,249 354,262 311,270 310,265 352,257 388,244 400,236 407,227 408,217 402,204 386,193 361,182 297,166">
+<area shape="rect" id="edge20" href="../ihtml/tos.interfaces.GeneralIO.html" title="GeneralIO" alt="" coords="411,203,475,221">
+<area shape="poly" id="edge4" href="../ihtml/...mda300final.Power.html" title="Power" alt="" coords="200,57 229,117 224,120 196,60">
+<area shape="rect" id="edge4" href="../ihtml/...mda300final.Power.html" title="Power" alt="" coords="220,89,259,106">
+<area shape="poly" id="edge6" href="../ihtml/...mda300final.Power.html" title="Power" alt="" coords="292,60 264,120 259,117 288,57">
+<area shape="rect" id="edge6" href="../ihtml/...mda300final.Power.html" title="Power" alt="" coords="273,89,312,106">
+<area shape="rect" id="node5" href="../chtml/tos.system.MainC.html" title="MainC" alt="" coords="371,5,453,64">
+<area shape="poly" id="edge8" href="../ihtml/tos.interfaces.Init.html" title="Init" alt="" coords="376,66 319,109 295,125 292,121 316,104 373,62">
+<area shape="rect" id="edge8" href="../ihtml/tos.interfaces.Init.html" title="Init" alt="" coords="340,89,360,106">

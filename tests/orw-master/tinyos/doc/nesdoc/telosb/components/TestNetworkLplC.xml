@@ -1,0 +1,124 @@
+<?xml version="1.0" ?><component loc="18:TestNetworkLplC.nc" nicename="TestNetworkLplC" qname="TestNetworkLplC">
+      <module/>
+    <specification><interface loc="19:TestNetworkLplC.nc" name="Boot" provided="0" ref="0x405ee9a0">
+      <component-ref nicename="TestNetworkLplC" qname="TestNetworkLplC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Boot" ref="0x405ee9a0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Boot" qname="Boot"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="booted" ref="0x405eeb78" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="25:TestNetworkLplC.nc" name="Packet" provided="0" ref="0x4063d328">
+      <component-ref nicename="TestNetworkLplC" qname="TestNetworkLplC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Packet" ref="0x4063d328" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Packet" qname="Packet"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="clear" ref="0x4063d500" scoped=""/>
+        <function-ref name="payloadLength" ref="0x4063d5e0" scoped=""/>
+        <function-ref name="getPayload" ref="0x4063d6c0" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x4063d7a0" scoped=""/>
+        <function-ref name="setPayloadLength" ref="0x4063d880" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="20:TestNetworkLplC.nc" name="RadioControl" provided="0" ref="0x405e9f18">
+      <component-ref nicename="TestNetworkLplC" qname="TestNetworkLplC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="RadioControl" ref="0x405e9f18" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.SplitControl" qname="SplitControl"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="startDone" ref="0x405ed108" scoped=""/>
+        <function-ref name="stopDone" ref="0x405ed1e8" scoped=""/>
+        <function-ref name="start" ref="0x405ed2c8" scoped=""/>
+        <function-ref name="stop" ref="0x405ed3a8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="21:TestNetworkLplC.nc" name="Send" provided="0" ref="0x4061d548">
+      <component-ref nicename="TestNetworkLplC" qname="TestNetworkLplC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Send" ref="0x4061d548" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Send" qname="Send"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="send" ref="0x4061d720" scoped=""/>
+        <function-ref name="getPayload" ref="0x4061d800" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x4061d8e0" scoped=""/>
+        <function-ref name="cancel" ref="0x4061d9c0" scoped=""/>
+        <function-ref name="sendDone" ref="0x4061daa0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="24:TestNetworkLplC.nc" name="Random" provided="0" ref="0x40631210">
+      <component-ref nicename="TestNetworkLplC" qname="TestNetworkLplC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Random" ref="0x40631210" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Random" qname="Random"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="rand16" ref="0x406313e8" scoped=""/>
+        <function-ref name="rand32" ref="0x406314c8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="27:TestNetworkLplC.nc" name="ActiveMessageAddress" provided="0" ref="0x406391f8">
+      <component-ref nicename="TestNetworkLplC" qname="TestNetworkLplC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="ActiveMessageAddress" ref="0x406391f8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.ActiveMessageAddress" qname="ActiveMessageAddress"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="amAddress" ref="0x406393d0" scoped=""/>
+        <function-ref name="changed" ref="0x406394b0" scoped=""/>
+        <function-ref name="amGroup" ref="0x40639590" scoped=""/>
+        <function-ref name="setAddress" ref="0x40639670" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="26:TestNetworkLplC.nc" name="Receive" provided="0" ref="0x4063b470">
+      <component-ref nicename="TestNetworkLplC" qname="TestNetworkLplC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Receive" ref="0x4063b470" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Receive" qname="Receive"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="receive" ref="0x4063b648" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="22:TestNetworkLplC.nc" name="Leds" provided="0" ref="0x4062aca8">
+      <component-ref nicename="TestNetworkLplC" qname="TestNetworkLplC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Leds" ref="0x4062aca8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Leds" qname="Leds"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="led0Off" ref="0x4062ae80" scoped=""/>
+        <function-ref name="led0Toggle" ref="0x405ec010" scoped=""/>
+        <function-ref name="led1On" ref="0x405ec0f0" scoped=""/>
+        <function-ref name="led1Toggle" ref="0x405ec1d0" scoped=""/>
+        <function-ref name="led2Toggle" ref="0x405ec2b0" scoped=""/>
+        <function-ref name="get" ref="0x405ec390" scoped=""/>
+        <function-ref name="led1Off" ref="0x405ec470" scoped=""/>
+        <function-ref name="led2Off" ref="0x405ec7f0" scoped=""/>
+        <function-ref name="set" ref="0x405ec550" scoped=""/>
+        <function-ref name="led0On" ref="0x405ec630" scoped=""/>
+        <function-ref name="led2On" ref="0x405ec710" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="23:TestNetworkLplC.nc" name="Timer" provided="0" ref="0x40635330">
+      <component-ref nicename="TestNetworkLplC" qname="TestNetworkLplC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Timer" ref="0x40635330" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x405e1370"/>
+            <typename><typedef-ref name="TMilli" ref="0x405e1738"/></typename>
+          </type-tag>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x405e8e38" scoped=""/>
+        <function-ref name="fired" ref="0x405e80f0" scoped=""/>
+        <function-ref name="startPeriodicAt" ref="0x405e87f8" scoped=""/>
+        <function-ref name="isOneShot" ref="0x405e85a0" scoped=""/>
+        <function-ref name="getdt" ref="0x40634310" scoped=""/>
+        <function-ref name="gett0" ref="0x406340b8" scoped=""/>
+        <function-ref name="isRunning" ref="0x405e8348" scoped=""/>
+        <function-ref name="startPeriodic" ref="0x40635958" scoped=""/>
+        <function-ref name="startOneShotAt" ref="0x405e8b18" scoped=""/>
+        <function-ref name="startOneShot" ref="0x40635bd8" scoped=""/>
+        <function-ref name="stop" ref="0x40635e58" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced/></component>

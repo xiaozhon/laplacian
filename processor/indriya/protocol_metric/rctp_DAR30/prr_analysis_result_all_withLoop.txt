@@ -1,0 +1,3 @@
+test	cycle_prr_avg	std	duplicates	dup_std	loop_avg	loop_std	loop_sum	hop_avg	std	loopy_hop_avg	std	link_usage_avg	std
+Rctp-1	0.6903	0.2326	3.9200	4.0092	2.2400	2.6875	56	3.4581	2.6849	10.1429	2.9966	87.5600	21.6519
+

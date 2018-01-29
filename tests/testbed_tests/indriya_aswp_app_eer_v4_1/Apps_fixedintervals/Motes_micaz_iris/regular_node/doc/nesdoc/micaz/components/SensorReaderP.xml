@@ -1,0 +1,254 @@
+<?xml version="1.0" ?><component loc="9:SensorReaderP.nc" nicename="SensorReaderP" qname="SensorReaderP">
+      <documentation loc="1:SensorReaderP.nc">
+        <short>
+ This file provides an implementation for reading the sensors
+ to remove the reading of values away from the main application
+ Author: Newlyn Erratt
+</short>
+      </documentation>
+      <module/>
+    <specification><interface loc="10:SensorReaderP.nc" name="SensorReader" provided="1" ref="0x41135a00">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="SensorReader" ref="0x41135a00" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="SensorReader" qname="SensorReader"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getReadings" ref="0x41135bd8" scoped=""/>
+        <function-ref name="readingsDone" ref="0x41135cb8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="28:SensorReaderP.nc" name="ADC6" provided="0" ref="0x41127250">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC6" ref="0x41127250" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x41127878" scoped=""/>
+        <function-ref name="readDone" ref="0x41127ad0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="22:SensorReaderP.nc" name="ADC0" provided="0" ref="0x4112e3b8">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC0" ref="0x4112e3b8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x4112e9e0" scoped=""/>
+        <function-ref name="readDone" ref="0x4112ec38" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="19:SensorReaderP.nc" name="Excitation3_3" provided="0" ref="0x4112c908">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Excitation3_3" ref="0x4112c908" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="...mda300final.Power" qname="Power"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="on" ref="0x4112cae0" scoped=""/>
+        <function-ref name="off" ref="0x4112cbc0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="25:SensorReaderP.nc" name="ADC3" provided="0" ref="0x4112baa8">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC3" ref="0x4112baa8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x41129100" scoped=""/>
+        <function-ref name="readDone" ref="0x41129358" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="42:SensorReaderP.nc" name="readingTask" provided="0" ref="0x41121040">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="readingTask" ref="0x41121040" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.TaskBasic" qname="TaskBasic"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="postTask" ref="0x41121218" scoped=""/>
+        <function-ref name="runTask" ref="0x411212f8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="26:SensorReaderP.nc" name="ADC4" provided="0" ref="0x411297b8">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC4" ref="0x411297b8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x41129e60" scoped=""/>
+        <function-ref name="readDone" ref="0x411280f0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="63:SensorReaderP.nc" name="dummyReadings" provided="0" ref="0x4111eaf8">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="dummyReadings" ref="0x4111eaf8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.TaskBasic" qname="TaskBasic"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="postTask" ref="0x4111ecd0" scoped=""/>
+        <function-ref name="runTask" ref="0x4111edb0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="16:SensorReaderP.nc" name="Humidity" provided="0" ref="0x41131e68">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Humidity" ref="0x41131e68" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x4112f4b8" scoped=""/>
+        <function-ref name="readDone" ref="0x4112f710" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="18:SensorReaderP.nc" name="Excitation2_5" provided="0" ref="0x4112c410">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Excitation2_5" ref="0x4112c410" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="...mda300final.Power" qname="Power"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="on" ref="0x4112c5e8" scoped=""/>
+        <function-ref name="off" ref="0x4112c6c8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="20:SensorReaderP.nc" name="Excitation5_0" provided="0" ref="0x4112ce00">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Excitation5_0" ref="0x4112ce00" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="...mda300final.Power" qname="Power"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="on" ref="0x4112e010" scoped=""/>
+        <function-ref name="off" ref="0x4112e0f0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="23:SensorReaderP.nc" name="ADC1" provided="0" ref="0x4112d0d8">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC1" ref="0x4112d0d8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x4112d700" scoped=""/>
+        <function-ref name="readDone" ref="0x4112d958" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="13:SensorReaderP.nc" name="Voltage" provided="0" ref="0x41132430">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Voltage" ref="0x41132430" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x41132a58" scoped=""/>
+        <function-ref name="readDone" ref="0x41132cb0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="27:SensorReaderP.nc" name="ADC5" provided="0" ref="0x41128550">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC5" ref="0x41128550" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x41128b78" scoped=""/>
+        <function-ref name="readDone" ref="0x41128dd0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="15:SensorReaderP.nc" name="Temperature" provided="0" ref="0x41131160">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Temperature" ref="0x41131160" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x41131788" scoped=""/>
+        <function-ref name="readDone" ref="0x411319e0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="24:SensorReaderP.nc" name="ADC2" provided="0" ref="0x4112ddb8">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC2" ref="0x4112ddb8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x4112b3f0" scoped=""/>
+        <function-ref name="readDone" ref="0x4112b648" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="11:SensorReaderP.nc" name="StdControl" provided="1" ref="0x41135e80">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="StdControl" ref="0x41135e80" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.StdControl" qname="StdControl"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="start" ref="0x41132070" scoped=""/>
+        <function-ref name="stop" ref="0x41132150" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="30:SensorReaderP.nc" name="Timer" provided="0" ref="0x41127ed0">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Timer" ref="0x41127ed0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
+        <arguments>
+          <type-tag alignment="I:1" size="I:2"><struct-ref ref="0x40382900"/>
+            <typename><typedef-ref name="TMilli" ref="0x40382ac8"/></typename>
+          </type-tag>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x41124a18" scoped=""/>
+        <function-ref name="fired" ref="0x41126cb0" scoped=""/>
+        <function-ref name="startPeriodicAt" ref="0x411243d8" scoped=""/>
+        <function-ref name="isOneShot" ref="0x41124180" scoped=""/>
+        <function-ref name="getdt" ref="0x41124ec8" scoped=""/>
+        <function-ref name="gett0" ref="0x41124c70" scoped=""/>
+        <function-ref name="isRunning" ref="0x41126f08" scoped=""/>
+        <function-ref name="startPeriodic" ref="0x41126558" scoped=""/>
+        <function-ref name="startOneShotAt" ref="0x411246f8" scoped=""/>
+        <function-ref name="startOneShot" ref="0x411267d8" scoped=""/>
+        <function-ref name="stop" ref="0x41126a58" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced/></component>

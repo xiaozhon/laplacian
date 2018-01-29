@@ -1,0 +1,25 @@
+<?xml version="1.0" ?><component loc="41:../../../net_EER/eer/EerInstrumentationP.nc" nicename=".........net_EER.eer.EerInstrumentationP" qname="EerInstrumentationP">
+      <module/>
+    <specification><interface loc="42:../../../net_EER/eer/EerInstrumentationP.nc" name="EerInstrumentation" provided="1" ref="0x410c4c70">
+      <component-ref nicename=".........net_EER.eer.EerInstrumentationP" qname="EerInstrumentationP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="EerInstrumentation" ref="0x410c4c70" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename=".........net_EER.eer.EerInstrumentation" qname="EerInstrumentation"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="summary" ref="0x410c1a38" scoped=""/>
+        <function-ref name="ctrl_tricklereset" ref="0x410c4f28" scoped=""/>
+        <function-ref name="summary_size" ref="0x410c1018" scoped=""/>
+        <function-ref name="data_pktdup" ref="0x410c10f8" scoped=""/>
+        <function-ref name="ctrl_txpkt" ref="0x410c11d8" scoped=""/>
+        <function-ref name="init" ref="0x410c12b8" scoped=""/>
+        <function-ref name="data_queuedrop" ref="0x410c1398" scoped=""/>
+        <function-ref name="data_txpkt" ref="0x410c1478" scoped=""/>
+        <function-ref name="data_rxpkt" ref="0x410c1558" scoped=""/>
+        <function-ref name="ctrl_rxpkt" ref="0x410c1638" scoped=""/>
+        <function-ref name="data_rxack" ref="0x410c1718" scoped=""/>
+        <function-ref name="data_inconsistent" ref="0x410c17f8" scoped=""/>
+        <function-ref name="set_total_time" ref="0x410c18d8" scoped=""/>
+        <function-ref name="ctrl_parentchange" ref="0x410c4e48" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced/></component>

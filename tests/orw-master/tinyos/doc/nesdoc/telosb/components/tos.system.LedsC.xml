@@ -1,0 +1,245 @@
+<?xml version="1.0" ?><component loc="45:/opt/tinyos-2.1.2/tos/system/LedsC.nc" nicename="tos.system.LedsC" qname="LedsC">
+      <documentation loc="34:/opt/tinyos-2.1.2/tos/system/LedsC.nc">
+        <short>
+
+ The basic TinyOS LEDs abstraction.</short>
+        <long>
+
+ The basic TinyOS LEDs abstraction.
+
+ @author Phil Buonadonna
+ @author David Gay
+ @author Philip Levis
+ @author Joe Polastre
+</long>
+      </documentation>
+      <configuration/>
+      <wiring>
+        <wire loc="51:/opt/tinyos-2.1.2/tos/system/LedsC.nc">
+          <from><interface-ref name="Leds" ref="0x4064c010" scoped=""/></from>
+          <to><interface-ref name="Leds" ref="0x40755698" scoped=""/></to>
+        </wire>
+        <wire loc="53:/opt/tinyos-2.1.2/tos/system/LedsC.nc">
+          <from><interface-ref name="Init" ref="0x4076f280" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x40755350" scoped=""/></to>
+        </wire>
+        <wire loc="54:/opt/tinyos-2.1.2/tos/system/LedsC.nc">
+          <from><interface-ref name="Led0" ref="0x407505d0" scoped=""/></from>
+          <to><interface-ref name="Led0" ref="0x40757420" scoped=""/></to>
+        </wire>
+        <wire loc="55:/opt/tinyos-2.1.2/tos/system/LedsC.nc">
+          <from><interface-ref name="Led1" ref="0x40753010" scoped=""/></from>
+          <to><interface-ref name="Led1" ref="0x40757e28" scoped=""/></to>
+        </wire>
+        <wire loc="56:/opt/tinyos-2.1.2/tos/system/LedsC.nc">
+          <from><interface-ref name="Led2" ref="0x407539f8" scoped=""/></from>
+          <to><interface-ref name="Led2" ref="0x40770880" scoped=""/></to>
+        </wire>
+      </wiring>
+    <specification><interface loc="46:/opt/tinyos-2.1.2/tos/system/LedsC.nc" name="Leds" provided="1" ref="0x4064c010">
+      <component-ref nicename="tos.system.LedsC" qname="LedsC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Leds" ref="0x4064c010" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Leds" qname="Leds"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="led0Off" ref="0x4064c1e8" scoped=""/>
+        <function-ref name="led0Toggle" ref="0x4064c2c8" scoped=""/>
+        <function-ref name="led1On" ref="0x4064c3a8" scoped=""/>
+        <function-ref name="led1Toggle" ref="0x4064c488" scoped=""/>
+        <function-ref name="led2Toggle" ref="0x4064c568" scoped=""/>
+        <function-ref name="get" ref="0x4064c648" scoped=""/>
+        <function-ref name="led1Off" ref="0x4064c728" scoped=""/>
+        <function-ref name="led2Off" ref="0x4064caa8" scoped=""/>
+        <function-ref name="set" ref="0x4064c808" scoped=""/>
+        <function-ref name="led0On" ref="0x4064c8e8" scoped=""/>
+        <function-ref name="led2On" ref="0x4064c9c8" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced><interface loc="44:/opt/tinyos-2.1.2/tos/platforms/telosa/PlatformLedsC.nc" name="Init" provided="0" ref="0x4076f280">
+      <component-ref nicename="tos.platforms.telosa.PlatformLedsC" qname="PlatformLedsC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Init" ref="0x4076f280" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x4076f458" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="51:/opt/tinyos-2.1.2/tos/system/LedsP.nc" name="Led1" provided="0" ref="0x40753010">
+      <component-ref nicename="tos.system.LedsP" qname="LedsP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Led1" ref="0x40753010" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x407531e8" scoped=""/>
+        <function-ref name="isInput" ref="0x407532c8" scoped=""/>
+        <function-ref name="toggle" ref="0x407533a8" scoped=""/>
+        <function-ref name="isOutput" ref="0x40753488" scoped=""/>
+        <function-ref name="get" ref="0x40753568" scoped=""/>
+        <function-ref name="makeOutput" ref="0x40753648" scoped=""/>
+        <function-ref name="set" ref="0x40753728" scoped=""/>
+        <function-ref name="clr" ref="0x40753808" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="43:/opt/tinyos-2.1.2/tos/platforms/telosa/PlatformLedsC.nc" name="Led2" provided="1" ref="0x40770880">
+      <component-ref nicename="tos.platforms.telosa.PlatformLedsC" qname="PlatformLedsC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Led2" ref="0x40770880" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x40770a58" scoped=""/>
+        <function-ref name="isInput" ref="0x40770b38" scoped=""/>
+        <function-ref name="toggle" ref="0x40770c18" scoped=""/>
+        <function-ref name="isOutput" ref="0x40770cf8" scoped=""/>
+        <function-ref name="get" ref="0x40770dd8" scoped=""/>
+        <function-ref name="makeOutput" ref="0x40770eb8" scoped=""/>
+        <function-ref name="set" ref="0x4076f010" scoped=""/>
+        <function-ref name="clr" ref="0x4076f0f0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="41:/opt/tinyos-2.1.2/tos/platforms/telosa/PlatformLedsC.nc" name="Led0" provided="1" ref="0x40757420">
+      <component-ref nicename="tos.platforms.telosa.PlatformLedsC" qname="PlatformLedsC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Led0" ref="0x40757420" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x407575f8" scoped=""/>
+        <function-ref name="isInput" ref="0x407576d8" scoped=""/>
+        <function-ref name="toggle" ref="0x407577b8" scoped=""/>
+        <function-ref name="isOutput" ref="0x40757898" scoped=""/>
+        <function-ref name="get" ref="0x40757978" scoped=""/>
+        <function-ref name="makeOutput" ref="0x40757a58" scoped=""/>
+        <function-ref name="set" ref="0x40757b38" scoped=""/>
+        <function-ref name="clr" ref="0x40757c18" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="42:/opt/tinyos-2.1.2/tos/platforms/telosa/PlatformLedsC.nc" name="Led1" provided="1" ref="0x40757e28">
+      <component-ref nicename="tos.platforms.telosa.PlatformLedsC" qname="PlatformLedsC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Led1" ref="0x40757e28" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x40770050" scoped=""/>
+        <function-ref name="isInput" ref="0x40770130" scoped=""/>
+        <function-ref name="toggle" ref="0x40770210" scoped=""/>
+        <function-ref name="isOutput" ref="0x407702f0" scoped=""/>
+        <function-ref name="get" ref="0x407703d0" scoped=""/>
+        <function-ref name="makeOutput" ref="0x407704b0" scoped=""/>
+        <function-ref name="set" ref="0x40770590" scoped=""/>
+        <function-ref name="clr" ref="0x40770670" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="47:/opt/tinyos-2.1.2/tos/system/LedsP.nc" name="Leds" provided="1" ref="0x40755698">
+      <component-ref nicename="tos.system.LedsP" qname="LedsP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Leds" ref="0x40755698" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Leds" qname="Leds"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="led0Off" ref="0x40755870" scoped=""/>
+        <function-ref name="led0Toggle" ref="0x40755950" scoped=""/>
+        <function-ref name="led1On" ref="0x40755a30" scoped=""/>
+        <function-ref name="led1Toggle" ref="0x40755b10" scoped=""/>
+        <function-ref name="led2Toggle" ref="0x40755bf0" scoped=""/>
+        <function-ref name="get" ref="0x40755cd0" scoped=""/>
+        <function-ref name="led1Off" ref="0x40755db0" scoped=""/>
+        <function-ref name="led2Off" ref="0x407541d0" scoped=""/>
+        <function-ref name="set" ref="0x40755e90" scoped=""/>
+        <function-ref name="led0On" ref="0x40754010" scoped=""/>
+        <function-ref name="led2On" ref="0x407540f0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="52:/opt/tinyos-2.1.2/tos/system/LedsP.nc" name="Led2" provided="0" ref="0x407539f8">
+      <component-ref nicename="tos.system.LedsP" qname="LedsP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Led2" ref="0x407539f8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x40753bd0" scoped=""/>
+        <function-ref name="isInput" ref="0x40753cb0" scoped=""/>
+        <function-ref name="toggle" ref="0x40753d90" scoped=""/>
+        <function-ref name="isOutput" ref="0x40753e70" scoped=""/>
+        <function-ref name="get" ref="0x40752010" scoped=""/>
+        <function-ref name="makeOutput" ref="0x407520f0" scoped=""/>
+        <function-ref name="set" ref="0x407521d0" scoped=""/>
+        <function-ref name="clr" ref="0x407522b0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="46:/opt/tinyos-2.1.2/tos/system/LedsP.nc" name="Init" provided="1" ref="0x40755350">
+      <component-ref nicename="tos.system.LedsP" qname="LedsP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Init" ref="0x40755350" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x40755528" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="50:/opt/tinyos-2.1.2/tos/system/LedsP.nc" name="Led0" provided="0" ref="0x407505d0">
+      <component-ref nicename="tos.system.LedsP" qname="LedsP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Led0" ref="0x407505d0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x407507a8" scoped=""/>
+        <function-ref name="isInput" ref="0x40750888" scoped=""/>
+        <function-ref name="toggle" ref="0x40750968" scoped=""/>
+        <function-ref name="isOutput" ref="0x40750a48" scoped=""/>
+        <function-ref name="get" ref="0x40750b28" scoped=""/>
+        <function-ref name="makeOutput" ref="0x40750c08" scoped=""/>
+        <function-ref name="set" ref="0x40750ce8" scoped=""/>
+        <function-ref name="clr" ref="0x40750dc8" scoped=""/>
+      </interface-functions>
+    </interface><component loc="40:/opt/tinyos-2.1.2/tos/platforms/telosa/PlatformLedsC.nc" nicename="tos.platforms.telosa.PlatformLedsC" qname="PlatformLedsC">
+      <documentation loc="34:/opt/tinyos-2.1.2/tos/platforms/telosa/PlatformLedsC.nc">
+        <short>
+ </short>
+        <long>
+ @author Joe Polastre
+ @version $Revision: 1.5 $ $Date: 2010-06-29 22:07:55 $
+</long>
+      </documentation>
+      <configuration/>
+      <wiring>
+        <wire loc="58:/opt/tinyos-2.1.2/tos/platforms/telosa/PlatformLedsC.nc">
+          <from><interface-ref name="Led0" ref="0x40757420" scoped=""/></from>
+          <to><interface-ref name="GeneralIO" ref="0x408941f0" scoped=""/></to>
+        </wire>
+        <wire loc="61:/opt/tinyos-2.1.2/tos/platforms/telosa/PlatformLedsC.nc">
+          <from><interface-ref name="Led1" ref="0x40757e28" scoped=""/></from>
+          <to><interface-ref name="GeneralIO" ref="0x40889990" scoped=""/></to>
+        </wire>
+        <wire loc="64:/opt/tinyos-2.1.2/tos/platforms/telosa/PlatformLedsC.nc">
+          <from><interface-ref name="Led2" ref="0x40770880" scoped=""/></from>
+          <to><interface-ref name="GeneralIO" ref="0x408a21a8" scoped=""/></to>
+        </wire>
+        <wire loc="56:/opt/tinyos-2.1.2/tos/platforms/telosa/PlatformLedsC.nc">
+          <from><interface-ref name="LedsInit" ref="0x40649a48" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x4076f280" scoped=""/></to>
+        </wire>
+        <wire loc="59:/opt/tinyos-2.1.2/tos/platforms/telosa/PlatformLedsC.nc">
+          <from><interface-ref name="HplGeneralIO" ref="0x40894b68" scoped=""/></from>
+          <to><interface-ref name="Port54" ref="0x4079e4c8" scoped=""/></to>
+        </wire>
+        <wire loc="62:/opt/tinyos-2.1.2/tos/platforms/telosa/PlatformLedsC.nc">
+          <from><interface-ref name="HplGeneralIO" ref="0x408a4350" scoped=""/></from>
+          <to><interface-ref name="Port55" ref="0x4079d688" scoped=""/></to>
+        </wire>
+        <wire loc="65:/opt/tinyos-2.1.2/tos/platforms/telosa/PlatformLedsC.nc">
+          <from><interface-ref name="HplGeneralIO" ref="0x408a2b20" scoped=""/></from>
+          <to><interface-ref name="Port56" ref="0x4079c848" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component><component loc="44:/opt/tinyos-2.1.2/tos/system/LedsP.nc" nicename="tos.system.LedsP" qname="LedsP" safe="">
+      <documentation loc="35:/opt/tinyos-2.1.2/tos/system/LedsP.nc">
+        <short>
+ The implementation of the standard 3 LED mote abstraction.</short>
+        <long>
+ The implementation of the standard 3 LED mote abstraction.
+
+ @author Joe Polastre
+ @author Philip Levis
+
+ @date   March 21, 2005
+</long>
+      </documentation>
+      <module/>
+    </component></referenced></component>

@@ -1,0 +1,319 @@
+<?xml version="1.0" ?><component loc="47:../../../lpl_cc2420/DefaultLplP.nc" nicename=".........lpl_cc2420.DefaultLplP" qname="DefaultLplP">
+      <documentation loc="32:../../../lpl_cc2420/DefaultLpl.h">
+        <short>
+ </short>
+        <long>
+ @author David Moss
+ @author Tony O'Donovan
+</long>
+      </documentation>
+      <module/>
+    <specification><interface loc="59:../../../lpl_cc2420/DefaultLplP.nc" name="SubReceive" provided="0" ref="0x40c885a0">
+      <component-ref nicename=".........lpl_cc2420.DefaultLplP" qname="DefaultLplP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="SubReceive" ref="0x40c885a0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Receive" qname="Receive"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="receive" ref="0x40c88778" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="56:../../../lpl_cc2420/DefaultLplP.nc" name="SubSend" provided="0" ref="0x40c8ae10">
+      <component-ref nicename=".........lpl_cc2420.DefaultLplP" qname="DefaultLplP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="SubSend" ref="0x40c8ae10" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Send" qname="Send"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="send" ref="0x40c89010" scoped=""/>
+        <function-ref name="getPayload" ref="0x40c890f0" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x40c891d0" scoped=""/>
+        <function-ref name="cancel" ref="0x40c892b0" scoped=""/>
+        <function-ref name="sendDone" ref="0x40c89390" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="109:../../../lpl_cc2420/DefaultLplP.nc" name="send" provided="0" ref="0x40ca3040">
+      <component-ref nicename=".........lpl_cc2420.DefaultLplP" qname="DefaultLplP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="send" ref="0x40ca3040" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.TaskBasic" qname="TaskBasic"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="postTask" ref="0x40ca3218" scoped=""/>
+        <function-ref name="runTask" ref="0x40ca32f8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="58:../../../lpl_cc2420/DefaultLplP.nc" name="RadioBackoff" provided="0" ref="0x40c89cd8">
+      <component-ref nicename=".........lpl_cc2420.DefaultLplP" qname="DefaultLplP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="RadioBackoff" ref="0x40c89cd8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.chips.cc2420.interfaces.RadioBackoff" qname="RadioBackoff"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="requestCca" ref="0x40c89eb0" scoped=""/>
+        <function-ref name="requestInitialBackoff" ref="0x40c88010" scoped=""/>
+        <function-ref name="setCongestionBackoff" ref="0x40c880f0" scoped=""/>
+        <function-ref name="setInitialBackoff" ref="0x40c881d0" scoped=""/>
+        <function-ref name="setCca" ref="0x40c882b0" scoped=""/>
+        <function-ref name="requestCongestionBackoff" ref="0x40c88390" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="71:../../../lpl_cc2420/DefaultLplP.nc" name="SystemLowPowerListening" provided="0" ref="0x40ca5e48">
+      <component-ref nicename=".........lpl_cc2420.DefaultLplP" qname="DefaultLplP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="SystemLowPowerListening" ref="0x40ca5e48" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.SystemLowPowerListening" qname="SystemLowPowerListening"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="setDefaultRemoteWakeupInterval" ref="0x40ca7050" scoped=""/>
+        <function-ref name="getDefaultRemoteWakeupInterval" ref="0x40ca7130" scoped=""/>
+        <function-ref name="getDelayAfterReceive" ref="0x40ca7210" scoped=""/>
+        <function-ref name="setDelayAfterReceive" ref="0x40ca72f0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="67:../../../lpl_cc2420/DefaultLplP.nc" name="OffTimer" provided="0" ref="0x40c85ed0">
+      <component-ref nicename=".........lpl_cc2420.DefaultLplP" qname="DefaultLplP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="OffTimer" ref="0x40c85ed0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
+        <arguments>
+          <type-tag alignment="I:1" size="I:2"><struct-ref ref="0x40382900"/>
+            <typename><typedef-ref name="TMilli" ref="0x40382ac8"/></typename>
+          </type-tag>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x40cada18" scoped=""/>
+        <function-ref name="fired" ref="0x40c82cb0" scoped=""/>
+        <function-ref name="startPeriodicAt" ref="0x40cad3d8" scoped=""/>
+        <function-ref name="isOneShot" ref="0x40cad180" scoped=""/>
+        <function-ref name="getdt" ref="0x40cadec8" scoped=""/>
+        <function-ref name="gett0" ref="0x40cadc70" scoped=""/>
+        <function-ref name="isRunning" ref="0x40c82f08" scoped=""/>
+        <function-ref name="startPeriodic" ref="0x40c82558" scoped=""/>
+        <function-ref name="startOneShotAt" ref="0x40cad6f8" scoped=""/>
+        <function-ref name="startOneShot" ref="0x40c827d8" scoped=""/>
+        <function-ref name="stop" ref="0x40c82a58" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="51:../../../lpl_cc2420/DefaultLplP.nc" name="Send" provided="1" ref="0x40c8a340">
+      <component-ref nicename=".........lpl_cc2420.DefaultLplP" qname="DefaultLplP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Send" ref="0x40c8a340" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Send" qname="Send"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="send" ref="0x40c8a518" scoped=""/>
+        <function-ref name="getPayload" ref="0x40c8a5f8" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x40c8a6d8" scoped=""/>
+        <function-ref name="cancel" ref="0x40c8a7b8" scoped=""/>
+        <function-ref name="sendDone" ref="0x40c8a898" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="50:../../../lpl_cc2420/DefaultLplP.nc" name="LowPowerListening" provided="1" ref="0x40c8dcb8">
+      <component-ref nicename=".........lpl_cc2420.DefaultLplP" qname="DefaultLplP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="LowPowerListening" ref="0x40c8dcb8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.LowPowerListening" qname="LowPowerListening"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="setRemoteWakeupInterval" ref="0x40c8de90" scoped=""/>
+        <function-ref name="getRemoteWakeupInterval" ref="0x40c8a010" scoped=""/>
+        <function-ref name="getLocalWakeupInterval" ref="0x40c8a0f0" scoped=""/>
+        <function-ref name="setLocalWakeupInterval" ref="0x40c8a1d0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="64:../../../lpl_cc2420/DefaultLplP.nc" name="SendState" provided="0" ref="0x40c86408">
+      <component-ref nicename=".........lpl_cc2420.DefaultLplP" qname="DefaultLplP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="SendState" ref="0x40c86408" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.State" qname="State"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getState" ref="0x40c86660" scoped=""/>
+        <function-ref name="toIdle" ref="0x40c86740" scoped=""/>
+        <function-ref name="isState" ref="0x40c86820" scoped=""/>
+        <function-ref name="isIdle" ref="0x40c86900" scoped=""/>
+        <function-ref name="requestState" ref="0x40c869e0" scoped=""/>
+        <function-ref name="forceState" ref="0x40c86ac0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="69:../../../lpl_cc2420/DefaultLplP.nc" name="Random" provided="0" ref="0x40ca94b8">
+      <component-ref nicename=".........lpl_cc2420.DefaultLplP" qname="DefaultLplP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Random" ref="0x40ca94b8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Random" qname="Random"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="rand16" ref="0x40ca9690" scoped=""/>
+        <function-ref name="rand32" ref="0x40ca9770" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="57:../../../lpl_cc2420/DefaultLplP.nc" name="Resend" provided="0" ref="0x40c895c0">
+      <component-ref nicename=".........lpl_cc2420.DefaultLplP" qname="DefaultLplP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Resend" ref="0x40c895c0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.chips.cc2420.interfaces.CC2420Transmit" qname="CC2420Transmit"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="send" ref="0x40c89798" scoped=""/>
+        <function-ref name="cancel" ref="0x40c89878" scoped=""/>
+        <function-ref name="modify" ref="0x40c89958" scoped=""/>
+        <function-ref name="sendDone" ref="0x40c89a38" scoped=""/>
+        <function-ref name="resend" ref="0x40c89b18" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="49:../../../lpl_cc2420/DefaultLplP.nc" name="Init" provided="1" ref="0x40c8d8f0">
+      <component-ref nicename=".........lpl_cc2420.DefaultLplP" qname="DefaultLplP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Init" ref="0x40c8d8f0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x40c8dac8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="60:../../../lpl_cc2420/DefaultLplP.nc" name="SubControl" provided="0" ref="0x40c889c0">
+      <component-ref nicename=".........lpl_cc2420.DefaultLplP" qname="DefaultLplP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="SubControl" ref="0x40c889c0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.SplitControl" qname="SplitControl"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="startDone" ref="0x40c88b98" scoped=""/>
+        <function-ref name="stopDone" ref="0x40c88c78" scoped=""/>
+        <function-ref name="start" ref="0x40c88d58" scoped=""/>
+        <function-ref name="stop" ref="0x40c88e38" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="52:../../../lpl_cc2420/DefaultLplP.nc" name="Receive" provided="1" ref="0x40c8aa20">
+      <component-ref nicename=".........lpl_cc2420.DefaultLplP" qname="DefaultLplP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Receive" ref="0x40c8aa20" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Receive" qname="Receive"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="receive" ref="0x40c8abf8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="62:../../../lpl_cc2420/DefaultLplP.nc" name="CC2420PacketBody" provided="0" ref="0x40c83880">
+      <component-ref nicename=".........lpl_cc2420.DefaultLplP" qname="DefaultLplP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="CC2420PacketBody" ref="0x40c83880" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.chips.cc2420.interfaces.CC2420PacketBody" qname="CC2420PacketBody"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getPayload" ref="0x40c83a58" scoped=""/>
+        <function-ref name="getHeader" ref="0x40c83b38" scoped=""/>
+        <function-ref name="getMetadata" ref="0x40c83c18" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="65:../../../lpl_cc2420/DefaultLplP.nc" name="RadioPowerState" provided="0" ref="0x40c86cf0">
+      <component-ref nicename=".........lpl_cc2420.DefaultLplP" qname="DefaultLplP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="RadioPowerState" ref="0x40c86cf0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.State" qname="State"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getState" ref="0x40c86ec8" scoped=""/>
+        <function-ref name="toIdle" ref="0x40c85010" scoped=""/>
+        <function-ref name="isState" ref="0x40c850f0" scoped=""/>
+        <function-ref name="isIdle" ref="0x40c851d0" scoped=""/>
+        <function-ref name="requestState" ref="0x40c852b0" scoped=""/>
+        <function-ref name="forceState" ref="0x40c85390" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="111:../../../lpl_cc2420/DefaultLplP.nc" name="startRadio" provided="0" ref="0x40ca2110">
+      <component-ref nicename=".........lpl_cc2420.DefaultLplP" qname="DefaultLplP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="startRadio" ref="0x40ca2110" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.TaskBasic" qname="TaskBasic"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="postTask" ref="0x40ca22e8" scoped=""/>
+        <function-ref name="runTask" ref="0x40ca23c8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="70:../../../lpl_cc2420/DefaultLplP.nc" name="Leds" provided="0" ref="0x40ca98e0">
+      <component-ref nicename=".........lpl_cc2420.DefaultLplP" qname="DefaultLplP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Leds" ref="0x40ca98e0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Leds" qname="Leds"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="led0Off" ref="0x40ca9ab8" scoped=""/>
+        <function-ref name="led0Toggle" ref="0x40ca9b98" scoped=""/>
+        <function-ref name="led1On" ref="0x40ca9c78" scoped=""/>
+        <function-ref name="led1Toggle" ref="0x40ca9d58" scoped=""/>
+        <function-ref name="led2Toggle" ref="0x40ca9e38" scoped=""/>
+        <function-ref name="get" ref="0x40ca9f18" scoped=""/>
+        <function-ref name="led1Off" ref="0x40ca8010" scoped=""/>
+        <function-ref name="led2Off" ref="0x40ca8390" scoped=""/>
+        <function-ref name="set" ref="0x40ca80f0" scoped=""/>
+        <function-ref name="led0On" ref="0x40ca81d0" scoped=""/>
+        <function-ref name="led2On" ref="0x40ca82b0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="68:../../../lpl_cc2420/DefaultLplP.nc" name="SendDoneTimer" provided="0" ref="0x40cac2b8">
+      <component-ref nicename=".........lpl_cc2420.DefaultLplP" qname="DefaultLplP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="SendDoneTimer" ref="0x40cac2b8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
+        <arguments>
+          <type-tag alignment="I:1" size="I:2"><struct-ref ref="0x40382900"/>
+            <typename><typedef-ref name="TMilli" ref="0x40382ac8"/></typename>
+          </type-tag>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x40caad90" scoped=""/>
+        <function-ref name="fired" ref="0x40caa048" scoped=""/>
+        <function-ref name="startPeriodicAt" ref="0x40caa750" scoped=""/>
+        <function-ref name="isOneShot" ref="0x40caa4f8" scoped=""/>
+        <function-ref name="getdt" ref="0x40ca9268" scoped=""/>
+        <function-ref name="gett0" ref="0x40ca9010" scoped=""/>
+        <function-ref name="isRunning" ref="0x40caa2a0" scoped=""/>
+        <function-ref name="startPeriodic" ref="0x40cac8e0" scoped=""/>
+        <function-ref name="startOneShotAt" ref="0x40caaa70" scoped=""/>
+        <function-ref name="startOneShot" ref="0x40cacb60" scoped=""/>
+        <function-ref name="stop" ref="0x40cacde0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="63:../../../lpl_cc2420/DefaultLplP.nc" name="PacketAcknowledgements" provided="0" ref="0x40c83e38">
+      <component-ref nicename=".........lpl_cc2420.DefaultLplP" qname="DefaultLplP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="PacketAcknowledgements" ref="0x40c83e38" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.PacketAcknowledgements" qname="PacketAcknowledgements"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="requestAck" ref="0x40c86050" scoped=""/>
+        <function-ref name="noAck" ref="0x40c86130" scoped=""/>
+        <function-ref name="wasAcked" ref="0x40c86210" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="66:../../../lpl_cc2420/DefaultLplP.nc" name="SplitControlState" provided="0" ref="0x40c855d8">
+      <component-ref nicename=".........lpl_cc2420.DefaultLplP" qname="DefaultLplP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="SplitControlState" ref="0x40c855d8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.State" qname="State"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getState" ref="0x40c857b0" scoped=""/>
+        <function-ref name="toIdle" ref="0x40c85890" scoped=""/>
+        <function-ref name="isState" ref="0x40c85970" scoped=""/>
+        <function-ref name="isIdle" ref="0x40c85a50" scoped=""/>
+        <function-ref name="requestState" ref="0x40c85b30" scoped=""/>
+        <function-ref name="forceState" ref="0x40c85c10" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="110:../../../lpl_cc2420/DefaultLplP.nc" name="resend" provided="0" ref="0x40ca3830">
+      <component-ref nicename=".........lpl_cc2420.DefaultLplP" qname="DefaultLplP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="resend" ref="0x40ca3830" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.TaskBasic" qname="TaskBasic"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="postTask" ref="0x40ca3a08" scoped=""/>
+        <function-ref name="runTask" ref="0x40ca3ae8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="61:../../../lpl_cc2420/DefaultLplP.nc" name="PowerCycle" provided="0" ref="0x40c83300">
+      <component-ref nicename=".........lpl_cc2420.DefaultLplP" qname="DefaultLplP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="PowerCycle" ref="0x40c83300" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.chips.cc2420.interfaces.PowerCycle" qname="PowerCycle"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getSleepInterval" ref="0x40c834d8" scoped=""/>
+        <function-ref name="detected" ref="0x40c835b8" scoped=""/>
+        <function-ref name="setSleepInterval" ref="0x40c83698" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="112:../../../lpl_cc2420/DefaultLplP.nc" name="stopRadio" provided="0" ref="0x40ca28f8">
+      <component-ref nicename=".........lpl_cc2420.DefaultLplP" qname="DefaultLplP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="stopRadio" ref="0x40ca28f8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.TaskBasic" qname="TaskBasic"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="postTask" ref="0x40ca2ad0" scoped=""/>
+        <function-ref name="runTask" ref="0x40ca2bb0" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced/></component>

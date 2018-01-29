@@ -1,0 +1,32 @@
+<?xml version="1.0" ?><interfacedef loc="1:../../../net_EER/eer/CtpCongestion.nc" nicename=".........net_EER.eer.CtpCongestion" qname="CtpCongestion">
+      <function command="" loc="7:../../../net_EER/eer/CtpCongestion.nc" name="isCongested" provided="0" ref="0x411a8c20">
+        <interfacedef-ref nicename=".........net_EER.eer.CtpCongestion" qname="CtpCongestion"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="bool" ref="0x40351e80"/></typename>
+          </type-int>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="14:../../../net_EER/eer/CtpCongestion.nc" name="setClientCongested" provided="0" ref="0x411a51e0">
+        <interfacedef-ref nicename=".........net_EER.eer.CtpCongestion" qname="CtpCongestion"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-void alignment="I:1" size="I:1"/>
+          <function-parameters>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="bool" ref="0x40351e80"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="14:../../../net_EER/eer/CtpCongestion.nc" name="congested" ref="0x411a5088">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="bool" ref="0x40351e80"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+    </interfacedef>

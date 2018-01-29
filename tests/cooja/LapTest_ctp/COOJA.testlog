@@ -1,0 +1,89 @@
+Random seed: 123456
+4101827: 7: Timer started on Mote 7, interval: 55177
+4103821: 31: Timer started on Mote 31, interval: 54820
+4109219: 17: Timer started on Mote 17, interval: 40180
+4113638: 35: Timer started on Mote 35, interval: 49640
+4127249: 34: Timer started on Mote 34, interval: 34551
+4135201: 24: Timer started on Mote 24, interval: 49548
+4136175: 2: Timer started on Mote 2, interval: 45267
+4137142: 29: Timer started on Mote 29, interval: 59457
+4144286: 30: Timer started on Mote 30, interval: 39731
+4150272: 14: Timer started on Mote 14, interval: 60448
+4150710: 6: Timer started on Mote 6, interval: 40087
+4162714: 15: Timer started on Mote 15, interval: 44818
+4163229: 22: Timer started on Mote 22, interval: 50090
+4167667: 25: Timer started on Mote 25, interval: 33917
+4172650: 20: Timer started on Mote 20, interval: 54727
+4172826: 8: Timer started on Mote 8, interval: 35450
+4173117: 16: Timer started on Mote 16, interval: 59907
+4181655: 36: Timer started on Mote 36, interval: 34009
+4184045: 13: Timer started on Mote 13, interval: 45359
+4190632: 26: Timer started on Mote 26, interval: 44910
+4199398: 3: Timer started on Mote 3, interval: 60356
+4206842: 21: Timer started on Mote 21, interval: 35000
+4208536: 9: Timer started on Mote 9, interval: 50539
+4215169: 5: Timer started on Mote 5, interval: 55718
+4219231: 19: Timer started on Mote 19, interval: 39638
+4226678: 18: Timer started on Mote 18, interval: 55269
+4241866: 28: Timer started on Mote 28, interval: 44368
+4245397: 23: Timer started on Mote 23, interval: 34459
+4248414: 4: Timer started on Mote 4, interval: 40629
+4255501: 33: Timer started on Mote 33, interval: 54278
+4256650: 10: Timer started on Mote 10, interval: 34908
+4277886: 32: Timer started on Mote 32, interval: 39189
+4281282: 1: Sink started timer, sink id: 1 
+4285813: 27: Timer started on Mote 27, interval: 59999
+4290634: 11: Timer started on Mote 11, interval: 49997
+4294507: 12: Timer started on Mote 12, interval: 34366
+39634859: 28: 
+39641646: 28: DATA packet intercept at node: 28, from link child: 23, org: 23, hop: 1
+50450849: 26: 
+50454977: 26: DATA packet intercept at node: 26, from link child: 30, org: 30, hop: 1
+51678867: 35: 
+51684492: 35: DATA packet intercept at node: 35, from link child: 28, org: 28, hop: 1
+52293974: 35: 
+52298118: 35: DATA packet intercept at node: 35, from link child: 26, org: 26, hop: 1
+52313889: 21: 
+52318639: 21: DATA packet intercept at node: 21, from link child: 12, org: 12, hop: 1
+53097852: 35: 
+53101995: 35: DATA packet intercept at node: 35, from link child: 28, org: 28, hop: 1
+57826864: 20: 
+57833493: 20: DATA packet intercept at node: 20, from link child: 22, org: 22, hop: 1
+62774977: 35: 
+62780166: 35: DATA packet intercept at node: 35, from link child: 33, org: 33, hop: 1
+62994289: 5: 
+62998330: 5: DATA packet intercept at node: 5, from link child: 18, org: 18, hop: 1
+64280974: 1: Timer fired on SINK, round: 1 
+72304070: 4: 
+72308015: 4: DATA packet intercept at node: 4, from link child: 20, org: 22, hop: 2
+76146285: 8: 
+76150277: 8: DATA packet intercept at node: 8, from link child: 4, org: 22, hop: 3
+78419991: 4: 
+78423864: 4: DATA packet intercept at node: 4, from link child: 5, org: 18, hop: 2
+81671665: 27: 
+81676404: 27: DATA packet intercept at node: 27, from link child: 35, org: 28, hop: 2
+84865922: 27: 
+84870744: 27: DATA packet intercept at node: 27, from link child: 35, org: 33, hop: 2
+91780779: 4: 
+91784632: 4: DATA packet intercept at node: 4, from link child: 35, org: 33, hop: 2
+94262591: 8: 
+94266578: 8: DATA packet intercept at node: 8, from link child: 27, org: 28, hop: 3
+96159442: 8: 
+96163467: 8: DATA packet intercept at node: 8, from link child: 27, org: 28, hop: 3
+98106068: 4: 
+98110055: 4: DATA packet intercept at node: 4, from link child: 27, org: 28, hop: 3
+103906508: 11: 
+103912135: 11: DATA packet intercept at node: 11, from link child: 24, org: 24, hop: 1
+106340770: 18: 
+106344849: 18: DATA packet intercept at node: 18, from link child: 27, org: 33, hop: 3
+107475445: 18: 
+107479411: 18: DATA packet intercept at node: 18, from link child: 27, org: 27, hop: 1
+109696094: 20: 
+109700168: 20: DATA packet intercept at node: 20, from link child: 23, org: 23, hop: 1
+124281950: 1: Timer fired on SINK, round: 2 
+131243857: 20: 
+131247937: 20: DATA packet intercept at node: 20, from link child: 30, org: 30, hop: 1
+139422848: 27: 
+139426926: 27: DATA packet intercept at node: 27, from link child: 20, org: 30, hop: 2
+143862111: 20: 
+143866078: 20: DATA packet intercept at node: 20, from link child: 27, org: 30, hop: 3

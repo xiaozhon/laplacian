@@ -1,0 +1,168 @@
+<?xml version="1.0" ?><component abstract="" loc="47:/opt/tinyos-2.1.2/tos/system/AMSenderC.nc" nicename="tos.system.AMSenderC" qname="AMSenderC">
+      <documentation loc="33:/opt/tinyos-2.1.2/tos/system/AMSenderC.nc">
+        <short>
+ The virtualized active message send abstraction.</short>
+        <long>
+ The virtualized active message send abstraction. Each instantiation
+ of AMSenderC has its own queue of depth one. Therefore, it does not
+ have to contend with other AMSenderC instantiations for queue space.
+ The underlying implementation schedules the packets in these queues
+ using some form of fair-share queueing.
+
+ @author Philip Levis
+ @date   Jan 16 2006
+ @see    TEP 116: Packet Protocols
+</long>
+      </documentation>
+      <parameters>
+        <constant loc="47:/opt/tinyos-2.1.2/tos/system/AMSenderC.nc" name="AMId" ref="0x40f03830">
+          <component-ref nicename="tos.system.AMSenderC" qname="AMSenderC"/>
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="am_id_t" ref="0x403fc7f8"/></typename>
+          </type-int>
+        </constant>
+      </parameters>
+      <configuration/>
+      <wiring>
+        <wire loc="64:/opt/tinyos-2.1.2/tos/system/AMSenderC.nc">
+          <from><interface-ref name="AMSend" ref="0x40f03ab8" scoped=""/></from>
+          <to><interface-ref name="AMSend" ref="0x40f94c90" scoped=""/></to>
+        </wire>
+        <wire loc="65:/opt/tinyos-2.1.2/tos/system/AMSenderC.nc">
+          <from><interface-ref name="Packet" ref="0x40f98270" scoped=""/></from>
+          <to><interface-ref name="Packet" ref="0x40fe63f0" scoped=""/></to>
+        </wire>
+        <wire loc="66:/opt/tinyos-2.1.2/tos/system/AMSenderC.nc">
+          <from><interface-ref name="AMPacket" ref="0x40f98960" scoped=""/></from>
+          <to><interface-ref name="AMPacket" ref="0x40fe6a88" scoped=""/></to>
+        </wire>
+        <wire loc="67:/opt/tinyos-2.1.2/tos/system/AMSenderC.nc">
+          <from><interface-ref name="Acks" ref="0x40f976e0" scoped=""/></from>
+          <to><interface-ref name="Acks" ref="0x40fe56b0" scoped=""/></to>
+        </wire>
+      </wiring>
+    <specification><interface loc="49:/opt/tinyos-2.1.2/tos/system/AMSenderC.nc" name="AMSend" provided="1" ref="0x40f03ab8">
+      <component-ref nicename="tos.system.AMSenderC" qname="AMSenderC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="AMSend" ref="0x40f03ab8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.AMSend" qname="AMSend"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="send" ref="0x40f03c90" scoped=""/>
+        <function-ref name="getPayload" ref="0x40f03d70" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x40f03e50" scoped=""/>
+        <function-ref name="cancel" ref="0x40f98010" scoped=""/>
+        <function-ref name="sendDone" ref="0x40f980f0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="50:/opt/tinyos-2.1.2/tos/system/AMSenderC.nc" name="Packet" provided="1" ref="0x40f98270">
+      <component-ref nicename="tos.system.AMSenderC" qname="AMSenderC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Packet" ref="0x40f98270" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Packet" qname="Packet"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="clear" ref="0x40f98448" scoped=""/>
+        <function-ref name="payloadLength" ref="0x40f98528" scoped=""/>
+        <function-ref name="getPayload" ref="0x40f98608" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x40f986e8" scoped=""/>
+        <function-ref name="setPayloadLength" ref="0x40f987c8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="51:/opt/tinyos-2.1.2/tos/system/AMSenderC.nc" name="AMPacket" provided="1" ref="0x40f98960">
+      <component-ref nicename="tos.system.AMSenderC" qname="AMSenderC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="AMPacket" ref="0x40f98960" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.AMPacket" qname="AMPacket"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="group" ref="0x40f98b38" scoped=""/>
+        <function-ref name="source" ref="0x40f98c18" scoped=""/>
+        <function-ref name="address" ref="0x40f98cf8" scoped=""/>
+        <function-ref name="destination" ref="0x40f98dd8" scoped=""/>
+        <function-ref name="setSource" ref="0x40f98eb8" scoped=""/>
+        <function-ref name="setDestination" ref="0x40f97010" scoped=""/>
+        <function-ref name="type" ref="0x40f970f0" scoped=""/>
+        <function-ref name="setType" ref="0x40f971d0" scoped=""/>
+        <function-ref name="isForMe" ref="0x40f972b0" scoped=""/>
+        <function-ref name="setGroup" ref="0x40f97390" scoped=""/>
+        <function-ref name="localGroup" ref="0x40f97470" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="52:/opt/tinyos-2.1.2/tos/system/AMSenderC.nc" name="Acks" provided="1" ref="0x40f976e0">
+      <component-ref nicename="tos.system.AMSenderC" qname="AMSenderC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Acks" ref="0x40f976e0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.PacketAcknowledgements" qname="PacketAcknowledgements"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="requestAck" ref="0x40f978b8" scoped=""/>
+        <function-ref name="noAck" ref="0x40f97998" scoped=""/>
+        <function-ref name="wasAcked" ref="0x40f97a78" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced><interface loc="9:/opt/tinyos-2.1.2/tos/system/LplAMSenderC.nc" name="Acks" provided="1" ref="0x40fe56b0">
+      <component-ref nicename="tos.system.LplAMSenderC" qname="AMSenderC.SenderC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Acks" ref="0x40fe56b0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.PacketAcknowledgements" qname="PacketAcknowledgements"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="requestAck" ref="0x40fe5888" scoped=""/>
+        <function-ref name="noAck" ref="0x40fe5968" scoped=""/>
+        <function-ref name="wasAcked" ref="0x40fe5a48" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="6:/opt/tinyos-2.1.2/tos/system/LplAMSenderC.nc" name="AMSend" provided="1" ref="0x40f94c90">
+      <component-ref nicename="tos.system.LplAMSenderC" qname="AMSenderC.SenderC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="AMSend" ref="0x40f94c90" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.AMSend" qname="AMSend"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="send" ref="0x40f94e68" scoped=""/>
+        <function-ref name="getPayload" ref="0x40fe6010" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x40fe60f0" scoped=""/>
+        <function-ref name="cancel" ref="0x40fe61d0" scoped=""/>
+        <function-ref name="sendDone" ref="0x40fe62b0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="8:/opt/tinyos-2.1.2/tos/system/LplAMSenderC.nc" name="AMPacket" provided="1" ref="0x40fe6a88">
+      <component-ref nicename="tos.system.LplAMSenderC" qname="AMSenderC.SenderC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="AMPacket" ref="0x40fe6a88" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.AMPacket" qname="AMPacket"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="group" ref="0x40fe6c60" scoped=""/>
+        <function-ref name="source" ref="0x40fe6d40" scoped=""/>
+        <function-ref name="address" ref="0x40fe6e20" scoped=""/>
+        <function-ref name="destination" ref="0x40fe6f00" scoped=""/>
+        <function-ref name="setSource" ref="0x40fe5010" scoped=""/>
+        <function-ref name="setDestination" ref="0x40fe50f0" scoped=""/>
+        <function-ref name="type" ref="0x40fe51d0" scoped=""/>
+        <function-ref name="setType" ref="0x40fe52b0" scoped=""/>
+        <function-ref name="isForMe" ref="0x40fe5390" scoped=""/>
+        <function-ref name="setGroup" ref="0x40fe5470" scoped=""/>
+        <function-ref name="localGroup" ref="0x40fe5550" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="7:/opt/tinyos-2.1.2/tos/system/LplAMSenderC.nc" name="Packet" provided="1" ref="0x40fe63f0">
+      <component-ref nicename="tos.system.LplAMSenderC" qname="AMSenderC.SenderC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Packet" ref="0x40fe63f0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Packet" qname="Packet"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="clear" ref="0x40fe65c8" scoped=""/>
+        <function-ref name="payloadLength" ref="0x40fe66a8" scoped=""/>
+        <function-ref name="getPayload" ref="0x40fe6788" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x40fe6868" scoped=""/>
+        <function-ref name="setPayloadLength" ref="0x40fe6948" scoped=""/>
+      </interface-functions>
+    </interface><component abstract="" loc="3(AMSenderC.SenderC):/opt/tinyos-2.1.2/tos/system/LplAMSenderC.nc" nicename="tos.system.LplAMSenderC" qname="AMSenderC.SenderC">
+      <instance>
+        <component-ref nicename="tos.system.LplAMSenderC" qname="LplAMSenderC"/>
+        <arguments>
+          <value cst="U:">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="am_id_t" ref="0x403fc7f8"/></typename>
+            </type-int>
+          </value>
+        </arguments>
+      </instance>
+      <configuration/>
+    </component></referenced></component>

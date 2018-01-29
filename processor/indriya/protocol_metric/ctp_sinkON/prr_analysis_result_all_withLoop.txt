@@ -1,0 +1,3 @@
+test	cycle_prr_avg	std	duplicates	dup_std	loop_avg	loop_std	loop_sum	hop_avg	std	loopy_hop_avg	std	link_usage_avg	std
+Ctp-1	0.9709	0.0288	0.1129	0.3639	0.0000	0.0000	0	2.4116	0.9276	nan	nan	72.8387	2.9686
+

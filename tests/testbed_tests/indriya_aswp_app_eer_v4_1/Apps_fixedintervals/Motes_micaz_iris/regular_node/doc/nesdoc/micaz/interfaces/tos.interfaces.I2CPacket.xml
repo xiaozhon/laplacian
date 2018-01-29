@@ -1,0 +1,266 @@
+<?xml version="1.0" ?><interfacedef loc="59:/opt/tinyos-2.1.2/tos/interfaces/I2CPacket.nc" nicename="tos.interfaces.I2CPacket" qname="I2CPacket">
+      <parameters>
+        <typedef loc="59:/opt/tinyos-2.1.2/tos/interfaces/I2CPacket.nc" name="addr_size" ref="0x4119bbd0">
+          <interfacedef-ref nicename="tos.interfaces.I2CPacket" qname="I2CPacket"/>
+          <type-var alignment="U:" size="U:"><typedef-ref name="addr_size" ref="0x4119bbd0" scoped=""/></type-var>
+        </typedef>
+      </parameters>
+      <function command="" loc="76:/opt/tinyos-2.1.2/tos/interfaces/I2CPacket.nc" name="read" provided="0" ref="0x4119a8d0">
+        <documentation loc="60:/opt/tinyos-2.1.2/tos/interfaces/I2CPacket.nc">
+          <short>
+ Perform an I2C read operation
+
+ </short>
+          <long>
+ Perform an I2C read operation
+
+ @param flags Flags that may be logical ORed and defined by:
+    I2C_START   - The START condition is transmitted at the beginning 
+                   of the packet if set.
+    I2C_STOP    - The STOP condition is transmitted at the end of the 
+                   packet if set.
+    I2C_ACK_END - ACK the last byte if set. Otherwise NACK last byte. This
+                   flag cannot be used with the I2C_STOP flag.
+ @param addr The slave device address. Only used if I2C_START is set.
+ @param length Length, in bytes, to be read
+ @param 'uint8_t* COUNT(length) data' A point to a data buffer to read into
+
+ @return SUCCESS if bus available and request accepted. 
+</long>
+        </documentation>
+        <interfacedef-ref nicename="tos.interfaces.I2CPacket" qname="I2CPacket"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x40325628"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="i2c_flags_t" ref="0x4119b270"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+            </type-int>
+            <type-pointer alignment="I:1" size="I:2">
+              <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+                <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+              </type-int>
+            </type-pointer>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="76:/opt/tinyos-2.1.2/tos/interfaces/I2CPacket.nc" name="flags" ref="0x4119a150">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="i2c_flags_t" ref="0x4119b270"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="76:/opt/tinyos-2.1.2/tos/interfaces/I2CPacket.nc" name="addr" ref="0x4119a350">
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="76:/opt/tinyos-2.1.2/tos/interfaces/I2CPacket.nc" name="length" ref="0x4119a550">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="76:/opt/tinyos-2.1.2/tos/interfaces/I2CPacket.nc" name="data" ref="0x4119a760">
+            <type-pointer alignment="I:1" size="I:2">
+              <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+                <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+              </type-int>
+            </type-pointer>
+          </variable>
+        </parameters>
+      </function>
+      <function event="" loc="112:/opt/tinyos-2.1.2/tos/interfaces/I2CPacket.nc" name="writeDone" provided="0" ref="0x411d5e90">
+        <documentation loc="104:/opt/tinyos-2.1.2/tos/interfaces/I2CPacket.nc">
+          <short>
+ Notification that the write operation has completed
+
+ </short>
+          <long>
+ Notification that the write operation has completed
+
+ @param addr The slave device address
+ @param length Length, in bytes, written
+ @param 'uint8_t* COUNT(length) data' Pointer to the data buffer written
+ @param success SUCCESS if transfer completed without error.
+</long>
+        </documentation>
+        <interfacedef-ref nicename="tos.interfaces.I2CPacket" qname="I2CPacket"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-void alignment="I:1" size="I:1"/>
+          <function-parameters>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="error_t" ref="0x40325628"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+            </type-int>
+            <type-pointer alignment="I:1" size="I:2">
+              <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+                <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+              </type-int>
+            </type-pointer>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="112:/opt/tinyos-2.1.2/tos/interfaces/I2CPacket.nc" name="error" ref="0x411d5710">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="error_t" ref="0x40325628"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="112:/opt/tinyos-2.1.2/tos/interfaces/I2CPacket.nc" name="addr" ref="0x411d5910">
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="112:/opt/tinyos-2.1.2/tos/interfaces/I2CPacket.nc" name="length" ref="0x411d5b10">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="112:/opt/tinyos-2.1.2/tos/interfaces/I2CPacket.nc" name="data" ref="0x411d5d20">
+            <type-pointer alignment="I:1" size="I:2">
+              <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+                <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+              </type-int>
+            </type-pointer>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="92:/opt/tinyos-2.1.2/tos/interfaces/I2CPacket.nc" name="write" provided="0" ref="0x411d8ba0">
+        <documentation loc="78:/opt/tinyos-2.1.2/tos/interfaces/I2CPacket.nc">
+          <short>
+ Perform an I2C write operation
+
+ </short>
+          <long>
+ Perform an I2C write operation
+
+ @param flags Flags that may be logical ORed and defined by:
+    I2C_START   - The START condition is transmitted at the beginning 
+                   of the packet if set.
+    I2C_STOP    - The STOP condition is transmitted at the end of the 
+                   packet if set.
+ @param addr The slave device address. Only used if I2C_START is set.
+ @param length Length, in bytes, to be read
+ @param 'uint8_t* COUNT(length) data' A point to a data buffer to read into
+
+ @return SUCCESS if bus available and request accepted. 
+</long>
+        </documentation>
+        <interfacedef-ref nicename="tos.interfaces.I2CPacket" qname="I2CPacket"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x40325628"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="i2c_flags_t" ref="0x4119b270"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+            </type-int>
+            <type-pointer alignment="I:1" size="I:2">
+              <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+                <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+              </type-int>
+            </type-pointer>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="92:/opt/tinyos-2.1.2/tos/interfaces/I2CPacket.nc" name="flags" ref="0x411d8420">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="i2c_flags_t" ref="0x4119b270"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="92:/opt/tinyos-2.1.2/tos/interfaces/I2CPacket.nc" name="addr" ref="0x411d8620">
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="92:/opt/tinyos-2.1.2/tos/interfaces/I2CPacket.nc" name="length" ref="0x411d8820">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="92:/opt/tinyos-2.1.2/tos/interfaces/I2CPacket.nc" name="data" ref="0x411d8a30">
+            <type-pointer alignment="I:1" size="I:2">
+              <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+                <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+              </type-int>
+            </type-pointer>
+          </variable>
+        </parameters>
+      </function>
+      <function event="" loc="102:/opt/tinyos-2.1.2/tos/interfaces/I2CPacket.nc" name="readDone" provided="0" ref="0x411d7da0">
+        <documentation loc="94:/opt/tinyos-2.1.2/tos/interfaces/I2CPacket.nc">
+          <short>
+ Notification that the read operation has completed
+
+ </short>
+          <long>
+ Notification that the read operation has completed
+
+ @param addr The slave device address
+ @param length Length, in bytes, read
+ @param 'uint8_t* COUNT(length) data' Pointer to the received data buffer
+ @param success SUCCESS if transfer completed without error.
+</long>
+        </documentation>
+        <interfacedef-ref nicename="tos.interfaces.I2CPacket" qname="I2CPacket"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-void alignment="I:1" size="I:1"/>
+          <function-parameters>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="error_t" ref="0x40325628"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+            </type-int>
+            <type-pointer alignment="I:1" size="I:2">
+              <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+                <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+              </type-int>
+            </type-pointer>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="102:/opt/tinyos-2.1.2/tos/interfaces/I2CPacket.nc" name="error" ref="0x411d7620">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="error_t" ref="0x40325628"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="102:/opt/tinyos-2.1.2/tos/interfaces/I2CPacket.nc" name="addr" ref="0x411d7820">
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="102:/opt/tinyos-2.1.2/tos/interfaces/I2CPacket.nc" name="length" ref="0x411d7a20">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="102:/opt/tinyos-2.1.2/tos/interfaces/I2CPacket.nc" name="data" ref="0x411d7c30">
+            <type-pointer alignment="I:1" size="I:2">
+              <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+                <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+              </type-int>
+            </type-pointer>
+          </variable>
+        </parameters>
+      </function>
+    </interfacedef>

@@ -1,0 +1,171 @@
+<?xml version="1.0" ?><component loc="42:../../../net_EER/4bitle/LinkEstimatorP.nc" nicename=".........net_EER.4bitle.LinkEstimatorP" qname="LinkEstimatorP">
+      <module/>
+    <specification><interface loc="57:../../../net_EER/4bitle/LinkEstimatorP.nc" name="SubReceive" provided="0" ref="0x41329cf8">
+      <component-ref nicename=".........net_EER.4bitle.LinkEstimatorP" qname="LinkEstimatorP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="SubReceive" ref="0x41329cf8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Receive" qname="Receive"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="receive" ref="0x41329ed0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="47:../../../net_EER/4bitle/LinkEstimatorP.nc" name="LinkEstimator" provided="1" ref="0x4132c400">
+      <component-ref nicename=".........net_EER.4bitle.LinkEstimatorP" qname="LinkEstimatorP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="LinkEstimator" ref="0x4132c400" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename=".........net_EER.4bitle.LinkEstimator" qname="LinkEstimator"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="txAck" ref="0x4132c5d8" scoped=""/>
+        <function-ref name="pinNeighbor" ref="0x4132c6b8" scoped=""/>
+        <function-ref name="txNoAck" ref="0x4132c798" scoped=""/>
+        <function-ref name="setLinkRssi" ref="0x4132c878" scoped=""/>
+        <function-ref name="insertNeighbor" ref="0x4132c958" scoped=""/>
+        <function-ref name="evicted" ref="0x4132ca38" scoped=""/>
+        <function-ref name="clearDLQ" ref="0x4132cb18" scoped=""/>
+        <function-ref name="getLinkRssi" ref="0x4132cbf8" scoped=""/>
+        <function-ref name="unpinNeighbor" ref="0x4132ccd8" scoped=""/>
+        <function-ref name="getLinkQuality" ref="0x4132cdb8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="49:../../../net_EER/4bitle/LinkEstimatorP.nc" name="Packet" provided="1" ref="0x4132b290">
+      <component-ref nicename=".........net_EER.4bitle.LinkEstimatorP" qname="LinkEstimatorP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Packet" ref="0x4132b290" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Packet" qname="Packet"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="clear" ref="0x4132b468" scoped=""/>
+        <function-ref name="payloadLength" ref="0x4132b548" scoped=""/>
+        <function-ref name="getPayload" ref="0x4132b628" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x4132b708" scoped=""/>
+        <function-ref name="setPayloadLength" ref="0x4132b7e8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="54:../../../net_EER/4bitle/LinkEstimatorP.nc" name="AMSend" provided="0" ref="0x4132a0a0">
+      <component-ref nicename=".........net_EER.4bitle.LinkEstimatorP" qname="LinkEstimatorP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="AMSend" ref="0x4132a0a0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.AMSend" qname="AMSend"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="send" ref="0x4132a278" scoped=""/>
+        <function-ref name="getPayload" ref="0x4132a358" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x4132a438" scoped=""/>
+        <function-ref name="cancel" ref="0x4132a518" scoped=""/>
+        <function-ref name="sendDone" ref="0x4132a5f8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="65:../../../net_EER/4bitle/LinkEstimatorP.nc" name="CC2420Packet" provided="0" ref="0x41327978">
+      <component-ref nicename=".........net_EER.4bitle.LinkEstimatorP" qname="LinkEstimatorP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="CC2420Packet" ref="0x41327978" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.chips.cc2420.interfaces.CC2420Packet" qname="CC2420Packet"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="setPower" ref="0x41327b50" scoped=""/>
+        <function-ref name="setNetwork" ref="0x41327c30" scoped=""/>
+        <function-ref name="getRssi" ref="0x41327d10" scoped=""/>
+        <function-ref name="getNetwork" ref="0x41327df0" scoped=""/>
+        <function-ref name="getPower" ref="0x41327ed0" scoped=""/>
+        <function-ref name="getLqi" ref="0x41326010" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="45:../../../net_EER/4bitle/LinkEstimatorP.nc" name="Send" provided="1" ref="0x4132e968">
+      <component-ref nicename=".........net_EER.4bitle.LinkEstimatorP" qname="LinkEstimatorP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Send" ref="0x4132e968" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.AMSend" qname="AMSend"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="send" ref="0x4132eb40" scoped=""/>
+        <function-ref name="getPayload" ref="0x4132ec20" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x4132ed00" scoped=""/>
+        <function-ref name="cancel" ref="0x4132ede0" scoped=""/>
+        <function-ref name="sendDone" ref="0x4132eec0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="59:../../../net_EER/4bitle/LinkEstimatorP.nc" name="Random" provided="0" ref="0x41327470">
+      <component-ref nicename=".........net_EER.4bitle.LinkEstimatorP" qname="LinkEstimatorP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Random" ref="0x41327470" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Random" qname="Random"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="rand16" ref="0x413276c8" scoped=""/>
+        <function-ref name="rand32" ref="0x413277a8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="56:../../../net_EER/4bitle/LinkEstimatorP.nc" name="SubPacket" provided="0" ref="0x41329590">
+      <component-ref nicename=".........net_EER.4bitle.LinkEstimatorP" qname="LinkEstimatorP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="SubPacket" ref="0x41329590" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Packet" qname="Packet"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="clear" ref="0x41329768" scoped=""/>
+        <function-ref name="payloadLength" ref="0x41329848" scoped=""/>
+        <function-ref name="getPayload" ref="0x41329928" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x41329a08" scoped=""/>
+        <function-ref name="setPayloadLength" ref="0x41329ae8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="48:../../../net_EER/4bitle/LinkEstimatorP.nc" name="Init" provided="1" ref="0x4132cf28">
+      <component-ref nicename=".........net_EER.4bitle.LinkEstimatorP" qname="LinkEstimatorP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Init" ref="0x4132cf28" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x4132b110" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="55:../../../net_EER/4bitle/LinkEstimatorP.nc" name="SubAMPacket" provided="0" ref="0x4132a820">
+      <component-ref nicename=".........net_EER.4bitle.LinkEstimatorP" qname="LinkEstimatorP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="SubAMPacket" ref="0x4132a820" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.AMPacket" qname="AMPacket"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="group" ref="0x4132a9f8" scoped=""/>
+        <function-ref name="source" ref="0x4132aad8" scoped=""/>
+        <function-ref name="address" ref="0x4132abb8" scoped=""/>
+        <function-ref name="destination" ref="0x4132ac98" scoped=""/>
+        <function-ref name="setSource" ref="0x4132ad78" scoped=""/>
+        <function-ref name="setDestination" ref="0x4132ae58" scoped=""/>
+        <function-ref name="type" ref="0x41329010" scoped=""/>
+        <function-ref name="setType" ref="0x413290f0" scoped=""/>
+        <function-ref name="isForMe" ref="0x413291d0" scoped=""/>
+        <function-ref name="setGroup" ref="0x413292b0" scoped=""/>
+        <function-ref name="localGroup" ref="0x41329390" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="46:../../../net_EER/4bitle/LinkEstimatorP.nc" name="Receive" provided="1" ref="0x4132c060">
+      <component-ref nicename=".........net_EER.4bitle.LinkEstimatorP" qname="LinkEstimatorP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Receive" ref="0x4132c060" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Receive" qname="Receive"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="receive" ref="0x4132c238" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="50:../../../net_EER/4bitle/LinkEstimatorP.nc" name="CompareBit" provided="1" ref="0x41328ce8">
+      <component-ref nicename=".........net_EER.4bitle.LinkEstimatorP" qname="LinkEstimatorP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="CompareBit" ref="0x41328ce8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename=".........net_EER.eer.CompareBit" qname="CompareBit"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="shouldInsert" ref="0x41328ec0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="44:../../../net_EER/4bitle/LinkEstimatorP.nc" name="StdControl" provided="1" ref="0x4132e4e0">
+      <component-ref nicename=".........net_EER.4bitle.LinkEstimatorP" qname="LinkEstimatorP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="StdControl" ref="0x4132e4e0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.StdControl" qname="StdControl"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="start" ref="0x4132e6b8" scoped=""/>
+        <function-ref name="stop" ref="0x4132e798" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="58:../../../net_EER/4bitle/LinkEstimatorP.nc" name="LinkPacketMetadata" provided="0" ref="0x41327118">
+      <component-ref nicename=".........net_EER.4bitle.LinkEstimatorP" qname="LinkEstimatorP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="LinkPacketMetadata" ref="0x41327118" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.LinkPacketMetadata" qname="LinkPacketMetadata"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="highChannelQuality" ref="0x413272f0" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced/></component>

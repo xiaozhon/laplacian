@@ -1,0 +1,210 @@
+<?xml version="1.0" ?><interfacedef loc="60:../../tos/chips/cc2420/interfaces/OppDebug.nc" nicename="......tos.chips.cc2420.interfaces.OppDebug" qname="OppDebug">
+      <documentation loc="35:../../tos/chips/cc2420/interfaces/OppDebug.nc">
+        <short> 
+  The CollectionDebug is an interface for sending debugging events to
+  a logging infrastructure.</short>
+        <long> 
+  The CollectionDebug is an interface for sending debugging events to
+  a logging infrastructure. An implementer can choose to send the event
+  information to different destinations. Primary examples can include:
+  &lt;ul&gt;
+    &lt;li&gt; logging to the UART, in case of a testbed of network-connected
+         nodes;
+    &lt;li&gt; logging to flash, if the logs are to be retrieved later
+    &lt;li&gt; logging to the standard output, in the case of TOSSIM.
+  &lt;/ul&gt;
+  
+  The interface does not specify in what format the log is to be produced,
+  or if other information, like timestamps, should be added, and this is
+  up to the implementer.
+ 
+  Some commands are generic, like Event, EventSimple, and EventDbg, while others
+  are for more specific events related to collection, like EventRoute and EventMsg.
+
+ @author Rodrigo Fonseca
+ @author Kyle Jamieson
+ @author Olaf Landsiedel
+ @date   $Date: 2010-06-29 22:07:47 $
+</long>
+      </documentation>
+      <function command="" loc="62:../../tos/chips/cc2420/interfaces/OppDebug.nc" name="logEvent" provided="0" ref="0x40e79818">
+        <interfacedef-ref nicename="......tos.chips.cc2420.interfaces.OppDebug" qname="OppDebug"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x40354da0"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="62:../../tos/chips/cc2420/interfaces/OppDebug.nc" name="type" ref="0x40e796c0">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="74:../../tos/chips/cc2420/interfaces/OppDebug.nc" name="logEventMsg" provided="0" ref="0x40eaa7b0">
+        <interfacedef-ref nicename="......tos.chips.cc2420.interfaces.OppDebug" qname="OppDebug"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x40354da0"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+            </type-int>
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="am_addr_t" ref="0x4061b330"/></typename>
+            </type-int>
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="am_addr_t" ref="0x4061b330"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="74:../../tos/chips/cc2420/interfaces/OppDebug.nc" name="type" ref="0x40eaa030">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="74:../../tos/chips/cc2420/interfaces/OppDebug.nc" name="msg" ref="0x40eaa220">
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="74:../../tos/chips/cc2420/interfaces/OppDebug.nc" name="origin" ref="0x40eaa438">
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="am_addr_t" ref="0x4061b330"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="74:../../tos/chips/cc2420/interfaces/OppDebug.nc" name="node" ref="0x40eaa640">
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="am_addr_t" ref="0x4061b330"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="65:../../tos/chips/cc2420/interfaces/OppDebug.nc" name="logEventSimple" provided="0" ref="0x40e78010">
+        <interfacedef-ref nicename="......tos.chips.cc2420.interfaces.OppDebug" qname="OppDebug"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x40354da0"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="65:../../tos/chips/cc2420/interfaces/OppDebug.nc" name="type" ref="0x40e79c78">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="65:../../tos/chips/cc2420/interfaces/OppDebug.nc" name="arg" ref="0x40e79e68">
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="80:../../tos/chips/cc2420/interfaces/OppDebug.nc" name="logEventRoute" provided="0" ref="0x40ea93e8">
+        <interfacedef-ref nicename="......tos.chips.cc2420.interfaces.OppDebug" qname="OppDebug"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x40354da0"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="am_addr_t" ref="0x4061b330"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="80:../../tos/chips/cc2420/interfaces/OppDebug.nc" name="type" ref="0x40eaac08">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="80:../../tos/chips/cc2420/interfaces/OppDebug.nc" name="parent" ref="0x40eaae20">
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="am_addr_t" ref="0x4061b330"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="80:../../tos/chips/cc2420/interfaces/OppDebug.nc" name="hopcount" ref="0x40ea9068">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="80:../../tos/chips/cc2420/interfaces/OppDebug.nc" name="metric" ref="0x40ea9278">
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="68:../../tos/chips/cc2420/interfaces/OppDebug.nc" name="logEventDbg" provided="0" ref="0x40e78bc0">
+        <interfacedef-ref nicename="......tos.chips.cc2420.interfaces.OppDebug" qname="OppDebug"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x40354da0"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+            </type-int>
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+            </type-int>
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="68:../../tos/chips/cc2420/interfaces/OppDebug.nc" name="type" ref="0x40e78450">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="68:../../tos/chips/cc2420/interfaces/OppDebug.nc" name="arg1" ref="0x40e78650">
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="68:../../tos/chips/cc2420/interfaces/OppDebug.nc" name="arg2" ref="0x40e78850">
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="68:../../tos/chips/cc2420/interfaces/OppDebug.nc" name="arg3" ref="0x40e78a50">
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+    </interfacedef>

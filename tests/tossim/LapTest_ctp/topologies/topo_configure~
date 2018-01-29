@@ -1,0 +1,41 @@
+%%%%%%%%%%%%%%%%%%%%%%
+% Channel Parameters
+%%%%%%%%%%%%%%%%%%%%%%
+
+PATH_LOSS_EXPONENT = 3.0;
+SHADOWING_STANDARD_DEVIATION = 4.0;
+D0 = 1.0;
+PL_D0 = 55.0;
+
+%%%%%%%%%%%%%%%%%%%%%%
+% Radio Parameters
+%%%%%%%%%%%%%%%%%%%%%%
+
+NOISE_FLOOR = -105.0;
+S11 = 0.9;
+S12 = -0.7;
+S21 = -0.7;
+S22 = 1.2;
+WHITE_GAUSSIAN_NOISE = 4;
+
+%%%%%%%%%%%%%%%%%%%%%%
+% Topology Parameters
+%%%%%%%%%%%%%%%%%%%%%%
+% available topologies :
+% - GRID (1)
+% - UNIFORM (2)
+% - RANDOM (3)
+% - FILE (4)
+
+% grid topology
+%TOPOLOGY = 1;
+%GRID_UNIT = 2.3;
+%NUMBER_OF_NODES = 225;
+
+%TOPOLOGY_FILE = topologyFile;
+
+% uniform topology
+TOPOLOGY = 2;
+NUMBER_OF_NODES = 200;
+TERRAIN_DIMENSIONS_X = 32.2;
+TERRAIN_DIMENSIONS_Y = 32.2;

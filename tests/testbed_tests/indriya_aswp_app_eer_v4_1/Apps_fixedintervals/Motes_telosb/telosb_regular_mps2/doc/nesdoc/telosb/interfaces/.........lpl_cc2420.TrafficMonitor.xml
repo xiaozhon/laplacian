@@ -1,0 +1,204 @@
+<?xml version="1.0" ?><interfacedef loc="35:../../../lpl_cc2420/TrafficMonitor.nc" nicename=".........lpl_cc2420.TrafficMonitor" qname="TrafficMonitor">
+      <function command="" loc="85:../../../lpl_cc2420/TrafficMonitor.nc" name="getTxErrors" provided="0" ref="0x40650778">
+        <documentation loc="81:../../../lpl_cc2420/TrafficMonitor.nc">
+          <short>
+ Returns the number of times send() or sendDone()
+ returned with an error.</short>
+          <long>
+ Returns the number of times send() or sendDone()
+ returned with an error.
+</long>
+        </documentation>
+        <interfacedef-ref nicename=".........lpl_cc2420.TrafficMonitor" qname="TrafficMonitor"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:2" cname="unsigned long" size="I:4" unsigned="">
+            <typename><typedef-ref name="uint32_t" ref="0x401e2250"/></typename>
+          </type-int>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="91:../../../lpl_cc2420/TrafficMonitor.nc" name="getCurrentTime_ActiveTime" provided="0" ref="0x4064f170">
+        <interfacedef-ref nicename=".........lpl_cc2420.TrafficMonitor" qname="TrafficMonitor"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-void alignment="I:1" size="I:1"/>
+          <function-parameters>
+            <type-pointer alignment="I:2" size="I:2">
+              <type-int alignment="I:2" cname="unsigned long" size="I:4" unsigned="">
+                <typename><typedef-ref name="uint32_t" ref="0x401e2250"/></typename>
+              </type-int>
+            </type-pointer>
+            <type-pointer alignment="I:2" size="I:2">
+              <type-int alignment="I:2" cname="unsigned long" size="I:4" unsigned="">
+                <typename><typedef-ref name="uint32_t" ref="0x401e2250"/></typename>
+              </type-int>
+            </type-pointer>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="91:../../../lpl_cc2420/TrafficMonitor.nc" name="currentTime_ptr" ref="0x40650d48">
+            <type-pointer alignment="I:2" size="I:2">
+              <type-int alignment="I:2" cname="unsigned long" size="I:4" unsigned="">
+                <typename><typedef-ref name="uint32_t" ref="0x401e2250"/></typename>
+              </type-int>
+            </type-pointer>
+          </variable>
+          <variable loc="91:../../../lpl_cc2420/TrafficMonitor.nc" name="activeTime_ptr" ref="0x4064f010">
+            <type-pointer alignment="I:2" size="I:2">
+              <type-int alignment="I:2" cname="unsigned long" size="I:4" unsigned="">
+                <typename><typedef-ref name="uint32_t" ref="0x401e2250"/></typename>
+              </type-int>
+            </type-pointer>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="64:../../../lpl_cc2420/TrafficMonitor.nc" name="getRxMessages" provided="0" ref="0x406407b8">
+        <documentation loc="60:../../../lpl_cc2420/TrafficMonitor.nc">
+          <short>
+ Returns the number of messages the radio driver has 
+ received.</short>
+          <long>
+ Returns the number of messages the radio driver has 
+ received. 
+</long>
+        </documentation>
+        <interfacedef-ref nicename=".........lpl_cc2420.TrafficMonitor" qname="TrafficMonitor"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:2" cname="unsigned long" size="I:4" unsigned="">
+            <typename><typedef-ref name="uint32_t" ref="0x401e2250"/></typename>
+          </type-int>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="45:../../../lpl_cc2420/TrafficMonitor.nc" name="getCurrentTime" provided="0" ref="0x406417f8">
+        <documentation loc="42:../../../lpl_cc2420/TrafficMonitor.nc">
+          <short>
+ Returns the current time (same as LocalTime&lt;TMilli&gt;.get)
+</short>
+        </documentation>
+        <interfacedef-ref nicename=".........lpl_cc2420.TrafficMonitor" qname="TrafficMonitor"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:2" cname="unsigned long" size="I:4" unsigned="">
+            <typename><typedef-ref name="uint32_t" ref="0x401e2250"/></typename>
+          </type-int>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="40:../../../lpl_cc2420/TrafficMonitor.nc" name="getStartCount" provided="0" ref="0x40641310">
+        <documentation loc="37:../../../lpl_cc2420/TrafficMonitor.nc">
+          <short>
+ Returns the number of times the radio driver was started.</short>
+          <long>
+ Returns the number of times the radio driver was started.
+</long>
+        </documentation>
+        <interfacedef-ref nicename=".........lpl_cc2420.TrafficMonitor" qname="TrafficMonitor"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:2" cname="unsigned long" size="I:4" unsigned="">
+            <typename><typedef-ref name="uint32_t" ref="0x401e2250"/></typename>
+          </type-int>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="51:../../../lpl_cc2420/TrafficMonitor.nc" name="getActiveTime" provided="0" ref="0x40641c98">
+        <documentation loc="47:../../../lpl_cc2420/TrafficMonitor.nc">
+          <short>
+ Returns the total number of milliseconds the radio driver
+ was operating (between start() and stopDone()).</short>
+          <long>
+ Returns the total number of milliseconds the radio driver
+ was operating (between start() and stopDone()).
+</long>
+        </documentation>
+        <interfacedef-ref nicename=".........lpl_cc2420.TrafficMonitor" qname="TrafficMonitor"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:2" cname="unsigned long" size="I:4" unsigned="">
+            <typename><typedef-ref name="uint32_t" ref="0x401e2250"/></typename>
+          </type-int>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="58:../../../lpl_cc2420/TrafficMonitor.nc" name="getTxMessages" provided="0" ref="0x406401f0">
+        <documentation loc="53:../../../lpl_cc2420/TrafficMonitor.nc">
+          <short>
+ Returns the number of messages the radio driver has 
+ transmitted (those for which send() returned with SUCCESS, 
+ even though sendDone() might have returned with an error).</short>
+          <long>
+ Returns the number of messages the radio driver has 
+ transmitted (those for which send() returned with SUCCESS, 
+ even though sendDone() might have returned with an error).
+</long>
+        </documentation>
+        <interfacedef-ref nicename=".........lpl_cc2420.TrafficMonitor" qname="TrafficMonitor"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:2" cname="unsigned long" size="I:4" unsigned="">
+            <typename><typedef-ref name="uint32_t" ref="0x401e2250"/></typename>
+          </type-int>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="79:../../../lpl_cc2420/TrafficMonitor.nc" name="getRxBytes" provided="0" ref="0x40650278">
+        <documentation loc="74:../../../lpl_cc2420/TrafficMonitor.nc">
+          <short>
+ Returns the sum of the lengths of all received 
+ messages.</short>
+          <long>
+ Returns the sum of the lengths of all received 
+ messages. This count includes all preamble, STD 
+ and CRC bytes.
+</long>
+        </documentation>
+        <interfacedef-ref nicename=".........lpl_cc2420.TrafficMonitor" qname="TrafficMonitor"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:2" cname="unsigned long" size="I:4" unsigned="">
+            <typename><typedef-ref name="uint32_t" ref="0x401e2250"/></typename>
+          </type-int>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="72:../../../lpl_cc2420/TrafficMonitor.nc" name="getTxBytes" provided="0" ref="0x40640c88">
+        <documentation loc="66:../../../lpl_cc2420/TrafficMonitor.nc">
+          <short>
+ Returns the sum of the lengths of all transmitted 
+ messages (those for which send() returned with SUCCESS,
+ even though sendDone() might have returned with an error).</short>
+          <long>
+ Returns the sum of the lengths of all transmitted 
+ messages (those for which send() returned with SUCCESS,
+ even though sendDone() might have returned with an error).
+ This count includes all preamble, STD and CRC bytes.
+</long>
+        </documentation>
+        <interfacedef-ref nicename=".........lpl_cc2420.TrafficMonitor" qname="TrafficMonitor"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:2" cname="unsigned long" size="I:4" unsigned="">
+            <typename><typedef-ref name="uint32_t" ref="0x401e2250"/></typename>
+          </type-int>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+    </interfacedef>

@@ -1,0 +1,26 @@
+<?xml version="1.0" ?><interfacedef loc="39:../../../net_EER/eer_parentselection/EerParentSelectionHealth.nc" nicename=".........net_EER.eer_parentselection.EerParentSelectionHealth" qname="EerParentSelectionHealth">
+      <function command="" loc="43:../../../net_EER/eer_parentselection/EerParentSelectionHealth.nc" name="getBestNeighborFromParentSet" provided="0" ref="0x410b4e58">
+        <interfacedef-ref nicename=".........net_EER.eer_parentselection.EerParentSelectionHealth" qname="EerParentSelectionHealth"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned short" network="nx_uint16_t" size="I:2" unsigned="">
+            <typename><typedef-ref name="nx_uint16_t" ref="0x402c6ba0"/></typename>
+          </type-int>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="41:../../../net_EER/eer_parentselection/EerParentSelectionHealth.nc" name="getCandiateSetSize" provided="0" ref="0x410b4978">
+        <interfacedef-ref nicename=".........net_EER.eer_parentselection.EerParentSelectionHealth" qname="EerParentSelectionHealth"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" network="nx_uint8_t" size="I:1" unsigned="">
+            <typename><typedef-ref name="nx_uint8_t" ref="0x402c6728"/></typename>
+          </type-int>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+    </interfacedef>

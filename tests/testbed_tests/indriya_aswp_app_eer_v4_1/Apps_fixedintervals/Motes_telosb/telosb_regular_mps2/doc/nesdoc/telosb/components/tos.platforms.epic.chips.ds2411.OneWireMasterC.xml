@@ -1,0 +1,52 @@
+<?xml version="1.0" ?><component loc="7:/opt/tinyos-2.1.2/tos/platforms/epic/chips/ds2411/OneWireMasterC.nc" nicename="tos.platforms.epic.chips.ds2411.OneWireMasterC" qname="OneWireMasterC">
+      <documentation loc="2:/opt/tinyos-2.1.2/tos/platforms/epic/chips/ds2411/OneWireMasterC.nc">
+        <short>
+ Dallas/Maxim 1wire bus master
+
+</short>
+      </documentation>
+      <module/>
+    <specification><interface loc="13:/opt/tinyos-2.1.2/tos/platforms/epic/chips/ds2411/OneWireMasterC.nc" name="BusyWait" provided="0" ref="0x40e9b900">
+      <component-ref nicename="tos.platforms.epic.chips.ds2411.OneWireMasterC" qname="OneWireMasterC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="BusyWait" ref="0x40e9b900" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.BusyWait" qname="BusyWait"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x405e17c0"/>
+            <typename><typedef-ref name="TMicro" ref="0x405e1988"/></typename>
+          </type-tag>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="wait" ref="0x40e9d068" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="9:/opt/tinyos-2.1.2/tos/platforms/epic/chips/ds2411/OneWireMasterC.nc" name="OneWire" provided="1" ref="0x40e7d850">
+      <component-ref nicename="tos.platforms.epic.chips.ds2411.OneWireMasterC" qname="OneWireMasterC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="OneWire" ref="0x40e7d850" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.platforms.epic.chips.ds2411.OneWireStream" qname="OneWireStream"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x40e7da28" scoped=""/>
+        <function-ref name="write" ref="0x40e7db08" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="12:/opt/tinyos-2.1.2/tos/platforms/epic/chips/ds2411/OneWireMasterC.nc" name="Pin" provided="0" ref="0x40e7dd28">
+      <component-ref nicename="tos.platforms.epic.chips.ds2411.OneWireMasterC" qname="OneWireMasterC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Pin" ref="0x40e7dd28" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x40e7df00" scoped=""/>
+        <function-ref name="isInput" ref="0x40e9e010" scoped=""/>
+        <function-ref name="toggle" ref="0x40e9e0f0" scoped=""/>
+        <function-ref name="isOutput" ref="0x40e9e1d0" scoped=""/>
+        <function-ref name="get" ref="0x40e9e2b0" scoped=""/>
+        <function-ref name="makeOutput" ref="0x40e9e390" scoped=""/>
+        <function-ref name="set" ref="0x40e9e470" scoped=""/>
+        <function-ref name="clr" ref="0x40e9e550" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced/></component>

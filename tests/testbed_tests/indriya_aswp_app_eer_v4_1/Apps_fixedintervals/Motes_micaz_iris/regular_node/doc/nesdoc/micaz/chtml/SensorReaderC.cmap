@@ -1,0 +1,35 @@
+<area shape="rect" id="node2" href="../chtml/SensorReaderP.html" title="SensorReaderP" alt="" coords="859,120,1000,168">
+<area shape="poly" id="edge2" href="../ihtml/SensorReader.html" title="SensorReader" alt="" coords="862,51 905,108 900,111 857,55">
+<area shape="rect" id="edge2" href="../ihtml/SensorReader.html" title="SensorReader" alt="" coords="891,78,980,95">
+<area shape="rect" id="node4" href="../chtml/tos.system.TimerMilliC.html" title="TimerMilliC" alt="" coords="5,235,117,293">
+<area shape="poly" id="edge6" href="../ihtml/tos.lib.timer.Timer.html" title="Timer&lt;TMilli&gt;" alt="" coords="859,149 409,165 190,178 118,186 85,194 75,207 68,223 63,220 70,204 83,190 117,181 190,173 408,159 858,143">
+<area shape="rect" id="edge6" href="../ihtml/tos.lib.timer.Timer.html" title="Timer&lt;TMilli&gt;" alt="" coords="84,193,173,210">
+<area shape="rect" id="node5" href="../chtml/...mda300final.MDA300C.html" title="MDA300C" alt="" coords="943,235,1052,293">
+<area shape="poly" id="edge22" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="858,149 461,165 273,178 211,186 184,194 181,201 184,209 215,218 283,227 493,242 928,259 928,265 493,247 283,232 214,223 181,213 176,201 181,190 210,181 272,173 461,159 858,143">
+<area shape="rect" id="edge22" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="183,193,288,210">
+<area shape="poly" id="edge24" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="858,150 536,167 389,180 341,187 320,194 317,201 320,209 345,216 399,224 569,239 929,258 929,264 568,244 399,230 343,222 317,213 312,201 317,190 340,182 388,175 536,162 858,144">
+<area shape="rect" id="edge24" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="319,193,424,210">
+<area shape="poly" id="edge26" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="858,149 619,162 512,176 475,184 457,194 453,201 457,209 479,220 523,230 651,245 800,255 929,260 928,265 800,260 651,251 522,235 477,225 453,213 448,201 453,190 474,179 511,170 619,157 858,143">
+<area shape="rect" id="edge26" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="455,193,560,210">
+<area shape="poly" id="edge28" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="859,150 765,156 670,168 631,176 603,186 589,197 589,203 593,209 608,217 638,225 727,239 929,257 929,263 726,245 637,230 606,222 589,213 584,204 585,195 600,182 630,171 669,163 765,151 858,144">
+<area shape="rect" id="edge28" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="591,193,696,210">
+<area shape="poly" id="edge30" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="859,154 780,169 748,180 729,194 725,201 729,209 741,219 760,228 811,242 871,252 929,258 929,263 870,257 810,247 758,233 738,224 725,212 720,201 725,190 746,176 779,164 858,149">
+<area shape="rect" id="edge30" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="727,193,832,210">
+<area shape="poly" id="edge32" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="879,170 859,189 856,199 860,209 870,218 886,227 931,244 929,249 884,232 866,223 855,212 851,199 854,186 875,166">
+<area shape="rect" id="edge32" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="857,193,963,210">
+<area shape="poly" id="edge8" href="../ihtml/...mda300final.Power.html" title="Power" alt="" coords="953,167 970,191 985,220 980,223 966,193 949,170">
+<area shape="rect" id="edge8" href="../ihtml/...mda300final.Power.html" title="Power" alt="" coords="976,193,1015,210">
+<area shape="poly" id="edge10" href="../ihtml/...mda300final.Power.html" title="Power" alt="" coords="998,166 1011,177 1022,191 1027,206 1025,222 1020,222 1022,207 1018,193 1007,181 994,170">
+<area shape="rect" id="edge10" href="../ihtml/...mda300final.Power.html" title="Power" alt="" coords="1024,193,1063,210">
+<area shape="poly" id="edge12" href="../ihtml/...mda300final.Power.html" title="Power" alt="" coords="1001,158 1043,172 1059,181 1070,190 1075,200 1075,210 1065,227 1060,224 1069,209 1069,201 1066,194 1056,185 1041,177 999,163">
+<area shape="rect" id="edge12" href="../ihtml/...mda300final.Power.html" title="Power" alt="" coords="1072,193,1111,210">
+<area shape="poly" id="edge14" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="1001,151 1071,166 1100,177 1118,190 1124,201 1124,211 1114,227 1093,240 1066,251 1064,246 1090,236 1110,223 1119,209 1118,202 1114,194 1097,182 1069,171 1000,156">
+<area shape="rect" id="edge14" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="1121,193,1227,210">
+<area shape="poly" id="edge16" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="1000,148 1143,165 1202,177 1234,190 1239,201 1234,212 1207,230 1165,244 1066,260 1065,255 1164,239 1205,225 1230,209 1233,201 1230,194 1201,182 1142,170 1000,153">
+<area shape="rect" id="edge16" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="1235,193,1340,210">
+<area shape="poly" id="edge18" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="1000,144 1207,160 1298,173 1330,181 1347,190 1352,199 1351,208 1335,222 1304,234 1263,243 1162,256 1066,263 1066,258 1162,250 1262,237 1303,228 1332,218 1347,206 1347,200 1343,194 1328,186 1297,178 1206,165 1000,150">
+<area shape="rect" id="edge18" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="1349,193,1455,210">
+<area shape="poly" id="edge20" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="1000,143 1126,146 1270,155 1395,168 1438,178 1462,190 1467,201 1462,212 1442,223 1405,232 1300,247 1066,264 1066,258 1299,242 1404,227 1440,218 1458,209 1462,201 1458,194 1436,183 1394,174 1270,160 1126,152 1000,148">
+<area shape="rect" id="edge20" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="1464,193,1569,210">
+<area shape="poly" id="edge4" href="../ihtml/tos.interfaces.StdControl.html" title="StdControl" alt="" coords="1011,55 988,98 974,112 970,109 983,94 1006,52">
+<area shape="rect" id="edge4" href="../ihtml/tos.interfaces.StdControl.html" title="StdControl" alt="" coords="996,78,1065,95">

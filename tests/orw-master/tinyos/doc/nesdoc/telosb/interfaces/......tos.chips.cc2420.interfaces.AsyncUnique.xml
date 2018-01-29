@@ -1,0 +1,30 @@
+<?xml version="1.0" ?><interfacedef loc="34:../../tos/chips/cc2420/interfaces/AsyncUnique.nc" nicename="......tos.chips.cc2420.interfaces.AsyncUnique" qname="AsyncUnique">
+      <function command="" loc="36:../../tos/chips/cc2420/interfaces/AsyncUnique.nc" name="check" provided="0" ref="0x40e7a630">
+        <interfacedef-ref nicename="......tos.chips.cc2420.interfaces.AsyncUnique" qname="AsyncUnique"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="36:../../tos/chips/cc2420/interfaces/AsyncUnique.nc" name="msgSource" ref="0x40e7a2d0">
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="36:../../tos/chips/cc2420/interfaces/AsyncUnique.nc" name="msgDsn" ref="0x40e7a4d0">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+    </interfacedef>

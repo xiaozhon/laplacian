@@ -1,0 +1,115 @@
+<?xml version="1.0" ?><component abstract="" loc="45:/opt/tinyos-2.1.2/tos/chips/sht11/SensirionSht11ReaderP.nc" nicename="tos.chips.sht11.SensirionSht11ReaderP" qname="SensirionSht11ReaderP">
+      <parameters>
+      </parameters>
+      <module/>
+    <specification><interface loc="54:/opt/tinyos-2.1.2/tos/chips/sht11/SensirionSht11ReaderP.nc" name="Sht11Hum" provided="0" ref="0x4178d5f8">
+      <component-ref nicename="tos.chips.sht11.SensirionSht11ReaderP" qname="SensirionSht11ReaderP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Sht11Hum" ref="0x4178d5f8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.chips.sht11.SensirionSht11" qname="SensirionSht11"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="measureHumidityDone" ref="0x4178d7d0" scoped=""/>
+        <function-ref name="readStatusReg" ref="0x4178d8b0" scoped=""/>
+        <function-ref name="measureHumidity" ref="0x4178d990" scoped=""/>
+        <function-ref name="measureTemperature" ref="0x4178da70" scoped=""/>
+        <function-ref name="writeStatusReg" ref="0x4178db50" scoped=""/>
+        <function-ref name="reset" ref="0x4178dc30" scoped=""/>
+        <function-ref name="writeStatusRegDone" ref="0x4178dd10" scoped=""/>
+        <function-ref name="readStatusRegDone" ref="0x4178ddf0" scoped=""/>
+        <function-ref name="resetDone" ref="0x4178ded0" scoped=""/>
+        <function-ref name="measureTemperatureDone" ref="0x4178c010" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="48:/opt/tinyos-2.1.2/tos/chips/sht11/SensirionSht11ReaderP.nc" name="HumidityMetadata" provided="1" ref="0x41791460">
+      <component-ref nicename="tos.chips.sht11.SensirionSht11ReaderP" qname="SensirionSht11ReaderP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="HumidityMetadata" ref="0x41791460" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.DeviceMetadata" qname="DeviceMetadata"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getSignificantBits" ref="0x41791638" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="49:/opt/tinyos-2.1.2/tos/chips/sht11/SensirionSht11ReaderP.nc" name="Humidity" provided="1" ref="0x41791928">
+      <component-ref nicename="tos.chips.sht11.SensirionSht11ReaderP" qname="SensirionSht11ReaderP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Humidity" ref="0x41791928" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x41790010" scoped=""/>
+        <function-ref name="readDone" ref="0x41790268" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="46:/opt/tinyos-2.1.2/tos/chips/sht11/SensirionSht11ReaderP.nc" name="TemperatureMetadata" provided="1" ref="0x41792290">
+      <component-ref nicename="tos.chips.sht11.SensirionSht11ReaderP" qname="SensirionSht11ReaderP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="TemperatureMetadata" ref="0x41792290" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.DeviceMetadata" qname="DeviceMetadata"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getSignificantBits" ref="0x41792468" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="51:/opt/tinyos-2.1.2/tos/chips/sht11/SensirionSht11ReaderP.nc" name="TempResource" provided="0" ref="0x41790658">
+      <component-ref nicename="tos.chips.sht11.SensirionSht11ReaderP" qname="SensirionSht11ReaderP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="TempResource" ref="0x41790658" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Resource" qname="Resource"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="release" ref="0x41790830" scoped=""/>
+        <function-ref name="immediateRequest" ref="0x41790910" scoped=""/>
+        <function-ref name="request" ref="0x417909f0" scoped=""/>
+        <function-ref name="granted" ref="0x41790ad0" scoped=""/>
+        <function-ref name="isOwner" ref="0x41790bb0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="53:/opt/tinyos-2.1.2/tos/chips/sht11/SensirionSht11ReaderP.nc" name="Sht11Temp" provided="0" ref="0x41788980">
+      <component-ref nicename="tos.chips.sht11.SensirionSht11ReaderP" qname="SensirionSht11ReaderP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Sht11Temp" ref="0x41788980" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.chips.sht11.SensirionSht11" qname="SensirionSht11"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="measureHumidityDone" ref="0x41788b58" scoped=""/>
+        <function-ref name="readStatusReg" ref="0x41788c38" scoped=""/>
+        <function-ref name="measureHumidity" ref="0x41788d18" scoped=""/>
+        <function-ref name="measureTemperature" ref="0x41788df8" scoped=""/>
+        <function-ref name="writeStatusReg" ref="0x41788ed8" scoped=""/>
+        <function-ref name="reset" ref="0x4178d010" scoped=""/>
+        <function-ref name="writeStatusRegDone" ref="0x4178d0f0" scoped=""/>
+        <function-ref name="readStatusRegDone" ref="0x4178d1d0" scoped=""/>
+        <function-ref name="resetDone" ref="0x4178d2b0" scoped=""/>
+        <function-ref name="measureTemperatureDone" ref="0x4178d390" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="52:/opt/tinyos-2.1.2/tos/chips/sht11/SensirionSht11ReaderP.nc" name="HumResource" provided="0" ref="0x41790df8">
+      <component-ref nicename="tos.chips.sht11.SensirionSht11ReaderP" qname="SensirionSht11ReaderP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="HumResource" ref="0x41790df8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Resource" qname="Resource"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="release" ref="0x4178e010" scoped=""/>
+        <function-ref name="immediateRequest" ref="0x4178e0f0" scoped=""/>
+        <function-ref name="request" ref="0x4178e1d0" scoped=""/>
+        <function-ref name="granted" ref="0x4178e2b0" scoped=""/>
+        <function-ref name="isOwner" ref="0x4178e390" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="47:/opt/tinyos-2.1.2/tos/chips/sht11/SensirionSht11ReaderP.nc" name="Temperature" provided="1" ref="0x41792770">
+      <component-ref nicename="tos.chips.sht11.SensirionSht11ReaderP" qname="SensirionSht11ReaderP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Temperature" ref="0x41792770" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x41792d98" scoped=""/>
+        <function-ref name="readDone" ref="0x41791010" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced/></component>

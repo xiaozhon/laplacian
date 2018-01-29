@@ -1,0 +1,1354 @@
+<?xml version="1.0" ?><component loc="50:../../MotesAppC.nc" nicename="......MotesAppC" qname="MotesAppC">
+      <configuration/>
+      <wiring>
+        <wire loc="65:../../MotesAppC.nc">
+          <from><interface-ref name="Random" ref="0x40633c08" scoped=""/></from>
+          <to><interface-ref name="Random" ref="0x41028978" scoped=""/></to>
+        </wire>
+        <wire loc="79:../../MotesAppC.nc">
+          <from><interface-ref name="Boot" ref="0x405ee040" scoped=""/></from>
+          <to><interface-ref name="Boot" ref="0x4069c800" scoped=""/></to>
+        </wire>
+        <wire loc="80:../../MotesAppC.nc">
+          <from><interface-ref name="BeginningTimer" ref="0x40629508" scoped=""/></from>
+          <to><interface-ref name="Timer" ref="0x40698cd8" scoped=""/></to>
+        </wire>
+        <wire loc="81:../../MotesAppC.nc">
+          <from><interface-ref name="StableTimer" ref="0x40628888" scoped=""/></from>
+          <to><interface-ref name="Timer" ref="0x40894c10" scoped=""/></to>
+        </wire>
+        <wire loc="82:../../MotesAppC.nc">
+          <from><interface-ref name="DataPeriodicTimer" ref="0x40625c40" scoped=""/></from>
+          <to><interface-ref name="Timer" ref="0x40891af8" scoped=""/></to>
+        </wire>
+        <wire loc="85:../../MotesAppC.nc">
+          <from><interface-ref name="PowerControl" ref="0x406346d8" scoped=""/></from>
+          <to><interface-ref name="StdControl" ref="0x41527040" scoped=""/></to>
+        </wire>
+        <wire loc="86:../../MotesAppC.nc">
+          <from><interface-ref name="Sensors" ref="0x4063bb30" scoped=""/></from>
+          <to><interface-ref name="SensorReader" ref="0x41535b80" scoped=""/></to>
+        </wire>
+        <wire loc="89:../../MotesAppC.nc">
+          <from><interface-ref name="RadioControl" ref="0x405e94c0" scoped=""/></from>
+          <to><interface-ref name="SplitControl" ref="0x4088d828" scoped=""/></to>
+        </wire>
+        <wire loc="90:../../MotesAppC.nc">
+          <from><interface-ref name="RoutingControl" ref="0x405e8d40" scoped=""/></from>
+          <to><interface-ref name="StdControl" ref="0x411b4b58" scoped=""/></to>
+        </wire>
+        <wire loc="91:../../MotesAppC.nc">
+          <from><interface-ref name="Send" ref="0x4061c3d8" scoped=""/></from>
+          <to><interface-ref name="Send" ref="0x41536430" scoped=""/></to>
+        </wire>
+        <wire loc="92:../../MotesAppC.nc">
+          <from><interface-ref name="CtpInfo" ref="0x4063f890" scoped=""/></from>
+          <to><interface-ref name="CtpInfo" ref="0x411ac918" scoped=""/></to>
+        </wire>
+        <wire loc="112:../../MotesAppC.nc">
+          <from><interface-ref name="SummarySend" ref="0x4063d0f0" scoped=""/></from>
+          <to><interface-ref name="Send" ref="0x41951010" scoped=""/></to>
+        </wire>
+        <wire loc="113:../../MotesAppC.nc">
+          <from><interface-ref name="SummaryTimer" ref="0x4063d950" scoped=""/></from>
+          <to><interface-ref name="Timer" ref="0x41955f18" scoped=""/></to>
+        </wire>
+        <wire loc="115:../../MotesAppC.nc">
+          <from><interface-ref name="EerInstrumentation" ref="0x40643d48" scoped=""/></from>
+          <to><interface-ref name="EerInstrumentation" ref="0x414d5c70" scoped=""/></to>
+        </wire>
+        <wire loc="128:../../MotesAppC.nc">
+          <from><interface-ref name="TrafficMonitor" ref="0x4064f2d8" scoped=""/></from>
+          <to><interface-ref name="TrafficMonitor" ref="0x410c6200" scoped=""/></to>
+        </wire>
+        <wire loc="152:../../MotesAppC.nc">
+          <from><interface-ref name="InNetProcSend" ref="0x4064fde8" scoped=""/></from>
+          <to><interface-ref name="Send" ref="0x4194b8e8" scoped=""/></to>
+        </wire>
+        <wire loc="153:../../MotesAppC.nc">
+          <from><interface-ref name="InNetProcTimer" ref="0x406486a8" scoped=""/></from>
+          <to><interface-ref name="Timer" ref="0x4194e8b8" scoped=""/></to>
+        </wire>
+        <wire loc="156:../../MotesAppC.nc">
+          <from><interface-ref name="Intercept" ref="0x4064c010" scoped=""/></from>
+          <to><interface-ref name="Intercept" ref="0x411b0a58" scoped=""/>
+          <arguments>
+            <value cst="I:222">
+              <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned=""/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+        <wire loc="157:../../MotesAppC.nc">
+          <from><interface-ref name="CtpPacket" ref="0x40661aa0" scoped=""/></from>
+          <to><interface-ref name="CtpPacket" ref="0x411a9878" scoped=""/></to>
+        </wire>
+        <wire loc="158:../../MotesAppC.nc">
+          <from><interface-ref name="AMPacket" ref="0x4066b3b8" scoped=""/></from>
+          <to><interface-ref name="AMPacket" ref="0x4089f448" scoped=""/></to>
+        </wire>
+      </wiring>
+    <specification/><referenced><interface loc="57:../../../net_EER/eer/CollectionC.nc" name="CtpInfo" provided="1" ref="0x411ac918">
+      <component-ref nicename=".........net_EER.eer.CollectionC" qname="CollectionC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="CtpInfo" ref="0x411ac918" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename=".........net_EER.eer.CtpInfo" qname="CtpInfo"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNeighborLinkQuality" ref="0x411acaf0" scoped=""/>
+        <function-ref name="recomputeRoutes" ref="0x411acbd0" scoped=""/>
+        <function-ref name="numNeighbors" ref="0x411accb0" scoped=""/>
+        <function-ref name="triggerRouteUpdate" ref="0x411acd90" scoped=""/>
+        <function-ref name="getEtx" ref="0x411ace70" scoped=""/>
+        <function-ref name="triggerImmediateRouteUpdate" ref="0x411a8010" scoped=""/>
+        <function-ref name="setNeighborCongested" ref="0x411a80f0" scoped=""/>
+        <function-ref name="getNeighborAddr" ref="0x411a81d0" scoped=""/>
+        <function-ref name="getParent" ref="0x411a82b0" scoped=""/>
+        <function-ref name="getNeighborRouteQuality" ref="0x411a8390" scoped=""/>
+        <function-ref name="isNeighborCongested" ref="0x411a8470" scoped=""/>
+        <function-ref name="getNeighborEtx" ref="0x411a8550" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="69:../../MotesC.nc" name="Sensors" provided="0" ref="0x4063bb30">
+      <component-ref nicename="......MotesC" qname="MotesC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Sensors" ref="0x4063bb30" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="SensorReader" qname="SensorReader"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getReadings" ref="0x4063bd08" scoped=""/>
+        <function-ref name="readingsDone" ref="0x4063bde8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="45:/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc" name="Timer" provided="1" ref="0x40891af8">
+      <component-ref nicename="tos.system.TimerMilliC" qname="MotesAppC.DataPeriodicTimer"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Timer" ref="0x40891af8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x40035cf8"/>
+            <typename><typedef-ref name="TMilli" ref="0x405e1108"/></typename>
+          </type-tag>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x4088e6a8" scoped=""/>
+        <function-ref name="fired" ref="0x40890938" scoped=""/>
+        <function-ref name="startPeriodicAt" ref="0x4088e068" scoped=""/>
+        <function-ref name="isOneShot" ref="0x40890de8" scoped=""/>
+        <function-ref name="getdt" ref="0x4088eb58" scoped=""/>
+        <function-ref name="gett0" ref="0x4088e900" scoped=""/>
+        <function-ref name="isRunning" ref="0x40890b90" scoped=""/>
+        <function-ref name="startPeriodic" ref="0x408901e0" scoped=""/>
+        <function-ref name="startOneShotAt" ref="0x4088e388" scoped=""/>
+        <function-ref name="startOneShot" ref="0x40890460" scoped=""/>
+        <function-ref name="stop" ref="0x408906e0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="51:../../../net_EER/eer/CollectionC.nc" name="Intercept" provided="1" ref="0x411b0a58">
+      <component-ref nicename=".........net_EER.eer.CollectionC" qname="CollectionC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Intercept" ref="0x411b0a58" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Intercept" qname="Intercept"/>
+      </instance>
+      <interface-parameters>
+        <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+          <typename><typedef-ref name="collection_id_t" ref="0x4065b010"/></typename>
+        </type-int>
+      </interface-parameters>
+      <interface-functions>
+        <function-ref name="forward" ref="0x411b0c30" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="68:../../MotesC.nc" name="PowerControl" provided="0" ref="0x406346d8">
+      <component-ref nicename="......MotesC" qname="MotesC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="PowerControl" ref="0x406346d8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.StdControl" qname="StdControl"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="start" ref="0x406348b0" scoped=""/>
+        <function-ref name="stop" ref="0x40634990" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="45:/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc" name="Timer" provided="1" ref="0x40698cd8">
+      <component-ref nicename="tos.system.TimerMilliC" qname="MotesAppC.BeginningTimerC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Timer" ref="0x40698cd8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x40035cf8"/>
+            <typename><typedef-ref name="TMilli" ref="0x405e1108"/></typename>
+          </type-tag>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x407a68a8" scoped=""/>
+        <function-ref name="fired" ref="0x407abaa8" scoped=""/>
+        <function-ref name="startPeriodicAt" ref="0x407a6268" scoped=""/>
+        <function-ref name="isOneShot" ref="0x407a6010" scoped=""/>
+        <function-ref name="getdt" ref="0x407a6d58" scoped=""/>
+        <function-ref name="gett0" ref="0x407a6b00" scoped=""/>
+        <function-ref name="isRunning" ref="0x407abd00" scoped=""/>
+        <function-ref name="startPeriodic" ref="0x407ab350" scoped=""/>
+        <function-ref name="startOneShotAt" ref="0x407a6588" scoped=""/>
+        <function-ref name="startOneShot" ref="0x407ab5d0" scoped=""/>
+        <function-ref name="stop" ref="0x407ab850" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="9:SensorReaderC.nc" name="StdControl" provided="1" ref="0x41527040">
+      <component-ref nicename="SensorReaderC" qname="SensorReaderC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="StdControl" ref="0x41527040" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.StdControl" qname="StdControl"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="start" ref="0x41527218" scoped=""/>
+        <function-ref name="stop" ref="0x415272f8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="62:../../MotesC.nc" name="RoutingControl" provided="0" ref="0x405e8d40">
+      <component-ref nicename="......MotesC" qname="MotesC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="RoutingControl" ref="0x405e8d40" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.StdControl" qname="StdControl"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="start" ref="0x405e8f18" scoped=""/>
+        <function-ref name="stop" ref="0x405ec010" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="98:../../MotesC.nc" name="AMPacket" provided="0" ref="0x4066b3b8">
+      <component-ref nicename="......MotesC" qname="MotesC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="AMPacket" ref="0x4066b3b8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.AMPacket" qname="AMPacket"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="group" ref="0x4066b590" scoped=""/>
+        <function-ref name="source" ref="0x4066b670" scoped=""/>
+        <function-ref name="address" ref="0x4066b750" scoped=""/>
+        <function-ref name="destination" ref="0x4066b830" scoped=""/>
+        <function-ref name="setSource" ref="0x4066b910" scoped=""/>
+        <function-ref name="setDestination" ref="0x4066b9f0" scoped=""/>
+        <function-ref name="type" ref="0x4066bad0" scoped=""/>
+        <function-ref name="setType" ref="0x4066bbb0" scoped=""/>
+        <function-ref name="isForMe" ref="0x4066bc90" scoped=""/>
+        <function-ref name="setGroup" ref="0x4066bd70" scoped=""/>
+        <function-ref name="localGroup" ref="0x4066be50" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="42:../../../net_EER/eer/EerInstrumentationP.nc" name="EerInstrumentation" provided="1" ref="0x414d5c70">
+      <component-ref nicename=".........net_EER.eer.EerInstrumentationP" qname="EerInstrumentationP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="EerInstrumentation" ref="0x414d5c70" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename=".........net_EER.eer.EerInstrumentation" qname="EerInstrumentation"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="summary" ref="0x414d2a38" scoped=""/>
+        <function-ref name="ctrl_tricklereset" ref="0x414d5f28" scoped=""/>
+        <function-ref name="summary_size" ref="0x414d2018" scoped=""/>
+        <function-ref name="data_pktdup" ref="0x414d20f8" scoped=""/>
+        <function-ref name="ctrl_txpkt" ref="0x414d21d8" scoped=""/>
+        <function-ref name="init" ref="0x414d22b8" scoped=""/>
+        <function-ref name="data_queuedrop" ref="0x414d2398" scoped=""/>
+        <function-ref name="data_txpkt" ref="0x414d2478" scoped=""/>
+        <function-ref name="data_rxpkt" ref="0x414d2558" scoped=""/>
+        <function-ref name="ctrl_rxpkt" ref="0x414d2638" scoped=""/>
+        <function-ref name="data_rxack" ref="0x414d2718" scoped=""/>
+        <function-ref name="data_inconsistent" ref="0x414d27f8" scoped=""/>
+        <function-ref name="set_total_time" ref="0x414d28d8" scoped=""/>
+        <function-ref name="ctrl_parentchange" ref="0x414d5e48" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="71:../../MotesC.nc" name="Random" provided="0" ref="0x40633c08">
+      <component-ref nicename="......MotesC" qname="MotesC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Random" ref="0x40633c08" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Random" qname="Random"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="rand16" ref="0x40633de0" scoped=""/>
+        <function-ref name="rand32" ref="0x40633ec0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="8:SensorReaderC.nc" name="SensorReader" provided="1" ref="0x41535b80">
+      <component-ref nicename="SensorReaderC" qname="SensorReaderC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="SensorReader" ref="0x41535b80" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="SensorReader" qname="SensorReader"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getReadings" ref="0x41535d58" scoped=""/>
+        <function-ref name="readingsDone" ref="0x41535e38" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="45:../../../net_EER/eer/CollectionSenderC.nc" name="Send" provided="1" ref="0x4194b8e8">
+      <component-ref nicename=".........net_EER.eer.CollectionSenderC" qname="MotesAppC.InNetProcSenderC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Send" ref="0x4194b8e8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Send" qname="Send"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="send" ref="0x4194bac0" scoped=""/>
+        <function-ref name="getPayload" ref="0x4194bba0" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x4194bc80" scoped=""/>
+        <function-ref name="cancel" ref="0x4194bd60" scoped=""/>
+        <function-ref name="sendDone" ref="0x4194be40" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="55:../../../net_EER/eer/CollectionC.nc" name="CtpPacket" provided="1" ref="0x411a9878">
+      <component-ref nicename=".........net_EER.eer.CollectionC" qname="CollectionC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="CtpPacket" ref="0x411a9878" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename=".........net_EER.eer.CtpPacket" qname="CtpPacket"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="setSequenceNumber" ref="0x411a9a50" scoped=""/>
+        <function-ref name="option" ref="0x411a9b30" scoped=""/>
+        <function-ref name="setEtx" ref="0x411a9c10" scoped=""/>
+        <function-ref name="setOrigin" ref="0x411a9cf0" scoped=""/>
+        <function-ref name="clearOption" ref="0x411a9dd0" scoped=""/>
+        <function-ref name="getEtx" ref="0x411a9eb0" scoped=""/>
+        <function-ref name="getOrigin" ref="0x411ac010" scoped=""/>
+        <function-ref name="setType" ref="0x411ac0f0" scoped=""/>
+        <function-ref name="setOption" ref="0x411ac1d0" scoped=""/>
+        <function-ref name="matchPacket" ref="0x411ac2b0" scoped=""/>
+        <function-ref name="getThl" ref="0x411ac390" scoped=""/>
+        <function-ref name="getSequenceNumber" ref="0x411ac470" scoped=""/>
+        <function-ref name="matchInstance" ref="0x411ac550" scoped=""/>
+        <function-ref name="getType" ref="0x411ac6b0" scoped=""/>
+        <function-ref name="setThl" ref="0x411ac790" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="85:../../MotesC.nc" name="TrafficMonitor" provided="0" ref="0x4064f2d8">
+      <component-ref nicename="......MotesC" qname="MotesC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="TrafficMonitor" ref="0x4064f2d8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename=".........lpl_cc2420.TrafficMonitor" qname="TrafficMonitor"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getTxErrors" ref="0x4064f4b0" scoped=""/>
+        <function-ref name="getCurrentTime_ActiveTime" ref="0x4064f590" scoped=""/>
+        <function-ref name="getRxMessages" ref="0x4064f670" scoped=""/>
+        <function-ref name="getCurrentTime" ref="0x4064f750" scoped=""/>
+        <function-ref name="getStartCount" ref="0x4064f830" scoped=""/>
+        <function-ref name="getActiveTime" ref="0x4064f910" scoped=""/>
+        <function-ref name="getTxMessages" ref="0x4064f9f0" scoped=""/>
+        <function-ref name="getRxBytes" ref="0x4064fad0" scoped=""/>
+        <function-ref name="getTxBytes" ref="0x4064fbb0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="46:/opt/tinyos-2.1.2/tos/system/RandomC.nc" name="Random" provided="1" ref="0x41028978">
+      <component-ref nicename="tos.system.RandomC" qname="RandomC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Random" ref="0x41028978" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Random" qname="Random"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="rand16" ref="0x41028b50" scoped=""/>
+        <function-ref name="rand32" ref="0x41028c30" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="45:../../../net_EER/eer/CollectionSenderC.nc" name="Send" provided="1" ref="0x41951010">
+      <component-ref nicename=".........net_EER.eer.CollectionSenderC" qname="MotesAppC.SummarySenderC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Send" ref="0x41951010" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Send" qname="Send"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="send" ref="0x419511e8" scoped=""/>
+        <function-ref name="getPayload" ref="0x419512c8" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x419513a8" scoped=""/>
+        <function-ref name="cancel" ref="0x41951488" scoped=""/>
+        <function-ref name="sendDone" ref="0x41951568" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="96:../../MotesC.nc" name="Intercept" provided="0" ref="0x4064c010">
+      <component-ref nicename="......MotesC" qname="MotesC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Intercept" ref="0x4064c010" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Intercept" qname="Intercept"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="forward" ref="0x4064c1e8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="45:/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc" name="Timer" provided="1" ref="0x41955f18">
+      <component-ref nicename="tos.system.TimerMilliC" qname="MotesAppC.SummaryTimerC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Timer" ref="0x41955f18" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x40035cf8"/>
+            <typename><typedef-ref name="TMilli" ref="0x405e1108"/></typename>
+          </type-tag>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x41953a18" scoped=""/>
+        <function-ref name="fired" ref="0x41954cb0" scoped=""/>
+        <function-ref name="startPeriodicAt" ref="0x419533d8" scoped=""/>
+        <function-ref name="isOneShot" ref="0x41953180" scoped=""/>
+        <function-ref name="getdt" ref="0x41953ec8" scoped=""/>
+        <function-ref name="gett0" ref="0x41953c70" scoped=""/>
+        <function-ref name="isRunning" ref="0x41954f08" scoped=""/>
+        <function-ref name="startPeriodic" ref="0x41954558" scoped=""/>
+        <function-ref name="startOneShotAt" ref="0x419536f8" scoped=""/>
+        <function-ref name="startOneShot" ref="0x419547d8" scoped=""/>
+        <function-ref name="stop" ref="0x41954a58" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="78:../../MotesC.nc" name="SummarySend" provided="0" ref="0x4063d0f0">
+      <component-ref nicename="......MotesC" qname="MotesC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="SummarySend" ref="0x4063d0f0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Send" qname="Send"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="send" ref="0x4063d2c8" scoped=""/>
+        <function-ref name="getPayload" ref="0x4063d3a8" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x4063d488" scoped=""/>
+        <function-ref name="cancel" ref="0x4063d568" scoped=""/>
+        <function-ref name="sendDone" ref="0x4063d648" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="45:/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc" name="Timer" provided="1" ref="0x40894c10">
+      <component-ref nicename="tos.system.TimerMilliC" qname="MotesAppC.StableTimerC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Timer" ref="0x40894c10" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x40035cf8"/>
+            <typename><typedef-ref name="TMilli" ref="0x405e1108"/></typename>
+          </type-tag>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x40892730" scoped=""/>
+        <function-ref name="fired" ref="0x408939b0" scoped=""/>
+        <function-ref name="startPeriodicAt" ref="0x408920f0" scoped=""/>
+        <function-ref name="isOneShot" ref="0x40893e60" scoped=""/>
+        <function-ref name="getdt" ref="0x40892be0" scoped=""/>
+        <function-ref name="gett0" ref="0x40892988" scoped=""/>
+        <function-ref name="isRunning" ref="0x40893c08" scoped=""/>
+        <function-ref name="startPeriodic" ref="0x40893258" scoped=""/>
+        <function-ref name="startOneShotAt" ref="0x40892410" scoped=""/>
+        <function-ref name="startOneShot" ref="0x408934d8" scoped=""/>
+        <function-ref name="stop" ref="0x40893758" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="67:../../MotesC.nc" name="CtpInfo" provided="0" ref="0x4063f890">
+      <component-ref nicename="......MotesC" qname="MotesC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="CtpInfo" ref="0x4063f890" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename=".........net_EER.eer.CtpInfo" qname="CtpInfo"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNeighborLinkQuality" ref="0x4063fa68" scoped=""/>
+        <function-ref name="recomputeRoutes" ref="0x4063fb48" scoped=""/>
+        <function-ref name="numNeighbors" ref="0x4063fc28" scoped=""/>
+        <function-ref name="triggerRouteUpdate" ref="0x4063fd08" scoped=""/>
+        <function-ref name="getEtx" ref="0x4063fde8" scoped=""/>
+        <function-ref name="triggerImmediateRouteUpdate" ref="0x4063fec8" scoped=""/>
+        <function-ref name="setNeighborCongested" ref="0x40634010" scoped=""/>
+        <function-ref name="getNeighborAddr" ref="0x406340f0" scoped=""/>
+        <function-ref name="getParent" ref="0x406341d0" scoped=""/>
+        <function-ref name="getNeighborRouteQuality" ref="0x406342b0" scoped=""/>
+        <function-ref name="isNeighborCongested" ref="0x40634390" scoped=""/>
+        <function-ref name="getNeighborEtx" ref="0x40634470" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="80:../../MotesC.nc" name="EerInstrumentation" provided="0" ref="0x40643d48">
+      <component-ref nicename="......MotesC" qname="MotesC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="EerInstrumentation" ref="0x40643d48" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename=".........net_EER.eer.EerInstrumentation" qname="EerInstrumentation"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="summary" ref="0x40637b18" scoped=""/>
+        <function-ref name="ctrl_tricklereset" ref="0x40637018" scoped=""/>
+        <function-ref name="summary_size" ref="0x406370f8" scoped=""/>
+        <function-ref name="data_pktdup" ref="0x406371d8" scoped=""/>
+        <function-ref name="ctrl_txpkt" ref="0x406372b8" scoped=""/>
+        <function-ref name="init" ref="0x40637398" scoped=""/>
+        <function-ref name="data_queuedrop" ref="0x40637478" scoped=""/>
+        <function-ref name="data_txpkt" ref="0x40637558" scoped=""/>
+        <function-ref name="data_rxpkt" ref="0x40637638" scoped=""/>
+        <function-ref name="ctrl_rxpkt" ref="0x40637718" scoped=""/>
+        <function-ref name="data_rxack" ref="0x406377f8" scoped=""/>
+        <function-ref name="data_inconsistent" ref="0x406378d8" scoped=""/>
+        <function-ref name="set_total_time" ref="0x406379b8" scoped=""/>
+        <function-ref name="ctrl_parentchange" ref="0x40643f20" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="61:../../MotesC.nc" name="RadioControl" provided="0" ref="0x405e94c0">
+      <component-ref nicename="......MotesC" qname="MotesC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="RadioControl" ref="0x405e94c0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.SplitControl" qname="SplitControl"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="startDone" ref="0x405e9698" scoped=""/>
+        <function-ref name="stopDone" ref="0x405e9778" scoped=""/>
+        <function-ref name="start" ref="0x405e9858" scoped=""/>
+        <function-ref name="stop" ref="0x405e9938" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="68:/opt/tinyos-2.1.2/tos/platforms/telosa/ActiveMessageC.nc" name="AMPacket" provided="1" ref="0x4089f448">
+      <component-ref nicename="tos.platforms.telosa.ActiveMessageC" qname="ActiveMessageC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="AMPacket" ref="0x4089f448" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.AMPacket" qname="AMPacket"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="group" ref="0x4089f620" scoped=""/>
+        <function-ref name="source" ref="0x4089f700" scoped=""/>
+        <function-ref name="address" ref="0x4089f7e0" scoped=""/>
+        <function-ref name="destination" ref="0x4089f8c0" scoped=""/>
+        <function-ref name="setSource" ref="0x4089f9a0" scoped=""/>
+        <function-ref name="setDestination" ref="0x4089fa80" scoped=""/>
+        <function-ref name="type" ref="0x4089fb60" scoped=""/>
+        <function-ref name="setType" ref="0x4089fc40" scoped=""/>
+        <function-ref name="isForMe" ref="0x4089fd20" scoped=""/>
+        <function-ref name="setGroup" ref="0x4089fe00" scoped=""/>
+        <function-ref name="localGroup" ref="0x4089fee0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="45:/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc" name="Timer" provided="1" ref="0x4194e8b8">
+      <component-ref nicename="tos.system.TimerMilliC" qname="MotesAppC.InNetProcTimerC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Timer" ref="0x4194e8b8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x40035cf8"/>
+            <typename><typedef-ref name="TMilli" ref="0x405e1108"/></typename>
+          </type-tag>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x4194c3d8" scoped=""/>
+        <function-ref name="fired" ref="0x4194d678" scoped=""/>
+        <function-ref name="startPeriodicAt" ref="0x4194dd80" scoped=""/>
+        <function-ref name="isOneShot" ref="0x4194db28" scoped=""/>
+        <function-ref name="getdt" ref="0x4194c888" scoped=""/>
+        <function-ref name="gett0" ref="0x4194c630" scoped=""/>
+        <function-ref name="isRunning" ref="0x4194d8d0" scoped=""/>
+        <function-ref name="startPeriodic" ref="0x4194eee0" scoped=""/>
+        <function-ref name="startOneShotAt" ref="0x4194c0b8" scoped=""/>
+        <function-ref name="startOneShot" ref="0x4194d1a0" scoped=""/>
+        <function-ref name="stop" ref="0x4194d420" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="64:../../MotesC.nc" name="BeginningTimer" provided="0" ref="0x40629508">
+      <component-ref nicename="......MotesC" qname="MotesC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="BeginningTimer" ref="0x40629508" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x40035cf8"/>
+            <typename><typedef-ref name="TMilli" ref="0x405e1108"/></typename>
+          </type-tag>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x40628010" scoped=""/>
+        <function-ref name="fired" ref="0x405e72a0" scoped=""/>
+        <function-ref name="startPeriodicAt" ref="0x405e79a8" scoped=""/>
+        <function-ref name="isOneShot" ref="0x405e7750" scoped=""/>
+        <function-ref name="getdt" ref="0x406284c0" scoped=""/>
+        <function-ref name="gett0" ref="0x40628268" scoped=""/>
+        <function-ref name="isRunning" ref="0x405e74f8" scoped=""/>
+        <function-ref name="startPeriodic" ref="0x40629b30" scoped=""/>
+        <function-ref name="startOneShotAt" ref="0x405e7cc8" scoped=""/>
+        <function-ref name="startOneShot" ref="0x40629db0" scoped=""/>
+        <function-ref name="stop" ref="0x405e7048" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="93:../../MotesC.nc" name="InNetProcSend" provided="0" ref="0x4064fde8">
+      <component-ref nicename="......MotesC" qname="MotesC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="InNetProcSend" ref="0x4064fde8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Send" qname="Send"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="send" ref="0x40648010" scoped=""/>
+        <function-ref name="getPayload" ref="0x406480f0" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x406481d0" scoped=""/>
+        <function-ref name="cancel" ref="0x406482b0" scoped=""/>
+        <function-ref name="sendDone" ref="0x40648390" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="66:../../MotesC.nc" name="DataPeriodicTimer" provided="0" ref="0x40625c40">
+      <component-ref nicename="......MotesC" qname="MotesC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="DataPeriodicTimer" ref="0x40625c40" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x40035cf8"/>
+            <typename><typedef-ref name="TMilli" ref="0x405e1108"/></typename>
+          </type-tag>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x40635730" scoped=""/>
+        <function-ref name="fired" ref="0x406369d0" scoped=""/>
+        <function-ref name="startPeriodicAt" ref="0x406350f0" scoped=""/>
+        <function-ref name="isOneShot" ref="0x40636e80" scoped=""/>
+        <function-ref name="getdt" ref="0x40635be0" scoped=""/>
+        <function-ref name="gett0" ref="0x40635988" scoped=""/>
+        <function-ref name="isRunning" ref="0x40636c28" scoped=""/>
+        <function-ref name="startPeriodic" ref="0x40636278" scoped=""/>
+        <function-ref name="startOneShotAt" ref="0x40635410" scoped=""/>
+        <function-ref name="startOneShot" ref="0x406364f8" scoped=""/>
+        <function-ref name="stop" ref="0x40636778" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="97:../../MotesC.nc" name="CtpPacket" provided="0" ref="0x40661aa0">
+      <component-ref nicename="......MotesC" qname="MotesC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="CtpPacket" ref="0x40661aa0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename=".........net_EER.eer.CtpPacket" qname="CtpPacket"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="setSequenceNumber" ref="0x40661c78" scoped=""/>
+        <function-ref name="option" ref="0x40661d58" scoped=""/>
+        <function-ref name="setEtx" ref="0x40661e38" scoped=""/>
+        <function-ref name="setOrigin" ref="0x40661f18" scoped=""/>
+        <function-ref name="clearOption" ref="0x4064b010" scoped=""/>
+        <function-ref name="getEtx" ref="0x4064b0f0" scoped=""/>
+        <function-ref name="getOrigin" ref="0x4064b1d0" scoped=""/>
+        <function-ref name="setType" ref="0x4064b2b0" scoped=""/>
+        <function-ref name="setOption" ref="0x4064b390" scoped=""/>
+        <function-ref name="matchPacket" ref="0x4064b470" scoped=""/>
+        <function-ref name="getThl" ref="0x4064b550" scoped=""/>
+        <function-ref name="getSequenceNumber" ref="0x4064b630" scoped=""/>
+        <function-ref name="matchInstance" ref="0x4064b710" scoped=""/>
+        <function-ref name="getType" ref="0x4064b870" scoped=""/>
+        <function-ref name="setThl" ref="0x4064b950" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="63:../../MotesC.nc" name="Send" provided="0" ref="0x4061c3d8">
+      <component-ref nicename="......MotesC" qname="MotesC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Send" ref="0x4061c3d8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Send" qname="Send"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="send" ref="0x4061c5b0" scoped=""/>
+        <function-ref name="getPayload" ref="0x4061c690" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x4061c770" scoped=""/>
+        <function-ref name="cancel" ref="0x4061c850" scoped=""/>
+        <function-ref name="sendDone" ref="0x4061c930" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="57:/opt/tinyos-2.1.2/tos/system/MainC.nc" name="Boot" provided="1" ref="0x4069c800">
+      <component-ref nicename="tos.system.MainC" qname="MainC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Boot" ref="0x4069c800" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Boot" qname="Boot"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="booted" ref="0x4069c9d8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="60:../../MotesC.nc" name="Boot" provided="0" ref="0x405ee040">
+      <component-ref nicename="......MotesC" qname="MotesC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Boot" ref="0x405ee040" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Boot" qname="Boot"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="booted" ref="0x405ee218" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="65:../../MotesC.nc" name="StableTimer" provided="0" ref="0x40628888">
+      <component-ref nicename="......MotesC" qname="MotesC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="StableTimer" ref="0x40628888" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x40035cf8"/>
+            <typename><typedef-ref name="TMilli" ref="0x405e1108"/></typename>
+          </type-tag>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x40625388" scoped=""/>
+        <function-ref name="fired" ref="0x40627628" scoped=""/>
+        <function-ref name="startPeriodicAt" ref="0x40627d30" scoped=""/>
+        <function-ref name="isOneShot" ref="0x40627ad8" scoped=""/>
+        <function-ref name="getdt" ref="0x40625838" scoped=""/>
+        <function-ref name="gett0" ref="0x406255e0" scoped=""/>
+        <function-ref name="isRunning" ref="0x40627880" scoped=""/>
+        <function-ref name="startPeriodic" ref="0x40628eb0" scoped=""/>
+        <function-ref name="startOneShotAt" ref="0x40625068" scoped=""/>
+        <function-ref name="startOneShot" ref="0x40627150" scoped=""/>
+        <function-ref name="stop" ref="0x406273d0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="47:../../../net_EER/eer/CollectionC.nc" name="StdControl" provided="1" ref="0x411b4b58">
+      <component-ref nicename=".........net_EER.eer.CollectionC" qname="CollectionC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="StdControl" ref="0x411b4b58" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.StdControl" qname="StdControl"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="start" ref="0x411b4d30" scoped=""/>
+        <function-ref name="stop" ref="0x411b4e10" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="45:../../../net_EER/eer/CollectionSenderC.nc" name="Send" provided="1" ref="0x41536430">
+      <component-ref nicename=".........net_EER.eer.CollectionSenderC" qname="MotesAppC.CollectionSenderC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Send" ref="0x41536430" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Send" qname="Send"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="send" ref="0x41536608" scoped=""/>
+        <function-ref name="getPayload" ref="0x415366e8" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x415367c8" scoped=""/>
+        <function-ref name="cancel" ref="0x415368a8" scoped=""/>
+        <function-ref name="sendDone" ref="0x41536988" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="61:/opt/tinyos-2.1.2/tos/platforms/telosa/ActiveMessageC.nc" name="SplitControl" provided="1" ref="0x4088d828">
+      <component-ref nicename="tos.platforms.telosa.ActiveMessageC" qname="ActiveMessageC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="SplitControl" ref="0x4088d828" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.SplitControl" qname="SplitControl"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="startDone" ref="0x4088da00" scoped=""/>
+        <function-ref name="stopDone" ref="0x4088dae0" scoped=""/>
+        <function-ref name="start" ref="0x4088dbc0" scoped=""/>
+        <function-ref name="stop" ref="0x4088dca0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="79:../../MotesC.nc" name="SummaryTimer" provided="0" ref="0x4063d950">
+      <component-ref nicename="......MotesC" qname="MotesC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="SummaryTimer" ref="0x4063d950" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x40035cf8"/>
+            <typename><typedef-ref name="TMilli" ref="0x405e1108"/></typename>
+          </type-tag>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x406384c8" scoped=""/>
+        <function-ref name="fired" ref="0x4063a768" scoped=""/>
+        <function-ref name="startPeriodicAt" ref="0x4063ae70" scoped=""/>
+        <function-ref name="isOneShot" ref="0x4063ac18" scoped=""/>
+        <function-ref name="getdt" ref="0x40638978" scoped=""/>
+        <function-ref name="gett0" ref="0x40638720" scoped=""/>
+        <function-ref name="isRunning" ref="0x4063a9c0" scoped=""/>
+        <function-ref name="startPeriodic" ref="0x4063a010" scoped=""/>
+        <function-ref name="startOneShotAt" ref="0x406381a8" scoped=""/>
+        <function-ref name="startOneShot" ref="0x4063a290" scoped=""/>
+        <function-ref name="stop" ref="0x4063a510" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="48:../../../lpl_cc2420/PowerCycleC.nc" name="TrafficMonitor" provided="1" ref="0x410c6200">
+      <component-ref nicename=".........lpl_cc2420.PowerCycleC" qname="PowerCycleC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="TrafficMonitor" ref="0x410c6200" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename=".........lpl_cc2420.TrafficMonitor" qname="TrafficMonitor"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getTxErrors" ref="0x410c63d8" scoped=""/>
+        <function-ref name="getCurrentTime_ActiveTime" ref="0x410c64b8" scoped=""/>
+        <function-ref name="getRxMessages" ref="0x410c6598" scoped=""/>
+        <function-ref name="getCurrentTime" ref="0x410c6678" scoped=""/>
+        <function-ref name="getStartCount" ref="0x410c6758" scoped=""/>
+        <function-ref name="getActiveTime" ref="0x410c6838" scoped=""/>
+        <function-ref name="getTxMessages" ref="0x410c6918" scoped=""/>
+        <function-ref name="getRxBytes" ref="0x410c69f8" scoped=""/>
+        <function-ref name="getTxBytes" ref="0x410c6ad8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="94:../../MotesC.nc" name="InNetProcTimer" provided="0" ref="0x406486a8">
+      <component-ref nicename="......MotesC" qname="MotesC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="InNetProcTimer" ref="0x406486a8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x40035cf8"/>
+            <typename><typedef-ref name="TMilli" ref="0x405e1108"/></typename>
+          </type-tag>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x4064e248" scoped=""/>
+        <function-ref name="fired" ref="0x406424e8" scoped=""/>
+        <function-ref name="startPeriodicAt" ref="0x40642bf0" scoped=""/>
+        <function-ref name="isOneShot" ref="0x40642998" scoped=""/>
+        <function-ref name="getdt" ref="0x4064e6f8" scoped=""/>
+        <function-ref name="gett0" ref="0x4064e4a0" scoped=""/>
+        <function-ref name="isRunning" ref="0x40642740" scoped=""/>
+        <function-ref name="startPeriodic" ref="0x40648cd0" scoped=""/>
+        <function-ref name="startOneShotAt" ref="0x40642f10" scoped=""/>
+        <function-ref name="startOneShot" ref="0x40642010" scoped=""/>
+        <function-ref name="stop" ref="0x40642290" scoped=""/>
+      </interface-functions>
+    </interface><component loc="41:../../../net_EER/eer/EerInstrumentationP.nc" nicename=".........net_EER.eer.EerInstrumentationP" qname="EerInstrumentationP">
+      <module/>
+    </component><component loc="43:/opt/tinyos-2.1.2/tos/system/RandomC.nc" nicename="tos.system.RandomC" qname="RandomC">
+      <documentation loc="33:/opt/tinyos-2.1.2/tos/system/RandomC.nc">
+        <short>
+ The standard TinyOS random number generator.</short>
+        <long>
+ The standard TinyOS random number generator. If your system requires a 
+ specific random number generator, it should wire to that component
+ directly. 
+
+ @author  Barbara Hohlt 
+ @author  Phil Levis 
+ @date    March 1 2005
+</long>
+      </documentation>
+      <configuration/>
+      <wiring>
+        <wire loc="56:/opt/tinyos-2.1.2/tos/system/RandomC.nc">
+          <from><interface-ref name="Random" ref="0x41028978" scoped=""/></from>
+          <to><interface-ref name="Random" ref="0x41024478" scoped=""/></to>
+        </wire>
+        <wire loc="55:/opt/tinyos-2.1.2/tos/system/RandomC.nc">
+          <from><interface-ref name="SeedInit" ref="0x410280b8" scoped=""/></from>
+          <to><interface-ref name="SeedInit" ref="0x41027b10" scoped=""/></to>
+        </wire>
+        <wire loc="54:/opt/tinyos-2.1.2/tos/system/RandomC.nc">
+          <from><interface-ref name="Init" ref="0x40ff2e28" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x410275f0" scoped=""/></to>
+        </wire>
+        <wire loc="52:/opt/tinyos-2.1.2/tos/system/RandomC.nc">
+          <from><interface-ref name="SoftwareInit" ref="0x406ab558" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x410275f0" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component><component loc="45:../../../net_EER/eer/CollectionC.nc" nicename=".........net_EER.eer.CollectionC" qname="CollectionC">
+      <documentation loc="34:../../../net_EER/eer/CollectionC.nc">
+        <short>
+ A data collection service that uses a tree routing protocol
+ to deliver data to collection roots, following TEP 119.</short>
+        <long>
+ A data collection service that uses a tree routing protocol
+ to deliver data to collection roots, following TEP 119.
+
+ @author Rodrigo Fonseca
+ @author Omprakash Gnawali
+ @author Kyle Jamieson
+ @author Philip Levis
+</long>
+      </documentation>
+      <configuration/>
+      <wiring>
+        <wire loc="84:../../../net_EER/eer/CollectionC.nc">
+          <from><interface-ref name="RootControl" ref="0x411a46d0" scoped=""/></from>
+          <to><interface-ref name="RootControl" ref="0x411d6550" scoped=""/></to>
+        </wire>
+        <wire loc="79:../../../net_EER/eer/CollectionC.nc">
+          <from><interface-ref name="CollectionPacket" ref="0x411a90a0" scoped=""/></from>
+          <to><interface-ref name="CollectionPacket" ref="0x4119bce0" scoped=""/></to>
+        </wire>
+        <wire loc="76:../../../net_EER/eer/CollectionC.nc">
+          <from><interface-ref name="Intercept" ref="0x411b0a58" scoped=""/></from>
+          <to><interface-ref name="Intercept" ref="0x4119b248" scoped=""/></to>
+        </wire>
+        <wire loc="78:../../../net_EER/eer/CollectionC.nc">
+          <from><interface-ref name="Packet" ref="0x411b0db0" scoped=""/></from>
+          <to><interface-ref name="Packet" ref="0x4119b5a0" scoped=""/></to>
+        </wire>
+        <wire loc="75:../../../net_EER/eer/CollectionC.nc">
+          <from><interface-ref name="Snoop" ref="0x411b03b0" scoped=""/></from>
+          <to><interface-ref name="Snoop" ref="0x4119cb78" scoped=""/></to>
+        </wire>
+        <wire loc="73:../../../net_EER/eer/CollectionC.nc">
+          <from><interface-ref name="Send" ref="0x411b12d0" scoped=""/></from>
+          <to><interface-ref name="Send" ref="0x4119da10" scoped=""/></to>
+        </wire>
+        <wire loc="82:../../../net_EER/eer/CollectionC.nc">
+          <from><interface-ref name="CtpInfo" ref="0x411ac918" scoped=""/></from>
+          <to><interface-ref name="CtpInfo" ref="0x41199598" scoped=""/></to>
+        </wire>
+        <wire loc="74:../../../net_EER/eer/CollectionC.nc">
+          <from><interface-ref name="Receive" ref="0x411b1ce0" scoped=""/></from>
+          <to><interface-ref name="Receive" ref="0x4119c4c8" scoped=""/></to>
+        </wire>
+        <wire loc="83:../../../net_EER/eer/CollectionC.nc">
+          <from><interface-ref name="CtpCongestion" ref="0x411a5348" scoped=""/></from>
+          <to><interface-ref name="CtpCongestion" ref="0x411d60e8" scoped=""/></to>
+        </wire>
+        <wire loc="80:../../../net_EER/eer/CollectionC.nc">
+          <from><interface-ref name="CtpPacket" ref="0x411a9878" scoped=""/></from>
+          <to><interface-ref name="CtpPacket" ref="0x4119a530" scoped=""/></to>
+        </wire>
+        <wire loc="72:../../../net_EER/eer/CollectionC.nc">
+          <from><interface-ref name="StdControl" ref="0x411b4b58" scoped=""/></from>
+          <to><interface-ref name="StdControl" ref="0x4119d2e0" scoped=""/></to>
+        </wire>
+        <wire loc="86:../../../net_EER/eer/CollectionC.nc">
+          <from><interface-ref name="CollectionId" ref="0x411d6df0" scoped=""/></from>
+          <to><interface-ref name="CollectionId" ref="0x411a3780" scoped=""/></to>
+        </wire>
+        <wire loc="87:../../../net_EER/eer/CollectionC.nc">
+          <from><interface-ref name="CollectionDebug" ref="0x411d5248" scoped=""/></from>
+          <to><interface-ref name="CollectionDebug" ref="0x4119e550" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component><component loc="39:../../../lpl_cc2420/PowerCycleC.nc" nicename=".........lpl_cc2420.PowerCycleC" qname="PowerCycleC">
+      <documentation loc="32:../../../lpl_cc2420/PowerCycleC.nc">
+        <short>
+ Use this component to duty cycle the radio.</short>
+        <long>
+ Use this component to duty cycle the radio. When a message is heard, 
+ disable DutyCycling.
+
+ @author David Moss dmm@rincon.com
+</long>
+      </documentation>
+      <configuration/>
+      <wiring>
+        <wire loc="70:../../../lpl_cc2420/PowerCycleC.nc">
+          <from><interface-ref name="SplitControl" ref="0x410cc9f8" scoped=""/></from>
+          <to><interface-ref name="SplitControl" ref="0x410c3708" scoped=""/></to>
+        </wire>
+        <wire loc="72:../../../lpl_cc2420/PowerCycleC.nc">
+          <from><interface-ref name="RadioPowerState" ref="0x410c8948" scoped=""/></from>
+          <to><interface-ref name="State" ref="0x411089a8" scoped=""/></to>
+        </wire>
+        <wire loc="86:../../../lpl_cc2420/PowerCycleC.nc">
+          <from><interface-ref name="TrafficMonitor" ref="0x410c6200" scoped=""/></from>
+          <to><interface-ref name="TrafficMonitor" ref="0x410c3d70" scoped=""/></to>
+        </wire>
+        <wire loc="71:../../../lpl_cc2420/PowerCycleC.nc">
+          <from><interface-ref name="SplitControlState" ref="0x410c80e0" scoped=""/></from>
+          <to><interface-ref name="State" ref="0x41106ba8" scoped=""/></to>
+        </wire>
+        <wire loc="69:../../../lpl_cc2420/PowerCycleC.nc">
+          <from><interface-ref name="PowerCycle" ref="0x410cc4a0" scoped=""/></from>
+          <to><interface-ref name="PowerCycle" ref="0x410c31b0" scoped=""/></to>
+        </wire>
+        <wire loc="74:../../../lpl_cc2420/PowerCycleC.nc">
+          <from><interface-ref name="EnergyIndicator" ref="0x410faa90" scoped=""/></from>
+          <to><interface-ref name="EnergyIndicator" ref="0x40ecf8e0" scoped=""/></to>
+        </wire>
+        <wire loc="75:../../../lpl_cc2420/PowerCycleC.nc">
+          <from><interface-ref name="ByteIndicator" ref="0x410faef8" scoped=""/></from>
+          <to><interface-ref name="ByteIndicator" ref="0x40ecfd48" scoped=""/></to>
+        </wire>
+        <wire loc="76:../../../lpl_cc2420/PowerCycleC.nc">
+          <from><interface-ref name="PacketIndicator" ref="0x410f9380" scoped=""/></from>
+          <to><interface-ref name="PacketIndicator" ref="0x40f55550" scoped=""/></to>
+        </wire>
+        <wire loc="77:../../../lpl_cc2420/PowerCycleC.nc">
+          <from><interface-ref name="SubControl" ref="0x410c0cd0" scoped=""/></from>
+          <to><interface-ref name="SplitControl" ref="0x408e9200" scoped=""/></to>
+        </wire>
+        <wire loc="78:../../../lpl_cc2420/PowerCycleC.nc">
+          <from><interface-ref name="SendState" ref="0x410fb588" scoped=""/></from>
+          <to><interface-ref name="SendState" ref="0x4109a750" scoped=""/></to>
+        </wire>
+        <wire loc="79:../../../lpl_cc2420/PowerCycleC.nc">
+          <from><interface-ref name="RadioPowerState" ref="0x410bf400" scoped=""/></from>
+          <to><interface-ref name="State" ref="0x411089a8" scoped=""/></to>
+        </wire>
+        <wire loc="80:../../../lpl_cc2420/PowerCycleC.nc">
+          <from><interface-ref name="SplitControlState" ref="0x410bfc80" scoped=""/></from>
+          <to><interface-ref name="State" ref="0x41106ba8" scoped=""/></to>
+        </wire>
+        <wire loc="81:../../../lpl_cc2420/PowerCycleC.nc">
+          <from><interface-ref name="OnTimer" ref="0x410c2a00" scoped=""/></from>
+          <to><interface-ref name="Timer" ref="0x41105e98" scoped=""/></to>
+        </wire>
+        <wire loc="82:../../../lpl_cc2420/PowerCycleC.nc">
+          <from><interface-ref name="Leds" ref="0x410fbd30" scoped=""/></from>
+          <to><interface-ref name="Leds" ref="0x40d26b50" scoped=""/></to>
+        </wire>
+        <wire loc="88:../../../lpl_cc2420/PowerCycleC.nc">
+          <from><interface-ref name="LocalTime" ref="0x410f97d8" scoped=""/></from>
+          <to><interface-ref name="LocalTime" ref="0x41137088" scoped=""/></to>
+        </wire>
+        <wire loc="92:../../../lpl_cc2420/PowerCycleC.nc">
+          <from><interface-ref name="Random" ref="0x410f7108" scoped=""/></from>
+          <to><interface-ref name="Random" ref="0x41028978" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component><component loc="44(MotesAppC.StableTimerC):/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc" nicename="tos.system.TimerMilliC" qname="MotesAppC.StableTimerC">
+      <documentation loc="33:/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc">
+        <short>
+ The virtualized millisecond timer abstraction.</short>
+        <long>
+ The virtualized millisecond timer abstraction. Instantiating this 
+ component gives an independent millisecond granularity timer.
+
+ @author Philip Levis
+ @date   January 16 2006
+ @see    TEP 102: Timers
+</long>
+      </documentation>
+      <instance number="1">
+        <component-ref nicename="tos.system.TimerMilliC" qname="TimerMilliC"/>
+      </instance>
+      <configuration/>
+      <wiring>
+        <wire>
+          <from><interface-ref name="Timer" ref="0x40894c10" scoped=""/></from>
+          <to><interface-ref name="TimerMilli" ref="0x407a8938" scoped=""/>
+          <arguments>
+            <value cst="I:1">
+              <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned=""/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+      </wiring>
+    </component><component loc="43(MotesAppC.SummarySenderC):../../../net_EER/eer/CollectionSenderC.nc" nicename=".........net_EER.eer.CollectionSenderC" qname="MotesAppC.SummarySenderC">
+      <documentation loc="32:../../../net_EER/eer/CollectionSenderC.nc">
+        <short>
+ The virtualized collection sender abstraction.</short>
+        <long>
+ The virtualized collection sender abstraction.
+
+ @author Kyle Jamieson
+ @author Philip Levis
+ @date April 25 2006
+ @see TinyOS Net2-WG
+</long>
+      </documentation>
+      <instance number="1">
+        <component-ref nicename=".........net_EER.eer.CollectionSenderC" qname="CollectionSenderC"/>
+        <arguments>
+          <value cst="I:205">
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned=""/>
+          </value>
+        </arguments>
+      </instance>
+      <configuration/>
+      <wiring>
+        <wire>
+          <from><interface-ref name="Packet" ref="0x419516a8" scoped=""/></from>
+          <to><interface-ref name="Packet" ref="0x421dc010" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="Send" ref="0x41951010" scoped=""/></from>
+          <to><interface-ref name="Send" ref="0x421de948" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component><component loc="43(MotesAppC.CollectionSenderC):../../../net_EER/eer/CollectionSenderC.nc" nicename=".........net_EER.eer.CollectionSenderC" qname="MotesAppC.CollectionSenderC">
+      <documentation loc="32:../../../net_EER/eer/CollectionSenderC.nc">
+        <short>
+ The virtualized collection sender abstraction.</short>
+        <long>
+ The virtualized collection sender abstraction.
+
+ @author Kyle Jamieson
+ @author Philip Levis
+ @date April 25 2006
+ @see TinyOS Net2-WG
+</long>
+      </documentation>
+      <instance number="0">
+        <component-ref nicename=".........net_EER.eer.CollectionSenderC" qname="CollectionSenderC"/>
+        <arguments>
+          <value cst="I:238">
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned=""/>
+          </value>
+        </arguments>
+      </instance>
+      <configuration/>
+      <wiring>
+        <wire>
+          <from><interface-ref name="Packet" ref="0x41536ac8" scoped=""/></from>
+          <to><interface-ref name="Packet" ref="0x41fb9a58" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="Send" ref="0x41536430" scoped=""/></from>
+          <to><interface-ref name="Send" ref="0x41fb93c0" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component><component loc="44(MotesAppC.SummaryTimerC):/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc" nicename="tos.system.TimerMilliC" qname="MotesAppC.SummaryTimerC">
+      <documentation loc="33:/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc">
+        <short>
+ The virtualized millisecond timer abstraction.</short>
+        <long>
+ The virtualized millisecond timer abstraction. Instantiating this 
+ component gives an independent millisecond granularity timer.
+
+ @author Philip Levis
+ @date   January 16 2006
+ @see    TEP 102: Timers
+</long>
+      </documentation>
+      <instance number="18">
+        <component-ref nicename="tos.system.TimerMilliC" qname="TimerMilliC"/>
+      </instance>
+      <configuration/>
+      <wiring>
+        <wire>
+          <from><interface-ref name="Timer" ref="0x41955f18" scoped=""/></from>
+          <to><interface-ref name="TimerMilli" ref="0x407a8938" scoped=""/>
+          <arguments>
+            <value cst="I:18">
+              <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned=""/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+      </wiring>
+    </component><component loc="59:/opt/tinyos-2.1.2/tos/platforms/telosa/ActiveMessageC.nc" nicename="tos.platforms.telosa.ActiveMessageC" qname="ActiveMessageC">
+      <documentation loc="49:/opt/tinyos-2.1.2/tos/platforms/telosa/ActiveMessageC.nc">
+        <short>
+
+ The Active Message layer on the Telos platform.</short>
+        <long>
+
+ The Active Message layer on the Telos platform. This is a naming wrapper
+ around the CC2420 Active Message layer.
+
+ @author Philip Levis
+ @version $Revision: 1.9 $ $Date: 2010-06-29 22:07:55 $
+</long>
+      </documentation>
+      <configuration/>
+      <wiring>
+        <wire loc="78:/opt/tinyos-2.1.2/tos/platforms/telosa/ActiveMessageC.nc">
+          <from><interface-ref name="SplitControl" ref="0x4088d828" scoped=""/></from>
+          <to><interface-ref name="SplitControl" ref="0x408d23a8" scoped=""/></to>
+        </wire>
+        <wire loc="80:/opt/tinyos-2.1.2/tos/platforms/telosa/ActiveMessageC.nc">
+          <from><interface-ref name="AMSend" ref="0x408a6158" scoped=""/></from>
+          <to><interface-ref name="AMSend" ref="0x408d2c80" scoped=""/></to>
+        </wire>
+        <wire loc="82:/opt/tinyos-2.1.2/tos/platforms/telosa/ActiveMessageC.nc">
+          <from><interface-ref name="Snoop" ref="0x4089bc00" scoped=""/></from>
+          <to><interface-ref name="Snoop" ref="0x408d0db0" scoped=""/></to>
+        </wire>
+        <wire loc="83:/opt/tinyos-2.1.2/tos/platforms/telosa/ActiveMessageC.nc">
+          <from><interface-ref name="Packet" ref="0x408b3ce8" scoped=""/></from>
+          <to><interface-ref name="Packet" ref="0x408cfdc0" scoped=""/></to>
+        </wire>
+        <wire loc="89:/opt/tinyos-2.1.2/tos/platforms/telosa/ActiveMessageC.nc">
+          <from><interface-ref name="PacketTimeStamp32khz" ref="0x408b2010" scoped=""/></from>
+          <to><interface-ref name="PacketTimeStamp32khz" ref="0x40fad668" scoped=""/></to>
+        </wire>
+        <wire loc="86:/opt/tinyos-2.1.2/tos/platforms/telosa/ActiveMessageC.nc">
+          <from><interface-ref name="LowPowerListening" ref="0x408be898" scoped=""/></from>
+          <to><interface-ref name="LowPowerListening" ref="0x408cc660" scoped=""/></to>
+        </wire>
+        <wire loc="81:/opt/tinyos-2.1.2/tos/platforms/telosa/ActiveMessageC.nc">
+          <from><interface-ref name="Receive" ref="0x4089b568" scoped=""/></from>
+          <to><interface-ref name="Receive" ref="0x408d0718" scoped=""/></to>
+        </wire>
+        <wire loc="85:/opt/tinyos-2.1.2/tos/platforms/telosa/ActiveMessageC.nc">
+          <from><interface-ref name="PacketAcknowledgements" ref="0x408b0640" scoped=""/></from>
+          <to><interface-ref name="PacketAcknowledgements" ref="0x408c8e88" scoped=""/></to>
+        </wire>
+        <wire loc="84:/opt/tinyos-2.1.2/tos/platforms/telosa/ActiveMessageC.nc">
+          <from><interface-ref name="AMPacket" ref="0x4089f448" scoped=""/></from>
+          <to><interface-ref name="AMPacket" ref="0x408cf1a8" scoped=""/></to>
+        </wire>
+        <wire loc="90:/opt/tinyos-2.1.2/tos/platforms/telosa/ActiveMessageC.nc">
+          <from><interface-ref name="PacketTimeStampMilli" ref="0x408b19d8" scoped=""/></from>
+          <to><interface-ref name="PacketTimeStampMilli" ref="0x40faa100" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component><component loc="7:SensorReaderC.nc" nicename="SensorReaderC" qname="SensorReaderC">
+      <documentation loc="1:SensorReaderC.nc">
+        <short>
+ Simply wires our implementation of SensorReader to
+ the sensors and provides the result
+ Author: Newlyn Erratt, Yimei Li
+</short>
+      </documentation>
+      <configuration/>
+      <wiring>
+        <wire loc="49:SensorReaderC.nc">
+          <from><interface-ref name="SensorReader" ref="0x41535b80" scoped=""/></from>
+          <to><interface-ref name="SensorReader" ref="0x41527cf8" scoped=""/></to>
+        </wire>
+        <wire loc="28:SensorReaderC.nc">
+          <from><interface-ref name="StdControl" ref="0x41527040" scoped=""/></from>
+          <to><interface-ref name="StdControl" ref="0x415241d8" scoped=""/></to>
+        </wire>
+        <wire loc="20:SensorReaderC.nc">
+          <from><interface-ref name="UartStream" ref="0x4155cce0" scoped=""/></from>
+          <to><interface-ref name="UartStream" ref="0x4188b060" scoped=""/></to>
+        </wire>
+        <wire loc="21:SensorReaderC.nc">
+          <from><interface-ref name="UartResource" ref="0x415146c8" scoped=""/></from>
+          <to><interface-ref name="Resource" ref="0x41833910" scoped=""/></to>
+        </wire>
+        <wire loc="24:SensorReaderC.nc">
+          <from><interface-ref name="Power2_5" ref="0x41521e98" scoped=""/></from>
+          <to><interface-ref name="Port23" ref="0x409e3d88" scoped=""/></to>
+        </wire>
+        <wire loc="25:SensorReaderC.nc">
+          <from><interface-ref name="Power5_0" ref="0x4151f030" scoped=""/></from>
+          <to><interface-ref name="Port26" ref="0x409df368" scoped=""/></to>
+        </wire>
+        <wire loc="29:SensorReaderC.nc">
+          <from><interface-ref name="Timer" ref="0x41518010" scoped=""/></from>
+          <to><interface-ref name="Timer" ref="0x4157bc60" scoped=""/></to>
+        </wire>
+        <wire loc="34:SensorReaderC.nc">
+          <from><interface-ref name="Voltage" ref="0x41524770" scoped=""/></from>
+          <to><interface-ref name="Read" ref="0x418d9df8" scoped=""/></to>
+        </wire>
+        <wire loc="36:SensorReaderC.nc">
+          <from><interface-ref name="Temperature" ref="0x415224b0" scoped=""/></from>
+          <to><interface-ref name="Temperature" ref="0x41835078" scoped=""/></to>
+        </wire>
+        <wire loc="37:SensorReaderC.nc">
+          <from><interface-ref name="Humidity" ref="0x415211f0" scoped=""/></from>
+          <to><interface-ref name="Humidity" ref="0x41834010" scoped=""/></to>
+        </wire>
+        <wire loc="40:SensorReaderC.nc">
+          <from><interface-ref name="ADC0" ref="0x4151e1c8" scoped=""/></from>
+          <to><interface-ref name="Read" ref="0x41576010" scoped=""/></to>
+        </wire>
+        <wire loc="41:SensorReaderC.nc">
+          <from><interface-ref name="ADC1" ref="0x4151eea8" scoped=""/></from>
+          <to><interface-ref name="Read" ref="0x4172e5d8" scoped=""/></to>
+        </wire>
+        <wire loc="42:SensorReaderC.nc">
+          <from><interface-ref name="ADC2" ref="0x4151dba0" scoped=""/></from>
+          <to><interface-ref name="Read" ref="0x41778998" scoped=""/></to>
+        </wire>
+        <wire loc="43:SensorReaderC.nc">
+          <from><interface-ref name="ADC3" ref="0x4151b898" scoped=""/></from>
+          <to><interface-ref name="Read" ref="0x4176a010" scoped=""/></to>
+        </wire>
+        <wire loc="46:SensorReaderC.nc">
+          <from><interface-ref name="ADC6" ref="0x4151a5b0" scoped=""/></from>
+          <to><interface-ref name="Read" ref="0x4175d5d8" scoped=""/></to>
+        </wire>
+        <wire loc="47:SensorReaderC.nc">
+          <from><interface-ref name="ADC7" ref="0x415192b0" scoped=""/></from>
+          <to><interface-ref name="Read" ref="0x417a8998" scoped=""/></to>
+        </wire>
+        <wire loc="54:SensorReaderC.nc">
+          <from><interface-ref name="MoteClockInit" ref="0x41514e58" scoped=""/></from>
+          <to><interface-ref name="MoteClockInit" ref="0x406be968" scoped=""/></to>
+        </wire>
+        <wire loc="57:SensorReaderC.nc">
+          <from><interface-ref name="delayTimer" ref="0x41513340" scoped=""/></from>
+          <to><interface-ref name="Timer" ref="0x4195c010" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component><component loc="44(MotesAppC.BeginningTimerC):/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc" nicename="tos.system.TimerMilliC" qname="MotesAppC.BeginningTimerC">
+      <documentation loc="33:/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc">
+        <short>
+ The virtualized millisecond timer abstraction.</short>
+        <long>
+ The virtualized millisecond timer abstraction. Instantiating this 
+ component gives an independent millisecond granularity timer.
+
+ @author Philip Levis
+ @date   January 16 2006
+ @see    TEP 102: Timers
+</long>
+      </documentation>
+      <instance number="0">
+        <component-ref nicename="tos.system.TimerMilliC" qname="TimerMilliC"/>
+      </instance>
+      <configuration/>
+      <wiring>
+        <wire>
+          <from><interface-ref name="Timer" ref="0x40698cd8" scoped=""/></from>
+          <to><interface-ref name="TimerMilli" ref="0x407a8938" scoped=""/>
+          <arguments>
+            <value cst="I:0">
+              <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned=""/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+      </wiring>
+    </component><component loc="43(MotesAppC.InNetProcSenderC):../../../net_EER/eer/CollectionSenderC.nc" nicename=".........net_EER.eer.CollectionSenderC" qname="MotesAppC.InNetProcSenderC">
+      <documentation loc="32:../../../net_EER/eer/CollectionSenderC.nc">
+        <short>
+ The virtualized collection sender abstraction.</short>
+        <long>
+ The virtualized collection sender abstraction.
+
+ @author Kyle Jamieson
+ @author Philip Levis
+ @date April 25 2006
+ @see TinyOS Net2-WG
+</long>
+      </documentation>
+      <instance number="2">
+        <component-ref nicename=".........net_EER.eer.CollectionSenderC" qname="CollectionSenderC"/>
+        <arguments>
+          <value cst="I:222">
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned=""/>
+          </value>
+        </arguments>
+      </instance>
+      <configuration/>
+      <wiring>
+        <wire>
+          <from><interface-ref name="Packet" ref="0x4194a010" scoped=""/></from>
+          <to><interface-ref name="Packet" ref="0x421d4b58" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="Send" ref="0x4194b8e8" scoped=""/></from>
+          <to><interface-ref name="Send" ref="0x421d44c0" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component><component loc="44(MotesAppC.InNetProcTimerC):/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc" nicename="tos.system.TimerMilliC" qname="MotesAppC.InNetProcTimerC">
+      <documentation loc="33:/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc">
+        <short>
+ The virtualized millisecond timer abstraction.</short>
+        <long>
+ The virtualized millisecond timer abstraction. Instantiating this 
+ component gives an independent millisecond granularity timer.
+
+ @author Philip Levis
+ @date   January 16 2006
+ @see    TEP 102: Timers
+</long>
+      </documentation>
+      <instance number="19">
+        <component-ref nicename="tos.system.TimerMilliC" qname="TimerMilliC"/>
+      </instance>
+      <configuration/>
+      <wiring>
+        <wire>
+          <from><interface-ref name="Timer" ref="0x4194e8b8" scoped=""/></from>
+          <to><interface-ref name="TimerMilli" ref="0x407a8938" scoped=""/>
+          <arguments>
+            <value cst="I:19">
+              <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned=""/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+      </wiring>
+    </component><component loc="59:../../MotesC.nc" nicename="......MotesC" qname="MotesC">
+      <module/>
+    </component><component loc="56:/opt/tinyos-2.1.2/tos/system/MainC.nc" nicename="tos.system.MainC" qname="MainC">
+      <documentation loc="45:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+        <short>
+ MainC is the system interface the TinyOS boot sequence.</short>
+        <long>
+ MainC is the system interface the TinyOS boot sequence. It wires the
+ boot sequence implementation to the scheduler and hardware resources.
+
+ @author Philip Levis
+ @date   August 6 2005
+ @see    TEP 107: Boot Sequence
+</long>
+      </documentation>
+      <configuration/>
+      <wiring>
+        <wire loc="72:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+          <from><interface-ref name="Boot" ref="0x4069c800" scoped=""/></from>
+          <to><interface-ref name="Boot" ref="0x406a8df8" scoped=""/></to>
+        </wire>
+        <wire loc="67:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+          <from><interface-ref name="Scheduler" ref="0x406a71d0" scoped=""/></from>
+          <to><interface-ref name="Scheduler" ref="0x403555f0" scoped=""/></to>
+        </wire>
+        <wire loc="68:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+          <from><interface-ref name="PlatformInit" ref="0x406a7798" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x406abd98" scoped=""/></to>
+        </wire>
+        <wire loc="71:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+          <from><interface-ref name="SoftwareInit" ref="0x406a7ba0" scoped=""/></from>
+          <to><interface-ref name="SoftwareInit" ref="0x406ab558" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component><component loc="44(MotesAppC.DataPeriodicTimer):/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc" nicename="tos.system.TimerMilliC" qname="MotesAppC.DataPeriodicTimer">
+      <documentation loc="33:/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc">
+        <short>
+ The virtualized millisecond timer abstraction.</short>
+        <long>
+ The virtualized millisecond timer abstraction. Instantiating this 
+ component gives an independent millisecond granularity timer.
+
+ @author Philip Levis
+ @date   January 16 2006
+ @see    TEP 102: Timers
+</long>
+      </documentation>
+      <instance number="2">
+        <component-ref nicename="tos.system.TimerMilliC" qname="TimerMilliC"/>
+      </instance>
+      <configuration/>
+      <wiring>
+        <wire>
+          <from><interface-ref name="Timer" ref="0x40891af8" scoped=""/></from>
+          <to><interface-ref name="TimerMilli" ref="0x407a8938" scoped=""/>
+          <arguments>
+            <value cst="I:2">
+              <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned=""/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+      </wiring>
+    </component></referenced></component>

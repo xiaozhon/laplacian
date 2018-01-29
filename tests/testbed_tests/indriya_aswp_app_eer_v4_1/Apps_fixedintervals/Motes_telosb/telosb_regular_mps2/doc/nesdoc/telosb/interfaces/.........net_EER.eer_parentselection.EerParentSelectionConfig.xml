@@ -1,0 +1,104 @@
+<?xml version="1.0" ?><interfacedef loc="39:../../../net_EER/eer_parentselection/EerParentSelectionConfig.nc" nicename=".........net_EER.eer_parentselection.EerParentSelectionConfig" qname="EerParentSelectionConfig">
+      <function command="" loc="43:../../../net_EER/eer_parentselection/EerParentSelectionConfig.nc" name="addParentCandidate" provided="0" ref="0x414235b0">
+        <interfacedef-ref nicename=".........net_EER.eer_parentselection.EerParentSelectionConfig" qname="EerParentSelectionConfig"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x4035bda0"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-pointer alignment="I:2" size="I:2">
+              <type-tag alignment="I:2" size="I:8"><struct-ref ref="0x413f4328"/>
+                <typename><typedef-ref name="routing_table_entry" ref="0x413f4550"/></typename>
+              </type-tag>
+            </type-pointer>
+            <type-int alignment="I:1" cname="unsigned int" network="nx_uint16_t" size="I:2" unsigned="">
+              <typename><typedef-ref name="nx_uint16_t" ref="0x402c37b0"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="43:../../../net_EER/eer_parentselection/EerParentSelectionConfig.nc" name="entry" ref="0x41423220">
+            <type-pointer alignment="I:2" size="I:2">
+              <type-tag alignment="I:2" size="I:8"><struct-ref ref="0x413f4328"/>
+                <typename><typedef-ref name="routing_table_entry" ref="0x413f4550"/></typename>
+              </type-tag>
+            </type-pointer>
+          </variable>
+          <variable loc="43:../../../net_EER/eer_parentselection/EerParentSelectionConfig.nc" name="candETX" ref="0x41423450">
+            <type-int alignment="I:1" cname="unsigned int" network="nx_uint16_t" size="I:2" unsigned="">
+              <typename><typedef-ref name="nx_uint16_t" ref="0x402c37b0"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="45:../../../net_EER/eer_parentselection/EerParentSelectionConfig.nc" name="drawRandomParent" provided="0" ref="0x41423a08">
+        <interfacedef-ref nicename=".........net_EER.eer_parentselection.EerParentSelectionConfig" qname="EerParentSelectionConfig"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="am_addr_t" ref="0x40619010"/></typename>
+          </type-int>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="41:../../../net_EER/eer_parentselection/EerParentSelectionConfig.nc" name="initializeParentSet" provided="0" ref="0x41426cf0">
+        <interfacedef-ref nicename=".........net_EER.eer_parentselection.EerParentSelectionConfig" qname="EerParentSelectionConfig"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-void alignment="I:1" size="I:1"/>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="47:../../../net_EER/eer_parentselection/EerParentSelectionConfig.nc" name="getParentSetETX" provided="0" ref="0x41422318">
+        <interfacedef-ref nicename=".........net_EER.eer_parentselection.EerParentSelectionConfig" qname="EerParentSelectionConfig"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x4035bda0"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-pointer alignment="I:2" size="I:2">
+              <type-int alignment="I:1" cname="unsigned int" network="nx_uint16_t" size="I:2" unsigned="">
+                <typename><typedef-ref name="nx_uint16_t" ref="0x402c37b0"/></typename>
+              </type-int>
+            </type-pointer>
+            <type-pointer alignment="I:2" size="I:2">
+              <type-int alignment="I:1" cname="unsigned char" network="nx_uint8_t" size="I:1" unsigned="">
+                <typename><typedef-ref name="nx_uint8_t" ref="0x402c3338"/></typename>
+              </type-int>
+            </type-pointer>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="47:../../../net_EER/eer_parentselection/EerParentSelectionConfig.nc" name="parentSetETX" ref="0x41423ef8">
+            <type-pointer alignment="I:2" size="I:2">
+              <type-int alignment="I:1" cname="unsigned int" network="nx_uint16_t" size="I:2" unsigned="">
+                <typename><typedef-ref name="nx_uint16_t" ref="0x402c37b0"/></typename>
+              </type-int>
+            </type-pointer>
+          </variable>
+          <variable loc="47:../../../net_EER/eer_parentselection/EerParentSelectionConfig.nc" name="parentSetSize" ref="0x414221b8">
+            <type-pointer alignment="I:2" size="I:2">
+              <type-int alignment="I:1" cname="unsigned char" network="nx_uint8_t" size="I:1" unsigned="">
+                <typename><typedef-ref name="nx_uint8_t" ref="0x402c3338"/></typename>
+              </type-int>
+            </type-pointer>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="49:../../../net_EER/eer_parentselection/EerParentSelectionConfig.nc" name="getParentSetSize" provided="0" ref="0x41422778">
+        <interfacedef-ref nicename=".........net_EER.eer_parentselection.EerParentSelectionConfig" qname="EerParentSelectionConfig"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" network="nx_uint8_t" size="I:1" unsigned="">
+            <typename><typedef-ref name="nx_uint8_t" ref="0x402c3338"/></typename>
+          </type-int>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+    </interfacedef>

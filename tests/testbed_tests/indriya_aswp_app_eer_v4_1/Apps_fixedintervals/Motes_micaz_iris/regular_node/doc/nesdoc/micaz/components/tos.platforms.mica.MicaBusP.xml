@@ -1,0 +1,83 @@
+<?xml version="1.0" ?><component loc="16:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusP.nc" nicename="tos.platforms.mica.MicaBusP" qname="MicaBusP">
+      <documentation loc="11:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusP.nc">
+        <short>
+ Internal component of the simplistic mica bus interface.</short>
+        <long>
+ Internal component of the simplistic mica bus interface.
+ @author David Gay
+</long>
+      </documentation>
+      <module/>
+    <specification><interface loc="18:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusP.nc" name="Adc0" provided="1" ref="0x41190a68">
+      <component-ref nicename="tos.platforms.mica.MicaBusP" qname="MicaBusP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Adc0" ref="0x41190a68" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.platforms.mica.MicaBusAdc" qname="MicaBusAdc"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getChannel" ref="0x41190c40" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="21:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusP.nc" name="Adc3" provided="1" ref="0x4118c618">
+      <component-ref nicename="tos.platforms.mica.MicaBusP" qname="MicaBusP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Adc3" ref="0x4118c618" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.platforms.mica.MicaBusAdc" qname="MicaBusAdc"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getChannel" ref="0x4118c7f0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="23:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusP.nc" name="Adc5" provided="1" ref="0x4118cdb8">
+      <component-ref nicename="tos.platforms.mica.MicaBusP" qname="MicaBusP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Adc5" ref="0x4118cdb8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.platforms.mica.MicaBusAdc" qname="MicaBusAdc"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getChannel" ref="0x4118b010" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="19:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusP.nc" name="Adc1" provided="1" ref="0x41190e38">
+      <component-ref nicename="tos.platforms.mica.MicaBusP" qname="MicaBusP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Adc1" ref="0x41190e38" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.platforms.mica.MicaBusAdc" qname="MicaBusAdc"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getChannel" ref="0x4118c050" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="24:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusP.nc" name="Adc6" provided="1" ref="0x4118b208">
+      <component-ref nicename="tos.platforms.mica.MicaBusP" qname="MicaBusP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Adc6" ref="0x4118b208" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.platforms.mica.MicaBusAdc" qname="MicaBusAdc"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getChannel" ref="0x4118b3e0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="20:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusP.nc" name="Adc2" provided="1" ref="0x4118c248">
+      <component-ref nicename="tos.platforms.mica.MicaBusP" qname="MicaBusP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Adc2" ref="0x4118c248" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.platforms.mica.MicaBusAdc" qname="MicaBusAdc"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getChannel" ref="0x4118c420" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="22:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusP.nc" name="Adc4" provided="1" ref="0x4118c9e8">
+      <component-ref nicename="tos.platforms.mica.MicaBusP" qname="MicaBusP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Adc4" ref="0x4118c9e8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.platforms.mica.MicaBusAdc" qname="MicaBusAdc"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getChannel" ref="0x4118cbc0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="25:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusP.nc" name="Adc7" provided="1" ref="0x4118b5d8">
+      <component-ref nicename="tos.platforms.mica.MicaBusP" qname="MicaBusP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Adc7" ref="0x4118b5d8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.platforms.mica.MicaBusAdc" qname="MicaBusAdc"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getChannel" ref="0x4118b7b0" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced/></component>

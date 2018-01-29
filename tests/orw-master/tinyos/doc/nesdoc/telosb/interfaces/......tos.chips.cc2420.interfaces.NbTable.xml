@@ -1,0 +1,94 @@
+<?xml version="1.0" ?><interfacedef loc="34:../../tos/chips/cc2420/interfaces/NbTable.nc" nicename="......tos.chips.cc2420.interfaces.NbTable" qname="NbTable">
+      <function command="" loc="40:../../tos/chips/cc2420/interfaces/NbTable.nc" name="getNextHopEdc" provided="0" ref="0x40fc6dc8">
+        <interfacedef-ref nicename="......tos.chips.cc2420.interfaces.NbTable" qname="NbTable"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+          </type-int>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="44:../../tos/chips/cc2420/interfaces/NbTable.nc" name="getMaxTxDc" provided="0" ref="0x40fc58c8">
+        <interfacedef-ref nicename="......tos.chips.cc2420.interfaces.NbTable" qname="NbTable"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+          </type-int>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="36:../../tos/chips/cc2420/interfaces/NbTable.nc" name="update" provided="0" ref="0x40fc6598">
+        <interfacedef-ref nicename="......tos.chips.cc2420.interfaces.NbTable" qname="NbTable"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-void alignment="I:1" size="I:1"/>
+          <function-parameters>
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="bool" ref="0x40352e80"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="36:../../tos/chips/cc2420/interfaces/NbTable.nc" name="src" ref="0x40fc6068">
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="36:../../tos/chips/cc2420/interfaces/NbTable.nc" name="etx" ref="0x40fc6248">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="36:../../tos/chips/cc2420/interfaces/NbTable.nc" name="accept" ref="0x40fc6430">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="bool" ref="0x40352e80"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="38:../../tos/chips/cc2420/interfaces/NbTable.nc" name="getMyEdc" provided="0" ref="0x40fc69a8">
+        <interfacedef-ref nicename="......tos.chips.cc2420.interfaces.NbTable" qname="NbTable"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+          </type-int>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="42:../../tos/chips/cc2420/interfaces/NbTable.nc" name="txEnd" provided="0" ref="0x40fc54c8">
+        <interfacedef-ref nicename="......tos.chips.cc2420.interfaces.NbTable" qname="NbTable"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-void alignment="I:1" size="I:1"/>
+          <function-parameters>
+            <type-int alignment="I:2" cname="int" size="I:2"/>
+            <type-int alignment="I:2" cname="unsigned long" size="I:4" unsigned="">
+              <typename><typedef-ref name="uint32_t" ref="0x401e2250"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="42:../../tos/chips/cc2420/interfaces/NbTable.nc" name="status" ref="0x40fc5158">
+            <type-int alignment="I:2" cname="int" size="I:2"/>
+          </variable>
+          <variable loc="42:../../tos/chips/cc2420/interfaces/NbTable.nc" name="txTime" ref="0x40fc5368">
+            <type-int alignment="I:2" cname="unsigned long" size="I:4" unsigned="">
+              <typename><typedef-ref name="uint32_t" ref="0x401e2250"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+    </interfacedef>

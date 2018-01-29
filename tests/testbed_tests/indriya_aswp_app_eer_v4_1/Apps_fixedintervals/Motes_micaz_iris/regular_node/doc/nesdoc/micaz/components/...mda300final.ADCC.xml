@@ -1,0 +1,443 @@
+<?xml version="1.0" ?><component loc="1:../mda300final/ADCC.nc" nicename="...mda300final.ADCC" qname="ADCC">
+      <configuration/>
+      <wiring>
+        <wire loc="35:../mda300final/ADCC.nc">
+          <from><interface-ref name="ADC6" ref="0x411a96e0" scoped=""/></from>
+          <to><interface-ref name="ADC6" ref="0x411a0ae0" scoped=""/></to>
+        </wire>
+        <wire loc="29:../mda300final/ADCC.nc">
+          <from><interface-ref name="ADC0" ref="0x411b1950" scoped=""/></from>
+          <to><interface-ref name="ADC0" ref="0x411a8d50" scoped=""/></to>
+        </wire>
+        <wire loc="32:../mda300final/ADCC.nc">
+          <from><interface-ref name="ADC3" ref="0x411ac060" scoped=""/></from>
+          <to><interface-ref name="ADC3" ref="0x411a2450" scoped=""/></to>
+        </wire>
+        <wire loc="33:../mda300final/ADCC.nc">
+          <from><interface-ref name="ADC4" ref="0x411acd20" scoped=""/></from>
+          <to><interface-ref name="ADC4" ref="0x411a1120" scoped=""/></to>
+        </wire>
+        <wire loc="30:../mda300final/ADCC.nc">
+          <from><interface-ref name="ADC1" ref="0x411ae6a8" scoped=""/></from>
+          <to><interface-ref name="ADC1" ref="0x411a5a58" scoped=""/></to>
+        </wire>
+        <wire loc="34:../mda300final/ADCC.nc">
+          <from><interface-ref name="ADC5" ref="0x411aaa08" scoped=""/></from>
+          <to><interface-ref name="ADC5" ref="0x411a1de0" scoped=""/></to>
+        </wire>
+        <wire loc="31:../mda300final/ADCC.nc">
+          <from><interface-ref name="ADC2" ref="0x411ad378" scoped=""/></from>
+          <to><interface-ref name="ADC2" ref="0x411a4730" scoped=""/></to>
+        </wire>
+        <wire loc="23:../mda300final/ADCC.nc">
+          <from><interface-ref name="SoftwareInit" ref="0x40491c40" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x411a88b0" scoped=""/></to>
+        </wire>
+        <wire loc="25:../mda300final/ADCC.nc">
+          <from><interface-ref name="I2CPacket" ref="0x411d96b0" scoped=""/></from>
+          <to><interface-ref name="I2CPacket" ref="0x411ef580" scoped=""/></to>
+        </wire>
+        <wire loc="26:../mda300final/ADCC.nc">
+          <from><interface-ref name="I2CControl" ref="0x4119c6c8" scoped=""/></from>
+          <to><interface-ref name="Resource" ref="0x411f0dc8" scoped=""/></to>
+        </wire>
+      </wiring>
+    <specification><interface loc="12:../mda300final/ADCC.nc" name="ADC6" provided="1" ref="0x411a96e0">
+      <component-ref nicename="...mda300final.ADCC" qname="ADCC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC6" ref="0x411a96e0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x411a9d08" scoped=""/>
+        <function-ref name="readDone" ref="0x411a8010" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="6:../mda300final/ADCC.nc" name="ADC0" provided="1" ref="0x411b1950">
+      <component-ref nicename="...mda300final.ADCC" qname="ADCC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC0" ref="0x411b1950" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x411ae010" scoped=""/>
+        <function-ref name="readDone" ref="0x411ae268" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="9:../mda300final/ADCC.nc" name="ADC3" provided="1" ref="0x411ac060">
+      <component-ref nicename="...mda300final.ADCC" qname="ADCC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC3" ref="0x411ac060" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x411ac688" scoped=""/>
+        <function-ref name="readDone" ref="0x411ac8e0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="10:../mda300final/ADCC.nc" name="ADC4" provided="1" ref="0x411acd20">
+      <component-ref nicename="...mda300final.ADCC" qname="ADCC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC4" ref="0x411acd20" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x411aa370" scoped=""/>
+        <function-ref name="readDone" ref="0x411aa5c8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="7:../mda300final/ADCC.nc" name="ADC1" provided="1" ref="0x411ae6a8">
+      <component-ref nicename="...mda300final.ADCC" qname="ADCC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC1" ref="0x411ae6a8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x411aecd0" scoped=""/>
+        <function-ref name="readDone" ref="0x411aef28" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="11:../mda300final/ADCC.nc" name="ADC5" provided="1" ref="0x411aaa08">
+      <component-ref nicename="...mda300final.ADCC" qname="ADCC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC5" ref="0x411aaa08" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x411a9048" scoped=""/>
+        <function-ref name="readDone" ref="0x411a92a0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="8:../mda300final/ADCC.nc" name="ADC2" provided="1" ref="0x411ad378">
+      <component-ref nicename="...mda300final.ADCC" qname="ADCC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC2" ref="0x411ad378" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x411ad9a0" scoped=""/>
+        <function-ref name="readDone" ref="0x411adbf8" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced><interface loc="13:../mda300final/ADCP.nc" name="ADC6" provided="1" ref="0x411a0ae0">
+      <component-ref nicename="...mda300final.ADCP" qname="ADCP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC6" ref="0x411a0ae0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x4119f1e0" scoped=""/>
+        <function-ref name="readDone" ref="0x4119f438" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="11:../mda300final/ADCP.nc" name="ADC4" provided="1" ref="0x411a1120">
+      <component-ref nicename="...mda300final.ADCP" qname="ADCP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC4" ref="0x411a1120" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x411a1748" scoped=""/>
+        <function-ref name="readDone" ref="0x411a19a0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="4:../mda300final/ADCP.nc" name="Init" provided="1" ref="0x411a88b0">
+      <component-ref nicename="...mda300final.ADCP" qname="ADCP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Init" ref="0x411a88b0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x411a8a88" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="10:../mda300final/ADCP.nc" name="ADC3" provided="1" ref="0x411a2450">
+      <component-ref nicename="...mda300final.ADCP" qname="ADCP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC3" ref="0x411a2450" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x411a2a78" scoped=""/>
+        <function-ref name="readDone" ref="0x411a2cd0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="12:../mda300final/ADCP.nc" name="ADC5" provided="1" ref="0x411a1de0">
+      <component-ref nicename="...mda300final.ADCP" qname="ADCP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC5" ref="0x411a1de0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x411a0448" scoped=""/>
+        <function-ref name="readDone" ref="0x411a06a0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="7:../mda300final/ADCP.nc" name="ADC0" provided="1" ref="0x411a8d50">
+      <component-ref nicename="...mda300final.ADCP" qname="ADCP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC0" ref="0x411a8d50" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x411a53c0" scoped=""/>
+        <function-ref name="readDone" ref="0x411a5618" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="20:../mda300final/ADCP.nc" name="I2CControl" provided="0" ref="0x4119c6c8">
+      <component-ref nicename="...mda300final.ADCP" qname="ADCP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="I2CControl" ref="0x4119c6c8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Resource" qname="Resource"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="release" ref="0x4119c8a0" scoped=""/>
+        <function-ref name="immediateRequest" ref="0x4119c980" scoped=""/>
+        <function-ref name="request" ref="0x4119ca60" scoped=""/>
+        <function-ref name="granted" ref="0x4119cb40" scoped=""/>
+        <function-ref name="isOwner" ref="0x4119cc20" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="8:../mda300final/ADCP.nc" name="ADC1" provided="1" ref="0x411a5a58">
+      <component-ref nicename="...mda300final.ADCP" qname="ADCP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC1" ref="0x411a5a58" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x411a4098" scoped=""/>
+        <function-ref name="readDone" ref="0x411a42f0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="44:/opt/tinyos-2.1.2/tos/chips/atm128/i2c/Atm128I2CMasterC.nc" name="Resource" provided="1" ref="0x411f0dc8">
+      <component-ref nicename="tos.chips.atm128.i2c.Atm128I2CMasterC" qname="ADCC.I2C"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Resource" ref="0x411f0dc8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Resource" qname="Resource"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="release" ref="0x411ef010" scoped=""/>
+        <function-ref name="immediateRequest" ref="0x411ef0f0" scoped=""/>
+        <function-ref name="request" ref="0x411ef1d0" scoped=""/>
+        <function-ref name="granted" ref="0x411ef2b0" scoped=""/>
+        <function-ref name="isOwner" ref="0x411ef390" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="45:/opt/tinyos-2.1.2/tos/chips/atm128/i2c/Atm128I2CMasterC.nc" name="I2CPacket" provided="1" ref="0x411ef580">
+      <component-ref nicename="tos.chips.atm128.i2c.Atm128I2CMasterC" qname="ADCC.I2C"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="I2CPacket" ref="0x411ef580" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.I2CPacket" qname="I2CPacket"/>
+        <arguments>
+          <type-tag alignment="I:1" size="I:0"><struct-ref ref="0x4119fdf8"/>
+            <typename><typedef-ref name="TI2CBasicAddr" ref="0x4119b010"/></typename>
+          </type-tag>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x411efbc8" scoped=""/>
+        <function-ref name="writeDone" ref="0x412dbe40" scoped=""/>
+        <function-ref name="write" ref="0x412db200" scoped=""/>
+        <function-ref name="readDone" ref="0x412db820" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="19:../mda300final/ADCP.nc" name="I2CPacket" provided="0" ref="0x411d96b0">
+      <component-ref nicename="...mda300final.ADCP" qname="ADCP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="I2CPacket" ref="0x411d96b0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.I2CPacket" qname="I2CPacket"/>
+        <arguments>
+          <type-tag alignment="I:1" size="I:0"><struct-ref ref="0x4119fdf8"/>
+            <typename><typedef-ref name="TI2CBasicAddr" ref="0x4119b010"/></typename>
+          </type-tag>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x411d9cf8" scoped=""/>
+        <function-ref name="writeDone" ref="0x4119c010" scoped=""/>
+        <function-ref name="write" ref="0x4119d330" scoped=""/>
+        <function-ref name="readDone" ref="0x4119d950" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="9:../mda300final/ADCP.nc" name="ADC2" provided="1" ref="0x411a4730">
+      <component-ref nicename="...mda300final.ADCP" qname="ADCP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC2" ref="0x411a4730" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x411a4d58" scoped=""/>
+        <function-ref name="readDone" ref="0x411a2010" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="58:/opt/tinyos-2.1.2/tos/system/MainC.nc" name="SoftwareInit" provided="0" ref="0x40491c40">
+      <component-ref nicename="tos.system.MainC" qname="MainC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="SoftwareInit" ref="0x40491c40" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x40491e18" scoped=""/>
+      </interface-functions>
+    </interface><component loc="56:/opt/tinyos-2.1.2/tos/system/MainC.nc" nicename="tos.system.MainC" qname="MainC">
+      <documentation loc="1:/opt/tinyos-2.1.2/tos/platforms/micaz/hardware.h">
+        <short>                                                                     
+  IMPORTANT: READ BEFORE DOWNLOADING, COPYING, INSTALLING OR USING.</short>
+        <long>                                                                     
+  IMPORTANT: READ BEFORE DOWNLOADING, COPYING, INSTALLING OR USING.  By
+  downloading, copying, installing or using the software you agree to
+  this license.  If you do not agree to this license, do not download,
+  install, copy or use the software.
+
+  Copyright (c) 2004-2005 Crossbow Technology, Inc.
+  Copyright (c) 2002-2003 Intel Corporation.
+  Copyright (c) 2000-2003 The Regents of the University  of California.    
+  All rights reserved.
+
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+
+ - Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+ - Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the
+   distribution.
+ - Neither the name of the copyright holder nor the names of
+   its contributors may be used to endorse or promote products derived
+   from this software without specific prior written permission.
+
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL
+ THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+ INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+ STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+ OF THE POSSIBILITY OF SUCH DAMAGE.
+
+  @author Jason Hill, Philip Levis, Nelson Lee, David Gay
+  @author Alan Broad &lt;abroad@xbow.com&gt;
+  @author Matt Miller &lt;mmiller@xbow.com&gt;
+  @author Martin Turon &lt;mturon@xbow.com&gt;
+
+  $Id: hardware.h,v 1.8 2010-06-29 22:07:54 scipio Exp $
+</long>
+      </documentation>
+      <configuration/>
+      <wiring>
+        <wire loc="72:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+          <from><interface-ref name="Boot" ref="0x40494f00" scoped=""/></from>
+          <to><interface-ref name="Boot" ref="0x4058d1c8" scoped=""/></to>
+        </wire>
+        <wire loc="67:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+          <from><interface-ref name="Scheduler" ref="0x4058d560" scoped=""/></from>
+          <to><interface-ref name="Scheduler" ref="0x40322ed8" scoped=""/></to>
+        </wire>
+        <wire loc="68:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+          <from><interface-ref name="PlatformInit" ref="0x4058db28" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x40490d80" scoped=""/></to>
+        </wire>
+        <wire loc="71:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+          <from><interface-ref name="SoftwareInit" ref="0x4058c010" scoped=""/></from>
+          <to><interface-ref name="SoftwareInit" ref="0x40491c40" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component><component loc="43(ADCC.I2C):/opt/tinyos-2.1.2/tos/chips/atm128/i2c/Atm128I2CMasterC.nc" nicename="tos.chips.atm128.i2c.Atm128I2CMasterC" qname="ADCC.I2C">
+      <documentation loc="32:/opt/tinyos-2.1.2/tos/chips/atm128/i2c/Atm128I2CMasterC.nc">
+        <short>
+ The basic client abstraction of the I2C on the Atmega128.</short>
+        <long>
+ The basic client abstraction of the I2C on the Atmega128. I2C
+ device drivers should instantiate one of these to ensure
+ exclusive access to the I2C bus.
+
+ @author Philip Levis
+ @date   May 28, 2006
+</long>
+      </documentation>
+      <instance number="0">
+        <component-ref nicename="tos.chips.atm128.i2c.Atm128I2CMasterC" qname="Atm128I2CMasterC"/>
+      </instance>
+      <configuration/>
+      <wiring>
+        <wire>
+          <from><interface-ref name="Resource" ref="0x411f0dc8" scoped=""/></from>
+          <to><interface-ref name="Resource" ref="0x411e6470" scoped=""/>
+          <arguments>
+            <value cst="I:0">
+              <type-int alignment="I:1" cname="int" size="I:2"/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+        <wire>
+          <from><interface-ref name="I2CPacket" ref="0x411ef580" scoped=""/></from>
+          <to><interface-ref name="I2CPacket" ref="0x411e4010" scoped=""/>
+          <arguments>
+            <value cst="I:0">
+              <type-int alignment="I:1" cname="int" size="I:2"/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+      </wiring>
+    </component><component loc="2:../mda300final/ADCP.nc" nicename="...mda300final.ADCP" qname="ADCP">
+      <module/>
+    </component></referenced></component>

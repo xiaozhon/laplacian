@@ -1,0 +1,22 @@
+##########################################################
+
+In your application, CTP+EER is used in the same way as CTP.
+
+Add the following lines in Makefile to include CTP+EER:
+
+--------------------------------------------------------------------------------
+appEER = ../net_EER_sim		### the root directory of CTP+EER
+CFLAGS += -I$(appEER) \
+          -I$(appEER)/4bitle \
+          -I$(appEER)/eer \
+          -I$(appEER)/eer_parentselection \
+          
+# (EER) Maximum parent set size
+CFLAGS += -DMAX_PARENTSET_SIZE=5
+
+# (EER) Allowed retransmissions without penalization in the link estimator
+# This value should be less than the default retransmission for each forwarder node
+CFLAGS += -DEER_ALLOWED_RETXS=1
+
+--------------------------------------------------------------------------------
+

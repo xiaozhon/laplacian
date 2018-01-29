@@ -1,0 +1,89 @@
+2016-10-25 22:42:28 Round: 1
+2016-10-25 23:07:29 Round: 2
+Number_of_spanning_trees: 6.78373096136e+35	protocol: 3.06572456907e+35	environment: 3.71800639228e+35
+	Spanning trees for intersection matrix: 660451885056.0
+
+2016-10-25 23:32:30 Round: 3
+Number_of_spanning_trees: 8.87444442696e+24	protocol: 5.14936898848e+24	environment: 3.72507543848e+24
+	Spanning trees for intersection matrix: 183458856960.0
+
+2016-10-25 23:57:31 Round: 4
+Number_of_spanning_trees: 6.21069118776e+27	protocol: 2.84344897753e+27	environment: 3.36724221023e+27
+	Spanning trees for intersection matrix: 2038431744.0
+
+2016-10-26 00:22:32 Round: 5
+Number_of_spanning_trees: 2.75719390798e+29	protocol: 1.04583217199e+29	environment: 1.71136173599e+29
+	Spanning trees for intersection matrix: 3439853568.0
+
+2016-10-26 00:47:33 Round: 6
+Number_of_spanning_trees: 1.36311466398e+28	protocol: 6.81557331991e+27	environment: 6.81557331991e+27
+	Spanning trees for intersection matrix: 7739670528.0
+
+2016-10-26 01:12:34 Round: 7
+Number_of_spanning_trees: 7.48781248525e+25	protocol: 4.82766857602e+25	environment: 2.66014390923e+25
+	Spanning trees for intersection matrix: 1.48601674138e+12
+
+2016-10-26 01:37:35 Round: 8
+Number_of_spanning_trees: 1.35581789856e+29	protocol: 6.93315970856e+28	environment: 6.62501927707e+28
+	Spanning trees for intersection matrix: 146767085568.0
+
+2016-10-26 02:02:36 Round: 9
+Number_of_spanning_trees: 8.85554677743e+34	protocol: 4.6560091304e+34	environment: 4.19953764703e+34
+	Spanning trees for intersection matrix: 1.56551557939e+13
+
+2016-10-26 02:27:37 Round: 10
+Number_of_spanning_trees: 3.91760463018e+35	protocol: 2.2786067747e+35	environment: 1.63899785548e+35
+	Spanning trees for intersection matrix: 1.42657607172e+16
+
+2016-10-26 02:52:38 Round: 11
+Number_of_spanning_trees: 1.63573759678e+33	protocol: 9.54180264787e+32	environment: 6.81557331991e+32
+	Spanning trees for intersection matrix: 9.51050714481e+15
+
+2016-10-26 03:17:39 Round: 12
+Number_of_spanning_trees: 7.54771498513e+29	protocol: 4.2027049349e+29	environment: 3.34501005023e+29
+	Spanning trees for intersection matrix: 7.51447478108e+13
+
+2016-10-26 03:42:40 Round: 13
+Number_of_spanning_trees: 3.99349999213e+26	protocol: 2.43759090429e+26	environment: 1.55590908784e+26
+	Spanning trees for intersection matrix: 880602513408.0
+
+2016-10-26 04:07:41 Round: 14
+Number_of_spanning_trees: 4.60051199094e+25	protocol: 2.84505346808e+25	environment: 1.75545852286e+25
+	Spanning trees for intersection matrix: 2.34827336909e+12
+
+2016-10-26 04:32:42 Round: 15
+Number_of_spanning_trees: 1.27228079212e+35	protocol: 5.89266893191e+34	environment: 6.83013898926e+34
+	Spanning trees for intersection matrix: 366917713920.0
+
+2016-10-26 04:57:43 Round: 16
+Number_of_spanning_trees: 4.65723137385e+37	protocol: 2.86225678185e+37	environment: 1.79497459201e+37
+	Spanning trees for intersection matrix: 6.16788090031e+18
+
+2016-10-26 05:22:45 Round: 17
+Number_of_spanning_trees: 3.12990561883e+35	protocol: 2.09806860164e+35	environment: 1.0318370172e+35
+	Spanning trees for intersection matrix: 9.34920894363e+20
+
+2016-10-26 05:47:46 Round: 18
+Number_of_spanning_trees: 7.98699998427e+34	protocol: 5.03528259878e+34	environment: 2.95171738549e+34
+	Spanning trees for intersection matrix: 6.16280862983e+19
+
+2016-10-26 06:12:47 Round: 19
+Number_of_spanning_trees: 7.10757200748e+31	protocol: 3.79608959491e+31	environment: 3.31148241258e+31
+	Spanning trees for intersection matrix: 6.76302730297e+14
+
+2016-10-26 06:37:48 Round: 20
+Number_of_spanning_trees: 2.36651851386e+24	protocol: 1.43909909626e+24	environment: 9.27419417592e+23
+	Spanning trees for intersection matrix: 330225942528.0
+
+2016-10-26 07:02:49 Round: 21
+Number_of_spanning_trees: 2.55583999496e+25	protocol: 1.53350399698e+25	environment: 1.02233599799e+25
+	Spanning trees for intersection matrix: 440301256704.0
+
+2016-10-26 07:27:50 Round: 22
+Number_of_spanning_trees: 1.30859007742e+27	protocol: 8.39841392972e+26	environment: 4.6874868445e+26
+	Spanning trees for intersection matrix: 5.70630428688e+14
+
+2016-10-26 07:52:51 Round: 23
+Number_of_spanning_trees: 1.84020479637e+28	protocol: 1.16365891535e+28	environment: 6.7654588102e+27
+	Spanning trees for intersection matrix: 2.5678369291e+16
+

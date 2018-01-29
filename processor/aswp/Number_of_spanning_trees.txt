@@ -1,0 +1,152 @@
+2016-08-18 15:09:22 Round: 1
+Number_of_spanning_trees: 3.77472028577e+23
+2016-08-18 17:09:59 Round: 2
+Number_of_spanning_trees: 5.07227047723e+15
+2016-08-18 19:10:07 Round: 3
+Number_of_spanning_trees: 7.3057393705e+17
+2016-08-18 21:10:34 Round: 4
+Number_of_spanning_trees: 5.67176509941e+17
+2016-08-18 23:10:46 Round: 5
+Number_of_spanning_trees: 4.40741557961e+18
+2016-08-19 01:11:18 Round: 6
+Number_of_spanning_trees: 2.73395378723e+21
+2016-08-19 03:11:26 Round: 7
+Number_of_spanning_trees: 2.3776267862e+20
+2016-08-19 05:11:37 Round: 8
+Number_of_spanning_trees: 2.01364441399e+20
+2016-08-19 07:12:10 Round: 9
+Number_of_spanning_trees: 8.21895679181e+21
+2016-08-19 09:12:31 Round: 10
+Number_of_spanning_trees: 1.02280351187e+19
+2016-08-19 11:12:56 Round: 11
+Number_of_spanning_trees: 2.08042343793e+17
+2016-08-19 13:13:15 Round: 12
+Number_of_spanning_trees: 7.05186492737e+20
+2016-08-19 15:13:48 Round: 13
+Number_of_spanning_trees: 2.58897138942e+19
+2016-08-19 17:13:56 Round: 14
+Number_of_spanning_trees: 9.10278130139e+23
+2016-08-19 19:14:14 Round: 15
+Number_of_spanning_trees: 2.4605584085e+23
+2016-08-19 21:14:38 Round: 16
+Number_of_spanning_trees: 2.98249504061e+21
+2016-08-19 23:14:55 Round: 17
+Number_of_spanning_trees: 5.02154777246e+19
+2016-08-20 01:15:18 Round: 18
+Number_of_spanning_trees: 2.24685731296e+20
+2016-08-20 03:15:47 Round: 19
+Number_of_spanning_trees: 4.28151143525e+22
+2016-08-20 05:16:55 Round: 20
+Number_of_spanning_trees: 8.32169375171e+21
+2016-08-20 07:20:08 Round: 21
+Number_of_spanning_trees: 2.51705551749e+19
+2016-08-20 09:21:15 Round: 22
+Number_of_spanning_trees: 1.33857217894e+21
+2016-08-20 11:26:10 Round: 23
+Number_of_spanning_trees: 1.58574497602e+22
+2016-08-20 13:29:47 Round: 24
+Number_of_spanning_trees: 3.63680144333e+23
+2016-08-20 15:31:10 Round: 25
+Number_of_spanning_trees: 5.53625641913e+24
+2016-08-20 17:32:16 Round: 26
+Number_of_spanning_trees: 1.39978433906e+24
+2016-08-20 19:33:58 Round: 27
+Number_of_spanning_trees: 2.08042343793e+20
+2016-08-20 21:37:08 Round: 28
+Number_of_spanning_trees: 1.82037050819e+21
+2016-08-20 23:37:50 Round: 29
+Number_of_spanning_trees: 1.06517680022e+21
+2016-08-21 01:38:45 Round: 30
+Number_of_spanning_trees: 6.44218928772e+23
+2016-08-21 03:39:09 Round: 31
+Number_of_spanning_trees: 7.91005414885e+24
+2016-08-21 05:39:54 Round: 32
+Number_of_spanning_trees: 4.47374256092e+18
+2016-08-21 07:41:08 Round: 33
+Number_of_spanning_trees: 6.13392046438e+20
+2016-08-21 09:41:50 Round: 34
+Number_of_spanning_trees: 8.98742925184e+17
+2016-08-21 11:43:42 Round: 35
+Number_of_spanning_trees: 4.36888921965e+20
+2016-08-21 13:44:03 Round: 36
+Number_of_spanning_trees: 1.65694168923e+18
+2016-08-21 15:45:36 Round: 37
+Number_of_spanning_trees: 1.25824009526e+20
+2016-08-21 17:47:42 Round: 38
+Number_of_spanning_trees: 1.16780408841e+22
+2016-08-21 19:48:03 Round: 39
+Number_of_spanning_trees: 1.64410039114e+20
+2016-08-21 21:48:26 Round: 40
+Number_of_spanning_trees: 2.84786852836e+19
+2016-08-21 23:48:46 Round: 41
+Number_of_spanning_trees: 5.99161950123e+22
+2016-08-22 01:49:38 Round: 42
+Number_of_spanning_trees: 7.85333551265e+21
+2016-08-22 03:51:11 Round: 43
+Number_of_spanning_trees: 1.56551557939e+18
+2016-08-22 05:53:50 Round: 44
+Number_of_spanning_trees: 8.87647333515e+21
+2016-08-22 07:54:08 Round: 45
+Number_of_spanning_trees: 1.62759015073e+23
+2016-08-22 09:54:43 Round: 46
+Number_of_spanning_trees: 2.55642432052e+22
+2016-08-22 11:54:57 Round: 47
+Number_of_spanning_trees: 4.29087334072e+18
+2016-08-22 13:57:24 Round: 48
+Number_of_spanning_trees: 1.0509110395e+23
+2016-08-22 15:59:33 Round: 49
+Number_of_spanning_trees: 1.50988811431e+23
+2016-08-22 18:02:04 Round: 50
+Number_of_spanning_trees: 2.71841995889e+20
+2016-08-22 20:03:26 Round: 51
+Number_of_spanning_trees: 2.90308230595e+21
+2016-08-22 22:03:39 Round: 52
+Number_of_spanning_trees: 4.09583364342e+22
+2016-08-23 00:04:50 Round: 53
+Number_of_spanning_trees: 2.85463221612e+22
+2016-08-23 02:06:13 Round: 54
+Number_of_spanning_trees: 7.06316599296e+20
+2016-08-23 04:08:55 Round: 55
+Number_of_spanning_trees: 2.0316635136e+20
+2016-08-23 06:11:31 Round: 56
+Number_of_spanning_trees: 7.69294355713e+21
+2016-08-23 08:11:53 Round: 57
+Number_of_spanning_trees: 1.30484158027e+22
+2016-08-23 10:12:06 Round: 58
+Number_of_spanning_trees: 3.02046662099e+20
+2016-08-23 12:14:07 Round: 59
+Number_of_spanning_trees: 2.94900022326e+22
+2016-08-23 14:17:05 Round: 60
+Number_of_spanning_trees: 3.72811880076e+21
+2016-08-23 16:17:34 Round: 61
+Number_of_spanning_trees: 2.83104021433e+23
+2016-08-23 18:19:08 Round: 62
+Number_of_spanning_trees: 1.56691700122e+24
+2016-08-23 20:19:50 Round: 63
+Number_of_spanning_trees: 5.3684910731e+21
+2016-08-23 22:21:16 Round: 64
+Number_of_spanning_trees: 3.85743038762e+19
+2016-08-24 00:25:54 Round: 65
+Number_of_spanning_trees: 3.44413427466e+18
+2016-08-24 02:26:45 Round: 66
+Number_of_spanning_trees: 3.93878710125e+21
+2016-08-24 04:31:19 Round: 67
+Number_of_spanning_trees: 3.95356499221e+22
+2016-08-24 06:32:43 Round: 68
+Number_of_spanning_trees: 2.60052929741e+17
+2016-08-24 08:33:02 Round: 69
+Number_of_spanning_trees: 1.63105197533e+18
+2016-08-24 10:33:55 Round: 70
+Number_of_spanning_trees: 5.31111299468e+22
+2016-08-24 12:34:39 Round: 71
+Number_of_spanning_trees: 1.33126295793e+21
+2016-08-24 14:35:00 Round: 72
+Number_of_spanning_trees: 2.28464945296e+27
+2016-08-24 16:35:50 Round: 73
+Number_of_spanning_trees: 5.94518445009e+23
+2016-08-24 18:38:15 Round: 74
+Number_of_spanning_trees: 3.15563250228e+24
+2016-08-24 20:40:01 Round: 75
+Number_of_spanning_trees: 1.32442618017e+22
+2016-08-24 22:41:34 Round: 76
+Number_of_spanning_trees: 1.06188279644e+20

@@ -1,0 +1,5 @@
+<area shape="rect" id="node2" href="../chtml/tos.chips.atm128.i2c.Atm128I2CMasterP.html" title="Atm128I2CMasterP" alt="" coords="49,120,233,179">
+<area shape="poly" id="edge2" href="../ihtml/tos.interfaces.Resource.html" title="Resource" alt="" coords="84,52 118,107 113,110 79,54">
+<area shape="rect" id="edge2" href="../ihtml/tos.interfaces.Resource.html" title="Resource" alt="" coords="107,78,165,95">
+<area shape="poly" id="edge4" href="../ihtml/tos.interfaces.I2CPacket.html" title="I2CPacket&lt;TI2CBasicAddr&gt;" alt="" coords="204,54 169,110 165,107 199,52">
+<area shape="rect" id="edge4" href="../ihtml/tos.interfaces.I2CPacket.html" title="I2CPacket&lt;TI2CBasicAddr&gt;" alt="" coords="185,78,361,95">

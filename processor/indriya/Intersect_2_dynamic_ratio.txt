@@ -1,0 +1,256 @@
+Intersection: 1_2
+	dynamic_ratio: 0.6
+Intersection: 2_3
+	dynamic_ratio: 0.643835616438
+Intersection: 3_4
+	dynamic_ratio: 0.751515151515
+Intersection: 4_5
+	dynamic_ratio: 0.638157894737
+Intersection: 5_6
+	dynamic_ratio: 0.555555555556
+Intersection: 6_7
+	dynamic_ratio: 0.625
+Intersection: 7_8
+	dynamic_ratio: 0.59375
+Intersection: 8_9
+	dynamic_ratio: 0.609375
+Intersection: 9_10
+	dynamic_ratio: 0.512396694215
+Intersection: 10_11
+	dynamic_ratio: 0.618320610687
+Intersection: 11_12
+	dynamic_ratio: 0.673758865248
+Intersection: 12_13
+	dynamic_ratio: 0.634920634921
+Intersection: 13_14
+	dynamic_ratio: 0.744966442953
+Intersection: 14_15
+	dynamic_ratio: 0.708333333333
+Intersection: 15_16
+	dynamic_ratio: 0.672268907563
+Intersection: 16_17
+	dynamic_ratio: 0.652173913043
+Intersection: 17_18
+	dynamic_ratio: 0.684615384615
+Intersection: 18_19
+	dynamic_ratio: 0.625
+Intersection: 19_20
+	dynamic_ratio: 0.71186440678
+Intersection: 20_21
+	dynamic_ratio: 0.639175257732
+Intersection: 21_22
+	dynamic_ratio: 0.6
+Intersection: 22_23
+	dynamic_ratio: 0.622448979592
+Intersection: 23_24
+	dynamic_ratio: 0.685483870968
+Intersection: 24_25
+	dynamic_ratio: 0.611570247934
+Intersection: 25_26
+	dynamic_ratio: 0.649572649573
+Intersection: 26_27
+	dynamic_ratio: 0.603773584906
+Intersection: 27_28
+	dynamic_ratio: 0.742574257426
+Intersection: 28_29
+	dynamic_ratio: 0.75652173913
+Intersection: 29_30
+	dynamic_ratio: 0.646551724138
+Intersection: 30_31
+	dynamic_ratio: 0.520408163265
+Intersection: 31_32
+	dynamic_ratio: 0.72
+Intersection: 32_33
+	dynamic_ratio: 0.811320754717
+Intersection: 33_34
+	dynamic_ratio: 0.677419354839
+Intersection: 34_35
+	dynamic_ratio: 0.548387096774
+Intersection: 35_36
+	dynamic_ratio: 0.75
+Intersection: 36_37
+	dynamic_ratio: 0.752688172043
+Intersection: 37_38
+	dynamic_ratio: 0.568965517241
+Intersection: 38_39
+	dynamic_ratio: 0.516129032258
+Intersection: 39_40
+	dynamic_ratio: 0.521739130435
+Intersection: 40_41
+	dynamic_ratio: 0.634146341463
+Intersection: 41_42
+	dynamic_ratio: 0.60824742268
+Intersection: 42_43
+	dynamic_ratio: 0.6796875
+Intersection: 43_44
+	dynamic_ratio: 0.673469387755
+Intersection: 44_45
+	dynamic_ratio: 0.677215189873
+Intersection: 45_46
+	dynamic_ratio: 0.581081081081
+Intersection: 46_47
+	dynamic_ratio: 0.687022900763
+Intersection: 47_48
+	dynamic_ratio: 0.572916666667
+Intersection: 48_49
+	dynamic_ratio: 0.660194174757
+Intersection: 49_50
+	dynamic_ratio: 0.628787878788
+Intersection: 50_51
+	dynamic_ratio: 0.456692913386
+Intersection: 51_52
+	dynamic_ratio: 0.754385964912
+Intersection: 52_53
+	dynamic_ratio: 0.8125
+Intersection: 53_54
+	dynamic_ratio: 0.737704918033
+Intersection: 54_55
+	dynamic_ratio: 0.609195402299
+Intersection: 55_56
+	dynamic_ratio: 0.559139784946
+Intersection: 56_57
+	dynamic_ratio: 0.679611650485
+Intersection: 57_58
+	dynamic_ratio: 0.640449438202
+Intersection: 58_59
+	dynamic_ratio: 0.666666666667
+Intersection: 59_60
+	dynamic_ratio: 0.718309859155
+Intersection: 60_61
+	dynamic_ratio: 0.651515151515
+Intersection: 61_62
+	dynamic_ratio: 0.63768115942
+Intersection: 62_63
+	dynamic_ratio: 0.735849056604
+Intersection: 63_64
+	dynamic_ratio: 0.577777777778
+Intersection: 64_65
+	dynamic_ratio: 0.71875
+Intersection: 65_66
+	dynamic_ratio: 0.674157303371
+Intersection: 66_67
+	dynamic_ratio: 0.636363636364
+Intersection: 67_68
+	dynamic_ratio: 0.615384615385
+Intersection: 68_69
+	dynamic_ratio: 0.618556701031
+Intersection: 69_70
+	dynamic_ratio: 0.602941176471
+Intersection: 70_71
+	dynamic_ratio: 0.649350649351
+Intersection: 71_72
+	dynamic_ratio: 0.567567567568
+Intersection: 72_73
+	dynamic_ratio: 0.5625
+Intersection: 73_74
+	dynamic_ratio: 0.74025974026
+Intersection: 74_75
+	dynamic_ratio: 0.5
+Intersection: 75_76
+	dynamic_ratio: 0.632352941176
+Intersection: 76_77
+	dynamic_ratio: 0.612903225806
+Intersection: 77_78
+	dynamic_ratio: 0.573770491803
+Intersection: 78_79
+	dynamic_ratio: 0.48
+Intersection: 79_80
+	dynamic_ratio: 0.530864197531
+Intersection: 80_81
+	dynamic_ratio: 0.527777777778
+Intersection: 81_82
+	dynamic_ratio: 0.592592592593
+Intersection: 82_83
+	dynamic_ratio: 0.58024691358
+Intersection: 83_84
+	dynamic_ratio: 0.560606060606
+Intersection: 84_85
+	dynamic_ratio: 0.571428571429
+Intersection: 85_86
+	dynamic_ratio: 0.68
+Intersection: 86_87
+	dynamic_ratio: 0.613333333333
+Intersection: 87_88
+	dynamic_ratio: 0.569620253165
+Intersection: 88_89
+	dynamic_ratio: 0.564102564103
+Intersection: 89_90
+	dynamic_ratio: 0.653846153846
+Intersection: 90_91
+	dynamic_ratio: 0.546666666667
+Intersection: 91_92
+	dynamic_ratio: 0.675
+Intersection: 92_93
+	dynamic_ratio: 0.674698795181
+Intersection: 93_94
+	dynamic_ratio: 0.620689655172
+Intersection: 94_95
+	dynamic_ratio: 0.602272727273
+Intersection: 95_96
+	dynamic_ratio: 0.597826086957
+Intersection: 96_97
+	dynamic_ratio: 0.566265060241
+Intersection: 97_98
+	dynamic_ratio: 0.646341463415
+Intersection: 98_99
+	dynamic_ratio: 0.602409638554
+Intersection: 99_100
+	dynamic_ratio: 0.618421052632
+Intersection: 100_101
+	dynamic_ratio: 0.540540540541
+Intersection: 101_102
+	dynamic_ratio: 0.621951219512
+Intersection: 102_103
+	dynamic_ratio: 0.59756097561
+Intersection: 103_104
+	dynamic_ratio: 0.5
+Intersection: 104_105
+	dynamic_ratio: 0.565789473684
+Intersection: 105_106
+	dynamic_ratio: 0.56338028169
+Intersection: 106_107
+	dynamic_ratio: 0.662162162162
+Intersection: 107_108
+	dynamic_ratio: 0.567901234568
+Intersection: 108_109
+	dynamic_ratio: 0.623529411765
+Intersection: 109_110
+	dynamic_ratio: 0.533333333333
+Intersection: 110_111
+	dynamic_ratio: 0.579545454545
+Intersection: 111_112
+	dynamic_ratio: 0.585365853659
+Intersection: 112_113
+	dynamic_ratio: 0.61038961039
+Intersection: 113_114
+	dynamic_ratio: 0.616279069767
+Intersection: 114_115
+	dynamic_ratio: 0.561797752809
+Intersection: 115_116
+	dynamic_ratio: 0.505494505495
+Intersection: 116_117
+	dynamic_ratio: 0.582524271845
+Intersection: 117_118
+	dynamic_ratio: 0.62
+Intersection: 118_119
+	dynamic_ratio: 0.573033707865
+Intersection: 119_120
+	dynamic_ratio: 0.547368421053
+Intersection: 120_121
+	dynamic_ratio: 0.588235294118
+Intersection: 121_122
+	dynamic_ratio: 0.505263157895
+Intersection: 122_123
+	dynamic_ratio: 0.540816326531
+Intersection: 123_124
+	dynamic_ratio: 0.526315789474
+Intersection: 124_125
+	dynamic_ratio: 0.594059405941
+Intersection: 125_126
+	dynamic_ratio: 0.52
+Intersection: 126_127
+	dynamic_ratio: 0.56
+Intersection: 127_128
+	dynamic_ratio: 0.478260869565
+Intersection: 128_129
+	dynamic_ratio: 0.533980582524

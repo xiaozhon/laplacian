@@ -1,0 +1,14 @@
+digraph "...msp430.UartSerialC" {
+  n0x4188b060 [shape=ellipse, style=filled, label="UartStream", fontsize=12];
+  "UartSerialC.UartC" [fontsize=12, shape=box,peripheries=2, style=dashed, label="Msp430Uart0C\n(UartC)", URL="../chtml/tos.chips.msp430.usart.Msp430Uart0C.html"];
+  n0x41833910 [shape=ellipse, style=filled, label="Resource", fontsize=12];
+  "UartSerialP" [fontsize=12, shape=box, URL="../chtml/...msp430.UartSerialP.html"];
+  "UartSerialC.UartC" [fontsize=12, shape=box,peripheries=2, style=dashed, label="Msp430Uart0C\n(UartC)", URL="../chtml/tos.chips.msp430.usart.Msp430Uart0C.html"];
+  "UartSerialP" [fontsize=12, shape=box, URL="../chtml/...msp430.UartSerialP.html"];
+  "UartSerialP" [fontsize=12, shape=box, URL="../chtml/...msp430.UartSerialP.html"];
+  "UartSerialC.UartC" [fontsize=12, shape=box,peripheries=2, style=dashed, label="Msp430Uart0C\n(UartC)", URL="../chtml/tos.chips.msp430.usart.Msp430Uart0C.html"];
+  "n0x4188b060" -> "UartSerialC.UartC" [label="UartStream", URL="../ihtml/tos.interfaces.UartStream.html", fontsize=10];
+  "n0x41833910" -> "UartSerialP" [label="Resource", URL="../ihtml/tos.interfaces.Resource.html", fontsize=10];
+  "UartSerialC.UartC" -> "UartSerialP" [label="Msp430UartConfigure", URL="../ihtml/tos.chips.msp430.usart.Msp430UartConfigure.html", fontsize=10];
+  "UartSerialP" -> "UartSerialC.UartC" [label="Resource", URL="../ihtml/tos.interfaces.Resource.html", fontsize=10];
+}

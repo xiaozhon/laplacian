@@ -1,0 +1,3 @@
+test	entropy_avg	std	node_entropy	std
+Orw-1	3.3204	0.1167	3.0140	0.0714
+

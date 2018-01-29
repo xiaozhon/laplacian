@@ -1,0 +1,6281 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>Google Maps - pygmaps </title>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false"></script>
+<script src="http://cs.iupui.edu/~xiaozhon/aswp/infobox.js" type="text/javascript"></script>
+<script type="text/javascript">
+	function initialize() {
+		var centerlatlng = new google.maps.LatLng(40.544004, -79.905891);
+		var myOptions = {
+			tilt: 0,
+			zoom: 19,
+			center: centerlatlng,
+			mapTypeId: google.maps.MapTypeId.SATELLITE
+		};
+
+		var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+
+		var latlng = new google.maps.LatLng(40.542653, -79.905815);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.542676, -79.905881);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544298, -79.905874);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.542969, -79.905884);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.543283, -79.905706);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544308, -79.905606);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544059, -79.905333);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.543986, -79.905408);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.543452, -79.905722);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.543072, -79.905875);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.543534, -79.905611);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.543882, -79.905419);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.543601, -79.905528);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.543452, -79.905800);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.543974, -79.905580);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544824, -79.905376);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544465, -79.904869);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/iris.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544709, -79.905303);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/iris.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544708, -79.904812);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/iris.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544506, -79.905728);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544525, -79.905488);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/iris.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544465, -79.905408);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544546, -79.905426);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544407, -79.905667);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544451, -79.905316);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544497, -79.905260);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544439, -79.905190);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544519, -79.905144);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544627, -79.905571);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/iris.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544609, -79.905427);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544617, -79.905262);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544672, -79.905409);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544620, -79.905171);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/iris.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544283, -79.905117);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/iris.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544796, -79.905186);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544840, -79.905175);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544331, -79.905732);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544415, -79.905740);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544403, -79.905797);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544543, -79.905801);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544542, -79.905853);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544520, -79.905920);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544398, -79.905980);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544480, -79.906031);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544608, -79.905980);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544389, -79.905048);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/iris.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544362, -79.905132);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/iris.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544712, -79.905502);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/iris.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544740, -79.905425);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/iris.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544652, -79.904834);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/iris.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544668, -79.904763);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/iris.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544780, -79.905484);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544726, -79.904639);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.545104, -79.904749);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.545050, -79.904724);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.545174, -79.904742);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.545251, -79.904662);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.545200, -79.904626);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.545246, -79.904607);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.545187, -79.904574);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.545208, -79.904954);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.545133, -79.904957);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.545145, -79.904564);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.543850, -79.905631);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.543933, -79.905775);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544017, -79.905764);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.545005, -79.904373);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544903, -79.904349);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544870, -79.904523);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544962, -79.904722);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544842, -79.904692);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544999, -79.905079);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.545061, -79.905281);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.545062, -79.905479);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.545101, -79.905415);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.545139, -79.905351);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.545182, -79.905294);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.545160, -79.905468);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.545204, -79.905409);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.545239, -79.905345);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.545217, -79.905523);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.545260, -79.905453);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.545287, -79.905389);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544944, -79.905465);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544952, -79.905612);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.545027, -79.905639);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544950, -79.905768);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.545033, -79.905768);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.545107, -79.905768);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544832, -79.905738);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544793, -79.905816);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544711, -79.905816);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+		var latlng = new google.maps.LatLng(40.544646, -79.905875);
+		var marker = new google.maps.Marker({
+			title: 10401,
+			position: latlng
+		});
+
+		marker.setIcon(new google.maps.MarkerImage('http://cs.iupui.edu/~xiaozhon/aswp/icons/telosb.png',
+			null,
+			null,
+			new google.maps.Point(4,4),
+			new google.maps.Size(7,7),
+			null));
+
+		marker.setMap(map);
+
+
+		var infowindow = new google.maps.InfoWindow(); // One for each marker
+		var nodeID = "10401";
+		google.maps.event.addListener(marker, 'click', (function(marker, nodeID) {
+			return function() {
+				if (infowindow.getMap()) {
+					infowindow.close();
+				} else {
+					var infoOptions = {pixelOffset: new google.maps.Size(0,15)};
+					infowindow.setOptions(infoOptions);
+					infowindow.setContent(nodeID);
+					infowindow.open(map, marker);				}
+			};
+		})(marker, nodeID));
+
+		var iblabelText = nodeID;
+
+		var myLabelOptions = { 
+			content: iblabelText, 
+			boxStyle: { 
+				border: "0px solid white", 
+				textAlign: "center", 
+				fontSize: "8pt", 
+				width: "80px", 
+				color: "white", 
+			}, 
+			disableAutoPan: true, 
+			pixelOffset: new google.maps.Size(-10, 5), 
+			position: latlng, 
+			closeBoxURL: "", 
+			isHidden: false, 
+			pane: "mapPane", 
+			enableEventPropagation: true 
+		}; 
+
+		var infoboxLabel = new InfoBox(myLabelOptions); 
+		infoboxLabel.open(map); 
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.542653, -79.905815),
+new google.maps.LatLng(40.542676, -79.905881),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.542653, -79.905815),
+new google.maps.LatLng(40.542969, -79.905884),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.542676, -79.905881),
+new google.maps.LatLng(40.542653, -79.905815),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544298, -79.905874),
+new google.maps.LatLng(40.544824, -79.905376),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544298, -79.905874),
+new google.maps.LatLng(40.544840, -79.905175),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544298, -79.905874),
+new google.maps.LatLng(40.543850, -79.905631),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544298, -79.905874),
+new google.maps.LatLng(40.545239, -79.905345),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544298, -79.905874),
+new google.maps.LatLng(40.544952, -79.905612),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544298, -79.905874),
+new google.maps.LatLng(40.544950, -79.905768),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.542969, -79.905884),
+new google.maps.LatLng(40.542653, -79.905815),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.542969, -79.905884),
+new google.maps.LatLng(40.543283, -79.905706),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.542969, -79.905884),
+new google.maps.LatLng(40.543452, -79.905722),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.542969, -79.905884),
+new google.maps.LatLng(40.543601, -79.905528),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.543283, -79.905706),
+new google.maps.LatLng(40.542969, -79.905884),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.543283, -79.905706),
+new google.maps.LatLng(40.544059, -79.905333),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.543283, -79.905706),
+new google.maps.LatLng(40.543986, -79.905408),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544308, -79.905606),
+new google.maps.LatLng(40.543986, -79.905408),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544059, -79.905333),
+new google.maps.LatLng(40.543283, -79.905706),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544059, -79.905333),
+new google.maps.LatLng(40.543452, -79.905722),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544059, -79.905333),
+new google.maps.LatLng(40.544451, -79.905316),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.543986, -79.905408),
+new google.maps.LatLng(40.543283, -79.905706),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.543986, -79.905408),
+new google.maps.LatLng(40.544308, -79.905606),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.543986, -79.905408),
+new google.maps.LatLng(40.544525, -79.905488),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.543986, -79.905408),
+new google.maps.LatLng(40.544726, -79.904639),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.543452, -79.905722),
+new google.maps.LatLng(40.542969, -79.905884),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.543452, -79.905722),
+new google.maps.LatLng(40.544059, -79.905333),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.543452, -79.905722),
+new google.maps.LatLng(40.543850, -79.905631),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.543534, -79.905611),
+new google.maps.LatLng(40.543601, -79.905528),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.543601, -79.905528),
+new google.maps.LatLng(40.542969, -79.905884),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.543601, -79.905528),
+new google.maps.LatLng(40.543534, -79.905611),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.543601, -79.905528),
+new google.maps.LatLng(40.543974, -79.905580),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.543601, -79.905528),
+new google.maps.LatLng(40.543850, -79.905631),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.543974, -79.905580),
+new google.maps.LatLng(40.543601, -79.905528),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.543974, -79.905580),
+new google.maps.LatLng(40.544497, -79.905260),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.543974, -79.905580),
+new google.maps.LatLng(40.544480, -79.906031),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544824, -79.905376),
+new google.maps.LatLng(40.544298, -79.905874),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544465, -79.904869),
+new google.maps.LatLng(40.544609, -79.905427),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544465, -79.904869),
+new google.maps.LatLng(40.543850, -79.905631),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544465, -79.904869),
+new google.maps.LatLng(40.544999, -79.905079),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544465, -79.904869),
+new google.maps.LatLng(40.544832, -79.905738),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544465, -79.904869),
+new google.maps.LatLng(40.544793, -79.905816),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544708, -79.904812),
+new google.maps.LatLng(40.544451, -79.905316),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544525, -79.905488),
+new google.maps.LatLng(40.543986, -79.905408),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544451, -79.905316),
+new google.maps.LatLng(40.544059, -79.905333),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544451, -79.905316),
+new google.maps.LatLng(40.544708, -79.904812),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544451, -79.905316),
+new google.maps.LatLng(40.544403, -79.905797),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544497, -79.905260),
+new google.maps.LatLng(40.543974, -79.905580),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544609, -79.905427),
+new google.maps.LatLng(40.544465, -79.904869),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544840, -79.905175),
+new google.maps.LatLng(40.544298, -79.905874),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544840, -79.905175),
+new google.maps.LatLng(40.545200, -79.904626),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544840, -79.905175),
+new google.maps.LatLng(40.545208, -79.904954),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544403, -79.905797),
+new google.maps.LatLng(40.544451, -79.905316),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544480, -79.906031),
+new google.maps.LatLng(40.543974, -79.905580),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544389, -79.905048),
+new google.maps.LatLng(40.544668, -79.904763),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544668, -79.904763),
+new google.maps.LatLng(40.544389, -79.905048),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544726, -79.904639),
+new google.maps.LatLng(40.543986, -79.905408),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544726, -79.904639),
+new google.maps.LatLng(40.544870, -79.904523),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544726, -79.904639),
+new google.maps.LatLng(40.544842, -79.904692),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544726, -79.904639),
+new google.maps.LatLng(40.544832, -79.905738),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544726, -79.904639),
+new google.maps.LatLng(40.544793, -79.905816),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.545200, -79.904626),
+new google.maps.LatLng(40.544840, -79.905175),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.545208, -79.904954),
+new google.maps.LatLng(40.544840, -79.905175),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.543850, -79.905631),
+new google.maps.LatLng(40.544298, -79.905874),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.543850, -79.905631),
+new google.maps.LatLng(40.543452, -79.905722),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.543850, -79.905631),
+new google.maps.LatLng(40.543601, -79.905528),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.543850, -79.905631),
+new google.maps.LatLng(40.544465, -79.904869),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544870, -79.904523),
+new google.maps.LatLng(40.544726, -79.904639),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544842, -79.904692),
+new google.maps.LatLng(40.544726, -79.904639),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544999, -79.905079),
+new google.maps.LatLng(40.544465, -79.904869),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.545204, -79.905409),
+new google.maps.LatLng(40.544793, -79.905816),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.545239, -79.905345),
+new google.maps.LatLng(40.544298, -79.905874),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544952, -79.905612),
+new google.maps.LatLng(40.544298, -79.905874),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544950, -79.905768),
+new google.maps.LatLng(40.544298, -79.905874),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544832, -79.905738),
+new google.maps.LatLng(40.544465, -79.904869),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544832, -79.905738),
+new google.maps.LatLng(40.544726, -79.904639),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544793, -79.905816),
+new google.maps.LatLng(40.544465, -79.904869),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544793, -79.905816),
+new google.maps.LatLng(40.544726, -79.904639),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(40.544793, -79.905816),
+new google.maps.LatLng(40.545204, -79.905409),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#00FFFF",
+strokeOpacity: 1.000000,
+strokeWeight: 1
+});
+
+Path.setMap(map);
+
+
+	}
+</script>
+</head>
+<body style="margin:0px; padding:0px;" onload="initialize()">
+	<div id="map_canvas" style="width: 100%; height: 100%;"></div>
+</body>
+</html>

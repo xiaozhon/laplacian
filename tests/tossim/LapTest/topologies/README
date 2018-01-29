@@ -1,0 +1,16 @@
+java net.tinyos.sim LinkLayerModel [Configuration_file]
+
+java topo_generator.LinkLayerModel [configuration_file]
+
+
+# topology files with different size/density. The base line is the "grid_225nodes_2.3m.txt"
+The density is 225 nodes in "32.2m*32.2m" space.
+
+1. keep density, node size from 100 to 500.
+
+   for 100 nodes:
+   	 23m * 23m
+   for 200 nodes:
+     area = 200 / (255/(32.2*32.2))
+     dimension = sqrt(area)
+   

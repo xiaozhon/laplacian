@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <LINK rel="stylesheet" href="nesdoc.css" type="text/css" media="screen"><title>Component: SensorReaderP</title>
+  </head>
+  <body>
+    <h2>Component: SensorReaderP
+    </h2>
+    <b>module SensorReaderP</b>
+    <p>
+ This file provides an implementation for reading the sensors
+ to remove the reading of values away from the main application
+ Author: Newlyn Erratt, Yimei Li, Xiaoyang Zhong
+
+ 1. Make the MPS2 readings of resolution 0.1.
+ 2. The first two fields in ADC[] array: adc[0] and adc[1] is used to store the 
+    MPS2 readings.
+	 - uint32_t mps2_readings = mps2_wp << 21 + mps2_temp;
+	 -          adc[0] = mps2_readings >> 16;
+	 -			adc[1] = mps2_readings;		// it automatically get the lower bytes.
+
+ 3. Conversion foluma for MPS2 readings
+ 		MPS2 Water potential = -mps2_wp * 0.1 kPa
+ 		MPS2 Temprature = (mps2_temp - 400) * 0.1 Celsius
+
+ Reading ADC and reading MPS2 go parallel.
+
+    <p><p><div id=heading>Provides</div><div id=funcsig>interface <a href="../ihtml/SensorReader.html">SensorReader</a></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.StdControl.html">StdControl</a></div><p><div id=heading>Uses</div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.Read.html">Read</a>&lt;uint16_t&gt; as <b>ADC0</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.Read.html">Read</a>&lt;uint16_t&gt; as <b>ADC1</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.Read.html">Read</a>&lt;uint16_t&gt; as <b>ADC2</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.Read.html">Read</a>&lt;uint16_t&gt; as <b>ADC3</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.Read.html">Read</a>&lt;uint16_t&gt; as <b>ADC6</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.Read.html">Read</a>&lt;uint16_t&gt; as <b>ADC7</b></div><div id=funcsig>interface <a href="../ihtml/tos.lib.timer.Timer.html">Timer</a>&lt;TMilli&gt; as <b>delayTimer</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.TaskBasic.html">TaskBasic</a> as <b>dummyReadings</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.Read.html">Read</a>&lt;uint16_t&gt; as <b>Humidity</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.Init.html">Init</a> as <b>MoteClockInit</b></div><div id=funcsig>interface <a href="../ihtml/tos.chips.msp430.pins.HplMsp430GeneralIO.html">HplMsp430GeneralIO</a> as <b>Power2_5</b></div><div id=funcsig>interface <a href="../ihtml/tos.chips.msp430.pins.HplMsp430GeneralIO.html">HplMsp430GeneralIO</a> as <b>Power5_0</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.TaskBasic.html">TaskBasic</a> as <b>readingTask</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.Read.html">Read</a>&lt;uint16_t&gt; as <b>Temperature</b></div><div id=funcsig>interface <a href="../ihtml/tos.lib.timer.Timer.html">Timer</a>&lt;TMilli&gt;</div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.Resource.html">Resource</a> as <b>UartResource</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.UartStream.html">UartStream</a></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.Read.html">Read</a>&lt;uint16_t&gt; as <b>Voltage</b></div>
+  </body>
+</html>

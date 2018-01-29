@@ -1,0 +1,209 @@
+<?xml version="1.0" ?><interfacedef loc="59:../../../net_EER/CollectionDebug.nc" nicename=".........net_EER.CollectionDebug" qname="CollectionDebug">
+      <documentation loc="35:../../../net_EER/CollectionDebug.nc">
+        <short> 
+  The CollectionDebug is an interface for sending debugging events to
+  a logging infrastructure.</short>
+        <long> 
+  The CollectionDebug is an interface for sending debugging events to
+  a logging infrastructure. An implementer can choose to send the event
+  information to different destinations. Primary examples can include:
+  &lt;ul&gt;
+    &lt;li&gt; logging to the UART, in case of a testbed of network-connected
+         nodes;
+    &lt;li&gt; logging to flash, if the logs are to be retrieved later
+    &lt;li&gt; logging to the standard output, in the case of TOSSIM.
+  &lt;/ul&gt;
+  
+  The interface does not specify in what format the log is to be produced,
+  or if other information, like timestamps, should be added, and this is
+  up to the implementer.
+ 
+  Some commands are generic, like Event, EventSimple, and EventDbg, while others
+  are for more specific events related to collection, like EventRoute and EventMsg.
+
+ @author Rodrigo Fonseca
+ @author Kyle Jamieson
+ @date   $Date: 2010-06-29 22:07:47 $
+</long>
+      </documentation>
+      <function command="" loc="61:../../../net_EER/CollectionDebug.nc" name="logEvent" provided="0" ref="0x40dc2868">
+        <interfacedef-ref nicename=".........net_EER.CollectionDebug" qname="CollectionDebug"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x40325628"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="61:../../../net_EER/CollectionDebug.nc" name="type" ref="0x40dc2710">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="73:../../../net_EER/CollectionDebug.nc" name="logEventMsg" provided="0" ref="0x40dbf7b0">
+        <interfacedef-ref nicename=".........net_EER.CollectionDebug" qname="CollectionDebug"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x40325628"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="am_addr_t" ref="0x403fccb0"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="am_addr_t" ref="0x403fccb0"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="73:../../../net_EER/CollectionDebug.nc" name="type" ref="0x40dbf030">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="73:../../../net_EER/CollectionDebug.nc" name="msg" ref="0x40dbf220">
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="73:../../../net_EER/CollectionDebug.nc" name="origin" ref="0x40dbf438">
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="am_addr_t" ref="0x403fccb0"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="73:../../../net_EER/CollectionDebug.nc" name="node" ref="0x40dbf640">
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="am_addr_t" ref="0x403fccb0"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="64:../../../net_EER/CollectionDebug.nc" name="logEventSimple" provided="0" ref="0x40dc0028">
+        <interfacedef-ref nicename=".........net_EER.CollectionDebug" qname="CollectionDebug"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x40325628"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="64:../../../net_EER/CollectionDebug.nc" name="type" ref="0x40dc2cc8">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="64:../../../net_EER/CollectionDebug.nc" name="arg" ref="0x40dc2eb8">
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="79:../../../net_EER/CollectionDebug.nc" name="logEventRoute" provided="0" ref="0x40dbe3e8">
+        <interfacedef-ref nicename=".........net_EER.CollectionDebug" qname="CollectionDebug"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x40325628"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="am_addr_t" ref="0x403fccb0"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="79:../../../net_EER/CollectionDebug.nc" name="type" ref="0x40dbfc08">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="79:../../../net_EER/CollectionDebug.nc" name="parent" ref="0x40dbfe20">
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="am_addr_t" ref="0x403fccb0"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="79:../../../net_EER/CollectionDebug.nc" name="hopcount" ref="0x40dbe068">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="79:../../../net_EER/CollectionDebug.nc" name="metric" ref="0x40dbe278">
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="67:../../../net_EER/CollectionDebug.nc" name="logEventDbg" provided="0" ref="0x40dc0bd8">
+        <interfacedef-ref nicename=".........net_EER.CollectionDebug" qname="CollectionDebug"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x40325628"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="67:../../../net_EER/CollectionDebug.nc" name="type" ref="0x40dc0468">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="67:../../../net_EER/CollectionDebug.nc" name="arg1" ref="0x40dc0668">
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="67:../../../net_EER/CollectionDebug.nc" name="arg2" ref="0x40dc0868">
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="67:../../../net_EER/CollectionDebug.nc" name="arg3" ref="0x40dc0a68">
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+    </interfacedef>

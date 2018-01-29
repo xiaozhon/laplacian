@@ -1,0 +1,25 @@
+WSN application based on R-CTP
+
+****************************************************************************************************
+* Programming the sink:
+
+In the sink directory run:
+	make iris
+	make iris reinstall.1 mib520,/dev/ttyUSB* 
+where * is the first usb port of the programming board (1 is the node ID for the sink)
+
+
+****************************************************************************************************
+* Programming the motes:
+
+In the mote directory run:
+	make micaz
+	make micaz reinstall.id mib520,/dev/ttyUSB*
+where * is the first usb port of the programming board and "id" is the node id.
+
+** TelosB motes only have 1 USB port.
+	make telosb
+	make telosb reinstall.id bsl,/dev/ttyUSB*
+
+
+

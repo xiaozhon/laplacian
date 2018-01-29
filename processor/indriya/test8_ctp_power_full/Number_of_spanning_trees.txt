@@ -1,0 +1,920 @@
+2016-10-13 17:23:20 Round: 1
+Number_of_spanning_trees: 1.0
+2016-10-13 17:28:21 Round: 2
+Number_of_spanning_trees: 1.0
+2016-10-13 17:33:22 Round: 3
+Number_of_spanning_trees: 1.0
+2016-10-13 17:38:23 Round: 4
+Number_of_spanning_trees: 1.0
+2016-10-13 17:43:24 Round: 5
+Number_of_spanning_trees: 1.0
+2016-10-13 17:48:25 Round: 6
+Number_of_spanning_trees: 1.0
+2016-10-13 17:53:26 Round: 7
+Number_of_spanning_trees: 1.0
+2016-10-13 17:58:27 Round: 8
+Number_of_spanning_trees: 1.0
+2016-10-13 18:03:44 Round: 9
+Number_of_spanning_trees: 1.0
+2016-10-13 18:13:18 Round: 10
+Number_of_spanning_trees: 1.0
+2016-10-13 18:18:20 Round: 11
+Number_of_spanning_trees: 1.0
+2016-10-13 18:23:26 Round: 12
+Number_of_spanning_trees: 1.0
+2016-10-13 18:28:27 Round: 13
+Number_of_spanning_trees: 1.0
+2016-10-13 18:33:28 Round: 14
+Number_of_spanning_trees: 1.0
+2016-10-13 18:38:29 Round: 15
+Number_of_spanning_trees: 1.0
+2016-10-13 18:48:18 Round: 16
+Number_of_spanning_trees: 1.0
+2016-10-13 18:53:19 Round: 17
+Number_of_spanning_trees: 1.0
+2016-10-13 18:58:20 Round: 18
+Number_of_spanning_trees: 1.0
+2016-10-13 19:03:21 Round: 19
+Number_of_spanning_trees: 1.0
+2016-10-13 19:08:22 Round: 20
+Number_of_spanning_trees: 1.0
+2016-10-13 19:13:23 Round: 21
+Number_of_spanning_trees: 1.0
+2016-10-13 19:18:24 Round: 22
+Number_of_spanning_trees: 1.0
+2016-10-13 19:23:25 Round: 23
+Number_of_spanning_trees: 1.0
+2016-10-13 19:28:26 Round: 24
+Number_of_spanning_trees: 1.0
+2016-10-13 19:33:27 Round: 25
+Number_of_spanning_trees: 1.0
+2016-10-13 19:38:28 Round: 26
+Number_of_spanning_trees: 1.0
+2016-10-13 19:43:29 Round: 27
+Number_of_spanning_trees: 1.0
+2016-10-13 19:48:30 Round: 28
+Number_of_spanning_trees: 1.0
+2016-10-13 19:53:33 Round: 29
+Number_of_spanning_trees: 1.0
+2016-10-13 19:58:35 Round: 30
+Number_of_spanning_trees: 1.0
+2016-10-13 20:03:36 Round: 31
+Number_of_spanning_trees: 1.0
+2016-10-13 20:13:18 Round: 32
+Number_of_spanning_trees: 1.0
+2016-10-13 20:18:19 Round: 33
+Number_of_spanning_trees: 1.0
+2016-10-13 20:23:20 Round: 34
+Number_of_spanning_trees: 1.0
+2016-10-13 20:28:21 Round: 35
+Number_of_spanning_trees: 1.0
+2016-10-13 20:33:22 Round: 36
+Number_of_spanning_trees: 1.0
+2016-10-13 20:38:23 Round: 37
+Number_of_spanning_trees: 1.0
+2016-10-13 20:43:24 Round: 38
+Number_of_spanning_trees: 1.0
+2016-10-13 20:48:25 Round: 39
+Number_of_spanning_trees: 1.0
+2016-10-13 20:53:26 Round: 40
+Number_of_spanning_trees: 1.0
+2016-10-13 20:58:28 Round: 41
+Number_of_spanning_trees: 1.0
+2016-10-13 21:03:29 Round: 42
+Number_of_spanning_trees: 1.0
+2016-10-13 21:08:30 Round: 43
+Number_of_spanning_trees: 1.0
+2016-10-13 21:18:18 Round: 44
+Number_of_spanning_trees: 1.0
+2016-10-13 21:23:20 Round: 45
+Number_of_spanning_trees: 1.0
+2016-10-13 21:28:21 Round: 46
+Number_of_spanning_trees: 1.0
+2016-10-13 21:33:22 Round: 47
+Number_of_spanning_trees: 1.0
+2016-10-13 21:38:23 Round: 48
+Number_of_spanning_trees: 1.0
+2016-10-13 21:43:24 Round: 49
+Number_of_spanning_trees: 1.0
+2016-10-13 21:48:25 Round: 50
+Number_of_spanning_trees: 1.0
+2016-10-13 21:53:26 Round: 51
+Number_of_spanning_trees: 1.0
+2016-10-13 21:58:28 Round: 52
+Number_of_spanning_trees: 1.0
+2016-10-13 22:03:29 Round: 53
+Number_of_spanning_trees: 1.0
+2016-10-13 22:08:30 Round: 54
+Number_of_spanning_trees: 1.0
+2016-10-13 22:18:18 Round: 55
+Number_of_spanning_trees: 1.0
+2016-10-13 22:23:19 Round: 56
+Number_of_spanning_trees: 1.0
+2016-10-13 22:28:20 Round: 57
+Number_of_spanning_trees: 1.0
+2016-10-13 22:33:21 Round: 58
+Number_of_spanning_trees: 1.0
+2016-10-13 22:38:22 Round: 59
+Number_of_spanning_trees: 1.0
+2016-10-13 22:43:23 Round: 60
+Number_of_spanning_trees: 1.0
+2016-10-13 22:48:24 Round: 61
+Number_of_spanning_trees: 1.0
+2016-10-13 22:53:25 Round: 62
+Number_of_spanning_trees: 1.0
+2016-10-13 22:58:26 Round: 63
+Number_of_spanning_trees: 1.0
+2016-10-13 23:03:27 Round: 64
+Number_of_spanning_trees: 1.0
+2016-10-13 23:08:28 Round: 65
+Number_of_spanning_trees: 1.0
+2016-10-13 23:13:30 Round: 66
+Number_of_spanning_trees: 2.0
+2016-10-13 23:23:18 Round: 67
+Number_of_spanning_trees: 1.0
+2016-10-13 23:28:19 Round: 68
+Number_of_spanning_trees: 1.0
+2016-10-13 23:33:20 Round: 69
+Number_of_spanning_trees: 1.0
+2016-10-13 23:38:21 Round: 70
+Number_of_spanning_trees: 1.0
+2016-10-13 23:43:22 Round: 71
+Number_of_spanning_trees: 1.0
+2016-10-13 23:48:23 Round: 72
+Number_of_spanning_trees: 1.0
+2016-10-13 23:53:24 Round: 73
+Number_of_spanning_trees: 1.0
+2016-10-13 23:58:25 Round: 74
+Number_of_spanning_trees: 1.0
+2016-10-14 00:03:26 Round: 75
+Number_of_spanning_trees: 1.0
+2016-10-14 00:08:27 Round: 76
+Number_of_spanning_trees: 2.0
+2016-10-14 00:13:28 Round: 77
+Number_of_spanning_trees: 1.0
+2016-10-14 00:18:29 Round: 78
+Number_of_spanning_trees: 1.0
+2016-10-14 00:23:30 Round: 79
+Number_of_spanning_trees: 1.0
+2016-10-14 00:28:31 Round: 80
+Number_of_spanning_trees: 1.0
+2016-10-14 00:33:32 Round: 81
+Number_of_spanning_trees: 2.0
+2016-10-14 00:38:36 Round: 82
+Number_of_spanning_trees: 1.0
+2016-10-14 00:48:18 Round: 83
+Number_of_spanning_trees: 1.0
+2016-10-14 00:53:19 Round: 84
+Number_of_spanning_trees: 1.0
+2016-10-14 00:58:20 Round: 85
+Number_of_spanning_trees: 2.0
+2016-10-14 01:03:21 Round: 86
+Number_of_spanning_trees: 2.0
+2016-10-14 01:08:22 Round: 87
+Number_of_spanning_trees: 8.0
+2016-10-14 01:13:23 Round: 88
+Number_of_spanning_trees: 1.0
+2016-10-14 01:18:24 Round: 89
+Number_of_spanning_trees: 1.0
+2016-10-14 01:23:25 Round: 90
+Number_of_spanning_trees: 1.0
+2016-10-14 01:28:26 Round: 91
+Number_of_spanning_trees: 1.0
+2016-10-14 01:33:27 Round: 92
+Number_of_spanning_trees: 1.0
+2016-10-14 01:38:28 Round: 93
+Number_of_spanning_trees: 1.0
+2016-10-14 01:43:29 Round: 94
+Number_of_spanning_trees: 1.0
+2016-10-14 01:48:30 Round: 95
+Number_of_spanning_trees: 1.0
+2016-10-14 01:53:31 Round: 96
+Number_of_spanning_trees: 1.0
+2016-10-14 01:58:34 Round: 97
+Number_of_spanning_trees: 1.0
+2016-10-14 02:03:37 Round: 98
+Number_of_spanning_trees: 1.0
+2016-10-14 02:13:17 Round: 99
+Number_of_spanning_trees: 1.0
+2016-10-14 02:18:18 Round: 100
+Number_of_spanning_trees: 1.0
+2016-10-14 02:23:19 Round: 101
+Number_of_spanning_trees: 1.0
+2016-10-14 02:28:20 Round: 102
+Number_of_spanning_trees: 1.0
+2016-10-14 02:33:21 Round: 103
+Number_of_spanning_trees: 1.0
+2016-10-14 02:38:22 Round: 104
+Number_of_spanning_trees: 1.0
+2016-10-14 02:43:23 Round: 105
+Number_of_spanning_trees: 1.0
+2016-10-14 02:48:24 Round: 106
+Number_of_spanning_trees: 1.0
+2016-10-14 02:53:25 Round: 107
+Number_of_spanning_trees: 1.0
+2016-10-14 02:58:26 Round: 108
+Number_of_spanning_trees: 1.0
+2016-10-14 03:03:27 Round: 109
+Number_of_spanning_trees: 1.0
+2016-10-14 03:08:28 Round: 110
+Number_of_spanning_trees: 1.0
+2016-10-14 03:13:29 Round: 111
+Number_of_spanning_trees: 1.0
+2016-10-14 03:18:30 Round: 112
+Number_of_spanning_trees: 1.0
+2016-10-14 03:23:33 Round: 113
+Number_of_spanning_trees: 1.0
+2016-10-14 03:28:37 Round: 114
+Number_of_spanning_trees: 1.0
+2016-10-14 03:38:17 Round: 115
+Number_of_spanning_trees: 2.0
+2016-10-14 03:43:18 Round: 116
+Number_of_spanning_trees: 1.0
+2016-10-14 03:48:19 Round: 117
+Number_of_spanning_trees: 1.0
+2016-10-14 03:53:20 Round: 118
+Number_of_spanning_trees: 2.0
+2016-10-14 03:58:21 Round: 119
+Number_of_spanning_trees: 1.0
+2016-10-14 04:03:22 Round: 120
+Number_of_spanning_trees: 1.0
+2016-10-14 04:08:23 Round: 121
+Number_of_spanning_trees: 1.0
+2016-10-14 04:13:24 Round: 122
+Number_of_spanning_trees: 4.0
+2016-10-14 04:18:25 Round: 123
+Number_of_spanning_trees: 1.0
+2016-10-14 04:23:26 Round: 124
+Number_of_spanning_trees: 1.0
+2016-10-14 04:28:27 Round: 125
+Number_of_spanning_trees: 1.0
+2016-10-14 04:33:28 Round: 126
+Number_of_spanning_trees: 1.0
+2016-10-14 04:38:29 Round: 127
+Number_of_spanning_trees: 4.0
+2016-10-14 04:43:30 Round: 128
+Number_of_spanning_trees: 1.0
+2016-10-14 04:48:31 Round: 129
+Number_of_spanning_trees: 1.0
+2016-10-14 04:53:32 Round: 130
+Number_of_spanning_trees: 2.0
+2016-10-14 04:58:41 Round: 131
+Number_of_spanning_trees: 1.0
+2016-10-14 05:08:18 Round: 132
+Number_of_spanning_trees: 1.0
+2016-10-14 05:13:19 Round: 133
+Number_of_spanning_trees: 1.0
+2016-10-14 05:18:20 Round: 134
+Number_of_spanning_trees: 1.0
+2016-10-14 05:23:21 Round: 135
+Number_of_spanning_trees: 1.0
+2016-10-14 05:28:22 Round: 136
+Number_of_spanning_trees: 1.0
+2016-10-14 05:33:23 Round: 137
+Number_of_spanning_trees: 1.0
+2016-10-14 05:38:24 Round: 138
+Number_of_spanning_trees: 1.0
+2016-10-14 05:43:25 Round: 139
+Number_of_spanning_trees: 1.0
+2016-10-14 05:48:26 Round: 140
+Number_of_spanning_trees: 1.0
+2016-10-14 05:53:27 Round: 141
+Number_of_spanning_trees: 1.0
+2016-10-14 05:58:29 Round: 142
+Number_of_spanning_trees: 6.0
+2016-10-14 06:03:30 Round: 143
+Number_of_spanning_trees: 2.0
+2016-10-14 06:08:31 Round: 144
+Number_of_spanning_trees: 1.0
+2016-10-14 06:13:42 Round: 145
+Number_of_spanning_trees: 1.0
+2016-10-14 06:23:17 Round: 146
+Number_of_spanning_trees: 1.0
+2016-10-14 06:28:19 Round: 147
+Number_of_spanning_trees: 1.0
+2016-10-14 06:33:20 Round: 148
+Number_of_spanning_trees: 1.0
+2016-10-14 06:38:21 Round: 149
+Number_of_spanning_trees: 1.0
+2016-10-14 06:43:22 Round: 150
+Number_of_spanning_trees: 1.0
+2016-10-14 06:48:23 Round: 151
+Number_of_spanning_trees: 1.0
+2016-10-14 06:53:24 Round: 152
+Number_of_spanning_trees: 1.0
+2016-10-14 06:58:25 Round: 153
+Number_of_spanning_trees: 1.0
+2016-10-14 07:03:26 Round: 154
+Number_of_spanning_trees: 1.0
+2016-10-14 07:08:27 Round: 155
+Number_of_spanning_trees: 1.0
+2016-10-14 07:13:28 Round: 156
+Number_of_spanning_trees: 1.0
+2016-10-14 07:18:29 Round: 157
+Number_of_spanning_trees: 1.0
+2016-10-14 07:23:30 Round: 158
+Number_of_spanning_trees: 1.0
+2016-10-14 07:28:31 Round: 159
+Number_of_spanning_trees: 2.0
+2016-10-14 07:33:33 Round: 160
+Number_of_spanning_trees: 1.0
+2016-10-14 07:43:17 Round: 161
+Number_of_spanning_trees: 1.0
+2016-10-14 07:48:19 Round: 162
+Number_of_spanning_trees: 1.0
+2016-10-14 07:53:20 Round: 163
+Number_of_spanning_trees: 1.0
+2016-10-14 07:58:21 Round: 164
+Number_of_spanning_trees: 1.0
+2016-10-14 08:03:22 Round: 165
+Number_of_spanning_trees: 1.0
+2016-10-14 08:08:23 Round: 166
+Number_of_spanning_trees: 1.0
+2016-10-14 08:13:24 Round: 167
+Number_of_spanning_trees: 1.0
+2016-10-14 08:18:25 Round: 168
+Number_of_spanning_trees: 1.0
+2016-10-14 08:23:26 Round: 169
+Number_of_spanning_trees: 1.0
+2016-10-14 08:28:27 Round: 170
+Number_of_spanning_trees: 1.0
+2016-10-14 08:33:28 Round: 171
+Number_of_spanning_trees: 1.0
+2016-10-14 08:38:29 Round: 172
+Number_of_spanning_trees: 1.0
+2016-10-14 08:43:31 Round: 173
+Number_of_spanning_trees: 1.0
+2016-10-14 08:53:17 Round: 174
+Number_of_spanning_trees: 1.0
+2016-10-14 08:58:18 Round: 175
+Number_of_spanning_trees: 1.0
+2016-10-14 09:03:19 Round: 176
+Number_of_spanning_trees: 1.0
+2016-10-14 09:08:20 Round: 177
+Number_of_spanning_trees: 1.0
+2016-10-14 09:13:21 Round: 178
+Number_of_spanning_trees: 2.0
+2016-10-14 09:18:22 Round: 179
+Number_of_spanning_trees: 1.0
+2016-10-14 09:23:23 Round: 180
+Number_of_spanning_trees: 1.0
+2016-10-14 09:28:24 Round: 181
+Number_of_spanning_trees: 1.0
+2016-10-14 09:33:25 Round: 182
+Number_of_spanning_trees: 1.0
+2016-10-14 09:38:26 Round: 183
+Number_of_spanning_trees: 1.0
+2016-10-14 09:43:27 Round: 184
+Number_of_spanning_trees: 1.0
+2016-10-14 09:48:29 Round: 185
+Number_of_spanning_trees: 1.0
+2016-10-14 09:53:30 Round: 186
+Number_of_spanning_trees: 1.0
+2016-10-14 09:58:31 Round: 187
+Number_of_spanning_trees: 1.0
+2016-10-14 10:03:32 Round: 188
+Number_of_spanning_trees: 1.0
+2016-10-14 10:08:42 Round: 189
+Number_of_spanning_trees: 1.0
+2016-10-14 10:18:17 Round: 190
+Number_of_spanning_trees: 1.0
+2016-10-14 10:23:18 Round: 191
+Number_of_spanning_trees: 1.0
+2016-10-14 10:28:19 Round: 192
+Number_of_spanning_trees: 1.0
+2016-10-14 10:33:20 Round: 193
+Number_of_spanning_trees: 1.0
+2016-10-14 10:38:21 Round: 194
+Number_of_spanning_trees: 1.0
+2016-10-14 10:43:22 Round: 195
+Number_of_spanning_trees: 1.0
+2016-10-14 10:48:23 Round: 196
+Number_of_spanning_trees: 1.0
+2016-10-14 10:53:24 Round: 197
+Number_of_spanning_trees: 1.0
+2016-10-14 10:58:25 Round: 198
+Number_of_spanning_trees: 1.0
+2016-10-14 11:03:26 Round: 199
+Number_of_spanning_trees: 1.0
+2016-10-14 11:08:27 Round: 200
+Number_of_spanning_trees: 1.0
+2016-10-14 11:13:28 Round: 201
+Number_of_spanning_trees: 1.0
+2016-10-14 11:18:29 Round: 202
+Number_of_spanning_trees: 1.0
+2016-10-14 11:23:30 Round: 203
+Number_of_spanning_trees: 1.0
+2016-10-14 11:28:32 Round: 204
+Number_of_spanning_trees: 1.0
+2016-10-14 11:33:45 Round: 205
+Number_of_spanning_trees: 1.0
+2016-10-14 11:43:17 Round: 206
+Number_of_spanning_trees: 1.0
+2016-10-14 11:48:18 Round: 207
+Number_of_spanning_trees: 1.0
+2016-10-14 11:53:19 Round: 208
+Number_of_spanning_trees: 1.0
+2016-10-14 11:58:20 Round: 209
+Number_of_spanning_trees: 1.0
+2016-10-14 12:03:21 Round: 210
+Number_of_spanning_trees: 1.0
+2016-10-14 12:08:22 Round: 211
+Number_of_spanning_trees: 1.0
+2016-10-14 12:13:23 Round: 212
+Number_of_spanning_trees: 1.0
+2016-10-14 12:18:24 Round: 213
+Number_of_spanning_trees: 1.0
+2016-10-14 12:23:25 Round: 214
+Number_of_spanning_trees: 1.0
+2016-10-14 12:28:26 Round: 215
+Number_of_spanning_trees: 1.0
+2016-10-14 12:33:27 Round: 216
+Number_of_spanning_trees: 1.0
+2016-10-14 12:38:28 Round: 217
+Number_of_spanning_trees: 1.0
+2016-10-14 12:43:29 Round: 218
+Number_of_spanning_trees: 1.0
+2016-10-14 12:48:30 Round: 219
+Number_of_spanning_trees: 1.0
+2016-10-14 12:53:31 Round: 220
+Number_of_spanning_trees: 1.0
+2016-10-14 12:58:32 Round: 221
+Number_of_spanning_trees: 1.0
+2016-10-14 13:03:39 Round: 222
+Number_of_spanning_trees: 1.0
+2016-10-14 13:13:16 Round: 223
+Number_of_spanning_trees: 1.0
+2016-10-14 13:18:19 Round: 224
+Number_of_spanning_trees: 1.0
+2016-10-14 13:23:20 Round: 225
+Number_of_spanning_trees: 1.0
+2016-10-14 13:28:21 Round: 226
+Number_of_spanning_trees: 1.0
+2016-10-14 13:33:22 Round: 227
+Number_of_spanning_trees: 1.0
+2016-10-14 13:38:23 Round: 228
+Number_of_spanning_trees: 1.0
+2016-10-14 13:43:24 Round: 229
+Number_of_spanning_trees: 1.0
+2016-10-14 13:48:25 Round: 230
+Number_of_spanning_trees: 1.0
+2016-10-14 13:53:26 Round: 231
+Number_of_spanning_trees: 1.0
+2016-10-14 13:58:27 Round: 232
+Number_of_spanning_trees: 1.0
+2016-10-14 14:03:28 Round: 233
+Number_of_spanning_trees: 1.0
+2016-10-14 14:08:30 Round: 234
+Number_of_spanning_trees: 1.0
+2016-10-14 14:13:31 Round: 235
+Number_of_spanning_trees: 1.0
+2016-10-14 14:18:43 Round: 236
+Number_of_spanning_trees: 1.0
+2016-10-14 14:28:17 Round: 237
+Number_of_spanning_trees: 1.0
+2016-10-14 14:33:19 Round: 238
+Number_of_spanning_trees: 1.0
+2016-10-14 14:38:20 Round: 239
+Number_of_spanning_trees: 1.0
+2016-10-14 14:43:21 Round: 240
+Number_of_spanning_trees: 1.0
+2016-10-14 14:48:22 Round: 241
+Number_of_spanning_trees: 1.0
+2016-10-14 14:53:23 Round: 242
+Number_of_spanning_trees: 1.0
+2016-10-14 14:58:24 Round: 243
+Number_of_spanning_trees: 1.0
+2016-10-14 15:03:25 Round: 244
+Number_of_spanning_trees: 1.0
+2016-10-14 15:08:26 Round: 245
+Number_of_spanning_trees: 1.0
+2016-10-14 15:13:27 Round: 246
+Number_of_spanning_trees: 1.0
+2016-10-14 15:18:28 Round: 247
+Number_of_spanning_trees: 1.0
+2016-10-14 15:23:29 Round: 248
+Number_of_spanning_trees: 1.0
+2016-10-14 15:28:30 Round: 249
+Number_of_spanning_trees: 1.0
+2016-10-14 15:38:16 Round: 250
+Number_of_spanning_trees: 1.0
+2016-10-14 15:43:17 Round: 251
+Number_of_spanning_trees: 1.0
+2016-10-14 15:48:18 Round: 252
+Number_of_spanning_trees: 1.0
+2016-10-14 15:53:19 Round: 253
+Number_of_spanning_trees: 1.0
+2016-10-14 15:58:20 Round: 254
+Number_of_spanning_trees: 1.0
+2016-10-14 16:03:21 Round: 255
+Number_of_spanning_trees: 1.0
+2016-10-14 16:08:22 Round: 256
+Number_of_spanning_trees: 1.0
+2016-10-14 16:13:23 Round: 257
+Number_of_spanning_trees: 1.0
+2016-10-14 16:18:24 Round: 258
+Number_of_spanning_trees: 1.0
+2016-10-14 16:23:25 Round: 259
+Number_of_spanning_trees: 1.0
+2016-10-14 16:28:26 Round: 260
+Number_of_spanning_trees: 1.0
+2016-10-14 16:33:27 Round: 261
+Number_of_spanning_trees: 1.0
+2016-10-14 16:38:28 Round: 262
+Number_of_spanning_trees: 1.0
+2016-10-14 16:43:29 Round: 263
+Number_of_spanning_trees: 1.0
+2016-10-14 16:48:30 Round: 264
+Number_of_spanning_trees: 1.0
+2016-10-14 16:53:31 Round: 265
+Number_of_spanning_trees: 1.0
+2016-10-14 16:58:32 Round: 266
+Number_of_spanning_trees: 2.0
+2016-10-14 17:08:16 Round: 267
+Number_of_spanning_trees: 1.0
+2016-10-14 17:13:18 Round: 268
+Number_of_spanning_trees: 1.0
+2016-10-14 17:18:19 Round: 269
+Number_of_spanning_trees: 1.0
+2016-10-14 17:23:20 Round: 270
+Number_of_spanning_trees: 1.0
+2016-10-14 17:28:21 Round: 271
+Number_of_spanning_trees: 1.0
+2016-10-14 17:33:22 Round: 272
+Number_of_spanning_trees: 1.0
+2016-10-14 17:38:23 Round: 273
+Number_of_spanning_trees: 1.0
+2016-10-14 17:43:24 Round: 274
+Number_of_spanning_trees: 1.0
+2016-10-14 17:48:25 Round: 275
+Number_of_spanning_trees: 1.0
+2016-10-14 17:53:26 Round: 276
+Number_of_spanning_trees: 1.0
+2016-10-14 17:58:27 Round: 277
+Number_of_spanning_trees: 1.0
+2016-10-14 18:03:28 Round: 278
+Number_of_spanning_trees: 1.0
+2016-10-14 18:08:29 Round: 279
+Number_of_spanning_trees: 1.0
+2016-10-14 18:13:30 Round: 280
+Number_of_spanning_trees: 1.0
+2016-10-14 18:18:31 Round: 281
+Number_of_spanning_trees: 1.0
+2016-10-14 18:23:37 Round: 282
+Number_of_spanning_trees: 1.0
+2016-10-14 18:33:17 Round: 283
+Number_of_spanning_trees: 1.0
+2016-10-14 18:38:18 Round: 284
+Number_of_spanning_trees: 1.0
+2016-10-14 18:43:19 Round: 285
+Number_of_spanning_trees: 1.0
+2016-10-14 18:48:20 Round: 286
+Number_of_spanning_trees: 1.0
+2016-10-14 18:53:21 Round: 287
+Number_of_spanning_trees: 1.0
+2016-10-14 18:58:22 Round: 288
+Number_of_spanning_trees: 1.0
+2016-10-14 19:03:23 Round: 289
+Number_of_spanning_trees: 1.0
+2016-10-14 19:08:24 Round: 290
+Number_of_spanning_trees: 1.0
+2016-10-14 19:13:25 Round: 291
+Number_of_spanning_trees: 1.0
+2016-10-14 19:18:26 Round: 292
+Number_of_spanning_trees: 1.0
+2016-10-14 19:23:27 Round: 293
+Number_of_spanning_trees: 1.0
+2016-10-14 19:28:28 Round: 294
+Number_of_spanning_trees: 1.0
+2016-10-14 19:33:29 Round: 295
+Number_of_spanning_trees: 1.0
+2016-10-14 19:38:30 Round: 296
+Number_of_spanning_trees: 1.0
+2016-10-14 19:43:32 Round: 297
+Number_of_spanning_trees: 1.0
+2016-10-14 19:53:16 Round: 298
+Number_of_spanning_trees: 1.0
+2016-10-14 19:58:18 Round: 299
+Number_of_spanning_trees: 1.0
+2016-10-14 20:03:19 Round: 300
+Number_of_spanning_trees: 1.0
+2016-10-14 20:08:20 Round: 301
+Number_of_spanning_trees: 1.0
+2016-10-14 20:13:21 Round: 302
+Number_of_spanning_trees: 1.0
+2016-10-14 20:18:22 Round: 303
+Number_of_spanning_trees: 1.0
+2016-10-14 20:23:23 Round: 304
+Number_of_spanning_trees: 1.0
+2016-10-14 20:28:24 Round: 305
+Number_of_spanning_trees: 1.0
+2016-10-14 20:33:25 Round: 306
+Number_of_spanning_trees: 1.0
+2016-10-14 20:38:26 Round: 307
+Number_of_spanning_trees: 1.0
+2016-10-14 20:43:27 Round: 308
+Number_of_spanning_trees: 1.0
+2016-10-14 20:48:28 Round: 309
+Number_of_spanning_trees: 1.0
+2016-10-14 20:53:30 Round: 310
+Number_of_spanning_trees: 2.0
+2016-10-14 20:58:31 Round: 311
+Number_of_spanning_trees: 2.0
+2016-10-14 21:03:32 Round: 312
+Number_of_spanning_trees: 1.0
+2016-10-14 21:13:15 Round: 313
+Number_of_spanning_trees: 1.0
+2016-10-14 21:18:16 Round: 314
+Number_of_spanning_trees: 1.0
+2016-10-14 21:23:18 Round: 315
+Number_of_spanning_trees: 1.0
+2016-10-14 21:28:19 Round: 316
+Number_of_spanning_trees: 1.0
+2016-10-14 21:33:20 Round: 317
+Number_of_spanning_trees: 1.0
+2016-10-14 21:38:21 Round: 318
+Number_of_spanning_trees: 1.0
+2016-10-14 21:43:22 Round: 319
+Number_of_spanning_trees: 1.0
+2016-10-14 21:48:23 Round: 320
+Number_of_spanning_trees: 1.0
+2016-10-14 21:53:24 Round: 321
+Number_of_spanning_trees: 1.0
+2016-10-14 21:58:25 Round: 322
+Number_of_spanning_trees: 1.0
+2016-10-14 22:03:26 Round: 323
+Number_of_spanning_trees: 1.0
+2016-10-14 22:08:27 Round: 324
+Number_of_spanning_trees: 1.0
+2016-10-14 22:13:28 Round: 325
+Number_of_spanning_trees: 1.0
+2016-10-14 22:18:29 Round: 326
+Number_of_spanning_trees: 1.0
+2016-10-14 22:23:31 Round: 327
+Number_of_spanning_trees: 1.0
+2016-10-14 22:28:46 Round: 328
+Number_of_spanning_trees: 1.0
+2016-10-14 22:38:16 Round: 329
+Number_of_spanning_trees: 1.0
+2016-10-14 22:43:18 Round: 330
+Number_of_spanning_trees: 1.0
+2016-10-14 22:48:19 Round: 331
+Number_of_spanning_trees: 1.0
+2016-10-14 22:53:20 Round: 332
+Number_of_spanning_trees: 1.0
+2016-10-14 22:58:21 Round: 333
+Number_of_spanning_trees: 1.0
+2016-10-14 23:03:22 Round: 334
+Number_of_spanning_trees: 1.0
+2016-10-14 23:08:23 Round: 335
+Number_of_spanning_trees: 1.0
+2016-10-14 23:13:24 Round: 336
+Number_of_spanning_trees: 2.0
+2016-10-14 23:18:25 Round: 337
+Number_of_spanning_trees: 1.0
+2016-10-14 23:23:26 Round: 338
+Number_of_spanning_trees: 1.0
+2016-10-14 23:28:27 Round: 339
+Number_of_spanning_trees: 1.0
+2016-10-14 23:33:28 Round: 340
+Number_of_spanning_trees: 1.0
+2016-10-14 23:38:29 Round: 341
+Number_of_spanning_trees: 1.0
+2016-10-14 23:43:31 Round: 342
+Number_of_spanning_trees: 1.0
+2016-10-14 23:48:32 Round: 343
+Number_of_spanning_trees: 1.0
+2016-10-14 23:58:16 Round: 344
+Number_of_spanning_trees: 1.0
+2016-10-15 00:03:17 Round: 345
+Number_of_spanning_trees: 1.0
+2016-10-15 00:08:18 Round: 346
+Number_of_spanning_trees: 1.0
+2016-10-15 00:13:19 Round: 347
+Number_of_spanning_trees: 1.0
+2016-10-15 00:18:20 Round: 348
+Number_of_spanning_trees: 1.0
+2016-10-15 00:23:21 Round: 349
+Number_of_spanning_trees: 1.0
+2016-10-15 00:28:22 Round: 350
+Number_of_spanning_trees: 1.0
+2016-10-15 00:33:23 Round: 351
+Number_of_spanning_trees: 1.0
+2016-10-15 00:38:24 Round: 352
+Number_of_spanning_trees: 1.0
+2016-10-15 00:43:25 Round: 353
+Number_of_spanning_trees: 1.0
+2016-10-15 00:48:26 Round: 354
+Number_of_spanning_trees: 1.0
+2016-10-15 00:53:27 Round: 355
+Number_of_spanning_trees: 1.0
+2016-10-15 00:58:28 Round: 356
+Number_of_spanning_trees: 1.0
+2016-10-15 01:03:29 Round: 357
+Number_of_spanning_trees: 1.0
+2016-10-15 01:08:30 Round: 358
+Number_of_spanning_trees: 1.0
+2016-10-15 01:13:39 Round: 359
+Number_of_spanning_trees: 1.0
+2016-10-15 01:23:16 Round: 360
+Number_of_spanning_trees: 1.0
+2016-10-15 01:28:17 Round: 361
+Number_of_spanning_trees: 1.0
+2016-10-15 01:33:19 Round: 362
+Number_of_spanning_trees: 1.0
+2016-10-15 01:38:20 Round: 363
+Number_of_spanning_trees: 1.0
+2016-10-15 01:43:21 Round: 364
+Number_of_spanning_trees: 1.0
+2016-10-15 01:48:22 Round: 365
+Number_of_spanning_trees: 1.0
+2016-10-15 01:53:23 Round: 366
+Number_of_spanning_trees: 1.0
+2016-10-15 01:58:24 Round: 367
+Number_of_spanning_trees: 1.0
+2016-10-15 02:03:25 Round: 368
+Number_of_spanning_trees: 1.0
+2016-10-15 02:08:26 Round: 369
+Number_of_spanning_trees: 1.0
+2016-10-15 02:13:27 Round: 370
+Number_of_spanning_trees: 1.0
+2016-10-15 02:18:28 Round: 371
+Number_of_spanning_trees: 1.0
+2016-10-15 02:23:29 Round: 372
+Number_of_spanning_trees: 1.0
+2016-10-15 02:28:30 Round: 373
+Number_of_spanning_trees: 1.0
+2016-10-15 02:33:31 Round: 374
+Number_of_spanning_trees: 1.0
+2016-10-15 02:43:15 Round: 375
+Number_of_spanning_trees: 1.0
+2016-10-15 02:48:17 Round: 376
+Number_of_spanning_trees: 1.0
+2016-10-15 02:53:18 Round: 377
+Number_of_spanning_trees: 1.0
+2016-10-15 02:58:19 Round: 378
+Number_of_spanning_trees: 1.0
+2016-10-15 03:03:20 Round: 379
+Number_of_spanning_trees: 1.0
+2016-10-15 03:08:21 Round: 380
+Number_of_spanning_trees: 1.0
+2016-10-15 03:13:22 Round: 381
+Number_of_spanning_trees: 1.0
+2016-10-15 03:18:23 Round: 382
+Number_of_spanning_trees: 1.0
+2016-10-15 03:23:24 Round: 383
+Number_of_spanning_trees: 1.0
+2016-10-15 03:28:25 Round: 384
+Number_of_spanning_trees: 1.0
+2016-10-15 03:33:26 Round: 385
+Number_of_spanning_trees: 1.0
+2016-10-15 03:38:27 Round: 386
+Number_of_spanning_trees: 1.0
+2016-10-15 03:43:28 Round: 387
+Number_of_spanning_trees: 1.0
+2016-10-15 03:48:29 Round: 388
+Number_of_spanning_trees: 1.0
+2016-10-15 03:53:33 Round: 389
+Number_of_spanning_trees: 1.0
+2016-10-15 04:03:15 Round: 390
+Number_of_spanning_trees: 1.0
+2016-10-15 04:08:17 Round: 391
+Number_of_spanning_trees: 1.0
+2016-10-15 04:13:18 Round: 392
+Number_of_spanning_trees: 1.0
+2016-10-15 04:18:19 Round: 393
+Number_of_spanning_trees: 1.0
+2016-10-15 04:23:20 Round: 394
+Number_of_spanning_trees: 1.0
+2016-10-15 04:28:21 Round: 395
+Number_of_spanning_trees: 1.0
+2016-10-15 04:33:22 Round: 396
+Number_of_spanning_trees: 1.0
+2016-10-15 04:38:23 Round: 397
+Number_of_spanning_trees: 1.0
+2016-10-15 04:43:24 Round: 398
+Number_of_spanning_trees: 1.0
+2016-10-15 04:48:25 Round: 399
+Number_of_spanning_trees: 1.0
+2016-10-15 04:53:26 Round: 400
+Number_of_spanning_trees: 1.0
+2016-10-15 04:58:27 Round: 401
+Number_of_spanning_trees: 1.0
+2016-10-15 05:03:28 Round: 402
+Number_of_spanning_trees: 1.0
+2016-10-15 05:08:29 Round: 403
+Number_of_spanning_trees: 1.0
+2016-10-15 05:13:30 Round: 404
+Number_of_spanning_trees: 1.0
+2016-10-15 05:18:31 Round: 405
+Number_of_spanning_trees: 1.0
+2016-10-15 05:28:15 Round: 406
+Number_of_spanning_trees: 1.0
+2016-10-15 05:33:16 Round: 407
+Number_of_spanning_trees: 1.0
+2016-10-15 05:38:18 Round: 408
+Number_of_spanning_trees: 1.0
+2016-10-15 05:43:19 Round: 409
+Number_of_spanning_trees: 1.0
+2016-10-15 05:48:20 Round: 410
+Number_of_spanning_trees: 1.0
+2016-10-15 05:53:21 Round: 411
+Number_of_spanning_trees: 1.0
+2016-10-15 05:58:22 Round: 412
+Number_of_spanning_trees: 1.0
+2016-10-15 06:03:23 Round: 413
+Number_of_spanning_trees: 1.0
+2016-10-15 06:08:24 Round: 414
+Number_of_spanning_trees: 32.0
+2016-10-15 06:13:25 Round: 415
+Number_of_spanning_trees: 1.0
+2016-10-15 06:18:26 Round: 416
+Number_of_spanning_trees: 1.0
+2016-10-15 06:23:27 Round: 417
+Number_of_spanning_trees: 1.0
+2016-10-15 06:28:28 Round: 418
+Number_of_spanning_trees: 1.0
+2016-10-15 06:33:29 Round: 419
+Number_of_spanning_trees: 1.0
+2016-10-15 06:38:32 Round: 420
+Number_of_spanning_trees: 1.0
+2016-10-15 06:43:33 Round: 421
+Number_of_spanning_trees: 1.0
+2016-10-15 06:48:41 Round: 422
+Number_of_spanning_trees: 1.0
+2016-10-15 06:58:15 Round: 423
+Number_of_spanning_trees: 2.0
+2016-10-15 07:03:17 Round: 424
+Number_of_spanning_trees: 1.0
+2016-10-15 07:08:18 Round: 425
+Number_of_spanning_trees: 1.0
+2016-10-15 07:13:19 Round: 426
+Number_of_spanning_trees: 1.0
+2016-10-15 07:18:20 Round: 427
+Number_of_spanning_trees: 1.0
+2016-10-15 07:23:21 Round: 428
+Number_of_spanning_trees: 1.0
+2016-10-15 07:28:22 Round: 429
+Number_of_spanning_trees: 1.0
+2016-10-15 07:33:23 Round: 430
+Number_of_spanning_trees: 1.0
+2016-10-15 07:38:24 Round: 431
+Number_of_spanning_trees: 1.0
+2016-10-15 07:43:25 Round: 432
+Number_of_spanning_trees: 1.0
+2016-10-15 07:48:26 Round: 433
+Number_of_spanning_trees: 1.0
+2016-10-15 07:53:27 Round: 434
+Number_of_spanning_trees: 1.0
+2016-10-15 07:58:28 Round: 435
+Number_of_spanning_trees: 1.0
+2016-10-15 08:03:31 Round: 436
+Number_of_spanning_trees: 1.0
+2016-10-15 08:08:42 Round: 437
+Number_of_spanning_trees: 1.0
+2016-10-15 08:18:15 Round: 438
+Number_of_spanning_trees: 1.0
+2016-10-15 08:23:17 Round: 439
+Number_of_spanning_trees: 1.0
+2016-10-15 08:28:18 Round: 440
+Number_of_spanning_trees: 1.0
+2016-10-15 08:33:19 Round: 441
+Number_of_spanning_trees: 1.0
+2016-10-15 08:38:20 Round: 442
+Number_of_spanning_trees: 1.0
+2016-10-15 08:43:21 Round: 443
+Number_of_spanning_trees: 1.0
+2016-10-15 08:48:22 Round: 444
+Number_of_spanning_trees: 1.0
+2016-10-15 08:53:23 Round: 445
+Number_of_spanning_trees: 1.0
+2016-10-15 08:58:24 Round: 446
+Number_of_spanning_trees: 1.0
+2016-10-15 09:03:25 Round: 447
+Number_of_spanning_trees: 1.0
+2016-10-15 09:08:26 Round: 448
+Number_of_spanning_trees: 1.0
+2016-10-15 09:13:27 Round: 449
+Number_of_spanning_trees: 1.0
+2016-10-15 09:18:29 Round: 450
+Number_of_spanning_trees: 1.0
+2016-10-15 09:23:30 Round: 451
+Number_of_spanning_trees: 1.0
+2016-10-15 09:28:31 Round: 452
+Number_of_spanning_trees: 1.0
+2016-10-15 09:38:13 Round: 453
+Number_of_spanning_trees: 1.0
+2016-10-15 09:43:14 Round: 454
+Number_of_spanning_trees: 1.0
+2016-10-15 09:48:16 Round: 455
+Number_of_spanning_trees: 1.0
+2016-10-15 09:53:17 Round: 456
+Number_of_spanning_trees: 1.0
+2016-10-15 09:58:18 Round: 457
+Number_of_spanning_trees: 1.0
+2016-10-15 10:03:19 Round: 458
+Number_of_spanning_trees: 1.0
+2016-10-15 10:08:20 Round: 459
+Number_of_spanning_trees: 1.0
+2016-10-15 10:13:21 Round: 460
+Number_of_spanning_trees: 1.0

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?><component abstract="" loc="40:../../../net_EER/eer_parentselection/EerParentSelectionP.nc" nicename=".........net_EER.eer_parentselection.EerParentSelectionP" qname="EerParentSelectionP">
+      <parameters>
+        <constant loc="40:../../../net_EER/eer_parentselection/EerParentSelectionP.nc" name="parentTableSize" ref="0x414b8858">
+          <component-ref nicename=".........net_EER.eer_parentselection.EerParentSelectionP" qname="EerParentSelectionP"/>
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+          </type-int>
+        </constant>
+      </parameters>
+      <module/>
+    <specification><interface loc="42:../../../net_EER/eer_parentselection/EerParentSelectionP.nc" name="EerParentSelectionConfig" provided="1" ref="0x414b8b88">
+      <component-ref nicename=".........net_EER.eer_parentselection.EerParentSelectionP" qname="EerParentSelectionP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="EerParentSelectionConfig" ref="0x414b8b88" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename=".........net_EER.eer_parentselection.EerParentSelectionConfig" qname="EerParentSelectionConfig"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="addParentCandidate" ref="0x414b8d60" scoped=""/>
+        <function-ref name="drawRandomParent" ref="0x414b8e40" scoped=""/>
+        <function-ref name="initializeParentSet" ref="0x414b8f20" scoped=""/>
+        <function-ref name="getParentSetETX" ref="0x414b5018" scoped=""/>
+        <function-ref name="getParentSetSize" ref="0x414b50f8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="45:../../../net_EER/eer_parentselection/EerParentSelectionP.nc" name="Random" provided="0" ref="0x414b4468">
+      <component-ref nicename=".........net_EER.eer_parentselection.EerParentSelectionP" qname="EerParentSelectionP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Random" ref="0x414b4468" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Random" qname="Random"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="rand16" ref="0x414b4640" scoped=""/>
+        <function-ref name="rand32" ref="0x414b4720" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="43:../../../net_EER/eer_parentselection/EerParentSelectionP.nc" name="EerParentSelectionHealth" provided="1" ref="0x414b4010">
+      <component-ref nicename=".........net_EER.eer_parentselection.EerParentSelectionP" qname="EerParentSelectionP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="EerParentSelectionHealth" ref="0x414b4010" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename=".........net_EER.eer_parentselection.EerParentSelectionHealth" qname="EerParentSelectionHealth"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getBestNeighborFromParentSet" ref="0x414b41e8" scoped=""/>
+        <function-ref name="getCandiateSetSize" ref="0x414b42c8" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced/></component>

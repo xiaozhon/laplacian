@@ -1,0 +1,3 @@
+test	entropy_avg	std	node_entropy	std
+Rctp-1	3.1868	0.0688	3.0208	0.0514
+

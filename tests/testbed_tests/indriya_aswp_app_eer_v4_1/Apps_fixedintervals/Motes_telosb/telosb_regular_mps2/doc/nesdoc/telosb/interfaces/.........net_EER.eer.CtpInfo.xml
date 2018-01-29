@@ -1,0 +1,277 @@
+<?xml version="1.0" ?><interfacedef loc="33:../../../net_EER/eer/CtpInfo.nc" nicename=".........net_EER.eer.CtpInfo" qname="CtpInfo">
+      <function command="" loc="84:../../../net_EER/eer/CtpInfo.nc" name="getNeighborLinkQuality" provided="0" ref="0x4062e4f8">
+        <interfacedef-ref nicename=".........net_EER.eer.CtpInfo" qname="CtpInfo"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="84:../../../net_EER/eer/CtpInfo.nc" name="n" ref="0x4062e3a0">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="71:../../../net_EER/eer/CtpInfo.nc" name="recomputeRoutes" provided="0" ref="0x40630c10">
+        <documentation loc="68:../../../net_EER/eer/CtpInfo.nc">
+          <short> 
+ Tell the routing engine it might want to recompute its routes.</short>
+          <long> 
+ Tell the routing engine it might want to recompute its routes.
+</long>
+        </documentation>
+        <interfacedef-ref nicename=".........net_EER.eer.CtpInfo" qname="CtpInfo"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-void alignment="I:1" size="I:1"/>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="83:../../../net_EER/eer/CtpInfo.nc" name="numNeighbors" provided="0" ref="0x4062fef0">
+        <interfacedef-ref nicename=".........net_EER.eer.CtpInfo" qname="CtpInfo"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+          </type-int>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="59:../../../net_EER/eer/CtpInfo.nc" name="triggerRouteUpdate" provided="0" ref="0x406301a8">
+        <documentation loc="54:../../../net_EER/eer/CtpInfo.nc">
+          <short>
+ This informs the routing engine that sending a beacon soon is
+ advisable, e.g., in response to a pull bit.</short>
+          <long>
+ This informs the routing engine that sending a beacon soon is
+ advisable, e.g., in response to a pull bit.
+</long>
+        </documentation>
+        <interfacedef-ref nicename=".........net_EER.eer.CtpInfo" qname="CtpInfo"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-void alignment="I:1" size="I:1"/>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="52:../../../net_EER/eer/CtpInfo.nc" name="getEtx" provided="0" ref="0x40632bd0">
+        <documentation loc="44:../../../net_EER/eer/CtpInfo.nc">
+          <short>
+ Get the path quality metric for the current path to the root
+ through the current parent.</short>
+          <long>
+ Get the path quality metric for the current path to the root
+ through the current parent.  The pointer is allocated by the
+ caller.  If the parent is invalid, return FAIL (no info).  The
+ caller MUST NOT use the value in parent if the return is not
+ SUCCESS. Calling getEtx at the root will set the etx argument to 0.
+</long>
+        </documentation>
+        <interfacedef-ref nicename=".........net_EER.eer.CtpInfo" qname="CtpInfo"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x4035bda0"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-pointer alignment="I:2" size="I:2">
+              <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+                <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+              </type-int>
+            </type-pointer>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="52:../../../net_EER/eer/CtpInfo.nc" name="etx" ref="0x40632a78">
+            <type-pointer alignment="I:2" size="I:2">
+              <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+                <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+              </type-int>
+            </type-pointer>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="66:../../../net_EER/eer/CtpInfo.nc" name="triggerImmediateRouteUpdate" provided="0" ref="0x406306f8">
+        <documentation loc="61:../../../net_EER/eer/CtpInfo.nc">
+          <short>
+ This informs the routing engine that sending a beacon as soon
+ as possible is advisable, e.g., due to queue overflow or
+ a detected loop.</short>
+          <long>
+ This informs the routing engine that sending a beacon as soon
+ as possible is advisable, e.g., due to queue overflow or
+ a detected loop.
+</long>
+        </documentation>
+        <interfacedef-ref nicename=".........net_EER.eer.CtpInfo" qname="CtpInfo"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-void alignment="I:1" size="I:1"/>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="76:../../../net_EER/eer/CtpInfo.nc" name="setNeighborCongested" provided="0" ref="0x4062f480">
+        <documentation loc="73:../../../net_EER/eer/CtpInfo.nc">
+          <short>
+ Informs the routing engine that a neighbor is congested
+</short>
+        </documentation>
+        <interfacedef-ref nicename=".........net_EER.eer.CtpInfo" qname="CtpInfo"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-void alignment="I:1" size="I:1"/>
+          <function-parameters>
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="am_addr_t" ref="0x40619010"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="bool" ref="0x40351e80"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="76:../../../net_EER/eer/CtpInfo.nc" name="n" ref="0x4062f118">
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="am_addr_t" ref="0x40619010"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="76:../../../net_EER/eer/CtpInfo.nc" name="congested" ref="0x4062f320">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="bool" ref="0x40351e80"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="86:../../../net_EER/eer/CtpInfo.nc" name="getNeighborAddr" provided="0" ref="0x4063f168">
+        <interfacedef-ref nicename=".........net_EER.eer.CtpInfo" qname="CtpInfo"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="am_addr_t" ref="0x40619010"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="86:../../../net_EER/eer/CtpInfo.nc" name="n" ref="0x4063f010">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="42:../../../net_EER/eer/CtpInfo.nc" name="getParent" provided="0" ref="0x40632548">
+        <documentation loc="35:../../../net_EER/eer/CtpInfo.nc">
+          <short>
+ Get the parent of the node in the tree.</short>
+          <long>
+ Get the parent of the node in the tree.  The pointer is allocated
+ by the caller.  If the parent is invalid, return FAIL.  The
+ caller MUST NOT use the value in parent if the return is not
+ SUCCESS.
+</long>
+        </documentation>
+        <interfacedef-ref nicename=".........net_EER.eer.CtpInfo" qname="CtpInfo"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x4035bda0"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-pointer alignment="I:2" size="I:2">
+              <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+                <typename><typedef-ref name="am_addr_t" ref="0x40619010"/></typename>
+              </type-int>
+            </type-pointer>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="42:../../../net_EER/eer/CtpInfo.nc" name="parent" ref="0x406323f0">
+            <type-pointer alignment="I:2" size="I:2">
+              <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+                <typename><typedef-ref name="am_addr_t" ref="0x40619010"/></typename>
+              </type-int>
+            </type-pointer>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="85:../../../net_EER/eer/CtpInfo.nc" name="getNeighborRouteQuality" provided="0" ref="0x4062eae8">
+        <interfacedef-ref nicename=".........net_EER.eer.CtpInfo" qname="CtpInfo"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="85:../../../net_EER/eer/CtpInfo.nc" name="n" ref="0x4062e990">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="81:../../../net_EER/eer/CtpInfo.nc" name="isNeighborCongested" provided="0" ref="0x4062fa88">
+        <documentation loc="78:../../../net_EER/eer/CtpInfo.nc">
+          <short>
+  Returns the currently known state about a neighbor's congestion state
+</short>
+        </documentation>
+        <interfacedef-ref nicename=".........net_EER.eer.CtpInfo" qname="CtpInfo"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="bool" ref="0x40351e80"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="am_addr_t" ref="0x40619010"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="81:../../../net_EER/eer/CtpInfo.nc" name="n" ref="0x4062f930">
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="am_addr_t" ref="0x40619010"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="91:../../../net_EER/eer/CtpInfo.nc" name="getNeighborEtx" provided="0" ref="0x4063f728">
+        <interfacedef-ref nicename=".........net_EER.eer.CtpInfo" qname="CtpInfo"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="am_addr_t" ref="0x40619010"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="91:../../../net_EER/eer/CtpInfo.nc" name="n" ref="0x4063f5d0">
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="am_addr_t" ref="0x40619010"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+    </interfacedef>

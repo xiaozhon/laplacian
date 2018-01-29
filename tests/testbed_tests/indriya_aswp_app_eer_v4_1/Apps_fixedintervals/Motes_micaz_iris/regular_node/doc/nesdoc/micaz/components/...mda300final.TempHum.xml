@@ -1,0 +1,485 @@
+<?xml version="1.0" ?><component loc="36:../mda300final/TempHum.nc" nicename="...mda300final.TempHum" qname="TempHum">
+      <configuration/>
+      <wiring>
+        <wire loc="56:../mda300final/TempHum.nc">
+          <from><interface-ref name="Humidity" ref="0x412d64b0" scoped=""/></from>
+          <to><interface-ref name="Humidity" ref="0x412d16d0" scoped=""/></to>
+        </wire>
+        <wire loc="55:../mda300final/TempHum.nc">
+          <from><interface-ref name="Temperature" ref="0x411af7a8" scoped=""/></from>
+          <to><interface-ref name="Temperature" ref="0x412d59d8" scoped=""/></to>
+        </wire>
+        <wire loc="50:../mda300final/TempHum.nc">
+          <from><interface-ref name="SoftwareInit" ref="0x40491c40" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x412d5518" scoped=""/></to>
+        </wire>
+        <wire loc="51:../mda300final/TempHum.nc">
+          <from><interface-ref name="Clock" ref="0x412d03f0" scoped=""/></from>
+          <to><interface-ref name="PW0" ref="0x411724f8" scoped=""/></to>
+        </wire>
+        <wire loc="52:../mda300final/TempHum.nc">
+          <from><interface-ref name="Data" ref="0x412d0dd8" scoped=""/></from>
+          <to><interface-ref name="Int3" ref="0x411964a0" scoped=""/></to>
+        </wire>
+        <wire loc="54:../mda300final/TempHum.nc">
+          <from><interface-ref name="Int7" ref="0x412cf878" scoped=""/></from>
+          <to><interface-ref name="Int7" ref="0x408d8010" scoped=""/></to>
+        </wire>
+      </wiring>
+    <specification><interface loc="41:../mda300final/TempHum.nc" name="Humidity" provided="1" ref="0x412d64b0">
+      <component-ref nicename="...mda300final.TempHum" qname="TempHum"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Humidity" ref="0x412d64b0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x412d6ad8" scoped=""/>
+        <function-ref name="readDone" ref="0x412d6d30" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="40:../mda300final/TempHum.nc" name="Temperature" provided="1" ref="0x411af7a8">
+      <component-ref nicename="...mda300final.TempHum" qname="TempHum"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Temperature" ref="0x411af7a8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x411afdd0" scoped=""/>
+        <function-ref name="readDone" ref="0x412d6048" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced><interface loc="46:../mda300final/TempHumM.nc" name="Humidity" provided="1" ref="0x412d16d0">
+      <component-ref nicename="...mda300final.TempHumM" qname="TempHumM"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Humidity" ref="0x412d16d0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x412d1cf8" scoped=""/>
+        <function-ref name="readDone" ref="0x412d0010" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="45:../mda300final/TempHumM.nc" name="Temperature" provided="1" ref="0x412d59d8">
+      <component-ref nicename="...mda300final.TempHumM" qname="TempHumM"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Temperature" ref="0x412d59d8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x412d1010" scoped=""/>
+        <function-ref name="readDone" ref="0x412d1268" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="44:../mda300final/TempHumM.nc" name="Init" provided="1" ref="0x412d5518">
+      <component-ref nicename="...mda300final.TempHumM" qname="TempHumM"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Init" ref="0x412d5518" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x412d56f0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="52:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptC.nc" name="Int7" provided="1" ref="0x408d8010">
+      <component-ref nicename="tos.chips.atm128.pins.HplAtm128InterruptC" qname="HplAtm128InterruptC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Int7" ref="0x408d8010" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.chips.atm128.pins.HplAtm128Interrupt" qname="HplAtm128Interrupt"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="clear" ref="0x408d81e8" scoped=""/>
+        <function-ref name="fired" ref="0x408d82c8" scoped=""/>
+        <function-ref name="disable" ref="0x408d83a8" scoped=""/>
+        <function-ref name="edge" ref="0x408d8488" scoped=""/>
+        <function-ref name="enable" ref="0x408d8568" scoped=""/>
+        <function-ref name="getValue" ref="0x408d8648" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="51:../mda300final/TempHumM.nc" name="Data" provided="0" ref="0x412d0dd8">
+      <component-ref nicename="...mda300final.TempHumM" qname="TempHumM"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Data" ref="0x412d0dd8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x412cf010" scoped=""/>
+        <function-ref name="isInput" ref="0x412cf0f0" scoped=""/>
+        <function-ref name="toggle" ref="0x412cf1d0" scoped=""/>
+        <function-ref name="isOutput" ref="0x412cf2b0" scoped=""/>
+        <function-ref name="get" ref="0x412cf390" scoped=""/>
+        <function-ref name="makeOutput" ref="0x412cf470" scoped=""/>
+        <function-ref name="set" ref="0x412cf550" scoped=""/>
+        <function-ref name="clr" ref="0x412cf630" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="50:../mda300final/TempHumM.nc" name="Clock" provided="0" ref="0x412d03f0">
+      <component-ref nicename="...mda300final.TempHumM" qname="TempHumM"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Clock" ref="0x412d03f0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x412d05c8" scoped=""/>
+        <function-ref name="isInput" ref="0x412d06a8" scoped=""/>
+        <function-ref name="toggle" ref="0x412d0788" scoped=""/>
+        <function-ref name="isOutput" ref="0x412d0868" scoped=""/>
+        <function-ref name="get" ref="0x412d0948" scoped=""/>
+        <function-ref name="makeOutput" ref="0x412d0a28" scoped=""/>
+        <function-ref name="set" ref="0x412d0b08" scoped=""/>
+        <function-ref name="clr" ref="0x412d0be8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="20:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc" name="PW0" provided="1" ref="0x411724f8">
+      <component-ref nicename="tos.platforms.mica.MicaBusC" qname="MicaBusC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="PW0" ref="0x411724f8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x411726d0" scoped=""/>
+        <function-ref name="isInput" ref="0x411727b0" scoped=""/>
+        <function-ref name="toggle" ref="0x41172890" scoped=""/>
+        <function-ref name="isOutput" ref="0x41172970" scoped=""/>
+        <function-ref name="get" ref="0x41172a50" scoped=""/>
+        <function-ref name="makeOutput" ref="0x41172b30" scoped=""/>
+        <function-ref name="set" ref="0x41172c10" scoped=""/>
+        <function-ref name="clr" ref="0x41172cf0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="32:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc" name="Int3" provided="1" ref="0x411964a0">
+      <component-ref nicename="tos.platforms.mica.MicaBusC" qname="MicaBusC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Int3" ref="0x411964a0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x41196678" scoped=""/>
+        <function-ref name="isInput" ref="0x41196758" scoped=""/>
+        <function-ref name="toggle" ref="0x41196838" scoped=""/>
+        <function-ref name="isOutput" ref="0x41196918" scoped=""/>
+        <function-ref name="get" ref="0x411969f8" scoped=""/>
+        <function-ref name="makeOutput" ref="0x41196ad8" scoped=""/>
+        <function-ref name="set" ref="0x41196bb8" scoped=""/>
+        <function-ref name="clr" ref="0x41196c98" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="58:/opt/tinyos-2.1.2/tos/system/MainC.nc" name="SoftwareInit" provided="0" ref="0x40491c40">
+      <component-ref nicename="tos.system.MainC" qname="MainC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="SoftwareInit" ref="0x40491c40" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x40491e18" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="52:../mda300final/TempHumM.nc" name="Int7" provided="0" ref="0x412cf878">
+      <component-ref nicename="...mda300final.TempHumM" qname="TempHumM"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Int7" ref="0x412cf878" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.chips.atm128.pins.HplAtm128Interrupt" qname="HplAtm128Interrupt"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="clear" ref="0x412cfa50" scoped=""/>
+        <function-ref name="fired" ref="0x412cfb30" scoped=""/>
+        <function-ref name="disable" ref="0x412cfc10" scoped=""/>
+        <function-ref name="edge" ref="0x412cfcf0" scoped=""/>
+        <function-ref name="enable" ref="0x412cfdd0" scoped=""/>
+        <function-ref name="getValue" ref="0x412cfeb0" scoped=""/>
+      </interface-functions>
+    </interface><component loc="41:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptC.nc" nicename="tos.chips.atm128.pins.HplAtm128InterruptC" qname="HplAtm128InterruptC">
+      <documentation loc="36:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptC.nc">
+        <short>
+ Component providing access to all external interrupt pins on ATmega128.</short>
+        <long>
+ Component providing access to all external interrupt pins on ATmega128.
+ @author Martin Turon &lt;mturon@xbow.com&gt;
+</long>
+      </documentation>
+      <configuration/>
+      <wiring>
+        <wire loc="77:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptC.nc">
+          <from><interface-ref name="Int6" ref="0x408d96f8" scoped=""/></from>
+          <to><interface-ref name="Irq" ref="0x40904840" scoped=""/></to>
+        </wire>
+        <wire loc="72:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptC.nc">
+          <from><interface-ref name="Int1" ref="0x408bfaf0" scoped=""/></from>
+          <to><interface-ref name="Irq" ref="0x408f3e68" scoped=""/></to>
+        </wire>
+        <wire loc="75:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptC.nc">
+          <from><interface-ref name="Int4" ref="0x408bd5d8" scoped=""/></from>
+          <to><interface-ref name="Irq" ref="0x408eb408" scoped=""/></to>
+        </wire>
+        <wire loc="78:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptC.nc">
+          <from><interface-ref name="Int7" ref="0x408d8010" scoped=""/></from>
+          <to><interface-ref name="Irq" ref="0x40902a08" scoped=""/></to>
+        </wire>
+        <wire loc="73:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptC.nc">
+          <from><interface-ref name="Int2" ref="0x408be418" scoped=""/></from>
+          <to><interface-ref name="Irq" ref="0x408ef010" scoped=""/></to>
+        </wire>
+        <wire loc="76:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptC.nc">
+          <from><interface-ref name="Int5" ref="0x408bde58" scoped=""/></from>
+          <to><interface-ref name="Irq" ref="0x408e95e8" scoped=""/></to>
+        </wire>
+        <wire loc="71:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptC.nc">
+          <from><interface-ref name="Int0" ref="0x408bf270" scoped=""/></from>
+          <to><interface-ref name="Irq" ref="0x408d6cf0" scoped=""/></to>
+        </wire>
+        <wire loc="74:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptC.nc">
+          <from><interface-ref name="Int3" ref="0x408bec98" scoped=""/></from>
+          <to><interface-ref name="Irq" ref="0x408ed228" scoped=""/></to>
+        </wire>
+        <wire loc="80:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptC.nc">
+          <from><interface-ref name="IrqSignal" ref="0x408e0510" scoped=""/></from>
+          <to><interface-ref name="IntSig0" ref="0x408d5b50" scoped=""/></to>
+        </wire>
+        <wire loc="81:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptC.nc">
+          <from><interface-ref name="IrqSignal" ref="0x408f1630" scoped=""/></from>
+          <to><interface-ref name="IntSig1" ref="0x408d4010" scoped=""/></to>
+        </wire>
+        <wire loc="82:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptC.nc">
+          <from><interface-ref name="IrqSignal" ref="0x408ef7c8" scoped=""/></from>
+          <to><interface-ref name="IntSig2" ref="0x408d4488" scoped=""/></to>
+        </wire>
+        <wire loc="83:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptC.nc">
+          <from><interface-ref name="IrqSignal" ref="0x408ed9e0" scoped=""/></from>
+          <to><interface-ref name="IntSig3" ref="0x408d4900" scoped=""/></to>
+        </wire>
+        <wire loc="84:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptC.nc">
+          <from><interface-ref name="IrqSignal" ref="0x408ebbc0" scoped=""/></from>
+          <to><interface-ref name="IntSig4" ref="0x408d4d78" scoped=""/></to>
+        </wire>
+        <wire loc="85:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptC.nc">
+          <from><interface-ref name="IrqSignal" ref="0x408e9da0" scoped=""/></from>
+          <to><interface-ref name="IntSig5" ref="0x408d32b0" scoped=""/></to>
+        </wire>
+        <wire loc="86:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptC.nc">
+          <from><interface-ref name="IrqSignal" ref="0x40903010" scoped=""/></from>
+          <to><interface-ref name="IntSig6" ref="0x408d3728" scoped=""/></to>
+        </wire>
+        <wire loc="87:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptC.nc">
+          <from><interface-ref name="IrqSignal" ref="0x40901270" scoped=""/></from>
+          <to><interface-ref name="IntSig7" ref="0x408d3ba0" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component><component loc="18:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc" nicename="tos.platforms.mica.MicaBusC" qname="MicaBusC">
+      <documentation loc="11:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+        <short>
+ A simplistic beginning to providing a standard interface to the
+ mica-family 51-pin bus.</short>
+        <long>
+ A simplistic beginning to providing a standard interface to the
+ mica-family 51-pin bus. Just provides the PW0-PW7 and Int0-3 digital
+ I/O pins and returns the ADC channel number for the ADC pins.
+ @author David Gay
+</long>
+      </documentation>
+      <configuration/>
+      <wiring>
+        <wire loc="82:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Int1_Interrupt" ref="0x411956a8" scoped=""/></from>
+          <to><interface-ref name="Interrupt" ref="0x41181010" scoped=""/></to>
+        </wire>
+        <wire loc="92:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Adc0" ref="0x4118f350" scoped=""/></from>
+          <to><interface-ref name="Adc0" ref="0x41190a68" scoped=""/></to>
+        </wire>
+        <wire loc="62:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="PW3" ref="0x4115b2d0" scoped=""/></from>
+          <to><interface-ref name="PortC3" ref="0x404b6c08" scoped=""/></to>
+        </wire>
+        <wire loc="65:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="PW6" ref="0x41199118" scoped=""/></from>
+          <to><interface-ref name="PortC6" ref="0x404c0a98" scoped=""/></to>
+        </wire>
+        <wire loc="95:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Adc3" ref="0x4118fec0" scoped=""/></from>
+          <to><interface-ref name="Adc3" ref="0x4118c618" scoped=""/></to>
+        </wire>
+        <wire loc="97:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Adc5" ref="0x41191688" scoped=""/></from>
+          <to><interface-ref name="Adc5" ref="0x4118cdb8" scoped=""/></to>
+        </wire>
+        <wire loc="68:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Int1" ref="0x41197010" scoped=""/></from>
+          <to><interface-ref name="PortE5" ref="0x404cd4b0" scoped=""/></to>
+        </wire>
+        <wire loc="74:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="USART1_TXD" ref="0x411920e8" scoped=""/></from>
+          <to><interface-ref name="PortD3" ref="0x404bcea8" scoped=""/></to>
+        </wire>
+        <wire loc="60:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="PW1" ref="0x41172ed0" scoped=""/></from>
+          <to><interface-ref name="PortC1" ref="0x404b7750" scoped=""/></to>
+        </wire>
+        <wire loc="63:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="PW4" ref="0x4115bca8" scoped=""/></from>
+          <to><interface-ref name="PortC4" ref="0x404c1670" scoped=""/></to>
+        </wire>
+        <wire loc="90:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Int3_Interrupt" ref="0x41194528" scoped=""/></from>
+          <to><interface-ref name="Interrupt" ref="0x4117c1f0" scoped=""/></to>
+        </wire>
+        <wire loc="93:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Adc1" ref="0x4118f720" scoped=""/></from>
+          <to><interface-ref name="Adc1" ref="0x41190e38" scoped=""/></to>
+        </wire>
+        <wire loc="73:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="USART1_RXD" ref="0x41193698" scoped=""/></from>
+          <to><interface-ref name="PortD2" ref="0x404bc4b0" scoped=""/></to>
+        </wire>
+        <wire loc="66:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="PW7" ref="0x41199af0" scoped=""/></from>
+          <to><interface-ref name="PortC7" ref="0x404bf4b0" scoped=""/></to>
+        </wire>
+        <wire loc="78:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Int0_Interrupt" ref="0x41196f20" scoped=""/></from>
+          <to><interface-ref name="Interrupt" ref="0x4118deb0" scoped=""/></to>
+        </wire>
+        <wire loc="98:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Adc6" ref="0x41191b58" scoped=""/></from>
+          <to><interface-ref name="Adc6" ref="0x4118b208" scoped=""/></to>
+        </wire>
+        <wire loc="69:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Int2" ref="0x411979f8" scoped=""/></from>
+          <to><interface-ref name="PortE6" ref="0x404cdea8" scoped=""/></to>
+        </wire>
+        <wire loc="61:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="PW2" ref="0x4115c8c0" scoped=""/></from>
+          <to><interface-ref name="PortC2" ref="0x404b6210" scoped=""/></to>
+        </wire>
+        <wire loc="64:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="PW5" ref="0x4115a730" scoped=""/></from>
+          <to><interface-ref name="PortC5" ref="0x404c00a0" scoped=""/></to>
+        </wire>
+        <wire loc="94:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Adc2" ref="0x4118faf0" scoped=""/></from>
+          <to><interface-ref name="Adc2" ref="0x4118c248" scoped=""/></to>
+        </wire>
+        <wire loc="96:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Adc4" ref="0x411912b8" scoped=""/></from>
+          <to><interface-ref name="Adc4" ref="0x4118c9e8" scoped=""/></to>
+        </wire>
+        <wire loc="67:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Int0" ref="0x41198580" scoped=""/></from>
+          <to><interface-ref name="PortE4" ref="0x404c2a98" scoped=""/></to>
+        </wire>
+        <wire loc="86:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Int2_Interrupt" ref="0x41195d98" scoped=""/></from>
+          <to><interface-ref name="Interrupt" ref="0x4117f0b0" scoped=""/></to>
+        </wire>
+        <wire loc="72:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="USART1_CLK" ref="0x41194bc8" scoped=""/></from>
+          <to><interface-ref name="PortD5" ref="0x404c62f0" scoped=""/></to>
+        </wire>
+        <wire loc="99:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Adc7" ref="0x41191f28" scoped=""/></from>
+          <to><interface-ref name="Adc7" ref="0x4118b5d8" scoped=""/></to>
+        </wire>
+        <wire loc="59:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="PW0" ref="0x411724f8" scoped=""/></from>
+          <to><interface-ref name="PortC0" ref="0x404b8ce8" scoped=""/></to>
+        </wire>
+        <wire loc="70:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Int3" ref="0x411964a0" scoped=""/></from>
+          <to><interface-ref name="PortE7" ref="0x404cc8e0" scoped=""/></to>
+        </wire>
+        <wire loc="77:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Atm128Interrupt" ref="0x411834e0" scoped=""/></from>
+          <to><interface-ref name="Int4" ref="0x408bd5d8" scoped=""/></to>
+        </wire>
+        <wire loc="81:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Atm128Interrupt" ref="0x41181608" scoped=""/></from>
+          <to><interface-ref name="Int5" ref="0x408bde58" scoped=""/></to>
+        </wire>
+        <wire loc="85:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Atm128Interrupt" ref="0x4117f6a8" scoped=""/></from>
+          <to><interface-ref name="Int6" ref="0x408d96f8" scoped=""/></to>
+        </wire>
+        <wire loc="89:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Atm128Interrupt" ref="0x4117c7e8" scoped=""/></from>
+          <to><interface-ref name="Int7" ref="0x408d8010" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component><component loc="56:/opt/tinyos-2.1.2/tos/system/MainC.nc" nicename="tos.system.MainC" qname="MainC">
+      <documentation loc="1:/opt/tinyos-2.1.2/tos/platforms/micaz/hardware.h">
+        <short>                                                                     
+  IMPORTANT: READ BEFORE DOWNLOADING, COPYING, INSTALLING OR USING.</short>
+        <long>                                                                     
+  IMPORTANT: READ BEFORE DOWNLOADING, COPYING, INSTALLING OR USING.  By
+  downloading, copying, installing or using the software you agree to
+  this license.  If you do not agree to this license, do not download,
+  install, copy or use the software.
+
+  Copyright (c) 2004-2005 Crossbow Technology, Inc.
+  Copyright (c) 2002-2003 Intel Corporation.
+  Copyright (c) 2000-2003 The Regents of the University  of California.    
+  All rights reserved.
+
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+
+ - Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+ - Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the
+   distribution.
+ - Neither the name of the copyright holder nor the names of
+   its contributors may be used to endorse or promote products derived
+   from this software without specific prior written permission.
+
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL
+ THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+ INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+ STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+ OF THE POSSIBILITY OF SUCH DAMAGE.
+
+  @author Jason Hill, Philip Levis, Nelson Lee, David Gay
+  @author Alan Broad &lt;abroad@xbow.com&gt;
+  @author Matt Miller &lt;mmiller@xbow.com&gt;
+  @author Martin Turon &lt;mturon@xbow.com&gt;
+
+  $Id: hardware.h,v 1.8 2010-06-29 22:07:54 scipio Exp $
+</long>
+      </documentation>
+      <configuration/>
+      <wiring>
+        <wire loc="72:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+          <from><interface-ref name="Boot" ref="0x40494f00" scoped=""/></from>
+          <to><interface-ref name="Boot" ref="0x4058d1c8" scoped=""/></to>
+        </wire>
+        <wire loc="67:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+          <from><interface-ref name="Scheduler" ref="0x4058d560" scoped=""/></from>
+          <to><interface-ref name="Scheduler" ref="0x40322ed8" scoped=""/></to>
+        </wire>
+        <wire loc="68:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+          <from><interface-ref name="PlatformInit" ref="0x4058db28" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x40490d80" scoped=""/></to>
+        </wire>
+        <wire loc="71:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+          <from><interface-ref name="SoftwareInit" ref="0x4058c010" scoped=""/></from>
+          <to><interface-ref name="SoftwareInit" ref="0x40491c40" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component><component loc="39:../mda300final/TempHumM.nc" nicename="...mda300final.TempHumM" qname="TempHumM">
+      <module/>
+    </component></referenced></component>

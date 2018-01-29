@@ -1,0 +1,30 @@
+<?xml version="1.0" ?><interfacedef loc="34:../../tos/chips/cc2420/interfaces/Unique.nc" nicename="......tos.chips.cc2420.interfaces.Unique" qname="Unique">
+      <function command="" loc="36:../../tos/chips/cc2420/interfaces/Unique.nc" name="checkAndAdd" provided="0" ref="0x40fc01e8">
+        <interfacedef-ref nicename="......tos.chips.cc2420.interfaces.Unique" qname="Unique"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="bool" ref="0x40352e80"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="36:../../tos/chips/cc2420/interfaces/Unique.nc" name="msgSource" ref="0x40fc3e60">
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="36:../../tos/chips/cc2420/interfaces/Unique.nc" name="msgDsn" ref="0x40fc0088">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+    </interfacedef>

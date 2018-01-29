@@ -1,0 +1,38 @@
+<?xml version="1.0" ?><component abstract="" loc="6:/opt/tinyos-2.1.2/tos/chips/atm128/pins/Atm128GpioInterruptC.nc" nicename="tos.chips.atm128.pins.Atm128GpioInterruptC" qname="Atm128GpioInterruptC" safe="">
+      <documentation loc="3:/opt/tinyos-2.1.2/tos/chips/atm128/pins/Atm128GpioInterruptC.nc">
+        <short>
+ </short>
+        <long>
+ @author Phil Levis
+</long>
+      </documentation>
+      <parameters>
+      </parameters>
+      <module/>
+    <specification><interface loc="9:/opt/tinyos-2.1.2/tos/chips/atm128/pins/Atm128GpioInterruptC.nc" name="Atm128Interrupt" provided="0" ref="0x408c6c28">
+      <component-ref nicename="tos.chips.atm128.pins.Atm128GpioInterruptC" qname="Atm128GpioInterruptC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Atm128Interrupt" ref="0x408c6c28" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.chips.atm128.pins.HplAtm128Interrupt" qname="HplAtm128Interrupt"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="clear" ref="0x408c6e00" scoped=""/>
+        <function-ref name="fired" ref="0x408c6ee0" scoped=""/>
+        <function-ref name="disable" ref="0x408ca010" scoped=""/>
+        <function-ref name="edge" ref="0x408ca0f0" scoped=""/>
+        <function-ref name="enable" ref="0x408ca1d0" scoped=""/>
+        <function-ref name="getValue" ref="0x408ca2b0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="8:/opt/tinyos-2.1.2/tos/chips/atm128/pins/Atm128GpioInterruptC.nc" name="Interrupt" provided="1" ref="0x408af598">
+      <component-ref nicename="tos.chips.atm128.pins.Atm128GpioInterruptC" qname="Atm128GpioInterruptC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Interrupt" ref="0x408af598" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GpioInterrupt" qname="GpioInterrupt"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="fired" ref="0x408af770" scoped=""/>
+        <function-ref name="disable" ref="0x408af850" scoped=""/>
+        <function-ref name="enableFallingEdge" ref="0x408af930" scoped=""/>
+        <function-ref name="enableRisingEdge" ref="0x408afa10" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced/></component>

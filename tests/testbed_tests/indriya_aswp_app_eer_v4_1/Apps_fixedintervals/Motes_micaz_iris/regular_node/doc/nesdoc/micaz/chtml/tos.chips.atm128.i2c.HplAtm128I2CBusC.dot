@@ -1,0 +1,11 @@
+digraph "tos.chips.atm128.i2c.HplAtm128I2CBusC" {
+  n0x412842a0 [shape=ellipse, style=filled, label="I2C", fontsize=12];
+  "HplAtm128I2CBusP" [fontsize=12, shape=box, URL="../chtml/tos.chips.atm128.i2c.HplAtm128I2CBusP.html"];
+  "HplAtm128I2CBusP" [fontsize=12, shape=box, URL="../chtml/tos.chips.atm128.i2c.HplAtm128I2CBusP.html"];
+  "HplAtm128GeneralIOC" [fontsize=12, shape=box,peripheries=2, URL="../chtml/tos.chips.atm128.pins.HplAtm128GeneralIOC.html"];
+  "HplAtm128I2CBusP" [fontsize=12, shape=box, URL="../chtml/tos.chips.atm128.i2c.HplAtm128I2CBusP.html"];
+  "HplAtm128GeneralIOC" [fontsize=12, shape=box,peripheries=2, URL="../chtml/tos.chips.atm128.pins.HplAtm128GeneralIOC.html"];
+  "n0x412842a0" -> "HplAtm128I2CBusP" [label="HplAtm128I2CBus", URL="../ihtml/tos.chips.atm128.i2c.HplAtm128I2CBus.html", fontsize=10];
+  "HplAtm128I2CBusP" -> "HplAtm128GeneralIOC" [label="GeneralIO", URL="../ihtml/tos.interfaces.GeneralIO.html", fontsize=10];
+  "HplAtm128I2CBusP" -> "HplAtm128GeneralIOC" [label="GeneralIO", URL="../ihtml/tos.interfaces.GeneralIO.html", fontsize=10];
+}

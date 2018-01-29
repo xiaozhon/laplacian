@@ -1,0 +1,89 @@
+<?xml version="1.0" ?><component loc="46:/opt/tinyos-2.1.2/tos/chips/atm128/adc/AdcP.nc" nicename="tos.chips.atm128.adc.AdcP" qname="AdcP" safe="">
+      <documentation loc="39:/opt/tinyos-2.1.2/tos/chips/atm128/adc/AdcP.nc">
+        <short>
+ Convert ATmega128 HAL A/D interface to the HIL interfaces.</short>
+        <long>
+ Convert ATmega128 HAL A/D interface to the HIL interfaces.
+ @author David Gay
+ @author Jan Hauer &lt;hauer@tkn.tu-berlin.de&gt;
+</long>
+      </documentation>
+      <module/>
+    <specification><interface loc="48:/opt/tinyos-2.1.2/tos/chips/atm128/adc/AdcP.nc" name="Read" provided="1" ref="0x4137c1b8">
+      <component-ref nicename="tos.chips.atm128.adc.AdcP" qname="AdcP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Read" ref="0x4137c1b8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-parameters>
+        <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+          <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+        </type-int>
+      </interface-parameters>
+      <interface-functions>
+        <function-ref name="read" ref="0x4137c7e0" scoped=""/>
+        <function-ref name="readDone" ref="0x4137ca38" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="49:/opt/tinyos-2.1.2/tos/chips/atm128/adc/AdcP.nc" name="ReadNow" provided="1" ref="0x4137b178">
+      <component-ref nicename="tos.chips.atm128.adc.AdcP" qname="AdcP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ReadNow" ref="0x4137b178" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.ReadNow" qname="ReadNow"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-parameters>
+        <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+          <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+        </type-int>
+      </interface-parameters>
+      <interface-functions>
+        <function-ref name="read" ref="0x4137b7c0" scoped=""/>
+        <function-ref name="readDone" ref="0x4137ba38" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="53:/opt/tinyos-2.1.2/tos/chips/atm128/adc/AdcP.nc" name="Atm128AdcConfig" provided="0" ref="0x4137a6b0">
+      <component-ref nicename="tos.chips.atm128.adc.AdcP" qname="AdcP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Atm128AdcConfig" ref="0x4137a6b0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.chips.atm128.adc.Atm128AdcConfig" qname="Atm128AdcConfig"/>
+      </instance>
+      <interface-parameters>
+        <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+          <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+        </type-int>
+      </interface-parameters>
+      <interface-functions>
+        <function-ref name="getRefVoltage" ref="0x4137a888" scoped=""/>
+        <function-ref name="getChannel" ref="0x4137a968" scoped=""/>
+        <function-ref name="getPrescaler" ref="0x4137aa48" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="52:/opt/tinyos-2.1.2/tos/chips/atm128/adc/AdcP.nc" name="Atm128AdcSingle" provided="0" ref="0x4137bde8">
+      <component-ref nicename="tos.chips.atm128.adc.AdcP" qname="AdcP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Atm128AdcSingle" ref="0x4137bde8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.chips.atm128.adc.Atm128AdcSingle" qname="Atm128AdcSingle"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getData" ref="0x4137a010" scoped=""/>
+        <function-ref name="cancel" ref="0x4137a0f0" scoped=""/>
+        <function-ref name="dataReady" ref="0x4137a1d0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="103:/opt/tinyos-2.1.2/tos/chips/atm128/adc/AdcP.nc" name="acquiredData" provided="0" ref="0x413b9e90">
+      <component-ref nicename="tos.chips.atm128.adc.AdcP" qname="AdcP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="acquiredData" ref="0x413b9e90" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.TaskBasic" qname="TaskBasic"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="postTask" ref="0x413b8080" scoped=""/>
+        <function-ref name="runTask" ref="0x413b8160" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced/></component>

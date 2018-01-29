@@ -1,0 +1,3 @@
+test	entropy_avg	std	node_entropy	std
+Ctp-1	2.9049	0.0420	2.9048	0.0419
+

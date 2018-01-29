@@ -1,0 +1,559 @@
+<?xml version="1.0" ?><component loc="1:../mda300final/MDA300C.nc" nicename="...mda300final.MDA300C" qname="MDA300C">
+      <configuration/>
+      <wiring>
+        <wire loc="31:../mda300final/MDA300C.nc">
+          <from><interface-ref name="ADC6" ref="0x4113d898" scoped=""/></from>
+          <to><interface-ref name="ADC6" ref="0x411a96e0" scoped=""/></to>
+        </wire>
+        <wire loc="25:../mda300final/MDA300C.nc">
+          <from><interface-ref name="ADC0" ref="0x41145988" scoped=""/></from>
+          <to><interface-ref name="ADC0" ref="0x411b1950" scoped=""/></to>
+        </wire>
+        <wire loc="34:../mda300final/MDA300C.nc">
+          <from><interface-ref name="volt33" ref="0x41179690" scoped=""/></from>
+          <to><interface-ref name="volt33" ref="0x41174398" scoped=""/></to>
+        </wire>
+        <wire loc="28:../mda300final/MDA300C.nc">
+          <from><interface-ref name="ADC3" ref="0x4113f178" scoped=""/></from>
+          <to><interface-ref name="ADC3" ref="0x411ac060" scoped=""/></to>
+        </wire>
+        <wire loc="29:../mda300final/MDA300C.nc">
+          <from><interface-ref name="ADC4" ref="0x4113fe58" scoped=""/></from>
+          <to><interface-ref name="ADC4" ref="0x411acd20" scoped=""/></to>
+        </wire>
+        <wire loc="38:../mda300final/MDA300C.nc">
+          <from><interface-ref name="Humidity" ref="0x41178e20" scoped=""/></from>
+          <to><interface-ref name="Humidity" ref="0x412d64b0" scoped=""/></to>
+        </wire>
+        <wire loc="26:../mda300final/MDA300C.nc">
+          <from><interface-ref name="ADC1" ref="0x411426c8" scoped=""/></from>
+          <to><interface-ref name="ADC1" ref="0x411ae6a8" scoped=""/></to>
+        </wire>
+        <wire loc="23:../mda300final/MDA300C.nc">
+          <from><interface-ref name="Voltage" ref="0x4113b5a8" scoped=""/></from>
+          <to><interface-ref name="Read" ref="0x41399ef8" scoped=""/></to>
+        </wire>
+        <wire loc="35:../mda300final/MDA300C.nc">
+          <from><interface-ref name="volt50" ref="0x41179b40" scoped=""/></from>
+          <to><interface-ref name="volt50" ref="0x41174828" scoped=""/></to>
+        </wire>
+        <wire loc="33:../mda300final/MDA300C.nc">
+          <from><interface-ref name="volt25" ref="0x411791e0" scoped=""/></from>
+          <to><interface-ref name="volt25" ref="0x41177ef8" scoped=""/></to>
+        </wire>
+        <wire loc="30:../mda300final/MDA300C.nc">
+          <from><interface-ref name="ADC5" ref="0x4113eb70" scoped=""/></from>
+          <to><interface-ref name="ADC5" ref="0x411aaa08" scoped=""/></to>
+        </wire>
+        <wire loc="37:../mda300final/MDA300C.nc">
+          <from><interface-ref name="Temperature" ref="0x41178118" scoped=""/></from>
+          <to><interface-ref name="Temperature" ref="0x411af7a8" scoped=""/></to>
+        </wire>
+        <wire loc="27:../mda300final/MDA300C.nc">
+          <from><interface-ref name="ADC2" ref="0x41140470" scoped=""/></from>
+          <to><interface-ref name="ADC2" ref="0x411ad378" scoped=""/></to>
+        </wire>
+      </wiring>
+    <specification><interface loc="8:../mda300final/MDA300C.nc" name="ADC6" provided="1" ref="0x4113d898">
+      <component-ref nicename="...mda300final.MDA300C" qname="MDA300C"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC6" ref="0x4113d898" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x4113dec0" scoped=""/>
+        <function-ref name="readDone" ref="0x4113b130" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="2:../mda300final/MDA300C.nc" name="ADC0" provided="1" ref="0x41145988">
+      <component-ref nicename="...mda300final.MDA300C" qname="MDA300C"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC0" ref="0x41145988" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x41142010" scoped=""/>
+        <function-ref name="readDone" ref="0x41142268" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="13:../mda300final/MDA300C.nc" name="volt33" provided="1" ref="0x41179690">
+      <component-ref nicename="...mda300final.MDA300C" qname="MDA300C"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="volt33" ref="0x41179690" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="...mda300final.Power" qname="Power"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="on" ref="0x41179868" scoped=""/>
+        <function-ref name="off" ref="0x41179948" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="5:../mda300final/MDA300C.nc" name="ADC3" provided="1" ref="0x4113f178">
+      <component-ref nicename="...mda300final.MDA300C" qname="MDA300C"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC3" ref="0x4113f178" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x4113f7a0" scoped=""/>
+        <function-ref name="readDone" ref="0x4113f9f8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="6:../mda300final/MDA300C.nc" name="ADC4" provided="1" ref="0x4113fe58">
+      <component-ref nicename="...mda300final.MDA300C" qname="MDA300C"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC4" ref="0x4113fe58" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x4113e4b8" scoped=""/>
+        <function-ref name="readDone" ref="0x4113e710" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="17:../mda300final/MDA300C.nc" name="Humidity" provided="1" ref="0x41178e20">
+      <component-ref nicename="...mda300final.MDA300C" qname="MDA300C"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Humidity" ref="0x41178e20" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x411774d8" scoped=""/>
+        <function-ref name="readDone" ref="0x41177730" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="3:../mda300final/MDA300C.nc" name="ADC1" provided="1" ref="0x411426c8">
+      <component-ref nicename="...mda300final.MDA300C" qname="MDA300C"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC1" ref="0x411426c8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x41142cf0" scoped=""/>
+        <function-ref name="readDone" ref="0x41140010" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="10:../mda300final/MDA300C.nc" name="Voltage" provided="1" ref="0x4113b5a8">
+      <component-ref nicename="...mda300final.MDA300C" qname="MDA300C"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Voltage" ref="0x4113b5a8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x4113bbd0" scoped=""/>
+        <function-ref name="readDone" ref="0x4113be28" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="14:../mda300final/MDA300C.nc" name="volt50" provided="1" ref="0x41179b40">
+      <component-ref nicename="...mda300final.MDA300C" qname="MDA300C"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="volt50" ref="0x41179b40" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="...mda300final.Power" qname="Power"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="on" ref="0x41179d18" scoped=""/>
+        <function-ref name="off" ref="0x41179df8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="12:../mda300final/MDA300C.nc" name="volt25" provided="1" ref="0x411791e0">
+      <component-ref nicename="...mda300final.MDA300C" qname="MDA300C"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="volt25" ref="0x411791e0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="...mda300final.Power" qname="Power"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="on" ref="0x411793b8" scoped=""/>
+        <function-ref name="off" ref="0x41179498" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="7:../mda300final/MDA300C.nc" name="ADC5" provided="1" ref="0x4113eb70">
+      <component-ref nicename="...mda300final.MDA300C" qname="MDA300C"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC5" ref="0x4113eb70" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x4113d1e0" scoped=""/>
+        <function-ref name="readDone" ref="0x4113d438" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="16:../mda300final/MDA300C.nc" name="Temperature" provided="1" ref="0x41178118">
+      <component-ref nicename="...mda300final.MDA300C" qname="MDA300C"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Temperature" ref="0x41178118" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x41178740" scoped=""/>
+        <function-ref name="readDone" ref="0x41178998" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="4:../mda300final/MDA300C.nc" name="ADC2" provided="1" ref="0x41140470">
+      <component-ref nicename="...mda300final.MDA300C" qname="MDA300C"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC2" ref="0x41140470" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x41140a98" scoped=""/>
+        <function-ref name="readDone" ref="0x41140cf0" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced><interface loc="6:../mda300final/ADCC.nc" name="ADC0" provided="1" ref="0x411b1950">
+      <component-ref nicename="...mda300final.ADCC" qname="ADCC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC0" ref="0x411b1950" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x411ae010" scoped=""/>
+        <function-ref name="readDone" ref="0x411ae268" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="9:../mda300final/ADCC.nc" name="ADC3" provided="1" ref="0x411ac060">
+      <component-ref nicename="...mda300final.ADCC" qname="ADCC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC3" ref="0x411ac060" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x411ac688" scoped=""/>
+        <function-ref name="readDone" ref="0x411ac8e0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="10:../mda300final/ADCC.nc" name="ADC4" provided="1" ref="0x411acd20">
+      <component-ref nicename="...mda300final.ADCC" qname="ADCC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC4" ref="0x411acd20" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x411aa370" scoped=""/>
+        <function-ref name="readDone" ref="0x411aa5c8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="12:../mda300final/ADCC.nc" name="ADC6" provided="1" ref="0x411a96e0">
+      <component-ref nicename="...mda300final.ADCC" qname="ADCC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC6" ref="0x411a96e0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x411a9d08" scoped=""/>
+        <function-ref name="readDone" ref="0x411a8010" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="3:../mda300final/ExcitationC.nc" name="volt25" provided="1" ref="0x41177ef8">
+      <component-ref nicename="...mda300final.ExcitationC" qname="ExcitationC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="volt25" ref="0x41177ef8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="...mda300final.Power" qname="Power"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="on" ref="0x411740e0" scoped=""/>
+        <function-ref name="off" ref="0x411741c0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="11:../mda300final/ADCC.nc" name="ADC5" provided="1" ref="0x411aaa08">
+      <component-ref nicename="...mda300final.ADCC" qname="ADCC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC5" ref="0x411aaa08" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x411a9048" scoped=""/>
+        <function-ref name="readDone" ref="0x411a92a0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="41:../mda300final/TempHum.nc" name="Humidity" provided="1" ref="0x412d64b0">
+      <component-ref nicename="...mda300final.TempHum" qname="TempHum"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Humidity" ref="0x412d64b0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x412d6ad8" scoped=""/>
+        <function-ref name="readDone" ref="0x412d6d30" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="41:/opt/tinyos-2.1.2/tos/platforms/mica/VoltageC.nc" name="Read" provided="1" ref="0x41399ef8">
+      <component-ref nicename="tos.platforms.mica.VoltageC" qname="MDA300C.VoltageC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Read" ref="0x41399ef8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x412f1558" scoped=""/>
+        <function-ref name="readDone" ref="0x412f17b0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="40:../mda300final/TempHum.nc" name="Temperature" provided="1" ref="0x411af7a8">
+      <component-ref nicename="...mda300final.TempHum" qname="TempHum"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Temperature" ref="0x411af7a8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x411afdd0" scoped=""/>
+        <function-ref name="readDone" ref="0x412d6048" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="4:../mda300final/ExcitationC.nc" name="volt33" provided="1" ref="0x41174398">
+      <component-ref nicename="...mda300final.ExcitationC" qname="ExcitationC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="volt33" ref="0x41174398" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="...mda300final.Power" qname="Power"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="on" ref="0x41174570" scoped=""/>
+        <function-ref name="off" ref="0x41174650" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="8:../mda300final/ADCC.nc" name="ADC2" provided="1" ref="0x411ad378">
+      <component-ref nicename="...mda300final.ADCC" qname="ADCC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC2" ref="0x411ad378" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x411ad9a0" scoped=""/>
+        <function-ref name="readDone" ref="0x411adbf8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="5:../mda300final/ExcitationC.nc" name="volt50" provided="1" ref="0x41174828">
+      <component-ref nicename="...mda300final.ExcitationC" qname="ExcitationC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="volt50" ref="0x41174828" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="...mda300final.Power" qname="Power"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="on" ref="0x41174a00" scoped=""/>
+        <function-ref name="off" ref="0x41174ae0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="7:../mda300final/ADCC.nc" name="ADC1" provided="1" ref="0x411ae6a8">
+      <component-ref nicename="...mda300final.ADCC" qname="ADCC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ADC1" ref="0x411ae6a8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x411aecd0" scoped=""/>
+        <function-ref name="readDone" ref="0x411aef28" scoped=""/>
+      </interface-functions>
+    </interface><component loc="39(MDA300C.VoltageC):/opt/tinyos-2.1.2/tos/platforms/mica/VoltageC.nc" nicename="tos.platforms.mica.VoltageC" qname="MDA300C.VoltageC">
+      <documentation loc="31:/opt/tinyos-2.1.2/tos/platforms/mica/VoltageC.nc">
+        <short>
+ Battery Voltage.</short>
+        <long>
+ Battery Voltage. The returned value represents the difference
+ between the battery voltage and V_BG (1.23V). The formula to convert
+ it to mV is: 1223 * 1024 / value.
+
+ @author Razvan Musaloiu-E.
+</long>
+      </documentation>
+      <instance number="0">
+        <component-ref nicename="tos.platforms.mica.VoltageC" qname="VoltageC"/>
+      </instance>
+      <configuration/>
+      <wiring>
+        <wire>
+          <from><interface-ref name="Read" ref="0x41399ef8" scoped=""/></from>
+          <to><interface-ref name="Read" ref="0x418f3890" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="Atm128AdcConfig" ref="0x418f2438" scoped=""/></from>
+          <to><interface-ref name="Atm128AdcConfig" ref="0x4139a460" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component><component loc="1:../mda300final/ExcitationC.nc" nicename="...mda300final.ExcitationC" qname="ExcitationC">
+      <configuration/>
+      <wiring>
+        <wire loc="21:../mda300final/ExcitationC.nc">
+          <from><interface-ref name="volt33" ref="0x41174398" scoped=""/></from>
+          <to><interface-ref name="volt33" ref="0x41171980" scoped=""/></to>
+        </wire>
+        <wire loc="22:../mda300final/ExcitationC.nc">
+          <from><interface-ref name="volt50" ref="0x41174828" scoped=""/></from>
+          <to><interface-ref name="volt50" ref="0x41171e10" scoped=""/></to>
+        </wire>
+        <wire loc="20:../mda300final/ExcitationC.nc">
+          <from><interface-ref name="volt25" ref="0x41177ef8" scoped=""/></from>
+          <to><interface-ref name="volt25" ref="0x411714f0" scoped=""/></to>
+        </wire>
+        <wire loc="11:../mda300final/ExcitationC.nc">
+          <from><interface-ref name="SoftwareInit" ref="0x40491c40" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x41171140" scoped=""/></to>
+        </wire>
+        <wire loc="13:../mda300final/ExcitationC.nc">
+          <from><interface-ref name="FiveVolt" ref="0x4116f348" scoped=""/></from>
+          <to><interface-ref name="PW5" ref="0x4115a730" scoped=""/></to>
+        </wire>
+        <wire loc="14:../mda300final/ExcitationC.nc">
+          <from><interface-ref name="ThreeVolt" ref="0x4116fd60" scoped=""/></from>
+          <to><interface-ref name="PW3" ref="0x4115b2d0" scoped=""/></to>
+        </wire>
+        <wire loc="15:../mda300final/ExcitationC.nc">
+          <from><interface-ref name="VoltageBuffer" ref="0x4116e878" scoped=""/></from>
+          <to><interface-ref name="PW2" ref="0x4115c8c0" scoped=""/></to>
+        </wire>
+        <wire loc="16:../mda300final/ExcitationC.nc">
+          <from><interface-ref name="VoltageBooster" ref="0x4116d340" scoped=""/></from>
+          <to><interface-ref name="PW1" ref="0x41172ed0" scoped=""/></to>
+        </wire>
+        <wire loc="17:../mda300final/ExcitationC.nc">
+          <from><interface-ref name="Amplifiers" ref="0x4116dd60" scoped=""/></from>
+          <to><interface-ref name="PW6" ref="0x41199118" scoped=""/></to>
+        </wire>
+        <wire loc="18:../mda300final/ExcitationC.nc">
+          <from><interface-ref name="PW4" ref="0x4116c810" scoped=""/></from>
+          <to><interface-ref name="PW4" ref="0x4115bca8" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component><component loc="1:../mda300final/ADCC.nc" nicename="...mda300final.ADCC" qname="ADCC">
+      <configuration/>
+      <wiring>
+        <wire loc="35:../mda300final/ADCC.nc">
+          <from><interface-ref name="ADC6" ref="0x411a96e0" scoped=""/></from>
+          <to><interface-ref name="ADC6" ref="0x411a0ae0" scoped=""/></to>
+        </wire>
+        <wire loc="29:../mda300final/ADCC.nc">
+          <from><interface-ref name="ADC0" ref="0x411b1950" scoped=""/></from>
+          <to><interface-ref name="ADC0" ref="0x411a8d50" scoped=""/></to>
+        </wire>
+        <wire loc="32:../mda300final/ADCC.nc">
+          <from><interface-ref name="ADC3" ref="0x411ac060" scoped=""/></from>
+          <to><interface-ref name="ADC3" ref="0x411a2450" scoped=""/></to>
+        </wire>
+        <wire loc="33:../mda300final/ADCC.nc">
+          <from><interface-ref name="ADC4" ref="0x411acd20" scoped=""/></from>
+          <to><interface-ref name="ADC4" ref="0x411a1120" scoped=""/></to>
+        </wire>
+        <wire loc="30:../mda300final/ADCC.nc">
+          <from><interface-ref name="ADC1" ref="0x411ae6a8" scoped=""/></from>
+          <to><interface-ref name="ADC1" ref="0x411a5a58" scoped=""/></to>
+        </wire>
+        <wire loc="34:../mda300final/ADCC.nc">
+          <from><interface-ref name="ADC5" ref="0x411aaa08" scoped=""/></from>
+          <to><interface-ref name="ADC5" ref="0x411a1de0" scoped=""/></to>
+        </wire>
+        <wire loc="31:../mda300final/ADCC.nc">
+          <from><interface-ref name="ADC2" ref="0x411ad378" scoped=""/></from>
+          <to><interface-ref name="ADC2" ref="0x411a4730" scoped=""/></to>
+        </wire>
+        <wire loc="23:../mda300final/ADCC.nc">
+          <from><interface-ref name="SoftwareInit" ref="0x40491c40" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x411a88b0" scoped=""/></to>
+        </wire>
+        <wire loc="25:../mda300final/ADCC.nc">
+          <from><interface-ref name="I2CPacket" ref="0x411d96b0" scoped=""/></from>
+          <to><interface-ref name="I2CPacket" ref="0x411ef580" scoped=""/></to>
+        </wire>
+        <wire loc="26:../mda300final/ADCC.nc">
+          <from><interface-ref name="I2CControl" ref="0x4119c6c8" scoped=""/></from>
+          <to><interface-ref name="Resource" ref="0x411f0dc8" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component><component loc="36:../mda300final/TempHum.nc" nicename="...mda300final.TempHum" qname="TempHum">
+      <configuration/>
+      <wiring>
+        <wire loc="56:../mda300final/TempHum.nc">
+          <from><interface-ref name="Humidity" ref="0x412d64b0" scoped=""/></from>
+          <to><interface-ref name="Humidity" ref="0x412d16d0" scoped=""/></to>
+        </wire>
+        <wire loc="55:../mda300final/TempHum.nc">
+          <from><interface-ref name="Temperature" ref="0x411af7a8" scoped=""/></from>
+          <to><interface-ref name="Temperature" ref="0x412d59d8" scoped=""/></to>
+        </wire>
+        <wire loc="50:../mda300final/TempHum.nc">
+          <from><interface-ref name="SoftwareInit" ref="0x40491c40" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x412d5518" scoped=""/></to>
+        </wire>
+        <wire loc="51:../mda300final/TempHum.nc">
+          <from><interface-ref name="Clock" ref="0x412d03f0" scoped=""/></from>
+          <to><interface-ref name="PW0" ref="0x411724f8" scoped=""/></to>
+        </wire>
+        <wire loc="52:../mda300final/TempHum.nc">
+          <from><interface-ref name="Data" ref="0x412d0dd8" scoped=""/></from>
+          <to><interface-ref name="Int3" ref="0x411964a0" scoped=""/></to>
+        </wire>
+        <wire loc="54:../mda300final/TempHum.nc">
+          <from><interface-ref name="Int7" ref="0x412cf878" scoped=""/></from>
+          <to><interface-ref name="Int7" ref="0x408d8010" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component></referenced></component>

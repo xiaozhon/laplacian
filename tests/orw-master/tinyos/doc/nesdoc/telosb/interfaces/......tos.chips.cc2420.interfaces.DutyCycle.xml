@@ -1,0 +1,30 @@
+<?xml version="1.0" ?><interfacedef loc="35:../../tos/chips/cc2420/interfaces/DutyCycle.nc" nicename="......tos.chips.cc2420.interfaces.DutyCycle" qname="DutyCycle">
+      <function command="" loc="37:../../tos/chips/cc2420/interfaces/DutyCycle.nc" name="radioOn" provided="0" ref="0x4107fad8">
+        <interfacedef-ref nicename="......tos.chips.cc2420.interfaces.DutyCycle" qname="DutyCycle"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-void alignment="I:1" size="I:1"/>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="39:../../tos/chips/cc2420/interfaces/DutyCycle.nc" name="radioOff" provided="0" ref="0x4107c010">
+        <interfacedef-ref nicename="......tos.chips.cc2420.interfaces.DutyCycle" qname="DutyCycle"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-void alignment="I:1" size="I:1"/>
+          <function-parameters>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="bool" ref="0x40352e80"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="39:../../tos/chips/cc2420/interfaces/DutyCycle.nc" name="action" ref="0x4107fea0">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="bool" ref="0x40352e80"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+    </interfacedef>

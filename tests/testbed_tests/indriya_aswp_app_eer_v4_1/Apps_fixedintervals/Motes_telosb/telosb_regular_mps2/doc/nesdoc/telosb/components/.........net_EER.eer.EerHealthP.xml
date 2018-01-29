@@ -1,0 +1,32 @@
+<?xml version="1.0" ?><component loc="41:../../../net_EER/eer/EerHealthP.nc" nicename=".........net_EER.eer.EerHealthP" qname="EerHealthP">
+      <module/>
+    <specification><interface loc="43:../../../net_EER/eer/EerHealthP.nc" name="EerParentSelectionHealth" provided="0" ref="0x41508010">
+      <component-ref nicename=".........net_EER.eer.EerHealthP" qname="EerHealthP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="EerParentSelectionHealth" ref="0x41508010" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename=".........net_EER.eer_parentselection.EerParentSelectionHealth" qname="EerParentSelectionHealth"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getBestNeighborFromParentSet" ref="0x415081e8" scoped=""/>
+        <function-ref name="getCandiateSetSize" ref="0x415082c8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="42:../../../net_EER/eer/EerHealthP.nc" name="EerHealth" provided="1" ref="0x414d4308">
+      <component-ref nicename=".........net_EER.eer.EerHealthP" qname="EerHealthP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="EerHealth" ref="0x414d4308" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename=".........net_EER.eer.EerHealth" qname="EerHealth"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="get_hlth_forwarded" ref="0x414d44e0" scoped=""/>
+        <function-ref name="hlth_forwarded" ref="0x414d45c0" scoped=""/>
+        <function-ref name="init" ref="0x414d46a0" scoped=""/>
+        <function-ref name="hlth_generated" ref="0x414d4780" scoped=""/>
+        <function-ref name="get_hlth_generated" ref="0x414d4860" scoped=""/>
+        <function-ref name="get_hlth_retx" ref="0x414d4940" scoped=""/>
+        <function-ref name="get_hlth_psetSize" ref="0x414d4a20" scoped=""/>
+        <function-ref name="hlth_retx" ref="0x414d4b00" scoped=""/>
+        <function-ref name="get_hlth_dropped" ref="0x414d4be0" scoped=""/>
+        <function-ref name="hlth_dropped" ref="0x414d4cc0" scoped=""/>
+        <function-ref name="get_hlth_eerParent" ref="0x414d4da0" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced/></component>

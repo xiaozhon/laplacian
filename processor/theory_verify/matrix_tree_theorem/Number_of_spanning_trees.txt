@@ -1,0 +1,2 @@
+2016-09-29 23:20:14 Round: 1
+Number_of_spanning_trees: 1.0

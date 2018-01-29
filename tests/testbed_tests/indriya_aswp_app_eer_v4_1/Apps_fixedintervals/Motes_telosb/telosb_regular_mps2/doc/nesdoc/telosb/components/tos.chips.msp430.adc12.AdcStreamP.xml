@@ -1,0 +1,144 @@
+<?xml version="1.0" ?><component loc="46:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/AdcStreamP.nc" nicename="tos.chips.msp430.adc12.AdcStreamP" qname="AdcStreamP" safe="">
+      <documentation loc="39:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/AdcStreamP.nc">
+        <short>
+ Convert MSP430 HAL A/D interface to the HIL interfaces (adapted atmega code).</short>
+        <long>
+ Convert MSP430 HAL A/D interface to the HIL interfaces (adapted atmega code).
+ @author David Gay
+ @author Jan Hauer &lt;hauer@tkn.tu-berlin.de&gt;
+</long>
+      </documentation>
+      <module/>
+    <specification><interface loc="156:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/AdcStreamP.nc" name="bufferDone" provided="0" ref="0x418f6730">
+      <component-ref nicename="tos.chips.msp430.adc12.AdcStreamP" qname="AdcStreamP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="bufferDone" ref="0x418f6730" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.TaskBasic" qname="TaskBasic"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="postTask" ref="0x418f6908" scoped=""/>
+        <function-ref name="runTask" ref="0x418f69e8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="119:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/AdcStreamP.nc" name="readStreamDone" provided="0" ref="0x418fe868">
+      <component-ref nicename="tos.chips.msp430.adc12.AdcStreamP" qname="AdcStreamP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="readStreamDone" ref="0x418fe868" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.TaskBasic" qname="TaskBasic"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="postTask" ref="0x418fea40" scoped=""/>
+        <function-ref name="runTask" ref="0x418feb20" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="135:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/AdcStreamP.nc" name="readStreamFail" provided="0" ref="0x418fa040">
+      <component-ref nicename="tos.chips.msp430.adc12.AdcStreamP" qname="AdcStreamP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="readStreamFail" ref="0x418fa040" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.TaskBasic" qname="TaskBasic"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="postTask" ref="0x418fa218" scoped=""/>
+        <function-ref name="runTask" ref="0x418fa2f8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="54:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/AdcStreamP.nc" name="Alarm" provided="0" ref="0x4190d010">
+      <component-ref nicename="tos.chips.msp430.adc12.AdcStreamP" qname="AdcStreamP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Alarm" ref="0x4190d010" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Alarm" qname="Alarm"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x40035cf8"/>
+            <typename><typedef-ref name="TMilli" ref="0x405e1108"/></typename>
+          </type-tag>
+          <type-int alignment="I:2" cname="unsigned long" size="I:4" unsigned="">
+            <typename><typedef-ref name="uint32_t" ref="0x401e2250"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x4190b4e0" scoped=""/>
+        <function-ref name="fired" ref="0x4190dc78" scoped=""/>
+        <function-ref name="startAt" ref="0x4190b1a0" scoped=""/>
+        <function-ref name="isRunning" ref="0x4190def0" scoped=""/>
+        <function-ref name="getAlarm" ref="0x4190b758" scoped=""/>
+        <function-ref name="start" ref="0x4190d760" scoped=""/>
+        <function-ref name="stop" ref="0x4190da00" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="48:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/AdcStreamP.nc" name="Init" provided="1" ref="0x41912370">
+      <component-ref nicename="tos.chips.msp430.adc12.AdcStreamP" qname="AdcStreamP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Init" ref="0x41912370" scoped=""/></type-interface>
+      <attribute-value>
+        <attribute-ref name="atleastonce" ref="0x40350c58"/>
+        <value-structured>
+          <type-tag alignment="I:1" size="I:0"><attribute-ref name="atleastonce" ref="0x40350c58"/></type-tag>
+        </value-structured>
+      </attribute-value>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x41912548" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="53:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/AdcStreamP.nc" name="AdcConfigure" provided="0" ref="0x4190e518">
+      <component-ref nicename="tos.chips.msp430.adc12.AdcStreamP" qname="AdcStreamP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="AdcConfigure" ref="0x4190e518" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.AdcConfigure" qname="AdcConfigure"/>
+        <arguments>
+          <type-pointer alignment="I:2" size="I:2">
+            <type-qualified const="">
+                <typename><typedef-ref name="msp430adc12_channel_config_t" ref="0x41575a70"/></typename>
+              <type-tag alignment="I:2" size="I:4"><struct-ref ref="0x415755b0"/></type-tag>
+            </type-qualified>
+          </type-pointer>
+        </arguments>
+      </instance>
+      <interface-parameters>
+        <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+          <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+        </type-int>
+      </interface-parameters>
+      <interface-functions>
+        <function-ref name="getConfiguration" ref="0x4190eb60" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="52:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/AdcStreamP.nc" name="SingleChannel" provided="0" ref="0x4190f688">
+      <component-ref nicename="tos.chips.msp430.adc12.AdcStreamP" qname="AdcStreamP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="SingleChannel" ref="0x4190f688" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.chips.msp430.adc12.Msp430Adc12SingleChannel" qname="Msp430Adc12SingleChannel"/>
+      </instance>
+      <interface-parameters>
+        <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+          <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+        </type-int>
+      </interface-parameters>
+      <interface-functions>
+        <function-ref name="getData" ref="0x4190f860" scoped=""/>
+        <function-ref name="configureSingle" ref="0x4190f940" scoped=""/>
+        <function-ref name="configureSingleRepeat" ref="0x4190fa20" scoped=""/>
+        <function-ref name="configureMultipleRepeat" ref="0x4190fb00" scoped=""/>
+        <function-ref name="multipleDataReady" ref="0x4190fbe0" scoped=""/>
+        <function-ref name="configureMultiple" ref="0x4190fcc0" scoped=""/>
+        <function-ref name="singleDataReady" ref="0x4190fda0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="49:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/AdcStreamP.nc" name="ReadStream" provided="1" ref="0x41912ae0">
+      <component-ref nicename="tos.chips.msp430.adc12.AdcStreamP" qname="AdcStreamP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="ReadStream" ref="0x41912ae0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.ReadStream" qname="ReadStream"/>
+        <arguments>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-parameters>
+        <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+          <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+        </type-int>
+      </interface-parameters>
+      <interface-functions>
+        <function-ref name="bufferDone" ref="0x41911930" scoped=""/>
+        <function-ref name="postBuffer" ref="0x419111e0" scoped=""/>
+        <function-ref name="read" ref="0x419116b0" scoped=""/>
+        <function-ref name="readDone" ref="0x41911ea0" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced/></component>

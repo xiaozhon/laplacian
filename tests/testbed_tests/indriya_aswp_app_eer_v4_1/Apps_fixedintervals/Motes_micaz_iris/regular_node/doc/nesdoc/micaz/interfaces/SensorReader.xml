@@ -1,0 +1,130 @@
+<?xml version="1.0" ?><interfacedef loc="7:SensorReader.nc" nicename="SensorReader" qname="SensorReader">
+      <documentation loc="1:SensorReader.nc">
+        <short>
+ A simple interface we provide to allow an application to
+ read sensors.</short>
+        <long>
+ A simple interface we provide to allow an application to
+ read sensors.
+ Author: Newlyn Erratt
+</long>
+      </documentation>
+      <function command="" loc="8:SensorReader.nc" name="getReadings" provided="0" ref="0x40420a60">
+        <interfacedef-ref nicename="SensorReader" qname="SensorReader"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x40325628"/></typename>
+          </type-int>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function event="" loc="9:SensorReader.nc" name="readingsDone" provided="0" ref="0x40429370">
+        <interfacedef-ref nicename="SensorReader" qname="SensorReader"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-void alignment="I:1" size="I:1"/>
+          <function-parameters>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="error_t" ref="0x40325628"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="9:SensorReader.nc" ref="0x40420e08">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="error_t" ref="0x40325628"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="9:SensorReader.nc" ref="0x4042b010">
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="9:SensorReader.nc" ref="0x4042b1c0">
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="9:SensorReader.nc" ref="0x4042b370">
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="9:SensorReader.nc" ref="0x4042b520">
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="9:SensorReader.nc" ref="0x4042b6d0">
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="9:SensorReader.nc" ref="0x4042b880">
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="9:SensorReader.nc" ref="0x4042ba30">
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="9:SensorReader.nc" ref="0x4042bbe0">
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="9:SensorReader.nc" ref="0x4042bd90">
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="9:SensorReader.nc" ref="0x40429010">
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="9:SensorReader.nc" ref="0x404291c0">
+            <type-int alignment="I:1" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x401e21e8"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+    </interfacedef>

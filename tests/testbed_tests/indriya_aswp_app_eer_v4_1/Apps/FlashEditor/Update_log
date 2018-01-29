@@ -1,0 +1,27 @@
+**** FlashEditor ****
+
+************************************************************************
+Update 2014-8-22:
+	Changed the logic to reset the wdt_counter in the flash. Previously, if the mote's reboot
+	is not triggered by the wdt (e.g., reprogramming, replace batteries), the wdt_counter will 
+	reset to 0. Now, the wdt_counter will be reset to 0 only after reprogramming, when a new
+	RESET_CODE is defined. Replacing battery or manually reboot does not affect the wdt_counter.
+	   
+	All changes are made in FlashConfigP.nc
+	
+	1. in event FlashEditor.readDone() (line 57):
+	   - comment line 100: 
+	   		// conf -> wdt_resets++;
+	   		
+	   - comment the last else branch (line 104 ~ 109):
+	       /*	else {
+					// the reboot is not triggered by wdt
+					conf -> wdt_resets = 0;
+					conf -> wdt_flag = 0;
+					call FlashEditor.write(conf);
+		   		}
+		   */
+	2. in command FlashConfig.write() (line 162):
+	   - Increase the wdt_resets:
+	   		config_data.wdt_resets++;
+	   	 before "call FlashEditor.write(&config_data);" (line 174)

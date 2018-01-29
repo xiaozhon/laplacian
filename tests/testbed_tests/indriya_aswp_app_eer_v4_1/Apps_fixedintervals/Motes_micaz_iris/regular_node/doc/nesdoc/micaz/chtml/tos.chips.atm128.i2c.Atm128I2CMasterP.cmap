@@ -1,0 +1,26 @@
+<area shape="rect" id="node2" href="../chtml/tos.chips.atm128.i2c.Atm128I2CMasterImplP.html" title="Atm128I2CMasterImplP\n(I2C)" alt="" coords="369,120,575,171">
+<area shape="poly" id="edge2" href="../ihtml/tos.interfaces.Resource.html" title="Resource[uint8_t]" alt="" coords="398,53 399,74 406,95 417,109 413,112 402,97 394,76 392,54">
+<area shape="rect" id="edge2" href="../ihtml/tos.interfaces.Resource.html" title="Resource[uint8_t]" alt="" coords="404,78,517,95">
+<area shape="rect" id="node4" href="../chtml/tos.system.FcfsArbiterC.html" title="FcfsArbiterC\n(Arbiter)" alt="" coords="80,237,208,299">
+<area shape="poly" id="edge6" href="../ihtml/tos.interfaces.Resource.html" title="Resource[uint8_t]" alt="" coords="410,173 300,216 222,244 220,239 298,211 408,168">
+<area shape="rect" id="edge6" href="../ihtml/tos.interfaces.Resource.html" title="Resource[uint8_t]" alt="" coords="345,195,459,213">
+<area shape="rect" id="node5" href="../chtml/tos.chips.atm128.i2c.Atm128I2CMasterPacketP.html" title="Atm128I2CMasterPacketP\n(Master)" alt="" coords="361,243,583,293">
+<area shape="poly" id="edge8" href="../ihtml/tos.interfaces.I2CPacket.html" title="I2CPacket&lt;TI2CBasicAddr&gt;" alt="" coords="475,171 475,229 469,229 469,171">
+<area shape="rect" id="edge8" href="../ihtml/tos.interfaces.I2CPacket.html" title="I2CPacket&lt;TI2CBasicAddr&gt;" alt="" coords="472,195,648,213">
+<area shape="poly" id="edge10" href="../ihtml/tos.chips.atm128.i2c.Atm128I2C.html" title="Atm128I2C" alt="" coords="575,160 622,174 640,183 651,193 658,205 659,216 650,233 627,246 597,256 595,251 625,242 646,230 654,215 653,206 647,196 637,187 620,179 574,165">
+<area shape="rect" id="edge10" href="../ihtml/tos.chips.atm128.i2c.Atm128I2C.html" title="Atm128I2C" alt="" coords="656,195,728,213">
+<area shape="poly" id="edge4" href="../ihtml/tos.interfaces.I2CPacket.html" title="I2CPacket&lt;TI2CBasicAddr&gt;[uint8_t]" alt="" coords="541,55 520,97 510,111 505,108 515,95 536,53">
+<area shape="rect" id="edge4" href="../ihtml/tos.interfaces.I2CPacket.html" title="I2CPacket&lt;TI2CBasicAddr&gt;[uint8_t]" alt="" coords="527,78,756,95">
+<area shape="rect" id="node7" href="../chtml/tos.chips.atm128.i2c.HplAtm128I2CBusC.html" title="HplAtm128I2CBusC" alt="" coords="231,365,417,424">
+<area shape="poly" id="edge16" href="../ihtml/tos.chips.atm128.i2c.HplAtm128I2CBus.html" title="HplAtm128I2CBus" alt="" coords="381,296 361,308 343,324 335,338 330,353 325,351 330,335 339,321 357,304 378,291">
+<area shape="rect" id="edge16" href="../ihtml/tos.chips.atm128.i2c.HplAtm128I2CBus.html" title="HplAtm128I2CBus" alt="" coords="341,323,459,341">
+<area shape="rect" id="node8" href="../chtml/tos.system.NoLedsC.html" title="NoLedsC" alt="" coords="464,371,555,419">
+<area shape="poly" id="edge18" href="../ihtml/tos.interfaces.Leds.html" title="Leds" alt="" coords="493,292 507,322 512,356 507,357 501,323 488,295">
+<area shape="rect" id="edge18" href="../ihtml/tos.interfaces.Leds.html" title="Leds" alt="" coords="507,323,537,341">
+<area shape="poly" id="edge20" href="../ihtml/tos.interfaces.Leds.html" title="Leds" alt="" coords="469,294 467,317 471,341 479,358 475,360 465,342 462,317 463,293">
+<area shape="rect" id="edge20" href="../ihtml/tos.interfaces.Leds.html" title="Leds" alt="" coords="468,323,499,341">
+<area shape="rect" id="node6" href="../chtml/tos.lib.power.AsyncPowerManagerP.html" title="AsyncPowerManagerP\n(Power)" alt="" coords="5,120,200,171">
+<area shape="poly" id="edge14" href="../ihtml/tos.interfaces.ResourceDefaultOwner.html" title="ResourceDefaultOwner" alt="" coords="38,173 17,191 15,201 18,212 40,234 68,249 66,254 37,238 14,215 9,201 13,189 34,169">
+<area shape="rect" id="edge14" href="../ihtml/tos.interfaces.ResourceDefaultOwner.html" title="ResourceDefaultOwner" alt="" coords="16,195,161,213">
+<area shape="poly" id="edge12" href="../ihtml/tos.interfaces.AsyncStdControl.html" title="AsyncStdControl" alt="" coords="135,169 188,211 227,226 267,239 348,255 347,260 266,244 225,231 185,216 131,173">
+<area shape="rect" id="edge12" href="../ihtml/tos.interfaces.AsyncStdControl.html" title="AsyncStdControl" alt="" coords="187,195,293,213">

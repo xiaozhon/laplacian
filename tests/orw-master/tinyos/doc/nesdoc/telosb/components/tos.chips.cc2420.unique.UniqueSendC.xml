@@ -1,0 +1,335 @@
+<?xml version="1.0" ?><component loc="38:/opt/tinyos-2.1.2/tos/chips/cc2420/unique/UniqueSendC.nc" nicename="tos.chips.cc2420.unique.UniqueSendC" qname="UniqueSendC">
+      <documentation loc="32:/opt/tinyos-2.1.2/tos/chips/cc2420/unique/UniqueSendC.nc">
+        <short>
+ Generate a unique dsn byte for this outgoing packet
+ This should sit at the top of the stack
+ </short>
+        <long>
+ Generate a unique dsn byte for this outgoing packet
+ This should sit at the top of the stack
+ @author David Moss
+</long>
+      </documentation>
+      <configuration/>
+      <wiring>
+        <wire loc="55:/opt/tinyos-2.1.2/tos/chips/cc2420/unique/UniqueSendC.nc">
+          <from><interface-ref name="Send" ref="0x41107128" scoped=""/></from>
+          <to><interface-ref name="Send" ref="0x41106748" scoped=""/></to>
+        </wire>
+        <wire loc="56:/opt/tinyos-2.1.2/tos/chips/cc2420/unique/UniqueSendC.nc">
+          <from><interface-ref name="SubSend" ref="0x41103228" scoped=""/></from>
+          <to><interface-ref name="SubSend" ref="0x41107898" scoped=""/></to>
+        </wire>
+        <wire loc="58:/opt/tinyos-2.1.2/tos/chips/cc2420/unique/UniqueSendC.nc">
+          <from><interface-ref name="SoftwareInit" ref="0x40650c38" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x41106e10" scoped=""/></to>
+        </wire>
+        <wire loc="60:/opt/tinyos-2.1.2/tos/chips/cc2420/unique/UniqueSendC.nc">
+          <from><interface-ref name="State" ref="0x411038f8" scoped=""/></from>
+          <to><interface-ref name="State" ref="0x41135148" scoped=""/></to>
+        </wire>
+        <wire loc="61:/opt/tinyos-2.1.2/tos/chips/cc2420/unique/UniqueSendC.nc">
+          <from><interface-ref name="Random" ref="0x41102190" scoped=""/></from>
+          <to><interface-ref name="Random" ref="0x410e0010" scoped=""/></to>
+        </wire>
+        <wire loc="62:/opt/tinyos-2.1.2/tos/chips/cc2420/unique/UniqueSendC.nc">
+          <from><interface-ref name="CC2420PacketBody" ref="0x41102630" scoped=""/></from>
+          <to><interface-ref name="CC2420PacketBody" ref="0x40ecf468" scoped=""/></to>
+        </wire>
+      </wiring>
+    <specification><interface loc="44:/opt/tinyos-2.1.2/tos/chips/cc2420/unique/UniqueSendC.nc" name="SubSend" provided="0" ref="0x41107898">
+      <component-ref nicename="tos.chips.cc2420.unique.UniqueSendC" qname="UniqueSendC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="SubSend" ref="0x41107898" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Send" qname="Send"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="send" ref="0x41107a70" scoped=""/>
+        <function-ref name="getPayload" ref="0x41107b50" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x41107c30" scoped=""/>
+        <function-ref name="cancel" ref="0x41107d10" scoped=""/>
+        <function-ref name="sendDone" ref="0x41107df0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="40:/opt/tinyos-2.1.2/tos/chips/cc2420/unique/UniqueSendC.nc" name="Send" provided="1" ref="0x41107128">
+      <component-ref nicename="tos.chips.cc2420.unique.UniqueSendC" qname="UniqueSendC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Send" ref="0x41107128" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Send" qname="Send"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="send" ref="0x41107300" scoped=""/>
+        <function-ref name="getPayload" ref="0x411073e0" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x411074c0" scoped=""/>
+        <function-ref name="cancel" ref="0x411075a0" scoped=""/>
+        <function-ref name="sendDone" ref="0x41107680" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced><interface loc="46:/opt/tinyos-2.1.2/tos/system/RandomC.nc" name="Random" provided="1" ref="0x410e0010">
+      <component-ref nicename="tos.system.RandomC" qname="RandomC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Random" ref="0x410e0010" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Random" qname="Random"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="rand16" ref="0x410e01e8" scoped=""/>
+        <function-ref name="rand32" ref="0x410e02c8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="47:../../tos/chips/cc2420/unique/UniqueSendP.nc" name="SubSend" provided="0" ref="0x41103228">
+      <component-ref nicename="......tos.chips.cc2420.unique.UniqueSendP" qname="UniqueSendP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="SubSend" ref="0x41103228" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Send" qname="Send"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="send" ref="0x41103400" scoped=""/>
+        <function-ref name="getPayload" ref="0x411034e0" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x411035c0" scoped=""/>
+        <function-ref name="cancel" ref="0x411036a0" scoped=""/>
+        <function-ref name="sendDone" ref="0x41103780" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="43:/opt/tinyos-2.1.2/tos/chips/cc2420/packet/CC2420PacketC.nc" name="CC2420PacketBody" provided="1" ref="0x40ecf468">
+      <component-ref nicename="tos.chips.cc2420.packet.CC2420PacketC" qname="CC2420PacketC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="CC2420PacketBody" ref="0x40ecf468" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.chips.cc2420.interfaces.CC2420PacketBody" qname="CC2420PacketBody"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getPayload" ref="0x40ecf640" scoped=""/>
+        <function-ref name="getHeader" ref="0x40ecf720" scoped=""/>
+        <function-ref name="getMetadata" ref="0x40ecf800" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="42:../../tos/chips/cc2420/unique/UniqueSendP.nc" name="Send" provided="1" ref="0x41106748">
+      <component-ref nicename="......tos.chips.cc2420.unique.UniqueSendP" qname="UniqueSendP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Send" ref="0x41106748" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Send" qname="Send"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="send" ref="0x41106920" scoped=""/>
+        <function-ref name="getPayload" ref="0x41106a00" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x41106ae0" scoped=""/>
+        <function-ref name="cancel" ref="0x41106bc0" scoped=""/>
+        <function-ref name="sendDone" ref="0x41106ca0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="67:/opt/tinyos-2.1.2/tos/system/StateC.nc" name="State" provided="1" ref="0x41135148">
+      <component-ref nicename="tos.system.StateC" qname="UniqueSendC.StateC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="State" ref="0x41135148" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.State" qname="State"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getState" ref="0x41135320" scoped=""/>
+        <function-ref name="toIdle" ref="0x41135400" scoped=""/>
+        <function-ref name="isState" ref="0x411354e0" scoped=""/>
+        <function-ref name="isIdle" ref="0x411355c0" scoped=""/>
+        <function-ref name="requestState" ref="0x411356a0" scoped=""/>
+        <function-ref name="forceState" ref="0x41135780" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="43:../../tos/chips/cc2420/unique/UniqueSendP.nc" name="Init" provided="1" ref="0x41106e10">
+      <component-ref nicename="......tos.chips.cc2420.unique.UniqueSendP" qname="UniqueSendP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Init" ref="0x41106e10" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x41103010" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="48:../../tos/chips/cc2420/unique/UniqueSendP.nc" name="State" provided="0" ref="0x411038f8">
+      <component-ref nicename="......tos.chips.cc2420.unique.UniqueSendP" qname="UniqueSendP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="State" ref="0x411038f8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.State" qname="State"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getState" ref="0x41103ad0" scoped=""/>
+        <function-ref name="toIdle" ref="0x41103bb0" scoped=""/>
+        <function-ref name="isState" ref="0x41103c90" scoped=""/>
+        <function-ref name="isIdle" ref="0x41103d70" scoped=""/>
+        <function-ref name="requestState" ref="0x41103e50" scoped=""/>
+        <function-ref name="forceState" ref="0x41102010" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="49:../../tos/chips/cc2420/unique/UniqueSendP.nc" name="Random" provided="0" ref="0x41102190">
+      <component-ref nicename="......tos.chips.cc2420.unique.UniqueSendP" qname="UniqueSendP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Random" ref="0x41102190" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Random" qname="Random"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="rand16" ref="0x41102368" scoped=""/>
+        <function-ref name="rand32" ref="0x41102448" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="58:/opt/tinyos-2.1.2/tos/system/MainC.nc" name="SoftwareInit" provided="0" ref="0x40650c38">
+      <component-ref nicename="tos.system.MainC" qname="MainC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="SoftwareInit" ref="0x40650c38" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x40650e10" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="50:../../tos/chips/cc2420/unique/UniqueSendP.nc" name="CC2420PacketBody" provided="0" ref="0x41102630">
+      <component-ref nicename="......tos.chips.cc2420.unique.UniqueSendP" qname="UniqueSendP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="CC2420PacketBody" ref="0x41102630" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.chips.cc2420.interfaces.CC2420PacketBody" qname="CC2420PacketBody"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getPayload" ref="0x41102808" scoped=""/>
+        <function-ref name="getHeader" ref="0x411028e8" scoped=""/>
+        <function-ref name="getMetadata" ref="0x411029c8" scoped=""/>
+      </interface-functions>
+    </interface><component loc="38:/opt/tinyos-2.1.2/tos/chips/cc2420/packet/CC2420PacketC.nc" nicename="tos.chips.cc2420.packet.CC2420PacketC" qname="CC2420PacketC">
+      <documentation loc="32:/opt/tinyos-2.1.2/tos/chips/cc2420/packet/CC2420PacketC.nc">
+        <short>
+ </short>
+        <long>
+ @author Jonathan Hui &lt;jhui@archrock.com&gt;
+ @author David Moss
+ @author Chad Metcalf
+</long>
+      </documentation>
+      <configuration/>
+      <wiring>
+        <wire loc="58:/opt/tinyos-2.1.2/tos/chips/cc2420/packet/CC2420PacketC.nc">
+          <from><interface-ref name="LinkPacketMetadata" ref="0x40ecf9f8" scoped=""/></from>
+          <to><interface-ref name="LinkPacketMetadata" ref="0x40efa4c0" scoped=""/></to>
+        </wire>
+        <wire loc="55:/opt/tinyos-2.1.2/tos/chips/cc2420/packet/CC2420PacketC.nc">
+          <from><interface-ref name="CC2420Packet" ref="0x40ed2630" scoped=""/></from>
+          <to><interface-ref name="CC2420Packet" ref="0x40ec60f0" scoped=""/></to>
+        </wire>
+        <wire loc="59:/opt/tinyos-2.1.2/tos/chips/cc2420/packet/CC2420PacketC.nc">
+          <from><interface-ref name="PacketTimeStamp32khz" ref="0x40ece100" scoped=""/></from>
+          <to><interface-ref name="PacketTimeStamp32khz" ref="0x40efab18" scoped=""/></to>
+        </wire>
+        <wire loc="57:/opt/tinyos-2.1.2/tos/chips/cc2420/packet/CC2420PacketC.nc">
+          <from><interface-ref name="CC2420PacketBody" ref="0x40ecf468" scoped=""/></from>
+          <to><interface-ref name="CC2420PacketBody" ref="0x40ec6f18" scoped=""/></to>
+        </wire>
+        <wire loc="61:/opt/tinyos-2.1.2/tos/chips/cc2420/packet/CC2420PacketC.nc">
+          <from><interface-ref name="PacketTimeSyncOffset" ref="0x40ec9308" scoped=""/></from>
+          <to><interface-ref name="PacketTimeSyncOffset" ref="0x40ef6cb0" scoped=""/></to>
+        </wire>
+        <wire loc="60:/opt/tinyos-2.1.2/tos/chips/cc2420/packet/CC2420PacketC.nc">
+          <from><interface-ref name="PacketTimeStampMilli" ref="0x40eccaf8" scoped=""/></from>
+          <to><interface-ref name="PacketTimeStampMilli" ref="0x40ef8578" scoped=""/></to>
+        </wire>
+        <wire loc="56:/opt/tinyos-2.1.2/tos/chips/cc2420/packet/CC2420PacketC.nc">
+          <from><interface-ref name="Acks" ref="0x40ed2ed8" scoped=""/></from>
+          <to><interface-ref name="Acks" ref="0x40ec6998" scoped=""/></to>
+        </wire>
+        <wire loc="64:/opt/tinyos-2.1.2/tos/chips/cc2420/packet/CC2420PacketC.nc">
+          <from><interface-ref name="Counter" ref="0x40efb828" scoped=""/></from>
+          <to><interface-ref name="Counter" ref="0x409ee0b0" scoped=""/></to>
+        </wire>
+        <wire loc="65:/opt/tinyos-2.1.2/tos/chips/cc2420/packet/CC2420PacketC.nc">
+          <from><interface-ref name="LocalTime32khz" ref="0x40ef28c8" scoped=""/></from>
+          <to><interface-ref name="LocalTime" ref="0x40f2be70" scoped=""/></to>
+        </wire>
+        <wire loc="69:/opt/tinyos-2.1.2/tos/chips/cc2420/packet/CC2420PacketC.nc">
+          <from><interface-ref name="LocalTimeMilli" ref="0x40ef4338" scoped=""/></from>
+          <to><interface-ref name="LocalTime" ref="0x40f24418" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component><component loc="40:../../tos/chips/cc2420/unique/UniqueSendP.nc" nicename="......tos.chips.cc2420.unique.UniqueSendP" qname="UniqueSendP" safe="">
+      <documentation loc="33:../../tos/chips/cc2420/unique/UniqueSendP.nc">
+        <short>
+ This layer is responsible for supplying a unique data sequence number (dsn)
+ to each outgoing message.</short>
+        <long>
+ This layer is responsible for supplying a unique data sequence number (dsn)
+ to each outgoing message.
+ @author David Moss
+ @author Olaf Landsiedel
+</long>
+      </documentation>
+      <module/>
+    </component><component loc="56:/opt/tinyos-2.1.2/tos/system/MainC.nc" nicename="tos.system.MainC" qname="MainC">
+      <documentation loc="45:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+        <short>
+ MainC is the system interface the TinyOS boot sequence.</short>
+        <long>
+ MainC is the system interface the TinyOS boot sequence. It wires the
+ boot sequence implementation to the scheduler and hardware resources.
+
+ @author Philip Levis
+ @date   August 6 2005
+ @see    TEP 107: Boot Sequence
+</long>
+      </documentation>
+      <configuration/>
+      <wiring>
+        <wire loc="72:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+          <from><interface-ref name="Boot" ref="0x40650010" scoped=""/></from>
+          <to><interface-ref name="Boot" ref="0x40659408" scoped=""/></to>
+        </wire>
+        <wire loc="67:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+          <from><interface-ref name="Scheduler" ref="0x406597a0" scoped=""/></from>
+          <to><interface-ref name="Scheduler" ref="0x403565f0" scoped=""/></to>
+        </wire>
+        <wire loc="68:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+          <from><interface-ref name="PlatformInit" ref="0x40659d68" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x4064e488" scoped=""/></to>
+        </wire>
+        <wire loc="71:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+          <from><interface-ref name="SoftwareInit" ref="0x4074c240" scoped=""/></from>
+          <to><interface-ref name="SoftwareInit" ref="0x40650c38" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component><component loc="65(UniqueSendC.StateC):/opt/tinyos-2.1.2/tos/system/StateC.nc" nicename="tos.system.StateC" qname="UniqueSendC.StateC">
+      <documentation loc="32:/opt/tinyos-2.1.2/tos/types/State.h">
+        <short>
+ </short>
+        <long>
+ @author David Moss
+</long>
+      </documentation>
+      <instance number="2">
+        <component-ref nicename="tos.system.StateC" qname="StateC"/>
+      </instance>
+      <configuration/>
+      <wiring>
+        <wire>
+          <from><interface-ref name="State" ref="0x41135148" scoped=""/></from>
+          <to><interface-ref name="State" ref="0x40b74578" scoped=""/>
+          <arguments>
+            <value cst="I:2">
+              <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned=""/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+      </wiring>
+    </component><component loc="43:/opt/tinyos-2.1.2/tos/system/RandomC.nc" nicename="tos.system.RandomC" qname="RandomC">
+      <documentation loc="33:/opt/tinyos-2.1.2/tos/system/RandomC.nc">
+        <short>
+ The standard TinyOS random number generator.</short>
+        <long>
+ The standard TinyOS random number generator. If your system requires a 
+ specific random number generator, it should wire to that component
+ directly. 
+
+ @author  Barbara Hohlt 
+ @author  Phil Levis 
+ @date    March 1 2005
+</long>
+      </documentation>
+      <configuration/>
+      <wiring>
+        <wire loc="56:/opt/tinyos-2.1.2/tos/system/RandomC.nc">
+          <from><interface-ref name="Random" ref="0x410e0010" scoped=""/></from>
+          <to><interface-ref name="Random" ref="0x410dca60" scoped=""/></to>
+        </wire>
+        <wire loc="55:/opt/tinyos-2.1.2/tos/system/RandomC.nc">
+          <from><interface-ref name="SeedInit" ref="0x410de708" scoped=""/></from>
+          <to><interface-ref name="SeedInit" ref="0x410dc1a0" scoped=""/></to>
+        </wire>
+        <wire loc="54:/opt/tinyos-2.1.2/tos/system/RandomC.nc">
+          <from><interface-ref name="Init" ref="0x410a74e0" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x410e0c68" scoped=""/></to>
+        </wire>
+        <wire loc="52:/opt/tinyos-2.1.2/tos/system/RandomC.nc">
+          <from><interface-ref name="SoftwareInit" ref="0x40650c38" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x410e0c68" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component></referenced></component>

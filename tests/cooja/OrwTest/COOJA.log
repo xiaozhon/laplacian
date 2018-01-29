@@ -1,0 +1,80 @@
+[16:32:29 - main] [Cooja.java:1324] [INFO] - > Starting Cooja
+[16:32:30 - main] [Cooja.java:2865] [INFO] - External tools default settings: /external_tools_linux.config
+[16:32:30 - main] [Cooja.java:2895] [INFO] - External tools user settings: /home/joy/.cooja.user.properties
+[16:32:30 - main] [Simulation.java:420] [INFO] - Simulation random seed: 123456
+[16:32:30 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:30 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:30 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:30 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:30 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:30 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:30 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:30 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:30 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:30 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:30 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:30 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:30 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:30 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:30 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:30 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:30 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:30 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:30 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:31 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:31 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:31 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:31 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:31 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:31 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:31 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:31 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:31 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:31 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:31 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:31 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:31 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:31 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:31 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:31 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:31 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/OrwTest/build/telosb/main.exe
+[16:32:31 - main] [Cooja.java:1790] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+[16:32:31 - main] [Cooja.java:1790] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.Visualizer
+[16:32:31 - main] [Cooja.java:1790] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.LogListener
+[16:32:31 - main] [Cooja.java:1790] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.TimeLine
+[16:32:31 - main] [Cooja.java:1790] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.Notes
+[16:32:31 - main] [ScriptRunner.java:429] [INFO] - Test script deactivated
+[16:32:31 - main] [LogScriptEngine.java:265] [INFO] - Script timeout in 6600000 ms
+[16:32:31 - main] [ScriptRunner.java:386] [INFO] - Test script activated
+[16:32:31 - Thread-2] [Simulation.java:252] [INFO] - Simulation main loop started, system time: 1486589551866
+[16:45:17 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 5.00%, done in 14539.2 sec
+[16:58:56 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 10.00%, done in 14264.7 sec
+[17:12:10 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 15.00%, done in 13476.6 sec
+[17:25:45 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 20.00%, done in 12775.1 sec
+[17:38:54 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 25.00%, done in 11948.3 sec
+[17:51:56 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 30.00%, done in 11117.0 sec
+[18:04:44 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 35.00%, done in 10274.0 sec
+[18:17:26 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 40.00%, done in 9442.6 sec
+[18:30:43 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 45.00%, done in 8667.5 sec
+[18:44:46 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 50.00%, done in 7934.8 sec
+[18:58:36 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 55.00%, done in 7170.9 sec
+[19:12:04 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 60.00%, done in 6381.6 sec
+[19:26:19 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 65.00%, done in 5614.9 sec
+[19:40:43 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 70.00%, done in 4839.3 sec
+[19:55:14 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 75.00%, done in 4054.1 sec
+[20:09:27 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 80.00%, done in 3254.0 sec
+[20:23:31 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 85.00%, done in 2445.8 sec
+[20:37:40 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 90.00%, done in 1634.2 sec
+[20:51:34 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 95.00%, done in 818.0 sec
+[21:06:09 - Thread-2] [LogScriptEngine.java:375] [INFO] - Timeout event @ 6600000000
+[21:06:09 - Thread-1] [LogScriptEngine.java:309] [INFO] - Test script finished
+[21:06:09 - Thread-2] [Simulation.java:311] [INFO] - Simulation main loop stopped, system time: 1486605969114	Duration: 16417248 ms	Simulated time 6600000 ms	Ratio 0.4020162209890476
+[21:06:09 - AWT-EventQueue-0] [ScriptRunner.java:429] [INFO] - Test script deactivated
+[21:06:09 - Thread-3] [AbstractRadioMedium.java:198] [FATAL] - Connection source turned off radio: org.contikios.cooja.mspmote.interfaces.Msp802154Radio@12b5ac2
+[21:06:09 - Thread-3] [AbstractRadioMedium.java:198] [FATAL] - Connection source turned off radio: org.contikios.cooja.mspmote.interfaces.Msp802154Radio@1dc5180
+[21:06:09 - Thread-3] [AbstractRadioMedium.java:198] [FATAL] - Connection source turned off radio: org.contikios.cooja.mspmote.interfaces.Msp802154Radio@1172c5
+[21:06:09 - Thread-3] [AbstractRadioMedium.java:198] [FATAL] - Connection source turned off radio: org.contikios.cooja.mspmote.interfaces.Msp802154Radio@185e8ac
+[21:06:09 - Thread-3] [AbstractRadioMedium.java:198] [FATAL] - Connection source turned off radio: org.contikios.cooja.mspmote.interfaces.Msp802154Radio@6eb59c
+[21:06:09 - Thread-3] [AbstractRadioMedium.java:198] [FATAL] - Connection source turned off radio: org.contikios.cooja.mspmote.interfaces.Msp802154Radio@18b62ea
+[21:06:09 - Thread-3] [AbstractRadioMedium.java:198] [FATAL] - Connection source turned off radio: org.contikios.cooja.mspmote.interfaces.Msp802154Radio@1661df0
+[21:06:09 - Thread-3] [AbstractRadioMedium.java:198] [FATAL] - Connection source turned off radio: org.contikios.cooja.mspmote.interfaces.Msp802154Radio@1b9e148

@@ -1,0 +1,138 @@
+<?xml version="1.0" ?><component loc="3:../mda300final/ExcitationP.nc" nicename="...mda300final.ExcitationP" qname="ExcitationP">
+      <module/>
+    <specification><interface loc="13:../mda300final/ExcitationP.nc" name="VoltageBuffer" provided="0" ref="0x4116e878">
+      <component-ref nicename="...mda300final.ExcitationP" qname="ExcitationP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="VoltageBuffer" ref="0x4116e878" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x4116ea50" scoped=""/>
+        <function-ref name="isInput" ref="0x4116eb30" scoped=""/>
+        <function-ref name="toggle" ref="0x4116ec10" scoped=""/>
+        <function-ref name="isOutput" ref="0x4116ecf0" scoped=""/>
+        <function-ref name="get" ref="0x4116edd0" scoped=""/>
+        <function-ref name="makeOutput" ref="0x4116eeb0" scoped=""/>
+        <function-ref name="set" ref="0x4116d010" scoped=""/>
+        <function-ref name="clr" ref="0x4116d0f0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="7:../mda300final/ExcitationP.nc" name="volt33" provided="1" ref="0x41171980">
+      <component-ref nicename="...mda300final.ExcitationP" qname="ExcitationP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="volt33" ref="0x41171980" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="...mda300final.Power" qname="Power"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="on" ref="0x41171b58" scoped=""/>
+        <function-ref name="off" ref="0x41171c38" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="12:../mda300final/ExcitationP.nc" name="ThreeVolt" provided="0" ref="0x4116fd60">
+      <component-ref nicename="...mda300final.ExcitationP" qname="ExcitationP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ThreeVolt" ref="0x4116fd60" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x4116e010" scoped=""/>
+        <function-ref name="isInput" ref="0x4116e0f0" scoped=""/>
+        <function-ref name="toggle" ref="0x4116e1d0" scoped=""/>
+        <function-ref name="isOutput" ref="0x4116e2b0" scoped=""/>
+        <function-ref name="get" ref="0x4116e390" scoped=""/>
+        <function-ref name="makeOutput" ref="0x4116e470" scoped=""/>
+        <function-ref name="set" ref="0x4116e550" scoped=""/>
+        <function-ref name="clr" ref="0x4116e630" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="5:../mda300final/ExcitationP.nc" name="Init" provided="1" ref="0x41171140">
+      <component-ref nicename="...mda300final.ExcitationP" qname="ExcitationP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Init" ref="0x41171140" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x41171318" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="8:../mda300final/ExcitationP.nc" name="volt50" provided="1" ref="0x41171e10">
+      <component-ref nicename="...mda300final.ExcitationP" qname="ExcitationP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="volt50" ref="0x41171e10" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="...mda300final.Power" qname="Power"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="on" ref="0x4116f010" scoped=""/>
+        <function-ref name="off" ref="0x4116f0f0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="6:../mda300final/ExcitationP.nc" name="volt25" provided="1" ref="0x411714f0">
+      <component-ref nicename="...mda300final.ExcitationP" qname="ExcitationP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="volt25" ref="0x411714f0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="...mda300final.Power" qname="Power"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="on" ref="0x411716c8" scoped=""/>
+        <function-ref name="off" ref="0x411717a8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="14:../mda300final/ExcitationP.nc" name="VoltageBooster" provided="0" ref="0x4116d340">
+      <component-ref nicename="...mda300final.ExcitationP" qname="ExcitationP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="VoltageBooster" ref="0x4116d340" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x4116d518" scoped=""/>
+        <function-ref name="isInput" ref="0x4116d5f8" scoped=""/>
+        <function-ref name="toggle" ref="0x4116d6d8" scoped=""/>
+        <function-ref name="isOutput" ref="0x4116d7b8" scoped=""/>
+        <function-ref name="get" ref="0x4116d898" scoped=""/>
+        <function-ref name="makeOutput" ref="0x4116d978" scoped=""/>
+        <function-ref name="set" ref="0x4116da58" scoped=""/>
+        <function-ref name="clr" ref="0x4116db38" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="15:../mda300final/ExcitationP.nc" name="Amplifiers" provided="0" ref="0x4116dd60">
+      <component-ref nicename="...mda300final.ExcitationP" qname="ExcitationP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Amplifiers" ref="0x4116dd60" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x4116c010" scoped=""/>
+        <function-ref name="isInput" ref="0x4116c0f0" scoped=""/>
+        <function-ref name="toggle" ref="0x4116c1d0" scoped=""/>
+        <function-ref name="isOutput" ref="0x4116c2b0" scoped=""/>
+        <function-ref name="get" ref="0x4116c390" scoped=""/>
+        <function-ref name="makeOutput" ref="0x4116c470" scoped=""/>
+        <function-ref name="set" ref="0x4116c550" scoped=""/>
+        <function-ref name="clr" ref="0x4116c630" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="11:../mda300final/ExcitationP.nc" name="FiveVolt" provided="0" ref="0x4116f348">
+      <component-ref nicename="...mda300final.ExcitationP" qname="ExcitationP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="FiveVolt" ref="0x4116f348" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x4116f520" scoped=""/>
+        <function-ref name="isInput" ref="0x4116f600" scoped=""/>
+        <function-ref name="toggle" ref="0x4116f6e0" scoped=""/>
+        <function-ref name="isOutput" ref="0x4116f7c0" scoped=""/>
+        <function-ref name="get" ref="0x4116f8a0" scoped=""/>
+        <function-ref name="makeOutput" ref="0x4116f980" scoped=""/>
+        <function-ref name="set" ref="0x4116fa60" scoped=""/>
+        <function-ref name="clr" ref="0x4116fb40" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="16:../mda300final/ExcitationP.nc" name="PW4" provided="0" ref="0x4116c810">
+      <component-ref nicename="...mda300final.ExcitationP" qname="ExcitationP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="PW4" ref="0x4116c810" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x4116c9e8" scoped=""/>
+        <function-ref name="isInput" ref="0x4116cac8" scoped=""/>
+        <function-ref name="toggle" ref="0x4116cba8" scoped=""/>
+        <function-ref name="isOutput" ref="0x4116cc88" scoped=""/>
+        <function-ref name="get" ref="0x4116cd68" scoped=""/>
+        <function-ref name="makeOutput" ref="0x4116ce48" scoped=""/>
+        <function-ref name="set" ref="0x4116cf28" scoped=""/>
+        <function-ref name="clr" ref="0x4116b018" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced/></component>

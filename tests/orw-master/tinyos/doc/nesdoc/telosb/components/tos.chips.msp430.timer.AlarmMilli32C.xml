@@ -1,0 +1,269 @@
+<?xml version="1.0" ?><component abstract="" loc="41:/opt/tinyos-2.1.2/tos/chips/msp430/timer/AlarmMilli32C.nc" nicename="tos.chips.msp430.timer.AlarmMilli32C" qname="AlarmMilli32C">
+      <documentation loc="33:/opt/tinyos-2.1.2/tos/chips/msp430/timer/AlarmMilli32C.nc">
+        <short>
+ AlarmMilliC is the alarm for async millisecond alarms
+
+ </short>
+        <long>
+ AlarmMilliC is the alarm for async millisecond alarms
+
+ @author Cory Sharp &lt;cssharp@eecs.berkeley.edu&gt;
+ @see  Please refer to TEP 102 for more information about this component and its
+          intended use.
+</long>
+      </documentation>
+      <parameters>
+      </parameters>
+      <configuration/>
+      <wiring>
+        <wire loc="53:/opt/tinyos-2.1.2/tos/chips/msp430/timer/AlarmMilli32C.nc">
+          <from><interface-ref name="Alarm" ref="0x40f22900" scoped=""/></from>
+          <to><interface-ref name="Alarm" ref="0x40f184a0" scoped=""/></to>
+        </wire>
+        <wire loc="52:/opt/tinyos-2.1.2/tos/chips/msp430/timer/AlarmMilli32C.nc">
+          <from><interface-ref name="Init" ref="0x40f223d8" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x40f1d9c8" scoped=""/></to>
+        </wire>
+        <wire loc="55:/opt/tinyos-2.1.2/tos/chips/msp430/timer/AlarmMilli32C.nc">
+          <from><interface-ref name="AlarmFrom" ref="0x40f421a0" scoped=""/></from>
+          <to><interface-ref name="Alarm" ref="0x40f1de20" scoped=""/></to>
+        </wire>
+        <wire loc="56:/opt/tinyos-2.1.2/tos/chips/msp430/timer/AlarmMilli32C.nc">
+          <from><interface-ref name="Counter" ref="0x40f45f28" scoped=""/></from>
+          <to><interface-ref name="Counter" ref="0x40f17468" scoped=""/></to>
+        </wire>
+      </wiring>
+    <specification><interface loc="44:/opt/tinyos-2.1.2/tos/chips/msp430/timer/AlarmMilli32C.nc" name="Alarm" provided="1" ref="0x40f22900">
+      <component-ref nicename="tos.chips.msp430.timer.AlarmMilli32C" qname="AlarmMilli32C"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Alarm" ref="0x40f22900" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Alarm" qname="Alarm"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x405e1370"/>
+            <typename><typedef-ref name="TMilli" ref="0x405e1738"/></typename>
+          </type-tag>
+          <type-int alignment="I:2" cname="unsigned long" size="I:4" unsigned="">
+            <typename><typedef-ref name="uint32_t" ref="0x401e2250"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x40f1edb0" scoped=""/>
+        <function-ref name="fired" ref="0x40f1e580" scoped=""/>
+        <function-ref name="startAt" ref="0x40f1ea70" scoped=""/>
+        <function-ref name="isRunning" ref="0x40f1e7f8" scoped=""/>
+        <function-ref name="getAlarm" ref="0x40f1d048" scoped=""/>
+        <function-ref name="start" ref="0x40f1e068" scoped=""/>
+        <function-ref name="stop" ref="0x40f1e308" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="43:/opt/tinyos-2.1.2/tos/chips/msp430/timer/AlarmMilli32C.nc" name="Init" provided="1" ref="0x40f223d8">
+      <component-ref nicename="tos.chips.msp430.timer.AlarmMilli32C" qname="AlarmMilli32C"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Init" ref="0x40f223d8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x40f225b0" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced><interface loc="61:/opt/tinyos-2.1.2/tos/lib/timer/TransformAlarmC.nc" name="Alarm" provided="1" ref="0x40f184a0">
+      <component-ref nicename="tos.lib.timer.TransformAlarmC" qname="AlarmMilli32C.Transform"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Alarm" ref="0x40f184a0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Alarm" qname="Alarm"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x405e1370"/>
+            <typename><typedef-ref name="TMilli" ref="0x405e1738"/></typename>
+          </type-tag>
+          <type-int alignment="I:2" cname="unsigned long" size="I:4" unsigned="">
+            <typename><typedef-ref name="uint32_t" ref="0x401e2250"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x40f45960" scoped=""/>
+        <function-ref name="fired" ref="0x40f45130" scoped=""/>
+        <function-ref name="startAt" ref="0x40f45620" scoped=""/>
+        <function-ref name="isRunning" ref="0x40f453a8" scoped=""/>
+        <function-ref name="getAlarm" ref="0x40f45bd8" scoped=""/>
+        <function-ref name="start" ref="0x40f18bf0" scoped=""/>
+        <function-ref name="stop" ref="0x40f18e90" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="43:/opt/tinyos-2.1.2/tos/chips/msp430/timer/Alarm32khz16C.nc" name="Init" provided="1" ref="0x40f1d9c8">
+      <component-ref nicename="tos.chips.msp430.timer.Alarm32khz16C" qname="AlarmMilli32C.AlarmFrom"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Init" ref="0x40f1d9c8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x40f1dba0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="73:/opt/tinyos-2.1.2/tos/lib/timer/TransformAlarmC.nc" name="AlarmFrom" provided="0" ref="0x40f421a0">
+      <component-ref nicename="tos.lib.timer.TransformAlarmC" qname="AlarmMilli32C.Transform"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="AlarmFrom" ref="0x40f421a0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Alarm" qname="Alarm"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x405e19b0"/>
+            <typename><typedef-ref name="T32khz" ref="0x405e1b78"/></typename>
+          </type-tag>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x40f41660" scoped=""/>
+        <function-ref name="fired" ref="0x40f42e08" scoped=""/>
+        <function-ref name="startAt" ref="0x40f41320" scoped=""/>
+        <function-ref name="isRunning" ref="0x40f410a8" scoped=""/>
+        <function-ref name="getAlarm" ref="0x40f418d8" scoped=""/>
+        <function-ref name="start" ref="0x40f428f0" scoped=""/>
+        <function-ref name="stop" ref="0x40f42b90" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="44:/opt/tinyos-2.1.2/tos/chips/msp430/timer/Alarm32khz16C.nc" name="Alarm" provided="1" ref="0x40f1de20">
+      <component-ref nicename="tos.chips.msp430.timer.Alarm32khz16C" qname="AlarmMilli32C.AlarmFrom"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Alarm" ref="0x40f1de20" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Alarm" qname="Alarm"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x405e19b0"/>
+            <typename><typedef-ref name="T32khz" ref="0x405e1b78"/></typename>
+          </type-tag>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x40f1a350" scoped=""/>
+        <function-ref name="fired" ref="0x40f1caa8" scoped=""/>
+        <function-ref name="startAt" ref="0x40f1a010" scoped=""/>
+        <function-ref name="isRunning" ref="0x40f1cd20" scoped=""/>
+        <function-ref name="getAlarm" ref="0x40f1a5c8" scoped=""/>
+        <function-ref name="start" ref="0x40f1c590" scoped=""/>
+        <function-ref name="stop" ref="0x40f1c830" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="68:/opt/tinyos-2.1.2/tos/lib/timer/TransformAlarmC.nc" name="Counter" provided="0" ref="0x40f45f28">
+      <component-ref nicename="tos.lib.timer.TransformAlarmC" qname="AlarmMilli32C.Transform"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Counter" ref="0x40f45f28" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Counter" qname="Counter"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x405e1370"/>
+            <typename><typedef-ref name="TMilli" ref="0x405e1738"/></typename>
+          </type-tag>
+          <type-int alignment="I:2" cname="unsigned long" size="I:4" unsigned="">
+            <typename><typedef-ref name="uint32_t" ref="0x401e2250"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="get" ref="0x40f44688" scoped=""/>
+        <function-ref name="clearOverflow" ref="0x40f44b78" scoped=""/>
+        <function-ref name="isOverflowPending" ref="0x40f44900" scoped=""/>
+        <function-ref name="overflow" ref="0x40f44df0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="43:/opt/tinyos-2.1.2/tos/chips/msp430/timer/CounterMilli32C.nc" name="Counter" provided="1" ref="0x40f17468">
+      <component-ref nicename="tos.chips.msp430.timer.CounterMilli32C" qname="CounterMilli32C"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Counter" ref="0x40f17468" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Counter" qname="Counter"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x405e1370"/>
+            <typename><typedef-ref name="TMilli" ref="0x405e1738"/></typename>
+          </type-tag>
+          <type-int alignment="I:2" cname="unsigned long" size="I:4" unsigned="">
+            <typename><typedef-ref name="uint32_t" ref="0x401e2250"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="get" ref="0x40f17bb8" scoped=""/>
+        <function-ref name="clearOverflow" ref="0x40f160d8" scoped=""/>
+        <function-ref name="isOverflowPending" ref="0x40f17e30" scoped=""/>
+        <function-ref name="overflow" ref="0x40f16350" scoped=""/>
+      </interface-functions>
+    </interface><component abstract="" loc="41(AlarmMilli32C.AlarmFrom):/opt/tinyos-2.1.2/tos/chips/msp430/timer/Alarm32khz16C.nc" nicename="tos.chips.msp430.timer.Alarm32khz16C" qname="AlarmMilli32C.AlarmFrom">
+      <documentation loc="33:/opt/tinyos-2.1.2/tos/chips/msp430/timer/Alarm32khz16C.nc">
+        <short>
+ Alarm32khzC is the alarm for async 32khz alarms
+
+ </short>
+        <long>
+ Alarm32khzC is the alarm for async 32khz alarms
+
+ @author Cory Sharp &lt;cssharp@eecs.berkeley.edu&gt;
+ @see  Please refer to TEP 102 for more information about this component and its
+          intended use.
+</long>
+      </documentation>
+      <instance>
+        <component-ref nicename="tos.chips.msp430.timer.Alarm32khz16C" qname="Alarm32khz16C"/>
+      </instance>
+      <configuration/>
+    </component><component loc="41:/opt/tinyos-2.1.2/tos/chips/msp430/timer/CounterMilli32C.nc" nicename="tos.chips.msp430.timer.CounterMilli32C" qname="CounterMilli32C">
+      <documentation loc="33:/opt/tinyos-2.1.2/tos/chips/msp430/timer/CounterMilli32C.nc">
+        <short>
+ CounterMilli32C provides at 32-bit counter at 1024 ticks per second.</short>
+        <long>
+ CounterMilli32C provides at 32-bit counter at 1024 ticks per second.
+
+ @author Cory Sharp &lt;cssharp@eecs.berkeley.edu&gt;
+ @see  Please refer to TEP 102 for more information about this component and its
+          intended use.
+</long>
+      </documentation>
+      <configuration/>
+      <wiring>
+        <wire loc="50:/opt/tinyos-2.1.2/tos/chips/msp430/timer/CounterMilli32C.nc">
+          <from><interface-ref name="Counter" ref="0x40f17468" scoped=""/></from>
+          <to><interface-ref name="Counter" ref="0x40f4bd60" scoped=""/></to>
+        </wire>
+        <wire loc="52:/opt/tinyos-2.1.2/tos/chips/msp430/timer/CounterMilli32C.nc">
+          <from><interface-ref name="CounterFrom" ref="0x40f48010" scoped=""/></from>
+          <to><interface-ref name="Msp430Counter32khz" ref="0x409edc18" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component><component abstract="" loc="51(AlarmMilli32C.Transform):/opt/tinyos-2.1.2/tos/lib/timer/TransformAlarmC.nc" nicename="tos.lib.timer.TransformAlarmC" qname="AlarmMilli32C.Transform">
+      <documentation loc="34:/opt/tinyos-2.1.2/tos/lib/timer/TransformAlarmC.nc">
+        <short>
+ TransformAlarmC decreases precision and/or widens an Alarm.</short>
+        <long>
+ TransformAlarmC decreases precision and/or widens an Alarm.  An already
+ widened Counter component is used to help.
+
+ &lt;p&gt;See TEP102 for more details.
+ @param to_precision_tag A type indicating the precision of the transformed
+   Alarm.
+ @param to_size_type The type for the width of the transformed Alarm.
+ @param from_precision_tag A type indicating the precision of the original
+   Alarm.
+ @param from_size_type The type for the width of the original Alarm.
+ @param bit_shift_right Original time units will be 2 to the power 
+   &lt;code&gt;bit_shift_right&lt;/code&gt; larger than transformed time units.
+
+ @author Cory Sharp &lt;cssharp@eecs.berkeley.edu&gt;
+</long>
+      </documentation>
+      <instance>
+        <component-ref nicename="tos.lib.timer.TransformAlarmC" qname="TransformAlarmC"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x405e1370"/>
+            <typename><typedef-ref name="TMilli" ref="0x405e1738"/></typename>
+          </type-tag>
+          <type-int alignment="I:2" cname="unsigned long" size="I:4" unsigned="">
+            <typename><typedef-ref name="uint32_t" ref="0x401e2250"/></typename>
+          </type-int>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x405e19b0"/>
+            <typename><typedef-ref name="T32khz" ref="0x405e1b78"/></typename>
+          </type-tag>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+          <value cst="I:5">
+            <type-int alignment="I:2" cname="int" size="I:2"/>
+          </value>
+        </arguments>
+      </instance>
+      <module/>
+    </component></referenced></component>

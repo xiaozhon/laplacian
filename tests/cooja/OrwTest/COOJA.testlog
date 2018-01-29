@@ -1,0 +1,1504 @@
+Random seed: 123456
+4096811: 7: Mote 7 started.. 
+4098807: 31: Mote 31 started.. 
+4099588: 7: Timer started on Mote 7, interval: 34104
+4101700: 31: Timer started on Mote 31, interval: 44256
+4104206: 17: Mote 17 started.. 
+4107099: 17: Timer started on Mote 17, interval: 40382
+4108624: 35: Mote 35 started.. 
+4111519: 35: Timer started on Mote 35, interval: 45948
+4122231: 34: Mote 34 started.. 
+4125126: 34: Timer started on Mote 34, interval: 33237
+4130183: 24: Mote 24 started.. 
+4131162: 2: Mote 2 started.. 
+4132123: 29: Mote 29 started.. 
+4133075: 24: Timer started on Mote 24, interval: 57679
+4133944: 2: Timer started on Mote 2, interval: 50421
+4135016: 29: Timer started on Mote 29, interval: 45458
+4139269: 30: Mote 30 started.. 
+4142165: 30: Timer started on Mote 30, interval: 31545
+4145254: 14: Mote 14 started.. 
+4145698: 6: Mote 6 started.. 
+4148150: 14: Timer started on Mote 14, interval: 55497
+4148477: 6: Timer started on Mote 6, interval: 52113
+4157705: 15: Mote 15 started.. 
+4158214: 22: Mote 22 started.. 
+4160599: 15: Timer started on Mote 15, interval: 37488
+4161105: 22: Timer started on Mote 22, interval: 58881
+4162650: 25: Mote 25 started.. 
+4165542: 25: Timer started on Mote 25, interval: 43766
+4167636: 20: Mote 20 started.. 
+4167811: 8: Mote 8 started.. 
+4168098: 16: Mote 16 started.. 
+4170535: 20: Timer started on Mote 20, interval: 55987
+4170595: 8: Timer started on Mote 8, interval: 50911
+4170993: 16: Timer started on Mote 16, interval: 54295
+4176643: 36: Mote 36 started.. 
+4179029: 13: Mote 13 started.. 
+4179532: 36: Timer started on Mote 36, interval: 32035
+4181922: 13: Timer started on Mote 13, interval: 38690
+4185619: 26: Mote 26 started.. 
+4188516: 26: Timer started on Mote 26, interval: 60573
+4194381: 3: Mote 3 started.. 
+4197155: 3: Timer started on Mote 3, interval: 32412
+4201826: 21: Mote 21 started.. 
+4203518: 9: Mote 9 started.. 
+4204718: 21: Timer started on Mote 21, interval: 42074
+4206299: 9: Timer started on Mote 9, interval: 36998
+4210152: 5: Mote 5 started.. 
+4212932: 5: Timer started on Mote 5, interval: 35306
+4214213: 19: Mote 19 started.. 
+4217109: 19: Timer started on Mote 19, interval: 39180
+4221661: 18: Mote 18 started.. 
+4224557: 18: Timer started on Mote 18, interval: 57189
+4236848: 28: Mote 28 started.. 
+4239743: 28: Timer started on Mote 28, interval: 59371
+4240382: 23: Mote 23 started.. 
+4243277: 23: Timer started on Mote 23, interval: 40872
+4243399: 4: Mote 4 started.. 
+4246178: 4: Timer started on Mote 4, interval: 49219
+4250485: 33: Mote 33 started.. 
+4251637: 10: Mote 10 started.. 
+4253383: 33: Timer started on Mote 33, interval: 47150
+4254528: 10: Timer started on Mote 10, interval: 53805
+4272869: 32: Mote 32 started.. 
+4275766: 32: Timer started on Mote 32, interval: 61063
+4277251: 1: Mote 1 started.. 
+4280791: 27: Mote 27 started.. 
+4281673: 1: Sink started timer, sink id: 1 
+4283680: 27: Timer started on Mote 27, interval: 42564
+4285616: 11: Mote 11 started.. 
+4288512: 11: Timer started on Mote 11, interval: 35796
+4289491: 12: Mote 12 started.. 
+4292382: 12: Timer started on Mote 12, interval: 52603
+34947988: 30: Send: Mote 30 send message with counter: 1
+35463890: 36: Send: Mote 36 send message with counter: 1
+35849780: 3: Send: Mote 3 send message with counter: 1
+35886866: 1: Sink Received: data: 0 3 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+36509961: 9: 		--- Mote: Intercept packet: hop: 9, pre_hop: 33, cur_id: 9
+36510039: 9: 
+36513155: 9: DATA packet intercept at node: 9, org: -30698, hop: 9
+36585769: 34: Send: Mote 34 send message with counter: 1
+36735390: 26: 		--- Mote: Intercept packet: hop: 9, pre_hop: 30, cur_id: 26
+36735468: 26: 
+36738810: 26: DATA packet intercept at node: 26, org: -30534, hop: 9
+36817321: 16: 		--- Mote: Intercept packet: hop: 1, pre_hop: 36, cur_id: 16
+36817576: 16: 
+36820406: 16: DATA packet intercept at node: 16, org: 36, hop: 1
+36929279: 15: 		--- Mote: Intercept packet: hop: 1, pre_hop: 36, cur_id: 15
+36929357: 15: 
+36932187: 15: DATA packet intercept at node: 15, org: 36, hop: 1
+36954249: 9: 		--- Mote: Intercept packet: hop: 1, pre_hop: 30, cur_id: 9
+36954327: 9: 
+36957056: 9: DATA packet intercept at node: 9, org: 30, hop: 1
+37276920: 11: 		--- Mote: Intercept packet: hop: 1, pre_hop: 36, cur_id: 11
+37276998: 11: 
+37278627: 18: 		--- Mote: Intercept packet: hop: 1, pre_hop: 36, cur_id: 18
+37278705: 18: 
+37279912: 11: DATA packet intercept at node: 11, org: 36, hop: 1
+37281866: 18: DATA packet intercept at node: 18, org: 36, hop: 1
+37315179: 24: 		--- Mote: Intercept packet: hop: 1, pre_hop: 36, cur_id: 24
+37315257: 24: 
+37318087: 24: DATA packet intercept at node: 24, org: 36, hop: 1
+37404456: 21: 		--- Mote: Intercept packet: hop: 9, pre_hop: 24, cur_id: 21
+37404534: 21: 
+37404553: 7: Send: Mote 7 send message with counter: 1
+37407303: 21: DATA packet intercept at node: 21, org: -1, hop: 9
+37414564: 15: 		--- Mote: Intercept packet: hop: 1, pre_hop: 30, cur_id: 15
+37414642: 15: 
+37418614: 15: DATA packet intercept at node: 15, org: 24968, hop: 1
+37850514: 11: 		--- Mote: Intercept packet: hop: 1, pre_hop: 7, cur_id: 11
+37850592: 11: 
+37853306: 11: DATA packet intercept at node: 11, org: 7, hop: 1
+38024604: 34: 		--- Mote: Intercept packet: hop: 1, pre_hop: 36, cur_id: 34
+38024682: 34: 
+38027513: 34: DATA packet intercept at node: 34, org: 36, hop: 1
+38394161: 19: 		--- Mote: Intercept packet: hop: 1, pre_hop: 7, cur_id: 19
+38394238: 19: 
+38396953: 19: DATA packet intercept at node: 19, org: 7, hop: 1
+38400123: 5: 		--- Mote: Intercept packet: hop: 1, pre_hop: 7, cur_id: 5
+38400201: 5: 
+38402800: 5: DATA packet intercept at node: 5, org: 7, hop: 1
+38691671: 5: Send: Mote 5 send message with counter: 1
+38787647: 15: 		--- Mote: Intercept packet: hop: 1, pre_hop: 36, cur_id: 15
+38787725: 15: 
+38790284: 16: 		--- Mote: Intercept packet: hop: 1, pre_hop: 36, cur_id: 16
+38790362: 16: 
+38791433: 15: DATA packet intercept at node: 15, org: 36, hop: 1
+38793192: 16: DATA packet intercept at node: 16, org: 36, hop: 1
+38825056: 11: 		--- Mote: Intercept packet: hop: 1, pre_hop: 36, cur_id: 11
+38825134: 11: 
+38827964: 11: DATA packet intercept at node: 11, org: 36, hop: 1
+38837119: 21: 		--- Mote: Intercept packet: hop: 1, pre_hop: 36, cur_id: 21
+38837197: 21: 
+38840027: 21: DATA packet intercept at node: 21, org: 36, hop: 1
+39245584: 11: Send: Mote 11 send message with counter: 1
+39279668: 1: Sink Received: data: 0 36 1 2 15 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -239 -1 -1 -1 -1 -1 -1 1
+40340437: 9: Send: Mote 9 send message with counter: 1
+40439604: 1: Sink Received: data: 0 7 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+40481539: 33: 		--- Mote: Intercept packet: hop: 1, pre_hop: 30, cur_id: 33
+40481546: 24: 		--- Mote: Intercept packet: hop: 1, pre_hop: 30, cur_id: 24
+40481617: 33: 
+40481624: 24: 
+40484538: 24: DATA packet intercept at node: 24, org: 30, hop: 1
+40484546: 33: DATA packet intercept at node: 33, org: 30, hop: 1
+40492050: 1: Sink Received: data: 0 24968 17 2 15 1 5951 0 8942 -23041 -1 -1 -1 -1 -1 -1 -1 -1 -256 255 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 255 -1 -1 -1 255
+40495254: 24: 		--- Mote: Intercept packet: hop: 2, pre_hop: 15, cur_id: 24
+40495332: 24: 
+40498514: 24: DATA packet intercept at node: 24, org: 24968, hop: 2
+40612311: 30: 		--- Mote: Intercept packet: hop: 2, pre_hop: 33, cur_id: 30
+40612389: 30: 
+40615314: 30: DATA packet intercept at node: 30, org: 30, hop: 2
+40649429: 17: 		--- Mote: Intercept packet: hop: 1, pre_hop: 36, cur_id: 17
+40649507: 17: 
+40652420: 17: DATA packet intercept at node: 17, org: 36, hop: 1
+40668082: 2: 		--- Mote: Intercept packet: hop: 2, pre_hop: 15, cur_id: 2
+40668160: 2: 
+40670223: 17: 		--- Mote: Intercept packet: hop: 2, pre_hop: 15, cur_id: 17
+40670301: 17: 
+40671310: 2: DATA packet intercept at node: 2, org: 24968, hop: 2
+40673560: 17: DATA packet intercept at node: 17, org: 24968, hop: 2
+40771815: 30: 		--- Mote: Intercept packet: hop: 10, pre_hop: 21, cur_id: 30
+40771893: 30: 
+40773091: 24: 		--- Mote: Intercept packet: hop: 10, pre_hop: 21, cur_id: 24
+40773169: 24: 
+40774657: 15: 		--- Mote: Intercept packet: hop: 10, pre_hop: 21, cur_id: 15
+40774735: 15: 
+40774925: 30: DATA packet intercept at node: 30, org: -1, hop: 10
+40776040: 24: DATA packet intercept at node: 24, org: -1, hop: 10
+40777802: 15: DATA packet intercept at node: 15, org: -1, hop: 10
+40782789: 15: Send: Mote 15 send message with counter: 1
+40783999: 7: 		--- Mote: Intercept packet: hop: 10, pre_hop: 21, cur_id: 7
+40784077: 7: 
+40786945: 7: DATA packet intercept at node: 7, org: -1, hop: 10
+40787560: 24: 		--- Mote: Intercept packet: hop: 2, pre_hop: 15, cur_id: 24
+40787638: 24: 
+40790468: 24: DATA packet intercept at node: 24, org: 36, hop: 2
+40797867: 7: 		--- Mote: Intercept packet: hop: 2, pre_hop: 15, cur_id: 7
+40797945: 7: 
+40800660: 7: DATA packet intercept at node: 7, org: 36, hop: 2
+40801506: 17: 		--- Mote: Intercept packet: hop: 2, pre_hop: 18, cur_id: 17
+40801584: 17: 
+40804340: 17: DATA packet intercept at node: 17, org: -1, hop: 2
+40911574: 16: 		--- Mote: Intercept packet: hop: 10, pre_hop: 21, cur_id: 16
+40911652: 16: 
+40915136: 16: DATA packet intercept at node: 16, org: -1, hop: 10
+41061113: 19: 		--- Mote: Intercept packet: hop: 10, pre_hop: 21, cur_id: 19
+41061191: 19: 
+41061954: 36: 		--- Mote: Intercept packet: hop: 10, pre_hop: 21, cur_id: 36
+41062032: 36: 
+41064062: 19: DATA packet intercept at node: 19, org: -1, hop: 10
+41065001: 36: DATA packet intercept at node: 36, org: -1, hop: 10
+41083337: 26: 		--- Mote: Intercept packet: hop: 10, pre_hop: 21, cur_id: 26
+41083414: 26: 
+41086380: 26: DATA packet intercept at node: 26, org: -1, hop: 10
+41108073: 26: 		--- Mote: Intercept packet: hop: 2, pre_hop: 15, cur_id: 26
+41108151: 26: 
+41110981: 26: DATA packet intercept at node: 26, org: 36, hop: 2
+41210904: 25: 		--- Mote: Intercept packet: hop: 11, pre_hop: 26, cur_id: 25
+41210982: 25: 
+41213852: 25: DATA packet intercept at node: 25, org: -1, hop: 11
+41965260: 13: Send: Mote 13 send message with counter: 1
+42003256: 13: 		--- Mote: Intercept packet: hop: 10, pre_hop: 21, cur_id: 13
+42003334: 13: 
+42006302: 13: DATA packet intercept at node: 13, org: -1, hop: 10
+42022897: 25: 		--- Mote: Intercept packet: hop: 2, pre_hop: 19, cur_id: 25
+42022975: 25: 
+42025689: 25: DATA packet intercept at node: 25, org: 7, hop: 2
+42066298: 13: 		--- Mote: Intercept packet: hop: 2, pre_hop: 15, cur_id: 13
+42066376: 13: 
+42067154: 25: 		--- Mote: Intercept packet: hop: 2, pre_hop: 15, cur_id: 25
+42067231: 25: 
+42069300: 13: DATA packet intercept at node: 13, org: 36, hop: 2
+42070156: 25: DATA packet intercept at node: 25, org: 36, hop: 2
+42187033: 36: 		--- Mote: Intercept packet: hop: 2, pre_hop: 11, cur_id: 36
+42187111: 36: 
+42189954: 36: DATA packet intercept at node: 36, org: 36, hop: 2
+42405684: 17: 		--- Mote: Intercept packet: hop: 1, pre_hop: 13, cur_id: 17
+42405762: 17: 
+42409204: 17: DATA packet intercept at node: 17, org: 13, hop: 1
+42479342: 19: Send: Mote 19 send message with counter: 1
+42500595: 30: 		--- Mote: Intercept packet: hop: 2, pre_hop: 21, cur_id: 30
+42500673: 30: 
+42503503: 30: DATA packet intercept at node: 30, org: 36, hop: 2
+42841772: 36: 		--- Mote: Intercept packet: hop: 1, pre_hop: 15, cur_id: 36
+42841850: 36: 
+42842702: 19: 		--- Mote: Intercept packet: hop: 2, pre_hop: 21, cur_id: 19
+42842780: 19: 
+42844693: 36: DATA packet intercept at node: 36, org: 15, hop: 1
+42845610: 19: DATA packet intercept at node: 19, org: 36, hop: 2
+42880818: 7: 		--- Mote: Intercept packet: hop: 1, pre_hop: 15, cur_id: 7
+42880895: 7: 
+42883722: 7: DATA packet intercept at node: 7, org: 15, hop: 1
+42898808: 25: 		--- Mote: Intercept packet: hop: 2, pre_hop: 16, cur_id: 25
+42898886: 25: 
+42901715: 25: DATA packet intercept at node: 25, org: 81, hop: 2
+42902944: 3: 		--- Mote: Intercept packet: hop: 11, pre_hop: 26, cur_id: 3
+42903022: 3: 
+42905855: 3: DATA packet intercept at node: 3, org: -1, hop: 11
+42917667: 30: 		--- Mote: Intercept packet: hop: 1, pre_hop: 15, cur_id: 30
+42917745: 30: 
+42920196: 25: 		--- Mote: Intercept packet: hop: 1, pre_hop: 15, cur_id: 25
+42920274: 25: 
+42920686: 30: DATA packet intercept at node: 30, org: 15, hop: 1
+42921068: 11: 		--- Mote: Intercept packet: hop: 1, pre_hop: 15, cur_id: 11
+42921146: 11: 
+42922916: 1: Sink Received: data: 0 15 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+42923186: 25: DATA packet intercept at node: 25, org: 15, hop: 1
+42924149: 11: DATA packet intercept at node: 11, org: 15, hop: 1
+42930489: 3: 		--- Mote: Intercept packet: hop: 2, pre_hop: 16, cur_id: 3
+42930567: 3: 
+42933574: 3: DATA packet intercept at node: 3, org: 36, hop: 2
+43011801: 3: 		--- Mote: Intercept packet: hop: 1, pre_hop: 15, cur_id: 3
+43011879: 3: 
+43014754: 3: DATA packet intercept at node: 3, org: 15, hop: 1
+43263883: 13: 		--- Mote: Intercept packet: hop: 2, pre_hop: 9, cur_id: 13
+43263960: 13: 
+43266790: 13: DATA packet intercept at node: 13, org: 30, hop: 2
+43543879: 17: Send: Mote 17 send message with counter: 1
+43552826: 13: 		--- Mote: Intercept packet: hop: 3, pre_hop: 17, cur_id: 13
+43552904: 13: 
+43555521: 7: 		--- Mote: Intercept packet: hop: 3, pre_hop: 17, cur_id: 7
+43555599: 7: 
+43556086: 13: DATA packet intercept at node: 13, org: 24968, hop: 3
+43558843: 7: DATA packet intercept at node: 7, org: 24968, hop: 3
+43643444: 9: 		--- Mote: Intercept packet: hop: 2, pre_hop: 24, cur_id: 9
+43643522: 9: 
+43646551: 13: 		--- Mote: Intercept packet: hop: 9, pre_hop: 34, cur_id: 13
+43646629: 13: 
+43647117: 9: DATA packet intercept at node: 9, org: 36, hop: 2
+43649859: 13: DATA packet intercept at node: 13, org: -30556, hop: 9
+43654834: 18: 		--- Mote: Intercept packet: hop: 2, pre_hop: 34, cur_id: 18
+43654912: 18: 
+43657854: 18: DATA packet intercept at node: 18, org: 36, hop: 2
+43831136: 21: 		--- Mote: Intercept packet: hop: 2, pre_hop: 24, cur_id: 21
+43831214: 21: 
+43833970: 21: DATA packet intercept at node: 21, org: -1, hop: 2
+43897426: 11: 		--- Mote: Intercept packet: hop: 3, pre_hop: 17, cur_id: 11
+43897489: 9: 		--- Mote: Intercept packet: hop: 3, pre_hop: 17, cur_id: 9
+43897504: 11: 
+43897506: 3: 		--- Mote: Intercept packet: hop: 3, pre_hop: 17, cur_id: 3
+43897509: 18: 		--- Mote: Intercept packet: hop: 3, pre_hop: 17, cur_id: 18
+43897567: 9: 
+43897583: 3: 
+43897587: 18: 
+43897706: 34: 		--- Mote: Intercept packet: hop: 3, pre_hop: 17, cur_id: 34
+43897783: 34: 
+43898430: 16: 		--- Mote: Intercept packet: hop: 3, pre_hop: 17, cur_id: 16
+43898508: 16: 
+43898596: 5: 		--- Mote: Intercept packet: hop: 3, pre_hop: 17, cur_id: 5
+43898674: 5: 
+43899536: 21: 		--- Mote: Intercept packet: hop: 3, pre_hop: 17, cur_id: 21
+43899614: 21: 
+43899702: 30: 		--- Mote: Intercept packet: hop: 3, pre_hop: 17, cur_id: 30
+43899780: 30: 
+43900634: 9: DATA packet intercept at node: 9, org: 24968, hop: 3
+43900650: 3: DATA packet intercept at node: 3, org: 24968, hop: 3
+43900686: 11: DATA packet intercept at node: 11, org: 24968, hop: 3
+43900769: 18: DATA packet intercept at node: 18, org: 24968, hop: 3
+43900966: 34: DATA packet intercept at node: 34, org: 24968, hop: 3
+43901690: 16: DATA packet intercept at node: 16, org: 24968, hop: 3
+43901741: 5: DATA packet intercept at node: 5, org: 24968, hop: 3
+43902962: 30: DATA packet intercept at node: 30, org: 24968, hop: 3
+43902976: 21: DATA packet intercept at node: 21, org: 24968, hop: 3
+44114320: 30: 		--- Mote: Intercept packet: hop: 2, pre_hop: 5, cur_id: 30
+44114397: 30: 
+44117113: 30: DATA packet intercept at node: 30, org: 7, hop: 2
+44126372: 7: 		--- Mote: Intercept packet: hop: 2, pre_hop: 5, cur_id: 7
+44126450: 7: 
+44129049: 7: DATA packet intercept at node: 7, org: 7, hop: 2
+44157486: 23: Send: Mote 23 send message with counter: 1
+44160670: 18: 		--- Mote: Intercept packet: hop: 2, pre_hop: 9, cur_id: 18
+44160748: 18: 
+44163755: 18: DATA packet intercept at node: 18, org: 30, hop: 2
+44195944: 23: 		--- Mote: Intercept packet: hop: 2, pre_hop: 5, cur_id: 23
+44196021: 23: 
+44196491: 3: 		--- Mote: Intercept packet: hop: 2, pre_hop: 5, cur_id: 3
+44196568: 3: 
+44198332: 18: 		--- Mote: Intercept packet: hop: 2, pre_hop: 5, cur_id: 18
+44198410: 18: 
+44198630: 24: 		--- Mote: Intercept packet: hop: 2, pre_hop: 5, cur_id: 24
+44198708: 24: 
+44198735: 23: DATA packet intercept at node: 23, org: 7, hop: 2
+44199168: 3: DATA packet intercept at node: 3, org: 7, hop: 2
+44201222: 18: DATA packet intercept at node: 18, org: 7, hop: 2
+44201583: 24: DATA packet intercept at node: 24, org: 7, hop: 2
+44246855: 28: 		--- Mote: Intercept packet: hop: 2, pre_hop: 18, cur_id: 28
+44246933: 28: 
+44247764: 23: 		--- Mote: Intercept packet: hop: 2, pre_hop: 18, cur_id: 23
+44247842: 23: 
+44250047: 28: DATA packet intercept at node: 28, org: 36, hop: 2
+44250966: 23: DATA packet intercept at node: 23, org: 36, hop: 2
+44255986: 36: 		--- Mote: Intercept packet: hop: 3, pre_hop: 17, cur_id: 36
+44256063: 36: 
+44258670: 23: 		--- Mote: Intercept packet: hop: 3, pre_hop: 17, cur_id: 23
+44258748: 23: 
+44259510: 36: DATA packet intercept at node: 36, org: 24968, hop: 3
+44261637: 28: 		--- Mote: Intercept packet: hop: 3, pre_hop: 17, cur_id: 28
+44261715: 28: 
+44261929: 23: DATA packet intercept at node: 23, org: 24968, hop: 3
+44264412: 15: 		--- Mote: Intercept packet: hop: 3, pre_hop: 17, cur_id: 15
+44264490: 15: 
+44264911: 28: DATA packet intercept at node: 28, org: 24968, hop: 3
+44267671: 15: DATA packet intercept at node: 15, org: 24968, hop: 3
+44299214: 25: 		--- Mote: Intercept packet: hop: 4, pre_hop: 15, cur_id: 25
+44299292: 25: 
+44302473: 25: DATA packet intercept at node: 25, org: 24968, hop: 4
+44425278: 3: 		--- Mote: Intercept packet: hop: 1, pre_hop: 23, cur_id: 3
+44425355: 3: 
+44426645: 1: Sink Received: data: 0 23 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+44427903: 36: 		--- Mote: Intercept packet: hop: 1, pre_hop: 23, cur_id: 36
+44427981: 36: 
+44428070: 3: DATA packet intercept at node: 3, org: 23, hop: 1
+44431006: 36: DATA packet intercept at node: 36, org: 23, hop: 1
+44504448: 2: 		--- Mote: Intercept packet: hop: 3, pre_hop: 17, cur_id: 2
+44504526: 2: 
+44507167: 2: DATA packet intercept at node: 2, org: -1, hop: 3
+44564168: 15: 		--- Mote: Intercept packet: hop: 1, pre_hop: 30, cur_id: 15
+44564245: 15: 
+44567953: 15: DATA packet intercept at node: 15, org: 30, hop: 1
+44621951: 21: 		--- Mote: Intercept packet: hop: 1, pre_hop: 30, cur_id: 21
+44622029: 21: 
+44624858: 21: DATA packet intercept at node: 21, org: 30, hop: 1
+44679315: 2: 		--- Mote: Intercept packet: hop: 2, pre_hop: 21, cur_id: 2
+44679393: 2: 
+44682108: 2: DATA packet intercept at node: 2, org: 36, hop: 2
+45037744: 7: 		--- Mote: Intercept packet: hop: 1, pre_hop: 23, cur_id: 7
+45037822: 7: 
+45040648: 7: DATA packet intercept at node: 7, org: 23, hop: 1
+45040771: 11: 		--- Mote: Intercept packet: hop: 2, pre_hop: 5, cur_id: 11
+45040849: 11: 
+45041964: 9: 		--- Mote: Intercept packet: hop: 2, pre_hop: 5, cur_id: 9
+45042126: 9: 
+45043563: 11: DATA packet intercept at node: 11, org: 7, hop: 2
+45044932: 9: DATA packet intercept at node: 9, org: 7, hop: 2
+45045791: 17: 		--- Mote: Intercept packet: hop: 2, pre_hop: 5, cur_id: 17
+45045869: 17: 
+45046140: 15: 		--- Mote: Intercept packet: hop: 2, pre_hop: 5, cur_id: 15
+45046217: 15: 
+45048760: 17: DATA packet intercept at node: 17, org: 7, hop: 2
+45049810: 15: DATA packet intercept at node: 15, org: 7, hop: 2
+45204801: 7: 		--- Mote: Intercept packet: hop: 2, pre_hop: 9, cur_id: 7
+45204879: 7: 
+45204980: 19: 		--- Mote: Intercept packet: hop: 2, pre_hop: 9, cur_id: 19
+45205058: 19: 
+45206320: 25: 		--- Mote: Intercept packet: hop: 2, pre_hop: 9, cur_id: 25
+45206397: 25: 
+45206997: 1: Sink Received: data: 0 30 1 2 9 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1
+45207051: 5: 		--- Mote: Intercept packet: hop: 2, pre_hop: 9, cur_id: 5
+45207129: 5: 
+45207594: 7: DATA packet intercept at node: 7, org: 30, hop: 2
+45207901: 19: DATA packet intercept at node: 19, org: 30, hop: 2
+45209339: 25: DATA packet intercept at node: 25, org: 30, hop: 2
+45210040: 5: DATA packet intercept at node: 5, org: 30, hop: 2
+45210924: 17: 		--- Mote: Intercept packet: hop: 2, pre_hop: 9, cur_id: 17
+45211002: 17: 
+45213944: 17: DATA packet intercept at node: 17, org: 30, hop: 2
+45292725: 21: Send: Mote 21 send message with counter: 1
+45629554: 15: 		--- Mote: Intercept packet: hop: 2, pre_hop: 18, cur_id: 15
+45629632: 15: 
+45632461: 15: DATA packet intercept at node: 15, org: 81, hop: 2
+45728335: 9: 		--- Mote: Intercept packet: hop: 1, pre_hop: 30, cur_id: 9
+45728413: 9: 
+45731127: 9: DATA packet intercept at node: 9, org: 81, hop: 1
+45782937: 7: 		--- Mote: Intercept packet: hop: 1, pre_hop: 13, cur_id: 7
+45783015: 7: 
+45785729: 7: DATA packet intercept at node: 7, org: 13, hop: 1
+45850226: 27: Send: Mote 27 send message with counter: 1
+46417417: 27: 		--- Mote: Intercept packet: hop: 2, pre_hop: 34, cur_id: 27
+46417495: 27: 
+46420325: 27: DATA packet intercept at node: 27, org: 36, hop: 2
+46458648: 35: 		--- Mote: Intercept packet: hop: 2, pre_hop: 16, cur_id: 35
+46458726: 35: 
+46459679: 20: 		--- Mote: Intercept packet: hop: 2, pre_hop: 16, cur_id: 20
+46459757: 20: 
+46461571: 35: DATA packet intercept at node: 35, org: 36, hop: 2
+46462636: 20: DATA packet intercept at node: 20, org: 36, hop: 2
+46463518: 5: 		--- Mote: Intercept packet: hop: 2, pre_hop: 16, cur_id: 5
+46463596: 5: 
+46466311: 5: DATA packet intercept at node: 5, org: 36, hop: 2
+46547971: 20: 		--- Mote: Intercept packet: hop: 2, pre_hop: 9, cur_id: 20
+46548049: 20: 
+46551008: 20: DATA packet intercept at node: 20, org: 255, hop: 2
+46701671: 27: 		--- Mote: Intercept packet: hop: 2, pre_hop: 11, cur_id: 27
+46701748: 27: 
+46704577: 27: DATA packet intercept at node: 27, org: 81, hop: 2
+46905841: 25: Send: Mote 25 send message with counter: 1
+47320584: 31: Send: Mote 31 send message with counter: 1
+47643055: 7: 		--- Mote: Intercept packet: hop: 1, pre_hop: 31, cur_id: 7
+47643133: 7: 
+47645960: 7: DATA packet intercept at node: 7, org: 31, hop: 1
+47765367: 35: 		--- Mote: Intercept packet: hop: 4, pre_hop: 15, cur_id: 35
+47765445: 35: 
+47767114: 20: 		--- Mote: Intercept packet: hop: 4, pre_hop: 15, cur_id: 20
+47767192: 20: 
+47767276: 27: 		--- Mote: Intercept packet: hop: 4, pre_hop: 15, cur_id: 27
+47767354: 27: 
+47769241: 35: DATA packet intercept at node: 35, org: 24968, hop: 4
+47770551: 20: DATA packet intercept at node: 20, org: 24968, hop: 4
+47770627: 27: DATA packet intercept at node: 27, org: 24968, hop: 4
+47864178: 2: 		--- Mote: Intercept packet: hop: 1, pre_hop: 23, cur_id: 2
+47864256: 2: 
+47866970: 2: DATA packet intercept at node: 2, org: 23, hop: 1
+48163067: 3: 		--- Mote: Intercept packet: hop: 2, pre_hop: 19, cur_id: 3
+48163145: 3: 
+48165975: 3: DATA packet intercept at node: 3, org: 255, hop: 2
+48317745: 11: 		--- Mote: Intercept packet: hop: 2, pre_hop: 18, cur_id: 11
+48317823: 11: 
+48320769: 11: DATA packet intercept at node: 11, org: 255, hop: 2
+48527742: 29: Send: Mote 29 send message with counter: 1
+48554692: 13: 		--- Mote: Intercept packet: hop: 3, pre_hop: 23, cur_id: 13
+48554770: 13: 
+48557484: 13: DATA packet intercept at node: 13, org: 7, hop: 3
+48734462: 7: 		--- Mote: Intercept packet: hop: 1, pre_hop: 27, cur_id: 7
+48734540: 7: 
+48737366: 7: DATA packet intercept at node: 7, org: 27, hop: 1
+48754309: 18: 		--- Mote: Intercept packet: hop: 1, pre_hop: 27, cur_id: 18
+48754387: 18: 
+48757230: 18: DATA packet intercept at node: 18, org: 27, hop: 1
+48960130: 2: 		--- Mote: Intercept packet: hop: 2, pre_hop: 19, cur_id: 2
+48960208: 2: 
+48962807: 2: DATA packet intercept at node: 2, org: 7, hop: 2
+48982548: 35: Send: Mote 35 send message with counter: 1
+49124449: 31: 		--- Mote: Intercept packet: hop: 2, pre_hop: 9, cur_id: 31
+49124527: 31: 
+49127358: 31: DATA packet intercept at node: 31, org: 30, hop: 2
+49127705: 20: 		--- Mote: Intercept packet: hop: 2, pre_hop: 19, cur_id: 20
+49127783: 20: 
+49130772: 20: DATA packet intercept at node: 20, org: 7, hop: 2
+49131903: 28: 		--- Mote: Intercept packet: hop: 2, pre_hop: 19, cur_id: 28
+49131981: 28: 
+49134695: 28: DATA packet intercept at node: 28, org: 7, hop: 2
+49519167: 29: 		--- Mote: Intercept packet: hop: 2, pre_hop: 9, cur_id: 29
+49519245: 29: 
+49522075: 29: DATA packet intercept at node: 29, org: 30, hop: 2
+49956412: 18: 		--- Mote: Intercept packet: hop: 2, pre_hop: 21, cur_id: 18
+49956490: 18: 
+49959449: 18: DATA packet intercept at node: 18, org: 255, hop: 2
+50054454: 20: 		--- Mote: Intercept packet: hop: 1, pre_hop: 27, cur_id: 20
+50054532: 20: 
+50057361: 20: DATA packet intercept at node: 20, org: 27, hop: 1
+50298435: 33: Send: Mote 33 send message with counter: 1
+50418410: 33: 		--- Mote: Intercept packet: hop: 1, pre_hop: 13, cur_id: 33
+50418488: 33: 
+50421318: 33: DATA packet intercept at node: 33, org: 13, hop: 1
+50772685: 31: 		--- Mote: Intercept packet: hop: 2, pre_hop: 21, cur_id: 31
+50772763: 31: 
+50775593: 31: DATA packet intercept at node: 31, org: 36, hop: 2
+51246044: 3: 		--- Mote: Intercept packet: hop: 1, pre_hop: 29, cur_id: 3
+51246122: 3: 
+51248836: 3: DATA packet intercept at node: 3, org: 29, hop: 1
+51304500: 33: 		--- Mote: Intercept packet: hop: 2, pre_hop: 16, cur_id: 33
+51304578: 33: 
+51307409: 33: DATA packet intercept at node: 33, org: 36, hop: 2
+52112109: 31: 		--- Mote: Intercept packet: hop: 4, pre_hop: 15, cur_id: 31
+52112187: 31: 
+52115384: 31: DATA packet intercept at node: 31, org: 24968, hop: 4
+52117516: 20: 		--- Mote: Intercept packet: hop: 2, pre_hop: 19, cur_id: 20
+52117594: 20: 
+52117875: 27: 		--- Mote: Intercept packet: hop: 2, pre_hop: 19, cur_id: 27
+52117953: 27: 
+52120350: 20: DATA packet intercept at node: 20, org: -1, hop: 2
+52120709: 27: DATA packet intercept at node: 27, org: -1, hop: 2
+52128786: 2: 		--- Mote: Intercept packet: hop: 2, pre_hop: 19, cur_id: 2
+52128864: 2: 
+52131519: 2: DATA packet intercept at node: 2, org: -1, hop: 2
+52201320: 33: 		--- Mote: Intercept packet: hop: 4, pre_hop: 15, cur_id: 33
+52201398: 33: 
+52204594: 33: DATA packet intercept at node: 33, org: 24968, hop: 4
+52311856: 4: Send: Mote 4 send message with counter: 1
+52329857: 20: 		--- Mote: Intercept packet: hop: 2, pre_hop: 9, cur_id: 20
+52329935: 20: 
+52332877: 20: DATA packet intercept at node: 20, org: 30, hop: 2
+52567474: 4: 		--- Mote: Intercept packet: hop: 3, pre_hop: 28, cur_id: 4
+52567552: 4: 
+52570344: 4: DATA packet intercept at node: 4, org: 36, hop: 3
+52596910: 27: 		--- Mote: Intercept packet: hop: 3, pre_hop: 17, cur_id: 27
+52596988: 27: 
+52599828: 27: DATA packet intercept at node: 27, org: -1, hop: 3
+52603898: 20: 		--- Mote: Intercept packet: hop: 3, pre_hop: 17, cur_id: 20
+52603976: 20: 
+52606746: 20: DATA packet intercept at node: 20, org: -1, hop: 3
+52886941: 4: 		--- Mote: Intercept packet: hop: 2, pre_hop: 34, cur_id: 4
+52887019: 4: 
+52889891: 4: DATA packet intercept at node: 4, org: -175, hop: 2
+53373427: 2: Send: Mote 2 send message with counter: 1
+53758693: 11: 		--- Mote: Intercept packet: hop: 2, pre_hop: 18, cur_id: 11
+53758771: 11: 
+53761527: 11: DATA packet intercept at node: 11, org: -1, hop: 2
+53888611: 8: Send: Mote 8 send message with counter: 1
+54237516: 25: 		--- Mote: Intercept packet: hop: 1, pre_hop: 27, cur_id: 25
+54237594: 25: 
+54240436: 25: DATA packet intercept at node: 25, org: 27, hop: 1
+54457070: 2: 		--- Mote: Intercept packet: hop: 1, pre_hop: 13, cur_id: 2
+54457148: 2: 
+54459862: 2: DATA packet intercept at node: 2, org: 13, hop: 1
+54829693: 29: 		--- Mote: Intercept packet: hop: 2, pre_hop: 5, cur_id: 29
+54829771: 29: 
+54833344: 29: DATA packet intercept at node: 29, org: 255, hop: 2
+54893146: 29: 		--- Mote: Intercept packet: hop: 2, pre_hop: 21, cur_id: 29
+54893224: 29: 
+54896067: 29: DATA packet intercept at node: 29, org: 36, hop: 2
+55040326: 6: Send: Mote 6 send message with counter: 1
+55345579: 4: 		--- Mote: Intercept packet: hop: 1, pre_hop: 29, cur_id: 4
+55345657: 4: 
+55348551: 4: DATA packet intercept at node: 4, org: 29, hop: 1
+55662649: 12: Send: Mote 12 send message with counter: 1
+56798609: 10: Send: Mote 10 send message with counter: 1
+57104755: 10: 		--- Mote: Intercept packet: hop: 1, pre_hop: 7, cur_id: 10
+57105568: 10: 
+57108856: 10: DATA packet intercept at node: 10, org: 7, hop: 1
+57194284: 16: Send: Mote 16 send message with counter: 1
+57415080: 10: 		--- Mote: Intercept packet: hop: 2, pre_hop: 3, cur_id: 10
+57415158: 10: 
+57418001: 10: DATA packet intercept at node: 10, org: 15, hop: 2
+57688743: 19: 		--- Mote: Intercept packet: hop: 2, pre_hop: 3, cur_id: 19
+57688821: 19: 
+57691650: 19: DATA packet intercept at node: 19, org: 15, hop: 2
+57861081: 13: 		--- Mote: Intercept packet: hop: 2, pre_hop: 3, cur_id: 13
+57861159: 13: 
+57863987: 13: DATA packet intercept at node: 13, org: 15, hop: 2
+57982427: 8: 		--- Mote: Intercept packet: hop: 1, pre_hop: 31, cur_id: 8
+57982504: 8: 
+57986098: 8: DATA packet intercept at node: 8, org: 31, hop: 1
+58344569: 14: Send: Mote 14 send message with counter: 1
+58410345: 34: 		--- Mote: Intercept packet: hop: 1, pre_hop: 12, cur_id: 34
+58410423: 34: 
+58410453: 36: 		--- Mote: Intercept packet: hop: 1, pre_hop: 12, cur_id: 36
+58410531: 36: 
+58413267: 34: DATA packet intercept at node: 34, org: 12, hop: 1
+58413360: 36: DATA packet intercept at node: 36, org: 12, hop: 1
+58444189: 10: 		--- Mote: Intercept packet: hop: 1, pre_hop: 27, cur_id: 10
+58444267: 10: 
+58447208: 10: DATA packet intercept at node: 10, org: 27, hop: 1
+58458860: 31: 		--- Mote: Intercept packet: hop: 1, pre_hop: 27, cur_id: 31
+58458928: 33: 		--- Mote: Intercept packet: hop: 1, pre_hop: 27, cur_id: 33
+58458937: 31: 
+58459005: 33: 
+58461767: 31: DATA packet intercept at node: 31, org: 27, hop: 1
+58461835: 33: DATA packet intercept at node: 33, org: 27, hop: 1
+58525650: 14: 		--- Mote: Intercept packet: hop: 12, pre_hop: 25, cur_id: 14
+58525728: 14: 
+58529161: 33: 		--- Mote: Intercept packet: hop: 12, pre_hop: 25, cur_id: 33
+58529228: 14: DATA packet intercept at node: 14, org: -1, hop: 12
+58529239: 33: 
+58532223: 33: DATA packet intercept at node: 33, org: -1, hop: 12
+58847304: 20: Send: Mote 20 send message with counter: 1
+58973610: 29: 		--- Mote: Intercept packet: hop: 2, pre_hop: 5, cur_id: 29
+58973688: 29: 
+58976402: 29: DATA packet intercept at node: 29, org: 7, hop: 2
+59351338: 14: 		--- Mote: Intercept packet: hop: 1, pre_hop: 29, cur_id: 14
+59351416: 14: 
+59354245: 14: DATA packet intercept at node: 14, org: 29, hop: 1
+59354581: 10: 		--- Mote: Intercept packet: hop: 2, pre_hop: 18, cur_id: 10
+59354659: 10: 
+59357488: 10: DATA packet intercept at node: 10, org: 36, hop: 2
+59608658: 4: 		--- Mote: Intercept packet: hop: 1, pre_hop: 30, cur_id: 4
+59608736: 4: 
+59611464: 4: DATA packet intercept at node: 4, org: 81, hop: 1
+59614094: 10: 		--- Mote: Intercept packet: hop: 1, pre_hop: 30, cur_id: 10
+59614172: 10: 
+59617002: 10: DATA packet intercept at node: 10, org: 30, hop: 1
+59699372: 14: 		--- Mote: Intercept packet: hop: 3, pre_hop: 28, cur_id: 14
+59699450: 14: 
+59700247: 8: 		--- Mote: Intercept packet: hop: 3, pre_hop: 28, cur_id: 8
+59700325: 8: 
+59702280: 14: DATA packet intercept at node: 14, org: 36, hop: 3
+59703482: 8: DATA packet intercept at node: 8, org: 36, hop: 3
+59740802: 12: 		--- Mote: Intercept packet: hop: 4, pre_hop: 2, cur_id: 12
+59740880: 12: 
+59743636: 12: DATA packet intercept at node: 12, org: -1, hop: 4
+60073310: 18: Send: Mote 18 send message with counter: 1
+60460163: 24: Send: Mote 24 send message with counter: 1
+61662218: 22: Send: Mote 22 send message with counter: 1
+61926888: 12: 		--- Mote: Intercept packet: hop: 1, pre_hop: 10, cur_id: 12
+61926966: 12: 
+61929795: 12: DATA packet intercept at node: 12, org: 10, hop: 1
+62147791: 8: 		--- Mote: Intercept packet: hop: 2, pre_hop: 3, cur_id: 8
+62147869: 8: 
+62150583: 8: DATA packet intercept at node: 8, org: 15, hop: 2
+62206047: 20: 		--- Mote: Intercept packet: hop: 1, pre_hop: 4, cur_id: 20
+62206124: 20: 
+62208951: 20: DATA packet intercept at node: 20, org: 4, hop: 1
+62219694: 28: Send: Mote 28 send message with counter: 1
+62404123: 4: 		--- Mote: Intercept packet: hop: 1, pre_hop: 13, cur_id: 4
+62404201: 4: 
+62407027: 4: DATA packet intercept at node: 4, org: 13, hop: 1
+62556115: 29: 		--- Mote: Intercept packet: hop: 1, pre_hop: 6, cur_id: 29
+62556193: 29: 
+62558921: 29: DATA packet intercept at node: 29, org: 6, hop: 1
+62963124: 2: 		--- Mote: Intercept packet: hop: 1, pre_hop: 6, cur_id: 2
+62963202: 2: 
+62965802: 2: DATA packet intercept at node: 2, org: 6, hop: 1
+63089592: 6: 		--- Mote: Intercept packet: hop: 2, pre_hop: 24, cur_id: 6
+63089670: 6: 
+63092385: 6: DATA packet intercept at node: 6, org: 36, hop: 2
+63341966: 26: Send: Mote 26 send message with counter: 1
+63907731: 32: Send: Mote 32 send message with counter: 1
+63990964: 24: 		--- Mote: Intercept packet: hop: 2, pre_hop: 34, cur_id: 24
+63991042: 24: 
+63994001: 24: DATA packet intercept at node: 24, org: 255, hop: 2
+64037807: 10: 		--- Mote: Intercept packet: hop: 2, pre_hop: 5, cur_id: 10
+64037885: 10: 
+64040641: 10: DATA packet intercept at node: 10, org: -1, hop: 2
+64280915: 1: Timer fired on SINK, round: 1 
+64333914: 22: 		--- Mote: Intercept packet: hop: 12, pre_hop: 25, cur_id: 22
+64333992: 22: 
+64336975: 22: DATA packet intercept at node: 22, org: -1, hop: 12
+65537767: 27: 		--- Mote: Intercept packet: hop: 1, pre_hop: 36, cur_id: 27
+65537844: 27: 
+65540790: 27: DATA packet intercept at node: 27, org: 255, hop: 1
+65608149: 14: 		--- Mote: Intercept packet: hop: 2, pre_hop: 3, cur_id: 14
+65608227: 14: 
+65611173: 14: DATA packet intercept at node: 14, org: 255, hop: 2
+65746943: 6: 		--- Mote: Intercept packet: hop: 2, pre_hop: 3, cur_id: 6
+65747021: 6: 
+65749851: 6: DATA packet intercept at node: 6, org: 255, hop: 2
+66765424: 35: 		--- Mote: Intercept packet: hop: 1, pre_hop: 12, cur_id: 35
+66765502: 35: 
+66768331: 35: DATA packet intercept at node: 35, org: 12, hop: 1
+66998258: 8: 		--- Mote: Intercept packet: hop: 1, pre_hop: 12, cur_id: 8
+66998336: 8: 
+67002345: 8: DATA packet intercept at node: 8, org: 12, hop: 1
+67919595: 32: 		--- Mote: Intercept packet: hop: 4, pre_hop: 15, cur_id: 32
+67919673: 32: 
+67921792: 22: 		--- Mote: Intercept packet: hop: 4, pre_hop: 15, cur_id: 22
+67921870: 22: 
+67922205: 12: 		--- Mote: Intercept packet: hop: 4, pre_hop: 15, cur_id: 12
+67922283: 12: 
+67922855: 32: DATA packet intercept at node: 32, org: 24968, hop: 4
+67925464: 12: DATA packet intercept at node: 12, org: 24968, hop: 4
+67925793: 4: 		--- Mote: Intercept packet: hop: 4, pre_hop: 15, cur_id: 4
+67925871: 4: 
+67925931: 22: DATA packet intercept at node: 22, org: 24968, hop: 4
+67929046: 4: DATA packet intercept at node: 4, org: 24968, hop: 4
+67929487: 10: 		--- Mote: Intercept packet: hop: 4, pre_hop: 15, cur_id: 10
+67929565: 10: 
+67932924: 10: DATA packet intercept at node: 10, org: 24968, hop: 4
+68138882: 4: 		--- Mote: Intercept packet: hop: 1, pre_hop: 10, cur_id: 4
+68138960: 4: 
+68141786: 4: DATA packet intercept at node: 4, org: 10, hop: 1
+69228758: 10: 		--- Mote: Intercept packet: hop: 1, pre_hop: 13, cur_id: 10
+69228836: 10: 
+69231678: 10: DATA packet intercept at node: 10, org: 13, hop: 1
+69878463: 4: 		--- Mote: Intercept packet: hop: 1, pre_hop: 27, cur_id: 4
+69878541: 4: 
+69881269: 4: DATA packet intercept at node: 4, org: 27, hop: 1
+71374960: 14: 		--- Mote: Intercept packet: hop: 2, pre_hop: 19, cur_id: 14
+71375038: 14: 
+71377794: 14: DATA packet intercept at node: 14, org: -1, hop: 2
+72849986: 31: 		--- Mote: Intercept packet: hop: 12, pre_hop: 25, cur_id: 31
+72850063: 31: 
+72852935: 31: DATA packet intercept at node: 31, org: -1, hop: 12
+73195539: 12: 		--- Mote: Intercept packet: hop: 1, pre_hop: 36, cur_id: 12
+73195957: 12: 
+73199104: 12: DATA packet intercept at node: 12, org: 36, hop: 1
+73909836: 4: 		--- Mote: Intercept packet: hop: 3, pre_hop: 35, cur_id: 4
+73909914: 4: 
+73912978: 4: DATA packet intercept at node: 4, org: 20833, hop: 3
+73964402: 10: 		--- Mote: Intercept packet: hop: 1, pre_hop: 29, cur_id: 10
+73964480: 10: 
+73967538: 10: DATA packet intercept at node: 10, org: 255, hop: 1
+73983572: 12: 		--- Mote: Intercept packet: hop: 1, pre_hop: 29, cur_id: 12
+73983650: 12: 
+73986596: 12: DATA packet intercept at node: 12, org: 255, hop: 1
+74763810: 4: 		--- Mote: Intercept packet: hop: 2, pre_hop: 9, cur_id: 4
+74763902: 4: 
+74766617: 4: DATA packet intercept at node: 4, org: 30, hop: 2
+75026385: 28: 		--- Mote: Intercept packet: hop: 2, pre_hop: 19, cur_id: 28
+75026463: 28: 
+75029409: 28: DATA packet intercept at node: 28, org: 255, hop: 2
+75358891: 8: 		--- Mote: Intercept packet: hop: 1, pre_hop: 33, cur_id: 8
+75358969: 8: 
+75361698: 8: DATA packet intercept at node: 8, org: 33, hop: 1
+75523105: 14: 		--- Mote: Intercept packet: hop: 2, pre_hop: 24, cur_id: 14
+75523183: 14: 
+75526203: 14: DATA packet intercept at node: 14, org: 81, hop: 2
+76247232: 32: 		--- Mote: Intercept packet: hop: 1, pre_hop: 27, cur_id: 32
+76247310: 32: 
+76250251: 32: DATA packet intercept at node: 32, org: 27, hop: 1
+76695752: 1: Sink Received: data: 1 22 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+77323158: 30: 		--- Mote: Intercept packet: hop: 2, pre_hop: 24, cur_id: 30
+77323236: 30: 
+77325993: 30: DATA packet intercept at node: 30, org: -1, hop: 2
+78392140: 26: 		--- Mote: Intercept packet: hop: 2, pre_hop: 19, cur_id: 26
+78392218: 26: 
+78394932: 26: DATA packet intercept at node: 26, org: 7, hop: 2
+78696732: 8: 		--- Mote: Intercept packet: hop: 1, pre_hop: 7, cur_id: 8
+78696810: 8: 
+78699535: 8: DATA packet intercept at node: 8, org: 7, hop: 1
+78892633: 32: 		--- Mote: Intercept packet: hop: 1, pre_hop: 7, cur_id: 32
+78892710: 32: 
+78895602: 32: DATA packet intercept at node: 32, org: 7, hop: 1
+80540303: 30: 		--- Mote: Intercept packet: hop: 1, pre_hop: 26, cur_id: 30
+80540381: 30: 
+80543210: 30: DATA packet intercept at node: 30, org: 26, hop: 1
+80614466: 24: 		--- Mote: Intercept packet: hop: 1, pre_hop: 26, cur_id: 24
+80614543: 24: 
+80617372: 24: DATA packet intercept at node: 24, org: 81, hop: 1
+80673731: 14: 		--- Mote: Intercept packet: hop: 1, pre_hop: 13, cur_id: 14
+80673809: 14: 
+80676652: 14: DATA packet intercept at node: 14, org: 13, hop: 1
+80678317: 20: 		--- Mote: Intercept packet: hop: 1, pre_hop: 13, cur_id: 20
+80678395: 20: 
+80681238: 20: DATA packet intercept at node: 20, org: 13, hop: 1
+80721906: 26: 		--- Mote: Intercept packet: hop: 1, pre_hop: 13, cur_id: 26
+80721984: 26: 
+80724166: 34: 		--- Mote: Intercept packet: hop: 1, pre_hop: 13, cur_id: 34
+80724244: 34: 
+80724813: 26: DATA packet intercept at node: 26, org: 13, hop: 1
+80727073: 34: DATA packet intercept at node: 34, org: 17, hop: 1
+81276010: 29: 		--- Mote: Intercept packet: hop: 2, pre_hop: 3, cur_id: 29
+81276088: 29: 
+81278917: 29: DATA packet intercept at node: 29, org: 15, hop: 2
+82247248: 12: 		--- Mote: Intercept packet: hop: 1, pre_hop: 29, cur_id: 12
+82247438: 12: 
+82250194: 12: DATA packet intercept at node: 12, org: -1, hop: 1
+83097749: 6: 		--- Mote: Intercept packet: hop: 1, pre_hop: 12, cur_id: 6
+83097826: 6: 
+83100653: 6: DATA packet intercept at node: 6, org: 12, hop: 1
+84484141: 34: 		--- Mote: Intercept packet: hop: 1, pre_hop: 13, cur_id: 34
+84484219: 34: 
+84487049: 34: DATA packet intercept at node: 34, org: 13, hop: 1
+85935327: 32: 		--- Mote: Intercept packet: hop: 3, pre_hop: 35, cur_id: 32
+85935405: 32: 
+85938365: 32: DATA packet intercept at node: 32, org: 255, hop: 3
+86458302: 14: 		--- Mote: Intercept packet: hop: 2, pre_hop: 5, cur_id: 14
+86458380: 14: 
+86461094: 14: DATA packet intercept at node: 14, org: 7, hop: 2
+87028422: 34: 		--- Mote: Intercept packet: hop: 1, pre_hop: 13, cur_id: 34
+87028500: 34: 
+87031330: 34: DATA packet intercept at node: 34, org: 81, hop: 1
+87090546: 9: 		--- Mote: Intercept packet: hop: 1, pre_hop: 29, cur_id: 9
+87090624: 9: 
+87093455: 9: DATA packet intercept at node: 9, org: 255, hop: 1
+87447718: 10: 		--- Mote: Intercept packet: hop: 1, pre_hop: 12, cur_id: 10
+87447796: 10: 
+87450625: 10: DATA packet intercept at node: 10, org: 12, hop: 1
+88321170: 2: 		--- Mote: Intercept packet: hop: 3, pre_hop: 23, cur_id: 2
+88321247: 2: 
+88324152: 2: DATA packet intercept at node: 2, org: 81, hop: 3
+88947912: 25: 		--- Mote: Intercept packet: hop: 2, pre_hop: 19, cur_id: 25
+88947989: 25: 
+88950745: 25: DATA packet intercept at node: 25, org: -1, hop: 2
+89633207: 36: 		--- Mote: Intercept packet: hop: 3, pre_hop: 35, cur_id: 36
+89633285: 36: 
+89636232: 36: DATA packet intercept at node: 36, org: 255, hop: 3
+89954598: 24: 		--- Mote: Intercept packet: hop: 1, pre_hop: 12, cur_id: 24
+89954675: 24: 
+89957504: 24: DATA packet intercept at node: 24, org: 12, hop: 1
+90738943: 29: 		--- Mote: Intercept packet: hop: 2, pre_hop: 3, cur_id: 29
+90739021: 29: 
+90741849: 29: DATA packet intercept at node: 29, org: 81, hop: 2
+91791157: 33: 		--- Mote: Intercept packet: hop: 2, pre_hop: 19, cur_id: 33
+91791235: 33: 
+91793950: 33: DATA packet intercept at node: 33, org: 7, hop: 2
+92207333: 36: 		--- Mote: Intercept packet: hop: 1, pre_hop: 33, cur_id: 36
+92207411: 36: 
+92210255: 36: DATA packet intercept at node: 36, org: 33, hop: 1
+94760242: 18: 		--- Mote: Intercept packet: hop: 2, pre_hop: 5, cur_id: 18
+94760320: 18: 
+94763075: 18: DATA packet intercept at node: 18, org: -1, hop: 2
+95517036: 31: 		--- Mote: Intercept packet: hop: 1, pre_hop: 8, cur_id: 31
+95517114: 31: 
+95519829: 31: DATA packet intercept at node: 31, org: 8, hop: 1
+97600514: 30: 		--- Mote: Intercept packet: hop: 1, pre_hop: 10, cur_id: 30
+97600592: 30: 
+97603436: 30: DATA packet intercept at node: 30, org: 10, hop: 1
+98378082: 18: 		--- Mote: Intercept packet: hop: 1, pre_hop: 29, cur_id: 18
+98378160: 18: 
+98380989: 18: DATA packet intercept at node: 18, org: 29, hop: 1
+98948451: 18: 		--- Mote: Intercept packet: hop: 2, pre_hop: 34, cur_id: 18
+98948529: 18: 
+98951285: 18: DATA packet intercept at node: 18, org: -1, hop: 2
+101137967: 31: 		--- Mote: Intercept packet: hop: 1, pre_hop: 32, cur_id: 31
+101138045: 31: 
+101140802: 31: DATA packet intercept at node: 31, org: -1, hop: 1
+101585749: 33: 		--- Mote: Intercept packet: hop: 2, pre_hop: 19, cur_id: 33
+101585826: 33: 
+101588656: 33: DATA packet intercept at node: 33, org: 81, hop: 2
+102151415: 33: 		--- Mote: Intercept packet: hop: 1, pre_hop: 26, cur_id: 33
+102151493: 33: 
+102154322: 33: DATA packet intercept at node: 33, org: 26, hop: 1
+102465638: 32: 		--- Mote: Intercept packet: hop: 1, pre_hop: 13, cur_id: 32
+102465716: 32: 
+102468546: 32: DATA packet intercept at node: 32, org: 13, hop: 1
+104840100: 9: 		--- Mote: Intercept packet: hop: 1, pre_hop: 13, cur_id: 9
+104840178: 9: 
+104842819: 9: DATA packet intercept at node: 9, org: -1, hop: 1
+105473351: 12: 		--- Mote: Intercept packet: hop: 2, pre_hop: 3, cur_id: 12
+105473429: 12: 
+105476258: 12: DATA packet intercept at node: 12, org: 15, hop: 2
+107902592: 30: 		--- Mote: Intercept packet: hop: 2, pre_hop: 24, cur_id: 30
+107902669: 30: 
+107903513: 33: 		--- Mote: Intercept packet: hop: 2, pre_hop: 24, cur_id: 33
+107903591: 33: 
+107905616: 30: DATA packet intercept at node: 30, org: 255, hop: 2
+107906551: 33: DATA packet intercept at node: 33, org: 255, hop: 2
+108235986: 27: 		--- Mote: Intercept packet: hop: 1, pre_hop: 33, cur_id: 27
+108236063: 27: 
+108238893: 27: DATA packet intercept at node: 27, org: 33, hop: 1
+109328684: 14: 		--- Mote: Intercept packet: hop: 2, pre_hop: 9, cur_id: 14
+109328761: 14: 
+109331591: 14: DATA packet intercept at node: 14, org: 30, hop: 2
+109791356: 13: 		--- Mote: Intercept packet: hop: 2, pre_hop: 3, cur_id: 13
+109791433: 13: 
+109794262: 13: DATA packet intercept at node: 13, org: 81, hop: 2
+110131747: 33: 		--- Mote: Intercept packet: hop: 1, pre_hop: 32, cur_id: 33
+110131825: 33: 
+110134656: 33: DATA packet intercept at node: 33, org: 32, hop: 1
+110740836: 19: 		--- Mote: Intercept packet: hop: 1, pre_hop: 27, cur_id: 19
+110740914: 19: 
+110743743: 19: DATA packet intercept at node: 19, org: 27, hop: 1
+110932865: 12: 		--- Mote: Intercept packet: hop: 1, pre_hop: 27, cur_id: 12
+110932943: 12: 
+110936386: 12: DATA packet intercept at node: 12, org: 27, hop: 1
+111956665: 13: 		--- Mote: Intercept packet: hop: 1, pre_hop: 27, cur_id: 13
+111956743: 13: 
+111959572: 13: DATA packet intercept at node: 13, org: 27, hop: 1
+112018651: 29: 		--- Mote: Intercept packet: hop: 1, pre_hop: 10, cur_id: 29
+112018729: 29: 
+112021558: 29: DATA packet intercept at node: 29, org: 10, hop: 1
+112049297: 36: 		--- Mote: Intercept packet: hop: 1, pre_hop: 27, cur_id: 36
+112049375: 36: 
+112052205: 36: DATA packet intercept at node: 36, org: 27, hop: 1
+112063775: 27: 		--- Mote: Intercept packet: hop: 1, pre_hop: 10, cur_id: 27
+112063853: 27: 
+112066682: 27: DATA packet intercept at node: 27, org: 10, hop: 1
+112872549: 34: 		--- Mote: Intercept packet: hop: 12, pre_hop: 25, cur_id: 34
+112872627: 34: 
+112875498: 34: DATA packet intercept at node: 34, org: -1, hop: 12
+113489358: 5: 		--- Mote: Intercept packet: hop: 2, pre_hop: 3, cur_id: 5
+113489436: 5: 
+113492150: 5: DATA packet intercept at node: 5, org: 15, hop: 2
+113700613: 25: 		--- Mote: Intercept packet: hop: 1, pre_hop: 8, cur_id: 25
+113700691: 25: 
+113703405: 25: DATA packet intercept at node: 25, org: 8, hop: 1
+113705406: 29: 		--- Mote: Intercept packet: hop: 1, pre_hop: 8, cur_id: 29
+113705484: 29: 
+113708198: 29: DATA packet intercept at node: 29, org: 8, hop: 1
+114334436: 28: 		--- Mote: Intercept packet: hop: 12, pre_hop: 25, cur_id: 28
+114334514: 28: 
+114338280: 28: DATA packet intercept at node: 28, org: -1, hop: 12
+115890590: 15: 		--- Mote: Intercept packet: hop: 2, pre_hop: 21, cur_id: 15
+115890667: 15: 
+115893423: 15: DATA packet intercept at node: 15, org: -1, hop: 2
+116017490: 14: 		--- Mote: Intercept packet: hop: 1, pre_hop: 26, cur_id: 14
+116017568: 14: 
+116020397: 14: DATA packet intercept at node: 14, org: 26, hop: 1
+116352970: 32: 		--- Mote: Intercept packet: hop: 2, pre_hop: 19, cur_id: 32
+116353048: 32: 
+116355819: 32: DATA packet intercept at node: 32, org: -1, hop: 2
+116749649: 27: 		--- Mote: Intercept packet: hop: 3, pre_hop: 23, cur_id: 27
+116749727: 27: 
+116752455: 27: DATA packet intercept at node: 27, org: 7, hop: 3
+116952893: 36: 		--- Mote: Intercept packet: hop: 1, pre_hop: 12, cur_id: 36
+116952971: 36: 
+116955801: 36: DATA packet intercept at node: 36, org: 81, hop: 1
+117119780: 23: Send: Mote 23 send message with counter: 2
+117562782: 15: Send: Mote 15 send message with counter: 2
+117934699: 34: 		--- Mote: Intercept packet: hop: 2, pre_hop: 11, cur_id: 34
+117934777: 34: 
+117937622: 34: DATA packet intercept at node: 34, org: 36, hop: 2
+118471740: 24: 		--- Mote: Intercept packet: hop: 1, pre_hop: 26, cur_id: 24
+118471818: 24: 
+118474661: 24: DATA packet intercept at node: 24, org: 26, hop: 1
+118588274: 12: 		--- Mote: Intercept packet: hop: 1, pre_hop: 8, cur_id: 12
+118588351: 12: 
+118591066: 12: DATA packet intercept at node: 12, org: 8, hop: 1
+119905566: 31: 		--- Mote: Intercept packet: hop: 1, pre_hop: 32, cur_id: 31
+119905644: 31: 
+119908475: 31: DATA packet intercept at node: 31, org: 32, hop: 1
+120183311: 2: 		--- Mote: Intercept packet: hop: 1, pre_hop: 10, cur_id: 2
+120183389: 2: 
+120186103: 2: DATA packet intercept at node: 2, org: 10, hop: 1
+120555666: 34: 		--- Mote: Intercept packet: hop: 2, pre_hop: 19, cur_id: 34
+120555743: 34: 
+120558472: 34: DATA packet intercept at node: 34, org: 7, hop: 2
+120981054: 6: 		--- Mote: Intercept packet: hop: 2, pre_hop: 5, cur_id: 6
+120981132: 6: 
+120983843: 6: DATA packet intercept at node: 6, org: 7, hop: 2
+120985300: 27: 		--- Mote: Intercept packet: hop: 1, pre_hop: 8, cur_id: 27
+120985378: 27: 
+120988092: 27: DATA packet intercept at node: 27, org: 8, hop: 1
+121193014: 2: 		--- Mote: Intercept packet: hop: 1, pre_hop: 7, cur_id: 2
+121193091: 2: 
+121195922: 2: DATA packet intercept at node: 2, org: 255, hop: 1
+121831630: 31: 		--- Mote: Intercept packet: hop: 1, pre_hop: 13, cur_id: 31
+121831708: 31: 
+121834537: 31: DATA packet intercept at node: 31, org: 13, hop: 1
+122874481: 6: 		--- Mote: Intercept packet: hop: 1, pre_hop: 10, cur_id: 6
+122874559: 6: 
+122875789: 22: Send: Mote 22 send message with counter: 2
+122877287: 6: DATA packet intercept at node: 6, org: 10, hop: 1
+123140051: 3: Send: Mote 3 send message with counter: 2
+123150960: 34: 		--- Mote: Intercept packet: hop: 2, pre_hop: 18, cur_id: 34
+123151037: 34: 
+123153984: 34: DATA packet intercept at node: 34, org: 255, hop: 2
+123267783: 31: 		--- Mote: Intercept packet: hop: 3, pre_hop: 23, cur_id: 31
+123267861: 31: 
+123270576: 31: DATA packet intercept at node: 31, org: 7, hop: 3
+123272133: 35: 		--- Mote: Intercept packet: hop: 3, pre_hop: 23, cur_id: 35
+123272211: 35: 
+123273093: 12: 		--- Mote: Intercept packet: hop: 3, pre_hop: 23, cur_id: 12
+123273171: 12: 
+123274940: 35: DATA packet intercept at node: 35, org: 7, hop: 3
+123275885: 12: DATA packet intercept at node: 12, org: 7, hop: 3
+124225047: 32: 		--- Mote: Intercept packet: hop: 1, pre_hop: 14, cur_id: 32
+124225125: 32: 
+124227955: 32: DATA packet intercept at node: 32, org: 14, hop: 1
+124281892: 1: Timer fired on SINK, round: 2 
+124640337: 16: 		--- Mote: Intercept packet: hop: 2, pre_hop: 19, cur_id: 16
+124640414: 16: 
+124644009: 16: DATA packet intercept at node: 16, org: 7, hop: 2
+125358121: 5: 		--- Mote: Intercept packet: hop: 1, pre_hop: 10, cur_id: 5
+125358199: 5: 
+125360927: 5: DATA packet intercept at node: 5, org: 10, hop: 1
+125556861: 6: 		--- Mote: Intercept packet: hop: 2, pre_hop: 3, cur_id: 6
+125556938: 6: 
+125559666: 6: DATA packet intercept at node: 6, org: 15, hop: 2
+126378902: 11: 		--- Mote: Intercept packet: hop: 1, pre_hop: 10, cur_id: 11
+126378980: 11: 
+126381809: 11: DATA packet intercept at node: 11, org: 10, hop: 1
+127715263: 34: 		--- Mote: Intercept packet: hop: 12, pre_hop: 25, cur_id: 34
+127715341: 34: 
+127718443: 34: DATA packet intercept at node: 34, org: -175, hop: 12
+128620187: 6: 		--- Mote: Intercept packet: hop: 2, pre_hop: 9, cur_id: 6
+128620265: 6: 
+128622980: 6: DATA packet intercept at node: 6, org: 30, hop: 2
+128639646: 23: 		--- Mote: Intercept packet: hop: 13, pre_hop: 22, cur_id: 23
+128639723: 23: 
+128642594: 23: DATA packet intercept at node: 23, org: -1, hop: 13
+128647939: 35: 		--- Mote: Intercept packet: hop: 13, pre_hop: 22, cur_id: 35
+128648017: 35: 
+128650889: 35: DATA packet intercept at node: 35, org: -1, hop: 13
+130395584: 19: 		--- Mote: Intercept packet: hop: 1, pre_hop: 8, cur_id: 19
+130395662: 19: 
+130398376: 19: DATA packet intercept at node: 19, org: 8, hop: 1
+130707352: 5: 		--- Mote: Intercept packet: hop: 2, pre_hop: 24, cur_id: 5
+130707430: 5: 
+130710071: 5: DATA packet intercept at node: 5, org: -1, hop: 2
+133375056: 6: 		--- Mote: Intercept packet: hop: 4, pre_hop: 2, cur_id: 6
+133375134: 6: 
+133377775: 6: DATA packet intercept at node: 6, org: -1, hop: 4
+133426393: 35: 		--- Mote: Intercept packet: hop: 1, pre_hop: 26, cur_id: 35
+133426471: 35: 
+133429228: 35: DATA packet intercept at node: 35, org: -1, hop: 1
+133519403: 5: 		--- Mote: Intercept packet: hop: 1, pre_hop: 14, cur_id: 5
+133519480: 5: 
+133522208: 5: DATA packet intercept at node: 5, org: 14, hop: 1
+135123930: 24: 		--- Mote: Intercept packet: hop: 1, pre_hop: 29, cur_id: 24
+135124008: 24: 
+135126851: 24: DATA packet intercept at node: 24, org: 29, hop: 1
+138529463: 13: 		--- Mote: Intercept packet: hop: 1, pre_hop: 32, cur_id: 13
+138529541: 13: 
+138532385: 13: DATA packet intercept at node: 13, org: 32, hop: 1
+138565131: 8: 		--- Mote: Intercept packet: hop: 1, pre_hop: 32, cur_id: 8
+138565208: 8: 
+138569432: 8: DATA packet intercept at node: 8, org: 32, hop: 1
+138635035: 16: 		--- Mote: Intercept packet: hop: 1, pre_hop: 32, cur_id: 16
+138635113: 16: 
+138639257: 16: DATA packet intercept at node: 16, org: 32, hop: 1
+140367467: 2: 		--- Mote: Intercept packet: hop: 13, pre_hop: 22, cur_id: 2
+140367545: 2: 
+140370531: 2: DATA packet intercept at node: 2, org: -175, hop: 13
+141544143: 8: 		--- Mote: Intercept packet: hop: 1, pre_hop: 32, cur_id: 8
+141544221: 8: 
+141546949: 8: DATA packet intercept at node: 8, org: 81, hop: 1
+141693248: 9: 		--- Mote: Intercept packet: hop: 9, pre_hop: 18, cur_id: 9
+141693326: 9: 
+141696440: 9: DATA packet intercept at node: 9, org: -30516, hop: 9
+142632836: 8: 		--- Mote: Intercept packet: hop: 2, pre_hop: 9, cur_id: 8
+142632913: 8: 
+142636434: 8: DATA packet intercept at node: 8, org: -1, hop: 2
+142693604: 29: 		--- Mote: Intercept packet: hop: 2, pre_hop: 9, cur_id: 29
+142693682: 29: 
+142694518: 28: 		--- Mote: Intercept packet: hop: 2, pre_hop: 19, cur_id: 28
+142694596: 28: 
+142696438: 29: DATA packet intercept at node: 29, org: -1, hop: 2
+142697425: 28: DATA packet intercept at node: 28, org: 81, hop: 2
+143419454: 8: 		--- Mote: Intercept packet: hop: 2, pre_hop: 3, cur_id: 8
+143419532: 8: 
+143422377: 8: DATA packet intercept at node: 8, org: 255, hop: 2
+143855164: 17: 		--- Mote: Intercept packet: hop: 1, pre_hop: 32, cur_id: 17
+143855242: 17: 
+143858086: 17: DATA packet intercept at node: 17, org: 32, hop: 1
+145680716: 9: 		--- Mote: Intercept packet: hop: 1, pre_hop: 4, cur_id: 9
+145680794: 9: 
+145683394: 9: DATA packet intercept at node: 9, org: 4, hop: 1
+154252610: 18: 		--- Mote: Intercept packet: hop: 2, pre_hop: 3, cur_id: 18
+154252687: 18: 
+154255516: 18: DATA packet intercept at node: 18, org: 15, hop: 2
+154463646: 3: 		--- Mote: Intercept packet: hop: 1, pre_hop: 26, cur_id: 3
+154463724: 3: 
+154466452: 3: DATA packet intercept at node: 3, org: 26, hop: 1
+156165746: 6: 		--- Mote: Intercept packet: hop: 1, pre_hop: 4, cur_id: 6
+156165824: 6: 
+156168423: 6: DATA packet intercept at node: 6, org: 4, hop: 1
+156355406: 5: 		--- Mote: Intercept packet: hop: 1, pre_hop: 7, cur_id: 5
+156355484: 5: 
+156358083: 5: DATA packet intercept at node: 5, org: 7, hop: 1
+157492375: 32: 		--- Mote: Intercept packet: hop: 1, pre_hop: 26, cur_id: 32
+157492453: 32: 
+157495474: 32: DATA packet intercept at node: 32, org: 26, hop: 1
+157629191: 35: 		--- Mote: Intercept packet: hop: 1, pre_hop: 4, cur_id: 35
+157629269: 35: 
+157631984: 35: DATA packet intercept at node: 35, org: 4, hop: 1
+160598838: 9: 		--- Mote: Intercept packet: hop: 1, pre_hop: 13, cur_id: 9
+160598916: 9: 
+160602512: 9: DATA packet intercept at node: 9, org: 13, hop: 1
+164077636: 28: 		--- Mote: Intercept packet: hop: 2, pre_hop: 5, cur_id: 28
+164077714: 28: 
+164080893: 28: DATA packet intercept at node: 28, org: 20833, hop: 2
+165054105: 28: 		--- Mote: Intercept packet: hop: 1, pre_hop: 33, cur_id: 28
+165054183: 28: 
+165057026: 28: DATA packet intercept at node: 28, org: 33, hop: 1
+166258424: 25: 		--- Mote: Intercept packet: hop: 1, pre_hop: 32, cur_id: 25
+166258502: 25: 
+166261447: 25: DATA packet intercept at node: 25, org: 255, hop: 1
+168649920: 19: 		--- Mote: Intercept packet: hop: 1, pre_hop: 32, cur_id: 19
+168649998: 19: 
+168652828: 19: DATA packet intercept at node: 19, org: 32, hop: 1
+172145038: 16: 		--- Mote: Intercept packet: hop: 2, pre_hop: 19, cur_id: 16
+172145116: 16: 
+172148824: 16: DATA packet intercept at node: 16, org: 81, hop: 2
+176135096: 32: 		--- Mote: Intercept packet: hop: 1, pre_hop: 30, cur_id: 32
+176135174: 32: 
+176138005: 32: DATA packet intercept at node: 32, org: 30, hop: 1
+176541277: 32: 		--- Mote: Intercept packet: hop: 2, pre_hop: 21, cur_id: 32
+176541355: 32: 
+176544186: 32: DATA packet intercept at node: 32, org: 36, hop: 2
+180743390: 11: 		--- Mote: Intercept packet: hop: 1, pre_hop: 8, cur_id: 11
+180743468: 11: 
+180746196: 11: DATA packet intercept at node: 11, org: 8, hop: 1
+181930363: 9: 		--- Mote: Intercept packet: hop: 1, pre_hop: 6, cur_id: 9
+181930441: 9: 
+181933313: 9: DATA packet intercept at node: 9, org: -175, hop: 1
+182665268: 11: 		--- Mote: Intercept packet: hop: 2, pre_hop: 21, cur_id: 11
+182665346: 11: 
+182668175: 11: DATA packet intercept at node: 11, org: 36, hop: 2
+182958369: 6: 		--- Mote: Intercept packet: hop: 1, pre_hop: 4, cur_id: 6
+182958447: 6: 
+182961102: 6: DATA packet intercept at node: 6, org: -1, hop: 1
+183201087: 35: 		--- Mote: Intercept packet: hop: 1, pre_hop: 26, cur_id: 35
+183201165: 35: 
+183202509: 15: 		--- Mote: Intercept packet: hop: 1, pre_hop: 26, cur_id: 15
+183202587: 15: 
+183203995: 35: DATA packet intercept at node: 35, org: 26, hop: 1
+183205528: 15: DATA packet intercept at node: 15, org: 26, hop: 1
+183256256: 21: 		--- Mote: Intercept packet: hop: 1, pre_hop: 26, cur_id: 21
+183256334: 21: 
+183260901: 21: DATA packet intercept at node: 21, org: 26, hop: 1
+183417916: 5: 		--- Mote: Intercept packet: hop: 1, pre_hop: 6, cur_id: 5
+183417994: 5: 
+183420593: 5: DATA packet intercept at node: 5, org: 6, hop: 1
+183840401: 17: 		--- Mote: Intercept packet: hop: 1, pre_hop: 26, cur_id: 17
+183840479: 17: 
+183843308: 17: DATA packet intercept at node: 17, org: 81, hop: 1
+184282868: 1: Timer fired on SINK, round: 3 
+186241810: 17: 		--- Mote: Intercept packet: hop: 1, pre_hop: 26, cur_id: 17
+186241888: 17: 
+186246487: 17: DATA packet intercept at node: 17, org: 26, hop: 1
+187826105: 19: 		--- Mote: Intercept packet: hop: 3, pre_hop: 23, cur_id: 19
+187826183: 19: 
+187828897: 19: DATA packet intercept at node: 19, org: 7, hop: 3
+187829822: 21: 		--- Mote: Intercept packet: hop: 3, pre_hop: 23, cur_id: 21
+187829900: 21: 
+187832726: 21: DATA packet intercept at node: 21, org: 7, hop: 3
+188716495: 35: 		--- Mote: Intercept packet: hop: 1, pre_hop: 33, cur_id: 35
+188716573: 35: 
+188718577: 15: 		--- Mote: Intercept packet: hop: 1, pre_hop: 33, cur_id: 15
+188718655: 15: 
+188719404: 35: DATA packet intercept at node: 35, org: 33, hop: 1
+188721597: 15: DATA packet intercept at node: 15, org: 33, hop: 1
+190368614: 5: 		--- Mote: Intercept packet: hop: 1, pre_hop: 4, cur_id: 5
+190368692: 5: 
+190371291: 5: DATA packet intercept at node: 5, org: 4, hop: 1
+192313321: 19: 		--- Mote: Intercept packet: hop: 1, pre_hop: 26, cur_id: 19
+192313399: 19: 
+192316242: 19: DATA packet intercept at node: 19, org: 26, hop: 1
+194086504: 15: 		--- Mote: Intercept packet: hop: 1, pre_hop: 13, cur_id: 15
+194086582: 15: 
+194090290: 15: DATA packet intercept at node: 15, org: 13, hop: 1
+195765366: 15: 		--- Mote: Intercept packet: hop: 3, pre_hop: 20, cur_id: 15
+195765443: 15: 
+195768450: 15: DATA packet intercept at node: 15, org: 36, hop: 3
+198047447: 35: 		--- Mote: Intercept packet: hop: 1, pre_hop: 29, cur_id: 35
+198047525: 35: 
+198050355: 35: DATA packet intercept at node: 35, org: 29, hop: 1
+198255619: 35: 		--- Mote: Intercept packet: hop: 1, pre_hop: 30, cur_id: 35
+198255697: 35: 
+198258528: 35: DATA packet intercept at node: 35, org: 30, hop: 1
+198651699: 28: 		--- Mote: Intercept packet: hop: 1, pre_hop: 26, cur_id: 28
+198651777: 28: 
+198654606: 28: DATA packet intercept at node: 28, org: 26, hop: 1
+201730480: 16: 		--- Mote: Intercept packet: hop: 1, pre_hop: 33, cur_id: 16
+201730999: 16: 
+201734822: 16: DATA packet intercept at node: 16, org: 255, hop: 1
+206795042: 28: 		--- Mote: Intercept packet: hop: 1, pre_hop: 29, cur_id: 28
+206795120: 28: 
+206797948: 28: DATA packet intercept at node: 28, org: 29, hop: 1
+222154568: 17: 		--- Mote: Intercept packet: hop: 1, pre_hop: 33, cur_id: 17
+222154646: 17: 
+222157476: 17: DATA packet intercept at node: 17, org: 33, hop: 1
+238389185: 16: 		--- Mote: Intercept packet: hop: 12, pre_hop: 25, cur_id: 16
+238389262: 16: 
+238392364: 16: DATA packet intercept at node: 16, org: -175, hop: 12
+244283845: 1: Timer fired on SINK, round: 4 
+251259779: 26: 		--- Mote: Intercept packet: hop: 2, pre_hop: 19, cur_id: 26
+251259856: 26: 
+251262612: 26: DATA packet intercept at node: 26, org: -1, hop: 2
+255642299: 20: 		--- Mote: Intercept packet: hop: 2, pre_hop: 3, cur_id: 20
+255642376: 20: 
+255645205: 20: DATA packet intercept at node: 20, org: 15, hop: 2
+259198619: 17: 		--- Mote: Intercept packet: hop: 1, pre_hop: 26, cur_id: 17
+259198697: 17: 
+259202754: 17: DATA packet intercept at node: 17, org: 20833, hop: 1
+264363107: 17: 		--- Mote: Intercept packet: hop: 3, pre_hop: 28, cur_id: 17
+264363185: 17: 
+264366014: 17: DATA packet intercept at node: 17, org: 36, hop: 3
+273255938: 19: 		--- Mote: Intercept packet: hop: 1, pre_hop: 13, cur_id: 19
+273256016: 19: 
+273258845: 19: DATA packet intercept at node: 19, org: 13, hop: 1
+274266601: 28: 		--- Mote: Intercept packet: hop: 2, pre_hop: 15, cur_id: 28
+274266679: 28: 
+274269509: 28: DATA packet intercept at node: 28, org: 30, hop: 2
+277779049: 17: 		--- Mote: Intercept packet: hop: 1, pre_hop: 26, cur_id: 17
+277779127: 17: 
+277781883: 17: DATA packet intercept at node: 17, org: -1, hop: 1
+304284821: 1: Timer fired on SINK, round: 5 
+325594849: 1: Sink Received: data: 5 8 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+325603670: 21: 		--- Mote: Intercept packet: hop: 1, pre_hop: 8, cur_id: 21
+325603748: 21: 
+325606462: 21: DATA packet intercept at node: 21, org: 8, hop: 1
+364285812: 1: Timer fired on SINK, round: 6 
+392717440: 3: 		--- Mote: Intercept packet: hop: 2, pre_hop: 5, cur_id: 3
+392717518: 3: 
+392720159: 3: DATA packet intercept at node: 3, org: -1, hop: 2
+393709604: 26: 		--- Mote: Intercept packet: hop: 1, pre_hop: 32, cur_id: 26
+393709682: 26: 
+393712511: 26: DATA packet intercept at node: 26, org: 32, hop: 1
+416883756: 3: 		--- Mote: Intercept packet: hop: 1, pre_hop: 13, cur_id: 3
+416883834: 3: 
+416886548: 3: DATA packet intercept at node: 3, org: 13, hop: 1
+421256676: 16: 		--- Mote: Intercept packet: hop: 3, pre_hop: 28, cur_id: 16
+421256754: 16: 
+421258290: 1: Sink Received: data: 6 4 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+421260462: 16: DATA packet intercept at node: 16, org: 36, hop: 3
+422945230: 4: Send: Mote 4 send message with counter: 2
+424286774: 1: Timer fired on SINK, round: 7 
+457228413: 21: 		--- Mote: Intercept packet: hop: 1, pre_hop: 12, cur_id: 21
+457228491: 21: 
+457231497: 21: DATA packet intercept at node: 21, org: 12, hop: 1
+467655844: 1: Sink Received: data: 7 14 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+469627733: 14: 		--- Mote: Intercept packet: hop: 2, pre_hop: 3, cur_id: 14
+469627811: 14: 
+469630640: 14: DATA packet intercept at node: 14, org: 15, hop: 2
+476199432: 23: 		--- Mote: Intercept packet: hop: 1, pre_hop: 13, cur_id: 23
+476199509: 23: 
+476202450: 23: DATA packet intercept at node: 23, org: 13, hop: 1
+484287751: 1: Timer fired on SINK, round: 8 
+492565817: 26: 		--- Mote: Intercept packet: hop: 2, pre_hop: 9, cur_id: 26
+492565895: 26: 
+492568725: 26: DATA packet intercept at node: 26, org: 30, hop: 2
+496793800: 26: 		--- Mote: Intercept packet: hop: 1, pre_hop: 32, cur_id: 26
+496793878: 26: 
+496796824: 26: DATA packet intercept at node: 26, org: 255, hop: 1
+507618230: 3: 		--- Mote: Intercept packet: hop: 13, pre_hop: 14, cur_id: 3
+507618308: 3: 
+507621176: 3: DATA packet intercept at node: 3, org: -1, hop: 13
+527494764: 14: Send: Mote 14 send message with counter: 2
+543849906: 26: 		--- Mote: Intercept packet: hop: 2, pre_hop: 3, cur_id: 26
+543849984: 26: 
+543852813: 26: DATA packet intercept at node: 26, org: 15, hop: 2
+544288728: 1: Timer fired on SINK, round: 9 
+545011152: 3: 		--- Mote: Intercept packet: hop: 2, pre_hop: 18, cur_id: 3
+545011230: 3: 
+545013945: 3: DATA packet intercept at node: 3, org: 36, hop: 2
+549245444: 22: 		--- Mote: Intercept packet: hop: 1, pre_hop: 6, cur_id: 22
+549245522: 22: 
+549249553: 22: DATA packet intercept at node: 22, org: 6, hop: 1
+553191610: 26: 		--- Mote: Intercept packet: hop: 1, pre_hop: 33, cur_id: 26
+553191688: 26: 
+553194518: 26: DATA packet intercept at node: 26, org: 33, hop: 1
+562221870: 23: 		--- Mote: Intercept packet: hop: 1, pre_hop: 31, cur_id: 23
+562221948: 23: 
+562225656: 23: DATA packet intercept at node: 23, org: 31, hop: 1
+563272366: 23: 		--- Mote: Intercept packet: hop: 1, pre_hop: 29, cur_id: 23
+563272444: 23: 
+563276593: 23: DATA packet intercept at node: 23, org: 29, hop: 1
+564226027: 26: 		--- Mote: Intercept packet: hop: 1, pre_hop: 8, cur_id: 26
+564226105: 26: 
+564228819: 26: DATA packet intercept at node: 26, org: 8, hop: 1
+571274432: 26: 		--- Mote: Intercept packet: hop: 13, pre_hop: 14, cur_id: 26
+571274510: 26: 
+571277395: 26: DATA packet intercept at node: 26, org: -1, hop: 13
+588431746: 16: 		--- Mote: Intercept packet: hop: 1, pre_hop: 33, cur_id: 16
+588431824: 16: 
+588435949: 16: DATA packet intercept at node: 16, org: 33, hop: 1
+604289819: 1: Timer fired on SINK, round: 10 
+654572704: 22: 		--- Mote: Intercept packet: hop: 4, pre_hop: 2, cur_id: 22
+654572782: 22: 
+654576222: 22: DATA packet intercept at node: 22, org: -175, hop: 4
+662132101: 1: Sink Received: data: 10 13 1 2 17 1 8704 2310 7935 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1
+664290809: 1: Timer fired on SINK, round: 11 
+673572052: 14: 		--- Mote: Intercept packet: hop: 13, pre_hop: 22, cur_id: 14
+673572130: 14: 
+673575880: 14: DATA packet intercept at node: 14, org: -1, hop: 13
+676267762: 1: Sink Received: data: 11 7 1 3 5 23 1 16151 16128 18 -3675 20833 -30581 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -30651
+684422172: 22: 		--- Mote: Intercept packet: hop: 3, pre_hop: 28, cur_id: 22
+684422250: 22: 
+684425959: 22: DATA packet intercept at node: 22, org: 36, hop: 3
+685815872: 21: 		--- Mote: Intercept packet: hop: 2, pre_hop: 24, cur_id: 21
+685815950: 21: 
+685819658: 21: DATA packet intercept at node: 21, org: 81, hop: 2
+697407288: 21: 		--- Mote: Intercept packet: hop: 3, pre_hop: 28, cur_id: 21
+697407366: 21: 
+697410651: 21: DATA packet intercept at node: 21, org: 36, hop: 3
+702903047: 16: 		--- Mote: Intercept packet: hop: 2, pre_hop: 17, cur_id: 16
+702903125: 16: 
+702907710: 16: DATA packet intercept at node: 16, org: 13, hop: 2
+723858192: 21: 		--- Mote: Intercept packet: hop: 2, pre_hop: 11, cur_id: 21
+723858270: 21: 
+723862093: 21: DATA packet intercept at node: 21, org: 255, hop: 2
+724291772: 1: Timer fired on SINK, round: 12 
+737937519: 23: 		--- Mote: Intercept packet: hop: 2, pre_hop: 19, cur_id: 23
+737937597: 23: 
+737940426: 23: DATA packet intercept at node: 23, org: 81, hop: 2
+759133644: 1: Sink Received: data: 12 36 1 2 16 1 2304 16151 513 30 9 1 9 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -30696
+766560298: 1: Sink Received: data: 12 24968 17 5 15 17 15 22 1 -23041 -1 -1 -1 -1 -1 -1 -1 -1 -256 255 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 255 -1 -1 -1 255
+777800338: 23: 		--- Mote: Intercept packet: hop: 2, pre_hop: 11, cur_id: 23
+777800416: 23: 
+777803171: 23: DATA packet intercept at node: 23, org: -1, hop: 2
+784292749: 1: Timer fired on SINK, round: 13 
+844293725: 1: Timer fired on SINK, round: 14 
+904294702: 1: Timer fired on SINK, round: 15 
+930438529: 1: Sink Received: data: 15 81 1 3 24968 15 1 5891 256 9216 4608 -256 4863 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 18722
+945827099: 28: 		--- Mote: Intercept packet: hop: 1, pre_hop: 13, cur_id: 28
+945827176: 28: 
+945829932: 28: DATA packet intercept at node: 28, org: -1, hop: 1
+964295692: 1: Timer fired on SINK, round: 16 
+1024296655: 1: Timer fired on SINK, round: 17 
+1047557180: 22: 		--- Mote: Intercept packet: hop: 2, pre_hop: 23, cur_id: 22
+1047557258: 22: 
+1047560087: 22: DATA packet intercept at node: 22, org: 13, hop: 2
+1049799840: 1: Sink Received: data: 17 6 1 2 22 1 24968 -29918 222 -9693 63 5893 256 9216 4232 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1
+1084297631: 1: Timer fired on SINK, round: 18 
+1101401099: 1: Sink Received: data: 18 30 1 2 9 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1
+1118725394: 1: Sink Received: data: 18 29 1 2 14 1 24968 -16094 18 4365 63 5889 256 3455 -256 256 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1
+1121285055: 14: 		--- Mote: Intercept packet: hop: 1, pre_hop: 31, cur_id: 14
+1121285133: 14: 
+1121288839: 14: DATA packet intercept at node: 14, org: 31, hop: 1
+1144298608: 1: Timer fired on SINK, round: 19 
+1204299584: 1: Timer fired on SINK, round: 20 
+1233030623: 1: Sink Received: data: 20 -175 255 5 24968 -1 2 22 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -23262
+1264300561: 1: Timer fired on SINK, round: 21 
+1324301538: 1: Timer fired on SINK, round: 22 
+1384302514: 1: Timer fired on SINK, round: 23 
+1444303491: 1: Timer fired on SINK, round: 24 
+1504304467: 1: Timer fired on SINK, round: 25 
+1564305444: 1: Timer fired on SINK, round: 26 
+1624306420: 1: Timer fired on SINK, round: 27 
+1673850878: 1: Sink Received: data: 27 -175 1 3 -1 4 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+1684307411: 1: Timer fired on SINK, round: 28 
+1744308373: 1: Timer fired on SINK, round: 29 
+1804309351: 1: Timer fired on SINK, round: 30 
+1864310328: 1: Timer fired on SINK, round: 31 
+1867534985: 1: Sink Received: data: 31 -1 1 3 -1 15 1 -1 -1 20833 -30465 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+1924311304: 1: Timer fired on SINK, round: 32 
+1956499502: 1: Sink Received: data: 32 13 1 3 23 22 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -256 0 0 0 255 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1
+1984312293: 1: Timer fired on SINK, round: 33 
+1984915438: 1: Sink Received: data: 33 22 2 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2
+1993425338: 1: Sink Received: data: 33 26 1 2 15 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 20833 -30465 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+2004006190: 1: Sink Received: data: 33 33 1 2 15 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 20991 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1
+2027531042: 1: Sink Received: data: 33 36 1 2 16 1 2304 16151 513 30 9 1 9 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -30696
+2037537258: 22: Send: Mote 22 send message with counter: 3
+2044313257: 1: Timer fired on SINK, round: 34 
+2104314234: 1: Timer fired on SINK, round: 35 
+2156255719: 1: Sink Received: data: 35 22 3 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3
+2164315211: 1: Timer fired on SINK, round: 36 
+2217107571: 22: Send: Mote 22 send message with counter: 4
+2224316187: 1: Timer fired on SINK, round: 37 
+2248920779: 1: Sink Received: data: 37 22 4 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4
+2284317164: 1: Timer fired on SINK, round: 38 
+2344318140: 1: Timer fired on SINK, round: 39 
+2381162258: 22: Send: Mote 22 send message with counter: 5
+2390115362: 1: Sink Received: data: 39 22 5 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5
+2404319116: 1: Timer fired on SINK, round: 40 
+2457037245: 22: Send: Mote 22 send message with counter: 6
+2464320092: 1: Timer fired on SINK, round: 41 
+2467691547: 1: Sink Received: data: 41 24968 17 4 15 17 16 1 8942 -23041 -1 -1 -1 -1 -1 -1 -1 -1 -256 255 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 255 -1 -1 -1 255
+2524321069: 1: Timer fired on SINK, round: 42 
+2584322046: 1: Timer fired on SINK, round: 43 
+2586395466: 1: Sink Received: data: 43 22 6 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6
+2621676969: 1: Sink Received: data: 43 7 1 1 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -256 -1 -256 -1 -1 -256 -1 -256 -1
+2623506693: 1: Sink Received: data: 43 13 1 2 23 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -256 0 0 0 255 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1
+2644124158: 22: Send: Mote 22 send message with counter: 7
+2644323022: 1: Timer fired on SINK, round: 44 
+2678826486: 1: Sink Received: data: 44 30 1 2 21 1 -1 -1 -1 -1 -1 -1 -175 24968 30498 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 255
+2704323999: 1: Timer fired on SINK, round: 45 
+2764324975: 1: Timer fired on SINK, round: 46 
+2768902877: 1: Sink Received: data: 46 22 7 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7
+2796034437: 22: Send: Mote 22 send message with counter: 8
+2824325952: 1: Timer fired on SINK, round: 47 
+2843098342: 1: Sink Received: data: 47 15 2 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2
+2884172656: 1: Sink Received: data: 47 22 8 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8
+2884326928: 1: Timer fired on SINK, round: 48 
+2890131880: 25: 		--- Mote: Intercept packet: hop: 1, pre_hop: 22, cur_id: 25
+2890131958: 25: 
+2890134787: 25: DATA packet intercept at node: 25, org: 22, hop: 1
+2923571987: 1: Sink Received: data: 48 36 1 4 18 28 14 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -256 0 0 0 122 17 97 136 185 34 0 255 254 24 0 255
+2944327905: 1: Timer fired on SINK, round: 49 
+3004328980: 1: Timer fired on SINK, round: 50 
+3046612922: 15: Send: Mote 15 send message with counter: 3
+3057528455: 22: Send: Mote 22 send message with counter: 9
+3064329859: 1: Timer fired on SINK, round: 51 
+3089291836: 20: 		--- Mote: Intercept packet: hop: 1, pre_hop: 22, cur_id: 20
+3089291914: 20: 
+3089295007: 20: DATA packet intercept at node: 20, org: 22, hop: 1
+3089296641: 1: Sink Received: data: 51 22 9 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9
+3121206461: 1: Sink Received: data: 51 15 3 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3
+3124330836: 1: Timer fired on SINK, round: 52 
+3182401971: 15: Send: Mote 15 send message with counter: 4
+3184331812: 1: Timer fired on SINK, round: 53 
+3189234360: 1: Sink Received: data: 53 15 4 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4
+3243521748: 22: Send: Mote 22 send message with counter: 10
+3244332789: 1: Timer fired on SINK, round: 54 
+3301915889: 1: Sink Received: data: 54 22 10 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10
+3304333779: 1: Timer fired on SINK, round: 55 
+3356475837: 22: Send: Mote 22 send message with counter: 11
+3364335190: 1: Timer fired on SINK, round: 56 
+3404289033: 1: Sink Received: data: 56 7 1 2 5 1 4608 16151 16128 18 -3675 20833 -30581 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -30651
+3424336695: 1: Timer fired on SINK, round: 57 
+3454533758: 1: Sink Received: data: 57 22 11 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11
+3484337672: 1: Timer fired on SINK, round: 58 
+3522895149: 15: Send: Mote 15 send message with counter: 5
+3544338648: 1: Timer fired on SINK, round: 59 
+3604339638: 1: Timer fired on SINK, round: 60 
+3664340601: 1: Timer fired on SINK, round: 61 
+3690543637: 1: Sink Received: data: 61 15 5 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5
+3717101191: 15: Send: Mote 15 send message with counter: 6
+3724341578: 1: Timer fired on SINK, round: 62 
+3735132960: 1: Sink Received: data: 62 31 1 2 23 1 0 0 0 0 0 0 0 20833 -30525 8704 -7457 2816 16151 769 36 11 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1
+3784342554: 1: Timer fired on SINK, round: 63 
+3786611894: 1: Sink Received: data: 63 15 1 2 3 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+3789041234: 1: Sink Received: data: 63 29 1 2 23 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 20833 -30555 8704 -7169 -1 -1 -1 -1 -1 255
+3844343531: 1: Timer fired on SINK, round: 64 
+3904344521: 1: Timer fired on SINK, round: 65 
+3955141050: 1: Sink Received: data: 65 32 1 2 16 1 -1 -1 20833 -30591 8704 11564 1536 16151 257 6 32767 255 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1
+3964345484: 1: Timer fired on SINK, round: 66 
+4022902593: 22: Send: Mote 22 send message with counter: 12
+4024346460: 1: Timer fired on SINK, round: 67 
+4074295364: 1: Sink Received: data: 67 15 6 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6
+4084347437: 1: Timer fired on SINK, round: 68 
+4111558441: 1: Sink Received: data: 68 22 12 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12
+4130887322: 15: Send: Mote 15 send message with counter: 7
+4144348669: 1: Timer fired on SINK, round: 69 
+4204350380: 1: Timer fired on SINK, round: 70 
+4243908454: 22: Send: Mote 22 send message with counter: 13
+4256009716: 1: Sink Received: data: 70 30 1 2 9 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1
+4264351344: 1: Timer fired on SINK, round: 71 
+4275232562: 1: Sink Received: data: 71 15 7 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7
+4290035788: 1: Sink Received: data: 71 22 13 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13
+4324352321: 1: Timer fired on SINK, round: 72 
+4367042597: 15: Send: Mote 15 send message with counter: 8
+4370822167: 1: Sink Received: data: 72 15 8 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8
+4384353297: 1: Timer fired on SINK, round: 73 
+4413018595: 1: Sink Received: data: 73 81 1 3 24968 16 1 5889 256 7807 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 26146
+4430375604: 15: Send: Mote 15 send message with counter: 9
+4443988277: 1: Sink Received: data: 73 255 1 2 16 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+4444354274: 1: Timer fired on SINK, round: 74 
+4471232597: 1: Sink Received: data: 74 15 9 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9
+4484836657: 15: Send: Mote 15 send message with counter: 10
+4504355250: 1: Timer fired on SINK, round: 75 
+4513759733: 1: Sink Received: data: 75 36 1 4 18 28 16 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -256 0 0 0 122 17 97 136 185 34 0 255 254 24 0 255
+4527183236: 1: Sink Received: data: 75 33 1 2 16 1 -1 -1 -1 -1 -1 -1 -4 9553 24968 5410 238 -4834 63 5889 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1
+4564356227: 1: Timer fired on SINK, round: 76 
+4624357204: 1: Timer fired on SINK, round: 77 
+4662926009: 1: Sink Received: data: 77 15 10 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10
+4674682360: 15: Send: Mote 15 send message with counter: 11
+4684358180: 1: Timer fired on SINK, round: 78 
+4708161642: 1: Sink Received: data: 78 30 1 3 9 17 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1
+4744359157: 1: Timer fired on SINK, round: 79 
+4804360131: 1: Timer fired on SINK, round: 80 
+4864361108: 1: Timer fired on SINK, round: 81 
+4924362084: 1: Timer fired on SINK, round: 82 
+4943148833: 1: Sink Received: data: 82 15 11 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11
+4958822984: 15: Send: Mote 15 send message with counter: 12
+4976140951: 1: Sink Received: data: 82 15 12 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12
+4984363061: 1: Timer fired on SINK, round: 83 
+5002235379: 1: Sink Received: data: 83 29 1 2 23 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 20833 -30555 8704 -7169 -1 -1 -1 -1 -1 255
+5014277313: 1: Sink Received: data: 83 22 13 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13
+5034972412: 15: Send: Mote 15 send message with counter: 13
+5044364038: 1: Timer fired on SINK, round: 84 
+5047360613: 1: Sink Received: data: 84 15 13 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13
+5095429441: 15: Send: Mote 15 send message with counter: 14
+5104365014: 1: Timer fired on SINK, round: 85 
+5152760017: 22: Send: Mote 22 send message with counter: 14
+5164365991: 1: Timer fired on SINK, round: 86 
+5185147479: 1: Sink Received: data: 86 81 1 3 24968 23 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -25857
+5192085557: 1: Sink Received: data: 86 15 14 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14
+5200609118: 15: Send: Mote 15 send message with counter: 15
+5224366981: 1: Timer fired on SINK, round: 87 
+5232387403: 1: Sink Received: data: 87 22 14 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14
+5232404878: 1: Sink Received: data: 87 36 1 2 11 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -256 0 0 0 122 17 97 136 185 34 0 255 254 24 0 255
+5261643421: 1: Sink Received: data: 87 13 1 3 17 16 1 2559 -1 -1 -1 -1 -1 -1 -1 -1 -1 20833 -30652 8704 -10 4864 16151 769 7 255 -1 -1 -1 -1 -1 -1 -1 -1 1
+5262292897: 22: Send: Mote 22 send message with counter: 15
+5284367944: 1: Timer fired on SINK, round: 88 
+5311099191: 1: Sink Received: data: 88 15 15 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15
+5319009522: 15: Send: Mote 15 send message with counter: 16
+5342252524: 1: Sink Received: data: 88 22 15 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15
+5344070938: 1: Sink Received: data: 88 15 16 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16
+5344368920: 1: Timer fired on SINK, round: 89 
+5397220445: 15: Send: Mote 15 send message with counter: 17
+5404369898: 1: Timer fired on SINK, round: 90 
+5464370875: 1: Timer fired on SINK, round: 91 
+5486784320: 1: Sink Received: data: 91 15 17 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17
+5507140368: 15: Send: Mote 15 send message with counter: 18
+5524371865: 1: Timer fired on SINK, round: 92 
+5573047202: 22: Send: Mote 22 send message with counter: 16
+5584372828: 1: Timer fired on SINK, round: 93 
+5636258409: 1: Sink Received: data: 93 15 18 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18
+5643725329: 15: Send: Mote 15 send message with counter: 19
+5644373804: 1: Timer fired on SINK, round: 94 
+5646210114: 1: Sink Received: data: 94 255 1 3 -1 25 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -256 -1
+5671447719: 1: Sink Received: data: 94 22 16 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16
+5671496290: 1: Sink Received: data: 94 -1 1 3 -1 23 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+5682683963: 1: Sink Received: data: 94 23 2 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2
+5696787359: 22: Send: Mote 22 send message with counter: 17
+5704374781: 1: Timer fired on SINK, round: 95 
+5731179708: 1: Sink Received: data: 95 22 17 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17
+5739197515: 22: Send: Mote 22 send message with counter: 18
+5761320811: 1: Sink Received: data: 95 15 19 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19
+5764375757: 1: Timer fired on SINK, round: 96 
+5773913647: 1: Sink Received: data: 96 16 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+5774217747: 1: Sink Received: data: 96 22 18 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18
+5809233653: 16: Send: Mote 16 send message with counter: 2
+5819520020: 1: Sink Received: data: 96 16 2 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2
+5824376734: 1: Timer fired on SINK, round: 97 
+5847638855: 1: Sink Received: data: 97 30 1 3 9 17 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1
+5884377711: 1: Timer fired on SINK, round: 98 
+5915903062: 15: Send: Mote 15 send message with counter: 20
+5944378687: 1: Timer fired on SINK, round: 99 
+5988004940: 1: Sink Received: data: 99 36 1 4 18 28 14 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -256 0 0 0 122 17 97 136 185 34 0 255 254 24 0 255
+5992706310: 16: Send: Mote 16 send message with counter: 3
+6002258287: 1: Sink Received: data: 99 15 20 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20
+6002565724: 1: Sink Received: data: 99 7 1 2 5 1 -1 -1 -1 -1 -1 -1 -1 -175 24968 28194 255 -509 63 5891 256 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+6004379779: 1: Timer fired on SINK, round: 100 
+6048383531: 15: Send: Mote 15 send message with counter: 21
+6064380755: 1: Timer fired on SINK, round: 101 
+6124381732: 1: Timer fired on SINK, round: 102 
+6184382708: 1: Timer fired on SINK, round: 103 
+6244383689: 1: Timer fired on SINK, round: 104 
+6265092201: 1: Sink Received: data: 104 16 3 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3
+6304384661: 1: Timer fired on SINK, round: 105 
+6337191287: 1: Sink Received: data: 105 32 1 2 17 1 81 24968 21538 52 13064 63 5889 256 2175 -256 256 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 1
+6364385638: 1: Timer fired on SINK, round: 106 
+6424386614: 1: Timer fired on SINK, round: 107 
+6458724181: 1: Sink Received: data: 107 15 21 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21
+6477376695: 15: Send: Mote 15 send message with counter: 22
+6484387591: 1: Timer fired on SINK, round: 108 
+6544388581: 1: Timer fired on SINK, round: 109 
+TEST TIMEOUT
+TEST FAILED
+Test ended at simulation time: 6600000000

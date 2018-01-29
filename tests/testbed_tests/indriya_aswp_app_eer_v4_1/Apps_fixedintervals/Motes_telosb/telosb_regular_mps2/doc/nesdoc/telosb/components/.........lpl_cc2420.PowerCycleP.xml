@@ -1,0 +1,229 @@
+<?xml version="1.0" ?><component loc="64:../../../lpl_cc2420/PowerCycleP.nc" nicename=".........lpl_cc2420.PowerCycleP" qname="PowerCycleP">
+      <documentation loc="32:../../../lpl_cc2420/DefaultLpl.h">
+        <short>
+ </short>
+        <long>
+ @author David Moss
+ @author Tony O'Donovan
+</long>
+      </documentation>
+      <module/>
+    <specification><interface loc="67:../../../lpl_cc2420/PowerCycleP.nc" name="SplitControl" provided="1" ref="0x410c3708">
+      <component-ref nicename=".........lpl_cc2420.PowerCycleP" qname="PowerCycleP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="SplitControl" ref="0x410c3708" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.SplitControl" qname="SplitControl"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="startDone" ref="0x410c38e0" scoped=""/>
+        <function-ref name="stopDone" ref="0x410c39c0" scoped=""/>
+        <function-ref name="start" ref="0x410c3aa0" scoped=""/>
+        <function-ref name="stop" ref="0x410c3b80" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="122:../../../lpl_cc2420/PowerCycleP.nc" name="stopRadio" provided="0" ref="0x410f5010">
+      <component-ref nicename=".........lpl_cc2420.PowerCycleP" qname="PowerCycleP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="stopRadio" ref="0x410f5010" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.TaskBasic" qname="TaskBasic"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="postTask" ref="0x410f51e8" scoped=""/>
+        <function-ref name="runTask" ref="0x410f52c8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="81:../../../lpl_cc2420/PowerCycleP.nc" name="EnergyIndicator" provided="0" ref="0x410faa90">
+      <component-ref nicename=".........lpl_cc2420.PowerCycleP" qname="PowerCycleP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="EnergyIndicator" ref="0x410faa90" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.chips.cc2420.interfaces.ReceiveIndicator" qname="ReceiveIndicator"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="isReceiving" ref="0x410fac68" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="86:../../../lpl_cc2420/PowerCycleP.nc" name="LocalTime" provided="0" ref="0x410f97d8">
+      <component-ref nicename=".........lpl_cc2420.PowerCycleP" qname="PowerCycleP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="LocalTime" ref="0x410f97d8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.LocalTime" qname="LocalTime"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x40035cf8"/>
+            <typename><typedef-ref name="TMilli" ref="0x405e1108"/></typename>
+          </type-tag>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="get" ref="0x410f9ea0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="88:../../../lpl_cc2420/PowerCycleP.nc" name="Random" provided="0" ref="0x410f7108">
+      <component-ref nicename=".........lpl_cc2420.PowerCycleP" qname="PowerCycleP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Random" ref="0x410f7108" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Random" qname="Random"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="rand16" ref="0x410f72e0" scoped=""/>
+        <function-ref name="rand32" ref="0x410f73c0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="79:../../../lpl_cc2420/PowerCycleP.nc" name="SendState" provided="0" ref="0x410fb588">
+      <component-ref nicename=".........lpl_cc2420.PowerCycleP" qname="PowerCycleP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="SendState" ref="0x410fb588" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.State" qname="State"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getState" ref="0x410fb760" scoped=""/>
+        <function-ref name="toIdle" ref="0x410fb840" scoped=""/>
+        <function-ref name="isState" ref="0x410fb920" scoped=""/>
+        <function-ref name="isIdle" ref="0x410fba00" scoped=""/>
+        <function-ref name="requestState" ref="0x410fbae0" scoped=""/>
+        <function-ref name="forceState" ref="0x410fbbc0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="123:../../../lpl_cc2420/PowerCycleP.nc" name="startRadio" provided="0" ref="0x410f5830">
+      <component-ref nicename=".........lpl_cc2420.PowerCycleP" qname="PowerCycleP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="startRadio" ref="0x410f5830" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.TaskBasic" qname="TaskBasic"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="postTask" ref="0x410f5a08" scoped=""/>
+        <function-ref name="runTask" ref="0x410f5ae8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="76:../../../lpl_cc2420/PowerCycleP.nc" name="SubControl" provided="0" ref="0x410c0cd0">
+      <component-ref nicename=".........lpl_cc2420.PowerCycleP" qname="PowerCycleP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="SubControl" ref="0x410c0cd0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.SplitControl" qname="SplitControl"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="startDone" ref="0x410c0ea8" scoped=""/>
+        <function-ref name="stopDone" ref="0x410bf010" scoped=""/>
+        <function-ref name="start" ref="0x410bf0f0" scoped=""/>
+        <function-ref name="stop" ref="0x410bf1d0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="77:../../../lpl_cc2420/PowerCycleP.nc" name="RadioPowerState" provided="0" ref="0x410bf400">
+      <component-ref nicename=".........lpl_cc2420.PowerCycleP" qname="PowerCycleP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="RadioPowerState" ref="0x410bf400" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.State" qname="State"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getState" ref="0x410bf5d8" scoped=""/>
+        <function-ref name="toIdle" ref="0x410bf6b8" scoped=""/>
+        <function-ref name="isState" ref="0x410bf798" scoped=""/>
+        <function-ref name="isIdle" ref="0x410bf878" scoped=""/>
+        <function-ref name="requestState" ref="0x410bf958" scoped=""/>
+        <function-ref name="forceState" ref="0x410bfa38" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="83:../../../lpl_cc2420/PowerCycleP.nc" name="PacketIndicator" provided="0" ref="0x410f9380">
+      <component-ref nicename=".........lpl_cc2420.PowerCycleP" qname="PowerCycleP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="PacketIndicator" ref="0x410f9380" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.chips.cc2420.interfaces.ReceiveIndicator" qname="ReceiveIndicator"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="isReceiving" ref="0x410f9558" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="71:../../../lpl_cc2420/PowerCycleP.nc" name="TrafficMonitor" provided="1" ref="0x410c3d70">
+      <component-ref nicename=".........lpl_cc2420.PowerCycleP" qname="PowerCycleP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="TrafficMonitor" ref="0x410c3d70" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename=".........lpl_cc2420.TrafficMonitor" qname="TrafficMonitor"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getTxErrors" ref="0x410c2010" scoped=""/>
+        <function-ref name="getCurrentTime_ActiveTime" ref="0x410c20f0" scoped=""/>
+        <function-ref name="getRxMessages" ref="0x410c21d0" scoped=""/>
+        <function-ref name="getCurrentTime" ref="0x410c22b0" scoped=""/>
+        <function-ref name="getStartCount" ref="0x410c2390" scoped=""/>
+        <function-ref name="getActiveTime" ref="0x410c2470" scoped=""/>
+        <function-ref name="getTxMessages" ref="0x410c2550" scoped=""/>
+        <function-ref name="getRxBytes" ref="0x410c2630" scoped=""/>
+        <function-ref name="getTxBytes" ref="0x410c2710" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="80:../../../lpl_cc2420/PowerCycleP.nc" name="Leds" provided="0" ref="0x410fbd30">
+      <component-ref nicename=".........lpl_cc2420.PowerCycleP" qname="PowerCycleP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Leds" ref="0x410fbd30" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Leds" qname="Leds"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="led0Off" ref="0x410fbf08" scoped=""/>
+        <function-ref name="led0Toggle" ref="0x410fa010" scoped=""/>
+        <function-ref name="led1On" ref="0x410fa0f0" scoped=""/>
+        <function-ref name="led1Toggle" ref="0x410fa1d0" scoped=""/>
+        <function-ref name="led2Toggle" ref="0x410fa2b0" scoped=""/>
+        <function-ref name="get" ref="0x410fa390" scoped=""/>
+        <function-ref name="led1Off" ref="0x410fa470" scoped=""/>
+        <function-ref name="led2Off" ref="0x410fa7f0" scoped=""/>
+        <function-ref name="set" ref="0x410fa550" scoped=""/>
+        <function-ref name="led0On" ref="0x410fa630" scoped=""/>
+        <function-ref name="led2On" ref="0x410fa710" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="124:../../../lpl_cc2420/PowerCycleP.nc" name="getCca" provided="0" ref="0x410f4010">
+      <component-ref nicename=".........lpl_cc2420.PowerCycleP" qname="PowerCycleP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="getCca" ref="0x410f4010" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.TaskBasic" qname="TaskBasic"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="postTask" ref="0x410f41e8" scoped=""/>
+        <function-ref name="runTask" ref="0x410f42c8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="78:../../../lpl_cc2420/PowerCycleP.nc" name="SplitControlState" provided="0" ref="0x410bfc80">
+      <component-ref nicename=".........lpl_cc2420.PowerCycleP" qname="PowerCycleP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="SplitControlState" ref="0x410bfc80" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.State" qname="State"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getState" ref="0x410bfe58" scoped=""/>
+        <function-ref name="toIdle" ref="0x410fb010" scoped=""/>
+        <function-ref name="isState" ref="0x410fb0f0" scoped=""/>
+        <function-ref name="isIdle" ref="0x410fb1d0" scoped=""/>
+        <function-ref name="requestState" ref="0x410fb2b0" scoped=""/>
+        <function-ref name="forceState" ref="0x410fb390" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="75:../../../lpl_cc2420/PowerCycleP.nc" name="OnTimer" provided="0" ref="0x410c2a00">
+      <component-ref nicename=".........lpl_cc2420.PowerCycleP" qname="PowerCycleP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="OnTimer" ref="0x410c2a00" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x40035cf8"/>
+            <typename><typedef-ref name="TMilli" ref="0x405e1108"/></typename>
+          </type-tag>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x410c0508" scoped=""/>
+        <function-ref name="fired" ref="0x410c17a0" scoped=""/>
+        <function-ref name="startPeriodicAt" ref="0x410c1ea8" scoped=""/>
+        <function-ref name="isOneShot" ref="0x410c1c50" scoped=""/>
+        <function-ref name="getdt" ref="0x410c09b8" scoped=""/>
+        <function-ref name="gett0" ref="0x410c0760" scoped=""/>
+        <function-ref name="isRunning" ref="0x410c19f8" scoped=""/>
+        <function-ref name="startPeriodic" ref="0x410c1048" scoped=""/>
+        <function-ref name="startOneShotAt" ref="0x410c01e8" scoped=""/>
+        <function-ref name="startOneShot" ref="0x410c12c8" scoped=""/>
+        <function-ref name="stop" ref="0x410c1548" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="66:../../../lpl_cc2420/PowerCycleP.nc" name="PowerCycle" provided="1" ref="0x410c31b0">
+      <component-ref nicename=".........lpl_cc2420.PowerCycleP" qname="PowerCycleP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="PowerCycle" ref="0x410c31b0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.chips.cc2420.interfaces.PowerCycle" qname="PowerCycle"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getSleepInterval" ref="0x410c3388" scoped=""/>
+        <function-ref name="detected" ref="0x410c3468" scoped=""/>
+        <function-ref name="setSleepInterval" ref="0x410c3548" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="82:../../../lpl_cc2420/PowerCycleP.nc" name="ByteIndicator" provided="0" ref="0x410faef8">
+      <component-ref nicename=".........lpl_cc2420.PowerCycleP" qname="PowerCycleP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="ByteIndicator" ref="0x410faef8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.chips.cc2420.interfaces.ReceiveIndicator" qname="ReceiveIndicator"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="isReceiving" ref="0x410f90e0" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced/></component>

@@ -1,0 +1,81 @@
+<?xml version="1.0" ?><component loc="49:/opt/tinyos-2.1.2/tos/chips/atm128/i2c/HplAtm128I2CBusP.nc" nicename="tos.chips.atm128.i2c.HplAtm128I2CBusP" qname="HplAtm128I2CBusP">
+      <documentation loc="39:/opt/tinyos-2.1.2/tos/chips/atm128/i2c/HplAtm128I2CBusP.nc">
+        <short>
+ This driver implements direct I2C register access and a blocking master
+ controller for the ATmega128 via a Hardware Platform Layer (HPL) to its  
+ two-wire-interface (TWI) hardware subsystem.</short>
+        <long>
+ This driver implements direct I2C register access and a blocking master
+ controller for the ATmega128 via a Hardware Platform Layer (HPL) to its  
+ two-wire-interface (TWI) hardware subsystem.
+
+ @author Martin Turon &lt;mturon@xbow.com&gt;
+ @author Philip Levis
+
+ @version $Id: HplAtm128I2CBusP.nc,v 1.5 2010-06-29 22:07:43 scipio Exp $
+</long>
+      </documentation>
+      <module/>
+    <specification><interface loc="50:/opt/tinyos-2.1.2/tos/chips/atm128/i2c/HplAtm128I2CBusP.nc" name="I2C" provided="1" ref="0x412c3380">
+      <component-ref nicename="tos.chips.atm128.i2c.HplAtm128I2CBusP" qname="HplAtm128I2CBusP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="I2C" ref="0x412c3380" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.chips.atm128.i2c.HplAtm128I2CBus" qname="HplAtm128I2CBus"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="readCurrent" ref="0x412c3558" scoped=""/>
+        <function-ref name="sendCommand" ref="0x412c3638" scoped=""/>
+        <function-ref name="setStart" ref="0x412c3718" scoped=""/>
+        <function-ref name="status" ref="0x412c37f8" scoped=""/>
+        <function-ref name="hasAcks" ref="0x412c38d8" scoped=""/>
+        <function-ref name="isEnabled" ref="0x412c39b8" scoped=""/>
+        <function-ref name="enableInterrupt" ref="0x412c3a98" scoped=""/>
+        <function-ref name="read" ref="0x412c3b78" scoped=""/>
+        <function-ref name="init" ref="0x412c3c58" scoped=""/>
+        <function-ref name="enableAck" ref="0x412c3d38" scoped=""/>
+        <function-ref name="isInterruptEnabled" ref="0x412c3e18" scoped=""/>
+        <function-ref name="hasStart" ref="0x412c3ef8" scoped=""/>
+        <function-ref name="isInterruptPending" ref="0x412c2010" scoped=""/>
+        <function-ref name="commandComplete" ref="0x412c2170" scoped=""/>
+        <function-ref name="enable" ref="0x412c2250" scoped=""/>
+        <function-ref name="write" ref="0x412c2330" scoped=""/>
+        <function-ref name="isRealInterruptPending" ref="0x412c2410" scoped=""/>
+        <function-ref name="off" ref="0x412c24f0" scoped=""/>
+        <function-ref name="setStop" ref="0x412c25d0" scoped=""/>
+        <function-ref name="setInterruptPending" ref="0x412c26b0" scoped=""/>
+        <function-ref name="hasWriteCollided" ref="0x412c2790" scoped=""/>
+        <function-ref name="hasStop" ref="0x412c2870" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="53:/opt/tinyos-2.1.2/tos/chips/atm128/i2c/HplAtm128I2CBusP.nc" name="I2CClk" provided="0" ref="0x412c2aa0">
+      <component-ref nicename="tos.chips.atm128.i2c.HplAtm128I2CBusP" qname="HplAtm128I2CBusP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="I2CClk" ref="0x412c2aa0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x412c2c78" scoped=""/>
+        <function-ref name="isInput" ref="0x412c2d58" scoped=""/>
+        <function-ref name="toggle" ref="0x412c2e38" scoped=""/>
+        <function-ref name="isOutput" ref="0x412c2f18" scoped=""/>
+        <function-ref name="get" ref="0x412c1010" scoped=""/>
+        <function-ref name="makeOutput" ref="0x412c10f0" scoped=""/>
+        <function-ref name="set" ref="0x412c11d0" scoped=""/>
+        <function-ref name="clr" ref="0x412c12b0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="54:/opt/tinyos-2.1.2/tos/chips/atm128/i2c/HplAtm128I2CBusP.nc" name="I2CData" provided="0" ref="0x412c14b8">
+      <component-ref nicename="tos.chips.atm128.i2c.HplAtm128I2CBusP" qname="HplAtm128I2CBusP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="I2CData" ref="0x412c14b8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x412c1690" scoped=""/>
+        <function-ref name="isInput" ref="0x412c1770" scoped=""/>
+        <function-ref name="toggle" ref="0x412c1850" scoped=""/>
+        <function-ref name="isOutput" ref="0x412c1930" scoped=""/>
+        <function-ref name="get" ref="0x412c1a10" scoped=""/>
+        <function-ref name="makeOutput" ref="0x412c1af0" scoped=""/>
+        <function-ref name="set" ref="0x412c1bd0" scoped=""/>
+        <function-ref name="clr" ref="0x412c1cb0" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced/></component>

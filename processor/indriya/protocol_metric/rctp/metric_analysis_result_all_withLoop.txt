@@ -1,0 +1,3 @@
+test	entropy_avg	std	metric	std
+Rctp-1	3.1868	0.0688	1.4547	0.0809
+

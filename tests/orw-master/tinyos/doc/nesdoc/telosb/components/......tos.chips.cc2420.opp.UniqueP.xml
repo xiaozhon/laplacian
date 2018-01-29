@@ -1,0 +1,111 @@
+<?xml version="1.0" ?><component loc="43:../../tos/chips/cc2420/opp/UniqueP.nc" nicename="......tos.chips.cc2420.opp.UniqueP" qname="UniqueP">
+      <documentation loc="33:../../tos/chips/cc2420/opp/UniqueP.nc">
+        <short> 
+ This layer keeps a history of the past RECEIVE_HISTORY_SIZE received messages
+ If the source address and dsn number of a newly received message matches
+ our recent history, we drop the message because we've already seen it.</short>
+        <long> 
+ This layer keeps a history of the past RECEIVE_HISTORY_SIZE received messages
+ If the source address and dsn number of a newly received message matches
+ our recent history, we drop the message because we've already seen it.
+ @author David Moss
+ @author Olaf Landsiedel
+</long>
+      </documentation>
+      <module/>
+    <specification><interface loc="50:../../tos/chips/cc2420/opp/UniqueP.nc" name="SubReceive" provided="0" ref="0x41046780">
+      <component-ref nicename="......tos.chips.cc2420.opp.UniqueP" qname="UniqueP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="SubReceive" ref="0x41046780" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Receive" qname="Receive"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="receive" ref="0x41046958" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="51:../../tos/chips/cc2420/opp/UniqueP.nc" name="OppPacket" provided="0" ref="0x41046af8">
+      <component-ref nicename="......tos.chips.cc2420.opp.UniqueP" qname="UniqueP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="OppPacket" ref="0x41046af8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="......tos.chips.cc2420.interfaces.OppPacket" qname="OppPacket"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="setPull" ref="0x41046cd0" scoped=""/>
+        <function-ref name="getSeqNum" ref="0x41046db0" scoped=""/>
+        <function-ref name="init" ref="0x41046e90" scoped=""/>
+        <function-ref name="setSource" ref="0x41045010" scoped=""/>
+        <function-ref name="setSeqNum" ref="0x410450f0" scoped=""/>
+        <function-ref name="getTtl" ref="0x410451d0" scoped=""/>
+        <function-ref name="getSource" ref="0x410452b0" scoped=""/>
+        <function-ref name="setTtl" ref="0x41045390" scoped=""/>
+        <function-ref name="isPull" ref="0x41045470" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="52:../../tos/chips/cc2420/opp/UniqueP.nc" name="OppDebug" provided="0" ref="0x41045608">
+      <component-ref nicename="......tos.chips.cc2420.opp.UniqueP" qname="UniqueP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="OppDebug" ref="0x41045608" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="......tos.chips.cc2420.interfaces.OppDebug" qname="OppDebug"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="logEvent" ref="0x410457e0" scoped=""/>
+        <function-ref name="logEventMsg" ref="0x410458c0" scoped=""/>
+        <function-ref name="logEventSimple" ref="0x410459a0" scoped=""/>
+        <function-ref name="logEventRoute" ref="0x41045a80" scoped=""/>
+        <function-ref name="logEventDbg" ref="0x41045b60" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="46:../../tos/chips/cc2420/opp/UniqueP.nc" name="Init" provided="1" ref="0x41046358">
+      <component-ref nicename="......tos.chips.cc2420.opp.UniqueP" qname="UniqueP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Init" ref="0x41046358" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x41046530" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="45:../../tos/chips/cc2420/opp/UniqueP.nc" name="Receive" provided="1" ref="0x41046010">
+      <component-ref nicename="......tos.chips.cc2420.opp.UniqueP" qname="UniqueP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Receive" ref="0x41046010" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Receive" qname="Receive"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="receive" ref="0x410461e8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="54:../../tos/chips/cc2420/opp/UniqueP.nc" name="Leds" provided="0" ref="0x41044960">
+      <component-ref nicename="......tos.chips.cc2420.opp.UniqueP" qname="UniqueP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Leds" ref="0x41044960" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Leds" qname="Leds"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="led0Off" ref="0x41044b38" scoped=""/>
+        <function-ref name="led0Toggle" ref="0x41044c18" scoped=""/>
+        <function-ref name="led1On" ref="0x41044cf8" scoped=""/>
+        <function-ref name="led1Toggle" ref="0x41044dd8" scoped=""/>
+        <function-ref name="led2Toggle" ref="0x41044eb8" scoped=""/>
+        <function-ref name="get" ref="0x41043010" scoped=""/>
+        <function-ref name="led1Off" ref="0x410430f0" scoped=""/>
+        <function-ref name="led2Off" ref="0x41043470" scoped=""/>
+        <function-ref name="set" ref="0x410431d0" scoped=""/>
+        <function-ref name="led0On" ref="0x410432b0" scoped=""/>
+        <function-ref name="led2On" ref="0x41043390" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="53:../../tos/chips/cc2420/opp/UniqueP.nc" name="AMPacket" provided="0" ref="0x41045cf8">
+      <component-ref nicename="......tos.chips.cc2420.opp.UniqueP" qname="UniqueP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="AMPacket" ref="0x41045cf8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.AMPacket" qname="AMPacket"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="group" ref="0x41045ed0" scoped=""/>
+        <function-ref name="source" ref="0x41044010" scoped=""/>
+        <function-ref name="address" ref="0x410440f0" scoped=""/>
+        <function-ref name="destination" ref="0x410441d0" scoped=""/>
+        <function-ref name="setSource" ref="0x410442b0" scoped=""/>
+        <function-ref name="setDestination" ref="0x41044390" scoped=""/>
+        <function-ref name="type" ref="0x41044470" scoped=""/>
+        <function-ref name="setType" ref="0x41044550" scoped=""/>
+        <function-ref name="isForMe" ref="0x41044630" scoped=""/>
+        <function-ref name="setGroup" ref="0x41044710" scoped=""/>
+        <function-ref name="localGroup" ref="0x410447f0" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced/></component>

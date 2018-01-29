@@ -1,0 +1,65 @@
+[18:37:42 - main] [Cooja.java:1324] [INFO] - > Starting Cooja
+[18:37:42 - main] [Cooja.java:2865] [INFO] - External tools default settings: /external_tools_linux.config
+[18:37:42 - main] [Cooja.java:2895] [INFO] - External tools user settings: /home/joy/.cooja.user.properties
+[18:37:43 - main] [Simulation.java:420] [INFO] - Simulation random seed: 123456
+[18:37:43 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:43 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:43 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:43 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:43 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:43 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:43 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:43 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:43 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:43 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:43 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:43 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:43 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:43 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:43 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:43 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:44 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:44 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:44 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:44 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:44 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:44 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:44 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:44 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:44 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:44 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:44 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:44 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:44 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:44 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:44 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:44 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:44 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:44 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:44 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:44 - main] [MspMote.java:233] [INFO] - Loading firmware from: /opt/github/laplacian/tests/cooja/LapTest_ctp/build/telosb/main.exe
+[18:37:44 - main] [Cooja.java:1790] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+[18:37:44 - main] [Cooja.java:1790] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.Visualizer
+[18:37:44 - main] [Cooja.java:1790] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.LogListener
+[18:37:44 - main] [Cooja.java:1790] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.TimeLine
+[18:37:44 - main] [Cooja.java:1790] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.Notes
+[18:37:45 - main] [ScriptRunner.java:429] [INFO] - Test script deactivated
+[18:37:45 - main] [LogScriptEngine.java:265] [INFO] - Script timeout in 6600000 ms
+[18:37:45 - main] [ScriptRunner.java:386] [INFO] - Test script activated
+[18:37:45 - Thread-2] [Simulation.java:252] [INFO] - Simulation main loop started, system time: 1486597065586
+[18:43:27 - Thread-2] [Msp802154Radio.java:170] [WARN] - Turning off radio while transmitting, ending packet prematurely
+[18:43:27 - Thread-2] [Simulation.java:292] [FATAL] - Simulation stopped due to error: null
+java.lang.NegativeArraySizeException
+	at org.contikios.cooja.mspmote.interfaces.CC2420RadioPacketConverter.fromCC2420ToCooja(CC2420RadioPacketConverter.java:197)
+	at org.contikios.cooja.mspmote.interfaces.Msp802154Radio$1.receivedByte(Msp802154Radio.java:128)
+	at se.sics.mspsim.chip.CC2420.shrNext(CC2420.java:1073)
+	at se.sics.mspsim.chip.CC2420.access$1400(CC2420.java:50)
+	at se.sics.mspsim.chip.CC2420$5.execute(CC2420.java:356)
+	at se.sics.mspsim.core.MSP430Core.executeEvents(MSP430Core.java:634)
+	at se.sics.mspsim.core.MSP430Core.emulateOP(MSP430Core.java:985)
+	at se.sics.mspsim.core.MSP430.stepMicros(MSP430.java:253)
+	at org.contikios.cooja.mspmote.MspMote.execute(MspMote.java:319)
+	at org.contikios.cooja.mspmote.MspMote.execute(MspMote.java:292)
+	at org.contikios.cooja.motes.AbstractWakeupMote$1.execute(AbstractWakeupMote.java:47)
+	at org.contikios.cooja.Simulation.run(Simulation.java:280)
+	at java.lang.Thread.run(Thread.java:745)

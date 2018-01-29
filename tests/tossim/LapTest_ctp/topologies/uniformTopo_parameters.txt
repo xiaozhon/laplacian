@@ -1,0 +1,23 @@
+1. parameters to keep the density:
+	100 nodes, dimension is: 21.4666666667 m
+	121 nodes, dimension is: 23.6133333333 m
+	144 nodes, dimension is: 25.76 m
+	169 nodes, dimension is: 27.9066666667 m
+	196 nodes, dimension is: 30.0533333333 m
+	225 nodes, dimension is: 32.2 m
+2. parameters to keep the space and increase the density:
+	100 nodes, dimension is: 32.2 m, density is : 0.0964468963389
+
+ 
+	200 nodes, dimension is: 32.2 m, density is : 0.192893792678
+
+ 
+	300 nodes, dimension is: 32.2 m, density is : 0.289340689017
+
+ 
+	400 nodes, dimension is: 32.2 m, density is : 0.385787585356
+
+ 
+	500 nodes, dimension is: 32.2 m, density is : 0.482234481694
+
+ 

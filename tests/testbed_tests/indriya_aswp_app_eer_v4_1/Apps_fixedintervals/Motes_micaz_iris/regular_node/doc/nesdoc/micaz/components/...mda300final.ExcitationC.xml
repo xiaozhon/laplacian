@@ -1,0 +1,525 @@
+<?xml version="1.0" ?><component loc="1:../mda300final/ExcitationC.nc" nicename="...mda300final.ExcitationC" qname="ExcitationC">
+      <configuration/>
+      <wiring>
+        <wire loc="21:../mda300final/ExcitationC.nc">
+          <from><interface-ref name="volt33" ref="0x41174398" scoped=""/></from>
+          <to><interface-ref name="volt33" ref="0x41171980" scoped=""/></to>
+        </wire>
+        <wire loc="22:../mda300final/ExcitationC.nc">
+          <from><interface-ref name="volt50" ref="0x41174828" scoped=""/></from>
+          <to><interface-ref name="volt50" ref="0x41171e10" scoped=""/></to>
+        </wire>
+        <wire loc="20:../mda300final/ExcitationC.nc">
+          <from><interface-ref name="volt25" ref="0x41177ef8" scoped=""/></from>
+          <to><interface-ref name="volt25" ref="0x411714f0" scoped=""/></to>
+        </wire>
+        <wire loc="11:../mda300final/ExcitationC.nc">
+          <from><interface-ref name="SoftwareInit" ref="0x40491c40" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x41171140" scoped=""/></to>
+        </wire>
+        <wire loc="13:../mda300final/ExcitationC.nc">
+          <from><interface-ref name="FiveVolt" ref="0x4116f348" scoped=""/></from>
+          <to><interface-ref name="PW5" ref="0x4115a730" scoped=""/></to>
+        </wire>
+        <wire loc="14:../mda300final/ExcitationC.nc">
+          <from><interface-ref name="ThreeVolt" ref="0x4116fd60" scoped=""/></from>
+          <to><interface-ref name="PW3" ref="0x4115b2d0" scoped=""/></to>
+        </wire>
+        <wire loc="15:../mda300final/ExcitationC.nc">
+          <from><interface-ref name="VoltageBuffer" ref="0x4116e878" scoped=""/></from>
+          <to><interface-ref name="PW2" ref="0x4115c8c0" scoped=""/></to>
+        </wire>
+        <wire loc="16:../mda300final/ExcitationC.nc">
+          <from><interface-ref name="VoltageBooster" ref="0x4116d340" scoped=""/></from>
+          <to><interface-ref name="PW1" ref="0x41172ed0" scoped=""/></to>
+        </wire>
+        <wire loc="17:../mda300final/ExcitationC.nc">
+          <from><interface-ref name="Amplifiers" ref="0x4116dd60" scoped=""/></from>
+          <to><interface-ref name="PW6" ref="0x41199118" scoped=""/></to>
+        </wire>
+        <wire loc="18:../mda300final/ExcitationC.nc">
+          <from><interface-ref name="PW4" ref="0x4116c810" scoped=""/></from>
+          <to><interface-ref name="PW4" ref="0x4115bca8" scoped=""/></to>
+        </wire>
+      </wiring>
+    <specification><interface loc="4:../mda300final/ExcitationC.nc" name="volt33" provided="1" ref="0x41174398">
+      <component-ref nicename="...mda300final.ExcitationC" qname="ExcitationC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="volt33" ref="0x41174398" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="...mda300final.Power" qname="Power"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="on" ref="0x41174570" scoped=""/>
+        <function-ref name="off" ref="0x41174650" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="5:../mda300final/ExcitationC.nc" name="volt50" provided="1" ref="0x41174828">
+      <component-ref nicename="...mda300final.ExcitationC" qname="ExcitationC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="volt50" ref="0x41174828" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="...mda300final.Power" qname="Power"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="on" ref="0x41174a00" scoped=""/>
+        <function-ref name="off" ref="0x41174ae0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="3:../mda300final/ExcitationC.nc" name="volt25" provided="1" ref="0x41177ef8">
+      <component-ref nicename="...mda300final.ExcitationC" qname="ExcitationC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="volt25" ref="0x41177ef8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="...mda300final.Power" qname="Power"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="on" ref="0x411740e0" scoped=""/>
+        <function-ref name="off" ref="0x411741c0" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced><interface loc="23:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc" name="PW3" provided="1" ref="0x4115b2d0">
+      <component-ref nicename="tos.platforms.mica.MicaBusC" qname="MicaBusC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="PW3" ref="0x4115b2d0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x4115b4a8" scoped=""/>
+        <function-ref name="isInput" ref="0x4115b588" scoped=""/>
+        <function-ref name="toggle" ref="0x4115b668" scoped=""/>
+        <function-ref name="isOutput" ref="0x4115b748" scoped=""/>
+        <function-ref name="get" ref="0x4115b828" scoped=""/>
+        <function-ref name="makeOutput" ref="0x4115b908" scoped=""/>
+        <function-ref name="set" ref="0x4115b9e8" scoped=""/>
+        <function-ref name="clr" ref="0x4115bac8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="11:../mda300final/ExcitationP.nc" name="FiveVolt" provided="0" ref="0x4116f348">
+      <component-ref nicename="...mda300final.ExcitationP" qname="ExcitationP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="FiveVolt" ref="0x4116f348" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x4116f520" scoped=""/>
+        <function-ref name="isInput" ref="0x4116f600" scoped=""/>
+        <function-ref name="toggle" ref="0x4116f6e0" scoped=""/>
+        <function-ref name="isOutput" ref="0x4116f7c0" scoped=""/>
+        <function-ref name="get" ref="0x4116f8a0" scoped=""/>
+        <function-ref name="makeOutput" ref="0x4116f980" scoped=""/>
+        <function-ref name="set" ref="0x4116fa60" scoped=""/>
+        <function-ref name="clr" ref="0x4116fb40" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="15:../mda300final/ExcitationP.nc" name="Amplifiers" provided="0" ref="0x4116dd60">
+      <component-ref nicename="...mda300final.ExcitationP" qname="ExcitationP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Amplifiers" ref="0x4116dd60" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x4116c010" scoped=""/>
+        <function-ref name="isInput" ref="0x4116c0f0" scoped=""/>
+        <function-ref name="toggle" ref="0x4116c1d0" scoped=""/>
+        <function-ref name="isOutput" ref="0x4116c2b0" scoped=""/>
+        <function-ref name="get" ref="0x4116c390" scoped=""/>
+        <function-ref name="makeOutput" ref="0x4116c470" scoped=""/>
+        <function-ref name="set" ref="0x4116c550" scoped=""/>
+        <function-ref name="clr" ref="0x4116c630" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="6:../mda300final/ExcitationP.nc" name="volt25" provided="1" ref="0x411714f0">
+      <component-ref nicename="...mda300final.ExcitationP" qname="ExcitationP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="volt25" ref="0x411714f0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="...mda300final.Power" qname="Power"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="on" ref="0x411716c8" scoped=""/>
+        <function-ref name="off" ref="0x411717a8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="8:../mda300final/ExcitationP.nc" name="volt50" provided="1" ref="0x41171e10">
+      <component-ref nicename="...mda300final.ExcitationP" qname="ExcitationP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="volt50" ref="0x41171e10" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="...mda300final.Power" qname="Power"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="on" ref="0x4116f010" scoped=""/>
+        <function-ref name="off" ref="0x4116f0f0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="16:../mda300final/ExcitationP.nc" name="PW4" provided="0" ref="0x4116c810">
+      <component-ref nicename="...mda300final.ExcitationP" qname="ExcitationP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="PW4" ref="0x4116c810" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x4116c9e8" scoped=""/>
+        <function-ref name="isInput" ref="0x4116cac8" scoped=""/>
+        <function-ref name="toggle" ref="0x4116cba8" scoped=""/>
+        <function-ref name="isOutput" ref="0x4116cc88" scoped=""/>
+        <function-ref name="get" ref="0x4116cd68" scoped=""/>
+        <function-ref name="makeOutput" ref="0x4116ce48" scoped=""/>
+        <function-ref name="set" ref="0x4116cf28" scoped=""/>
+        <function-ref name="clr" ref="0x4116b018" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="14:../mda300final/ExcitationP.nc" name="VoltageBooster" provided="0" ref="0x4116d340">
+      <component-ref nicename="...mda300final.ExcitationP" qname="ExcitationP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="VoltageBooster" ref="0x4116d340" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x4116d518" scoped=""/>
+        <function-ref name="isInput" ref="0x4116d5f8" scoped=""/>
+        <function-ref name="toggle" ref="0x4116d6d8" scoped=""/>
+        <function-ref name="isOutput" ref="0x4116d7b8" scoped=""/>
+        <function-ref name="get" ref="0x4116d898" scoped=""/>
+        <function-ref name="makeOutput" ref="0x4116d978" scoped=""/>
+        <function-ref name="set" ref="0x4116da58" scoped=""/>
+        <function-ref name="clr" ref="0x4116db38" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="5:../mda300final/ExcitationP.nc" name="Init" provided="1" ref="0x41171140">
+      <component-ref nicename="...mda300final.ExcitationP" qname="ExcitationP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Init" ref="0x41171140" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x41171318" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="13:../mda300final/ExcitationP.nc" name="VoltageBuffer" provided="0" ref="0x4116e878">
+      <component-ref nicename="...mda300final.ExcitationP" qname="ExcitationP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="VoltageBuffer" ref="0x4116e878" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x4116ea50" scoped=""/>
+        <function-ref name="isInput" ref="0x4116eb30" scoped=""/>
+        <function-ref name="toggle" ref="0x4116ec10" scoped=""/>
+        <function-ref name="isOutput" ref="0x4116ecf0" scoped=""/>
+        <function-ref name="get" ref="0x4116edd0" scoped=""/>
+        <function-ref name="makeOutput" ref="0x4116eeb0" scoped=""/>
+        <function-ref name="set" ref="0x4116d010" scoped=""/>
+        <function-ref name="clr" ref="0x4116d0f0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="7:../mda300final/ExcitationP.nc" name="volt33" provided="1" ref="0x41171980">
+      <component-ref nicename="...mda300final.ExcitationP" qname="ExcitationP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="volt33" ref="0x41171980" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="...mda300final.Power" qname="Power"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="on" ref="0x41171b58" scoped=""/>
+        <function-ref name="off" ref="0x41171c38" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="26:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc" name="PW6" provided="1" ref="0x41199118">
+      <component-ref nicename="tos.platforms.mica.MicaBusC" qname="MicaBusC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="PW6" ref="0x41199118" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x411992f0" scoped=""/>
+        <function-ref name="isInput" ref="0x411993d0" scoped=""/>
+        <function-ref name="toggle" ref="0x411994b0" scoped=""/>
+        <function-ref name="isOutput" ref="0x41199590" scoped=""/>
+        <function-ref name="get" ref="0x41199670" scoped=""/>
+        <function-ref name="makeOutput" ref="0x41199750" scoped=""/>
+        <function-ref name="set" ref="0x41199830" scoped=""/>
+        <function-ref name="clr" ref="0x41199910" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="24:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc" name="PW4" provided="1" ref="0x4115bca8">
+      <component-ref nicename="tos.platforms.mica.MicaBusC" qname="MicaBusC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="PW4" ref="0x4115bca8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x4115be80" scoped=""/>
+        <function-ref name="isInput" ref="0x4115a010" scoped=""/>
+        <function-ref name="toggle" ref="0x4115a0f0" scoped=""/>
+        <function-ref name="isOutput" ref="0x4115a1d0" scoped=""/>
+        <function-ref name="get" ref="0x4115a2b0" scoped=""/>
+        <function-ref name="makeOutput" ref="0x4115a390" scoped=""/>
+        <function-ref name="set" ref="0x4115a470" scoped=""/>
+        <function-ref name="clr" ref="0x4115a550" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="25:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc" name="PW5" provided="1" ref="0x4115a730">
+      <component-ref nicename="tos.platforms.mica.MicaBusC" qname="MicaBusC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="PW5" ref="0x4115a730" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x4115a908" scoped=""/>
+        <function-ref name="isInput" ref="0x4115a9e8" scoped=""/>
+        <function-ref name="toggle" ref="0x4115aac8" scoped=""/>
+        <function-ref name="isOutput" ref="0x4115aba8" scoped=""/>
+        <function-ref name="get" ref="0x4115ac88" scoped=""/>
+        <function-ref name="makeOutput" ref="0x4115ad68" scoped=""/>
+        <function-ref name="set" ref="0x4115ae48" scoped=""/>
+        <function-ref name="clr" ref="0x4115af28" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="22:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc" name="PW2" provided="1" ref="0x4115c8c0">
+      <component-ref nicename="tos.platforms.mica.MicaBusC" qname="MicaBusC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="PW2" ref="0x4115c8c0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x4115ca98" scoped=""/>
+        <function-ref name="isInput" ref="0x4115cb78" scoped=""/>
+        <function-ref name="toggle" ref="0x4115cc58" scoped=""/>
+        <function-ref name="isOutput" ref="0x4115cd38" scoped=""/>
+        <function-ref name="get" ref="0x4115ce18" scoped=""/>
+        <function-ref name="makeOutput" ref="0x4115cef8" scoped=""/>
+        <function-ref name="set" ref="0x4115b010" scoped=""/>
+        <function-ref name="clr" ref="0x4115b0f0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="21:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc" name="PW1" provided="1" ref="0x41172ed0">
+      <component-ref nicename="tos.platforms.mica.MicaBusC" qname="MicaBusC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="PW1" ref="0x41172ed0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x4115c0c0" scoped=""/>
+        <function-ref name="isInput" ref="0x4115c1a0" scoped=""/>
+        <function-ref name="toggle" ref="0x4115c280" scoped=""/>
+        <function-ref name="isOutput" ref="0x4115c360" scoped=""/>
+        <function-ref name="get" ref="0x4115c440" scoped=""/>
+        <function-ref name="makeOutput" ref="0x4115c520" scoped=""/>
+        <function-ref name="set" ref="0x4115c600" scoped=""/>
+        <function-ref name="clr" ref="0x4115c6e0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="12:../mda300final/ExcitationP.nc" name="ThreeVolt" provided="0" ref="0x4116fd60">
+      <component-ref nicename="...mda300final.ExcitationP" qname="ExcitationP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="ThreeVolt" ref="0x4116fd60" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x4116e010" scoped=""/>
+        <function-ref name="isInput" ref="0x4116e0f0" scoped=""/>
+        <function-ref name="toggle" ref="0x4116e1d0" scoped=""/>
+        <function-ref name="isOutput" ref="0x4116e2b0" scoped=""/>
+        <function-ref name="get" ref="0x4116e390" scoped=""/>
+        <function-ref name="makeOutput" ref="0x4116e470" scoped=""/>
+        <function-ref name="set" ref="0x4116e550" scoped=""/>
+        <function-ref name="clr" ref="0x4116e630" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="58:/opt/tinyos-2.1.2/tos/system/MainC.nc" name="SoftwareInit" provided="0" ref="0x40491c40">
+      <component-ref nicename="tos.system.MainC" qname="MainC"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="SoftwareInit" ref="0x40491c40" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x40491e18" scoped=""/>
+      </interface-functions>
+    </interface><component loc="18:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc" nicename="tos.platforms.mica.MicaBusC" qname="MicaBusC">
+      <documentation loc="11:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+        <short>
+ A simplistic beginning to providing a standard interface to the
+ mica-family 51-pin bus.</short>
+        <long>
+ A simplistic beginning to providing a standard interface to the
+ mica-family 51-pin bus. Just provides the PW0-PW7 and Int0-3 digital
+ I/O pins and returns the ADC channel number for the ADC pins.
+ @author David Gay
+</long>
+      </documentation>
+      <configuration/>
+      <wiring>
+        <wire loc="82:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Int1_Interrupt" ref="0x411956a8" scoped=""/></from>
+          <to><interface-ref name="Interrupt" ref="0x41181010" scoped=""/></to>
+        </wire>
+        <wire loc="92:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Adc0" ref="0x4118f350" scoped=""/></from>
+          <to><interface-ref name="Adc0" ref="0x41190a68" scoped=""/></to>
+        </wire>
+        <wire loc="62:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="PW3" ref="0x4115b2d0" scoped=""/></from>
+          <to><interface-ref name="PortC3" ref="0x404b6c08" scoped=""/></to>
+        </wire>
+        <wire loc="65:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="PW6" ref="0x41199118" scoped=""/></from>
+          <to><interface-ref name="PortC6" ref="0x404c0a98" scoped=""/></to>
+        </wire>
+        <wire loc="95:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Adc3" ref="0x4118fec0" scoped=""/></from>
+          <to><interface-ref name="Adc3" ref="0x4118c618" scoped=""/></to>
+        </wire>
+        <wire loc="97:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Adc5" ref="0x41191688" scoped=""/></from>
+          <to><interface-ref name="Adc5" ref="0x4118cdb8" scoped=""/></to>
+        </wire>
+        <wire loc="68:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Int1" ref="0x41197010" scoped=""/></from>
+          <to><interface-ref name="PortE5" ref="0x404cd4b0" scoped=""/></to>
+        </wire>
+        <wire loc="74:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="USART1_TXD" ref="0x411920e8" scoped=""/></from>
+          <to><interface-ref name="PortD3" ref="0x404bcea8" scoped=""/></to>
+        </wire>
+        <wire loc="60:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="PW1" ref="0x41172ed0" scoped=""/></from>
+          <to><interface-ref name="PortC1" ref="0x404b7750" scoped=""/></to>
+        </wire>
+        <wire loc="63:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="PW4" ref="0x4115bca8" scoped=""/></from>
+          <to><interface-ref name="PortC4" ref="0x404c1670" scoped=""/></to>
+        </wire>
+        <wire loc="90:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Int3_Interrupt" ref="0x41194528" scoped=""/></from>
+          <to><interface-ref name="Interrupt" ref="0x4117c1f0" scoped=""/></to>
+        </wire>
+        <wire loc="93:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Adc1" ref="0x4118f720" scoped=""/></from>
+          <to><interface-ref name="Adc1" ref="0x41190e38" scoped=""/></to>
+        </wire>
+        <wire loc="73:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="USART1_RXD" ref="0x41193698" scoped=""/></from>
+          <to><interface-ref name="PortD2" ref="0x404bc4b0" scoped=""/></to>
+        </wire>
+        <wire loc="66:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="PW7" ref="0x41199af0" scoped=""/></from>
+          <to><interface-ref name="PortC7" ref="0x404bf4b0" scoped=""/></to>
+        </wire>
+        <wire loc="78:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Int0_Interrupt" ref="0x41196f20" scoped=""/></from>
+          <to><interface-ref name="Interrupt" ref="0x4118deb0" scoped=""/></to>
+        </wire>
+        <wire loc="98:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Adc6" ref="0x41191b58" scoped=""/></from>
+          <to><interface-ref name="Adc6" ref="0x4118b208" scoped=""/></to>
+        </wire>
+        <wire loc="69:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Int2" ref="0x411979f8" scoped=""/></from>
+          <to><interface-ref name="PortE6" ref="0x404cdea8" scoped=""/></to>
+        </wire>
+        <wire loc="61:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="PW2" ref="0x4115c8c0" scoped=""/></from>
+          <to><interface-ref name="PortC2" ref="0x404b6210" scoped=""/></to>
+        </wire>
+        <wire loc="64:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="PW5" ref="0x4115a730" scoped=""/></from>
+          <to><interface-ref name="PortC5" ref="0x404c00a0" scoped=""/></to>
+        </wire>
+        <wire loc="94:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Adc2" ref="0x4118faf0" scoped=""/></from>
+          <to><interface-ref name="Adc2" ref="0x4118c248" scoped=""/></to>
+        </wire>
+        <wire loc="96:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Adc4" ref="0x411912b8" scoped=""/></from>
+          <to><interface-ref name="Adc4" ref="0x4118c9e8" scoped=""/></to>
+        </wire>
+        <wire loc="67:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Int0" ref="0x41198580" scoped=""/></from>
+          <to><interface-ref name="PortE4" ref="0x404c2a98" scoped=""/></to>
+        </wire>
+        <wire loc="86:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Int2_Interrupt" ref="0x41195d98" scoped=""/></from>
+          <to><interface-ref name="Interrupt" ref="0x4117f0b0" scoped=""/></to>
+        </wire>
+        <wire loc="72:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="USART1_CLK" ref="0x41194bc8" scoped=""/></from>
+          <to><interface-ref name="PortD5" ref="0x404c62f0" scoped=""/></to>
+        </wire>
+        <wire loc="99:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Adc7" ref="0x41191f28" scoped=""/></from>
+          <to><interface-ref name="Adc7" ref="0x4118b5d8" scoped=""/></to>
+        </wire>
+        <wire loc="59:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="PW0" ref="0x411724f8" scoped=""/></from>
+          <to><interface-ref name="PortC0" ref="0x404b8ce8" scoped=""/></to>
+        </wire>
+        <wire loc="70:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Int3" ref="0x411964a0" scoped=""/></from>
+          <to><interface-ref name="PortE7" ref="0x404cc8e0" scoped=""/></to>
+        </wire>
+        <wire loc="77:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Atm128Interrupt" ref="0x411834e0" scoped=""/></from>
+          <to><interface-ref name="Int4" ref="0x408bd5d8" scoped=""/></to>
+        </wire>
+        <wire loc="81:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Atm128Interrupt" ref="0x41181608" scoped=""/></from>
+          <to><interface-ref name="Int5" ref="0x408bde58" scoped=""/></to>
+        </wire>
+        <wire loc="85:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Atm128Interrupt" ref="0x4117f6a8" scoped=""/></from>
+          <to><interface-ref name="Int6" ref="0x408d96f8" scoped=""/></to>
+        </wire>
+        <wire loc="89:/opt/tinyos-2.1.2/tos/platforms/mica/MicaBusC.nc">
+          <from><interface-ref name="Atm128Interrupt" ref="0x4117c7e8" scoped=""/></from>
+          <to><interface-ref name="Int7" ref="0x408d8010" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component><component loc="56:/opt/tinyos-2.1.2/tos/system/MainC.nc" nicename="tos.system.MainC" qname="MainC">
+      <documentation loc="1:/opt/tinyos-2.1.2/tos/platforms/micaz/hardware.h">
+        <short>                                                                     
+  IMPORTANT: READ BEFORE DOWNLOADING, COPYING, INSTALLING OR USING.</short>
+        <long>                                                                     
+  IMPORTANT: READ BEFORE DOWNLOADING, COPYING, INSTALLING OR USING.  By
+  downloading, copying, installing or using the software you agree to
+  this license.  If you do not agree to this license, do not download,
+  install, copy or use the software.
+
+  Copyright (c) 2004-2005 Crossbow Technology, Inc.
+  Copyright (c) 2002-2003 Intel Corporation.
+  Copyright (c) 2000-2003 The Regents of the University  of California.    
+  All rights reserved.
+
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+
+ - Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+ - Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the
+   distribution.
+ - Neither the name of the copyright holder nor the names of
+   its contributors may be used to endorse or promote products derived
+   from this software without specific prior written permission.
+
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL
+ THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+ INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+ STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+ OF THE POSSIBILITY OF SUCH DAMAGE.
+
+  @author Jason Hill, Philip Levis, Nelson Lee, David Gay
+  @author Alan Broad &lt;abroad@xbow.com&gt;
+  @author Matt Miller &lt;mmiller@xbow.com&gt;
+  @author Martin Turon &lt;mturon@xbow.com&gt;
+
+  $Id: hardware.h,v 1.8 2010-06-29 22:07:54 scipio Exp $
+</long>
+      </documentation>
+      <configuration/>
+      <wiring>
+        <wire loc="72:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+          <from><interface-ref name="Boot" ref="0x40494f00" scoped=""/></from>
+          <to><interface-ref name="Boot" ref="0x4058d1c8" scoped=""/></to>
+        </wire>
+        <wire loc="67:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+          <from><interface-ref name="Scheduler" ref="0x4058d560" scoped=""/></from>
+          <to><interface-ref name="Scheduler" ref="0x40322ed8" scoped=""/></to>
+        </wire>
+        <wire loc="68:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+          <from><interface-ref name="PlatformInit" ref="0x4058db28" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x40490d80" scoped=""/></to>
+        </wire>
+        <wire loc="71:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+          <from><interface-ref name="SoftwareInit" ref="0x4058c010" scoped=""/></from>
+          <to><interface-ref name="SoftwareInit" ref="0x40491c40" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component><component loc="3:../mda300final/ExcitationP.nc" nicename="...mda300final.ExcitationP" qname="ExcitationP">
+      <module/>
+    </component></referenced></component>

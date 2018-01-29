@@ -1,0 +1,3 @@
+test	entropy_avg	std	node_entropy	std
+add-24	2.9220	0.1731	2.8021	0.1190
+

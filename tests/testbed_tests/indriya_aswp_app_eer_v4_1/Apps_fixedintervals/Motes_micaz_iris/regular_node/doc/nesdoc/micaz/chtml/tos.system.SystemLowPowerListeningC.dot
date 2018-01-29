@@ -1,0 +1,5 @@
+digraph "tos.system.SystemLowPowerListeningC" {
+  n0x40d2a148 [shape=ellipse, style=filled, label="SystemLowPowerListening", fontsize=12];
+  "SystemLowPowerListeningP" [fontsize=12, shape=box, URL="../chtml/tos.system.SystemLowPowerListeningP.html"];
+  "n0x40d2a148" -> "SystemLowPowerListeningP" [label="SystemLowPowerListening", URL="../ihtml/tos.interfaces.SystemLowPowerListening.html", fontsize=10];
+}

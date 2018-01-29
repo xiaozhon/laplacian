@@ -1,0 +1,591 @@
+<?xml version="1.0" ?><component loc="15:TestNetworkLplAppC.nc" nicename="TestNetworkLplAppC" qname="TestNetworkLplAppC">
+      <documentation loc="1:TestNetworkLplAppC.nc">
+        <short>
+ TestNetworkLplC exercises the basic networking layers, collection and
+ dissemination.</short>
+        <long>
+ TestNetworkLplC exercises the basic networking layers, collection and
+ dissemination. The application samples DemoSensorC at a basic rate
+ and sends packets up a collection tree. The rate is configurable
+ through dissemination.
+
+ See TEP118: Dissemination, TEP 119: Collection, and TEP 123: The
+ Collection Tree Protocol for details.
+ 
+ @author Philip Levis
+ @author Olaf Landsiedel (ORW changes) 
+ @version $Revision: 1.1 $ $Date: 2009-09-16 00:53:47 $
+</long>
+      </documentation>
+      <configuration/>
+      <wiring>
+        <wire loc="23:TestNetworkLplAppC.nc">
+          <from><interface-ref name="Boot" ref="0x405ee9a0" scoped=""/></from>
+          <to><interface-ref name="Boot" ref="0x40650010" scoped=""/></to>
+        </wire>
+        <wire loc="24:TestNetworkLplAppC.nc">
+          <from><interface-ref name="RadioControl" ref="0x405e9f18" scoped=""/></from>
+          <to><interface-ref name="SplitControl" ref="0x40fa7620" scoped=""/></to>
+        </wire>
+        <wire loc="25:TestNetworkLplAppC.nc">
+          <from><interface-ref name="Leds" ref="0x4062aca8" scoped=""/></from>
+          <to><interface-ref name="Leds" ref="0x4064c010" scoped=""/></to>
+        </wire>
+        <wire loc="26:TestNetworkLplAppC.nc">
+          <from><interface-ref name="Timer" ref="0x40635330" scoped=""/></from>
+          <to><interface-ref name="Timer" ref="0x4127e010" scoped=""/></to>
+        </wire>
+        <wire loc="27:TestNetworkLplAppC.nc">
+          <from><interface-ref name="Send" ref="0x4061d548" scoped=""/></from>
+          <to><interface-ref name="Send" ref="0x40fa9430" scoped=""/></to>
+        </wire>
+        <wire loc="28:TestNetworkLplAppC.nc">
+          <from><interface-ref name="Receive" ref="0x4063b470" scoped=""/></from>
+          <to><interface-ref name="Receive" ref="0x40fa9b30" scoped=""/></to>
+        </wire>
+        <wire loc="29:TestNetworkLplAppC.nc">
+          <from><interface-ref name="Packet" ref="0x4063d328" scoped=""/></from>
+          <to><interface-ref name="Packet" ref="0x40fa9ea8" scoped=""/></to>
+        </wire>
+        <wire loc="30:TestNetworkLplAppC.nc">
+          <from><interface-ref name="Random" ref="0x40631210" scoped=""/></from>
+          <to><interface-ref name="Random" ref="0x410e0010" scoped=""/></to>
+        </wire>
+        <wire loc="31:TestNetworkLplAppC.nc">
+          <from><interface-ref name="ActiveMessageAddress" ref="0x406391f8" scoped=""/></from>
+          <to><interface-ref name="ActiveMessageAddress" ref="0x40d87968" scoped=""/></to>
+        </wire>
+      </wiring>
+    <specification/><referenced><interface loc="40:../../tos/chips/cc2420/opp/OppC.nc" name="Receive" provided="1" ref="0x40fa9b30">
+      <component-ref nicename="......tos.chips.cc2420.opp.OppC" qname="OppC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Receive" ref="0x40fa9b30" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Receive" qname="Receive"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="receive" ref="0x40fa9d08" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="54:/opt/tinyos-2.1.2/tos/system/ActiveMessageAddressC.nc" name="ActiveMessageAddress" provided="1" ref="0x40d87968">
+      <component-ref nicename="tos.system.ActiveMessageAddressC" qname="ActiveMessageAddressC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="ActiveMessageAddress" ref="0x40d87968" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.ActiveMessageAddress" qname="ActiveMessageAddress"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="amAddress" ref="0x40d87b40" scoped=""/>
+        <function-ref name="changed" ref="0x40d87c20" scoped=""/>
+        <function-ref name="amGroup" ref="0x40d87d00" scoped=""/>
+        <function-ref name="setAddress" ref="0x40d87de0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="25:TestNetworkLplC.nc" name="Packet" provided="0" ref="0x4063d328">
+      <component-ref nicename="TestNetworkLplC" qname="TestNetworkLplC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Packet" ref="0x4063d328" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Packet" qname="Packet"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="clear" ref="0x4063d500" scoped=""/>
+        <function-ref name="payloadLength" ref="0x4063d5e0" scoped=""/>
+        <function-ref name="getPayload" ref="0x4063d6c0" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x4063d7a0" scoped=""/>
+        <function-ref name="setPayloadLength" ref="0x4063d880" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="20:TestNetworkLplC.nc" name="RadioControl" provided="0" ref="0x405e9f18">
+      <component-ref nicename="TestNetworkLplC" qname="TestNetworkLplC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="RadioControl" ref="0x405e9f18" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.SplitControl" qname="SplitControl"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="startDone" ref="0x405ed108" scoped=""/>
+        <function-ref name="stopDone" ref="0x405ed1e8" scoped=""/>
+        <function-ref name="start" ref="0x405ed2c8" scoped=""/>
+        <function-ref name="stop" ref="0x405ed3a8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="27:TestNetworkLplC.nc" name="ActiveMessageAddress" provided="0" ref="0x406391f8">
+      <component-ref nicename="TestNetworkLplC" qname="TestNetworkLplC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="ActiveMessageAddress" ref="0x406391f8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.ActiveMessageAddress" qname="ActiveMessageAddress"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="amAddress" ref="0x406393d0" scoped=""/>
+        <function-ref name="changed" ref="0x406394b0" scoped=""/>
+        <function-ref name="amGroup" ref="0x40639590" scoped=""/>
+        <function-ref name="setAddress" ref="0x40639670" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="21:TestNetworkLplC.nc" name="Send" provided="0" ref="0x4061d548">
+      <component-ref nicename="TestNetworkLplC" qname="TestNetworkLplC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Send" ref="0x4061d548" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Send" qname="Send"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="send" ref="0x4061d720" scoped=""/>
+        <function-ref name="getPayload" ref="0x4061d800" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x4061d8e0" scoped=""/>
+        <function-ref name="cancel" ref="0x4061d9c0" scoped=""/>
+        <function-ref name="sendDone" ref="0x4061daa0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="41:../../tos/chips/cc2420/opp/OppC.nc" name="Packet" provided="1" ref="0x40fa9ea8">
+      <component-ref nicename="......tos.chips.cc2420.opp.OppC" qname="OppC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Packet" ref="0x40fa9ea8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Packet" qname="Packet"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="clear" ref="0x40fa70c0" scoped=""/>
+        <function-ref name="payloadLength" ref="0x40fa71a0" scoped=""/>
+        <function-ref name="getPayload" ref="0x40fa7280" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x40fa7360" scoped=""/>
+        <function-ref name="setPayloadLength" ref="0x40fa7440" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="46:/opt/tinyos-2.1.2/tos/system/RandomC.nc" name="Random" provided="1" ref="0x410e0010">
+      <component-ref nicename="tos.system.RandomC" qname="RandomC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Random" ref="0x410e0010" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Random" qname="Random"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="rand16" ref="0x410e01e8" scoped=""/>
+        <function-ref name="rand32" ref="0x410e02c8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="23:TestNetworkLplC.nc" name="Timer" provided="0" ref="0x40635330">
+      <component-ref nicename="TestNetworkLplC" qname="TestNetworkLplC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Timer" ref="0x40635330" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x405e1370"/>
+            <typename><typedef-ref name="TMilli" ref="0x405e1738"/></typename>
+          </type-tag>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x405e8e38" scoped=""/>
+        <function-ref name="fired" ref="0x405e80f0" scoped=""/>
+        <function-ref name="startPeriodicAt" ref="0x405e87f8" scoped=""/>
+        <function-ref name="isOneShot" ref="0x405e85a0" scoped=""/>
+        <function-ref name="getdt" ref="0x40634310" scoped=""/>
+        <function-ref name="gett0" ref="0x406340b8" scoped=""/>
+        <function-ref name="isRunning" ref="0x405e8348" scoped=""/>
+        <function-ref name="startPeriodic" ref="0x40635958" scoped=""/>
+        <function-ref name="startOneShotAt" ref="0x405e8b18" scoped=""/>
+        <function-ref name="startOneShot" ref="0x40635bd8" scoped=""/>
+        <function-ref name="stop" ref="0x40635e58" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="22:TestNetworkLplC.nc" name="Leds" provided="0" ref="0x4062aca8">
+      <component-ref nicename="TestNetworkLplC" qname="TestNetworkLplC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Leds" ref="0x4062aca8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Leds" qname="Leds"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="led0Off" ref="0x4062ae80" scoped=""/>
+        <function-ref name="led0Toggle" ref="0x405ec010" scoped=""/>
+        <function-ref name="led1On" ref="0x405ec0f0" scoped=""/>
+        <function-ref name="led1Toggle" ref="0x405ec1d0" scoped=""/>
+        <function-ref name="led2Toggle" ref="0x405ec2b0" scoped=""/>
+        <function-ref name="get" ref="0x405ec390" scoped=""/>
+        <function-ref name="led1Off" ref="0x405ec470" scoped=""/>
+        <function-ref name="led2Off" ref="0x405ec7f0" scoped=""/>
+        <function-ref name="set" ref="0x405ec550" scoped=""/>
+        <function-ref name="led0On" ref="0x405ec630" scoped=""/>
+        <function-ref name="led2On" ref="0x405ec710" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="26:TestNetworkLplC.nc" name="Receive" provided="0" ref="0x4063b470">
+      <component-ref nicename="TestNetworkLplC" qname="TestNetworkLplC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Receive" ref="0x4063b470" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Receive" qname="Receive"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="receive" ref="0x4063b648" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="57:/opt/tinyos-2.1.2/tos/system/MainC.nc" name="Boot" provided="1" ref="0x40650010">
+      <component-ref nicename="tos.system.MainC" qname="MainC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Boot" ref="0x40650010" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Boot" qname="Boot"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="booted" ref="0x406501e8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="42:../../tos/chips/cc2420/opp/OppC.nc" name="SplitControl" provided="1" ref="0x40fa7620">
+      <component-ref nicename="......tos.chips.cc2420.opp.OppC" qname="OppC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="SplitControl" ref="0x40fa7620" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.SplitControl" qname="SplitControl"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="startDone" ref="0x40fa77f8" scoped=""/>
+        <function-ref name="stopDone" ref="0x40fa78d8" scoped=""/>
+        <function-ref name="start" ref="0x40fa79b8" scoped=""/>
+        <function-ref name="stop" ref="0x40fa7a98" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="45:/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc" name="Timer" provided="1" ref="0x4127e010">
+      <component-ref nicename="tos.system.TimerMilliC" qname="TestNetworkLplAppC.TimerMilliC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Timer" ref="0x4127e010" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x405e1370"/>
+            <typename><typedef-ref name="TMilli" ref="0x405e1738"/></typename>
+          </type-tag>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x4127cb00" scoped=""/>
+        <function-ref name="fired" ref="0x4127ed90" scoped=""/>
+        <function-ref name="startPeriodicAt" ref="0x4127c4c0" scoped=""/>
+        <function-ref name="isOneShot" ref="0x4127c268" scoped=""/>
+        <function-ref name="getdt" ref="0x4127b010" scoped=""/>
+        <function-ref name="gett0" ref="0x4127cd58" scoped=""/>
+        <function-ref name="isRunning" ref="0x4127c010" scoped=""/>
+        <function-ref name="startPeriodic" ref="0x4127e638" scoped=""/>
+        <function-ref name="startOneShotAt" ref="0x4127c7e0" scoped=""/>
+        <function-ref name="startOneShot" ref="0x4127e8b8" scoped=""/>
+        <function-ref name="stop" ref="0x4127eb38" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="46:/opt/tinyos-2.1.2/tos/system/LedsC.nc" name="Leds" provided="1" ref="0x4064c010">
+      <component-ref nicename="tos.system.LedsC" qname="LedsC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Leds" ref="0x4064c010" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Leds" qname="Leds"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="led0Off" ref="0x4064c1e8" scoped=""/>
+        <function-ref name="led0Toggle" ref="0x4064c2c8" scoped=""/>
+        <function-ref name="led1On" ref="0x4064c3a8" scoped=""/>
+        <function-ref name="led1Toggle" ref="0x4064c488" scoped=""/>
+        <function-ref name="led2Toggle" ref="0x4064c568" scoped=""/>
+        <function-ref name="get" ref="0x4064c648" scoped=""/>
+        <function-ref name="led1Off" ref="0x4064c728" scoped=""/>
+        <function-ref name="led2Off" ref="0x4064caa8" scoped=""/>
+        <function-ref name="set" ref="0x4064c808" scoped=""/>
+        <function-ref name="led0On" ref="0x4064c8e8" scoped=""/>
+        <function-ref name="led2On" ref="0x4064c9c8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="24:TestNetworkLplC.nc" name="Random" provided="0" ref="0x40631210">
+      <component-ref nicename="TestNetworkLplC" qname="TestNetworkLplC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Random" ref="0x40631210" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Random" qname="Random"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="rand16" ref="0x406313e8" scoped=""/>
+        <function-ref name="rand32" ref="0x406314c8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="39:../../tos/chips/cc2420/opp/OppC.nc" name="Send" provided="1" ref="0x40fa9430">
+      <component-ref nicename="......tos.chips.cc2420.opp.OppC" qname="OppC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Send" ref="0x40fa9430" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Send" qname="Send"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="send" ref="0x40fa9608" scoped=""/>
+        <function-ref name="getPayload" ref="0x40fa96e8" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x40fa97c8" scoped=""/>
+        <function-ref name="cancel" ref="0x40fa98a8" scoped=""/>
+        <function-ref name="sendDone" ref="0x40fa9988" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="19:TestNetworkLplC.nc" name="Boot" provided="0" ref="0x405ee9a0">
+      <component-ref nicename="TestNetworkLplC" qname="TestNetworkLplC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Boot" ref="0x405ee9a0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Boot" qname="Boot"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="booted" ref="0x405eeb78" scoped=""/>
+      </interface-functions>
+    </interface><component loc="44(TestNetworkLplAppC.TimerMilliC):/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc" nicename="tos.system.TimerMilliC" qname="TestNetworkLplAppC.TimerMilliC">
+      <documentation loc="33:/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc">
+        <short>
+ The virtualized millisecond timer abstraction.</short>
+        <long>
+ The virtualized millisecond timer abstraction. Instantiating this 
+ component gives an independent millisecond granularity timer.
+
+ @author Philip Levis
+ @date   January 16 2006
+ @see    TEP 102: Timers
+</long>
+      </documentation>
+      <instance number="7">
+        <component-ref nicename="tos.system.TimerMilliC" qname="TimerMilliC"/>
+      </instance>
+      <configuration/>
+      <wiring>
+        <wire>
+          <from><interface-ref name="Timer" ref="0x4127e010" scoped=""/></from>
+          <to><interface-ref name="TimerMilli" ref="0x40f92848" scoped=""/>
+          <arguments>
+            <value cst="I:7">
+              <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned=""/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+      </wiring>
+    </component><component loc="52:/opt/tinyos-2.1.2/tos/system/ActiveMessageAddressC.nc" nicename="tos.system.ActiveMessageAddressC" qname="ActiveMessageAddressC" safe="">
+      <documentation loc="45:/opt/tinyos-2.1.2/tos/system/ActiveMessageAddressC.nc">
+        <short>
+ Component that stores the node's active message address and group ID.</short>
+        <long>
+ Component that stores the node's active message address and group ID.
+
+ @author Philip Levis
+ @author David Moss
+</long>
+      </documentation>
+      <module/>
+    </component><component loc="37:../../tos/chips/cc2420/opp/OppC.nc" nicename="......tos.chips.cc2420.opp.OppC" qname="OppC">
+      <configuration/>
+      <wiring>
+        <wire loc="75:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="SplitControl" ref="0x40fa7620" scoped=""/></from>
+          <to><interface-ref name="Control" ref="0x40fa3b00" scoped=""/></to>
+        </wire>
+        <wire loc="74:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="Packet" ref="0x40fa9ea8" scoped=""/></from>
+          <to><interface-ref name="Packet" ref="0x40fa4c30" scoped=""/></to>
+        </wire>
+        <wire loc="72:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="Send" ref="0x40fa9430" scoped=""/></from>
+          <to><interface-ref name="Send" ref="0x40fa4538" scoped=""/></to>
+        </wire>
+        <wire loc="71:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="Opp" ref="0x40facee8" scoped=""/></from>
+          <to><interface-ref name="Opp" ref="0x40fa4010" scoped=""/></to>
+        </wire>
+        <wire loc="73:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="Receive" ref="0x40fa9b30" scoped=""/></from>
+          <to><interface-ref name="Receive" ref="0x40fa36e0" scoped=""/></to>
+        </wire>
+        <wire loc="79:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="SoftwareInit" ref="0x40650c38" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x41081b90" scoped=""/></to>
+        </wire>
+        <wire loc="78:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="SoftwareInit" ref="0x40650c38" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x41046358" scoped=""/></to>
+        </wire>
+        <wire loc="77:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="SoftwareInit" ref="0x40650c38" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x40fa3360" scoped=""/></to>
+        </wire>
+        <wire loc="81:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="SubSend" ref="0x40fa2e40" scoped=""/></from>
+          <to><interface-ref name="AMSend" ref="0x408afdd8" scoped=""/>
+          <arguments>
+            <value cst="I:23">
+              <type-int alignment="I:2" cname="int" size="I:2"/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+        <wire loc="82:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="SubReceive" ref="0x40fa1d78" scoped=""/></from>
+          <to><interface-ref name="Receive" ref="0x41046010" scoped=""/></to>
+        </wire>
+        <wire loc="83:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="SubPacket" ref="0x40fa15f0" scoped=""/></from>
+          <to><interface-ref name="Packet" ref="0x40897200" scoped=""/></to>
+        </wire>
+        <wire loc="84:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="Leds" ref="0x40fa21a0" scoped=""/></from>
+          <to><interface-ref name="Leds" ref="0x4064c010" scoped=""/></to>
+        </wire>
+        <wire loc="85:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="MsgQueue" ref="0x40fd39e0" scoped=""/></from>
+          <to><interface-ref name="Queue" ref="0x41047928" scoped=""/></to>
+        </wire>
+        <wire loc="86:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="PacketAcknowledgements" ref="0x40fd65f8" scoped=""/></from>
+          <to><interface-ref name="PacketAcknowledgements" ref="0x408b9308" scoped=""/></to>
+        </wire>
+        <wire loc="87:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="OppPacket" ref="0x40fd1010" scoped=""/></from>
+          <to><interface-ref name="OppPacket" ref="0x4105dca0" scoped=""/></to>
+        </wire>
+        <wire loc="88:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="AMPacket" ref="0x40fd01c8" scoped=""/></from>
+          <to><interface-ref name="AMPacket" ref="0x408bd140" scoped=""/></to>
+        </wire>
+        <wire loc="89:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="SubControl" ref="0x40fd0ec8" scoped=""/></from>
+          <to><interface-ref name="SplitControl" ref="0x408992b0" scoped=""/></to>
+        </wire>
+        <wire loc="90:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="LowPowerListening" ref="0x40fc9570" scoped=""/></from>
+          <to><interface-ref name="LowPowerListening" ref="0x408d53c0" scoped=""/></to>
+        </wire>
+        <wire loc="91:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="NbTable" ref="0x40fc5a30" scoped=""/></from>
+          <to><interface-ref name="NbTable" ref="0x41081f10" scoped=""/></to>
+        </wire>
+        <wire loc="92:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="Timer" ref="0x40fc8278" scoped=""/></from>
+          <to><interface-ref name="Timer" ref="0x410acbb0" scoped=""/></to>
+        </wire>
+        <wire loc="93:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="TxTimer" ref="0x40fbf788" scoped=""/></from>
+          <to><interface-ref name="Timer" ref="0x410ab930" scoped=""/></to>
+        </wire>
+        <wire loc="94:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="Random" ref="0x40fc34d8" scoped=""/></from>
+          <to><interface-ref name="Random" ref="0x410e0010" scoped=""/></to>
+        </wire>
+        <wire loc="96:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="Packet" ref="0x4105a7d0" scoped=""/></from>
+          <to><interface-ref name="Packet" ref="0x40897200" scoped=""/></to>
+        </wire>
+        <wire loc="98:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="SubReceive" ref="0x41046780" scoped=""/></from>
+          <to><interface-ref name="Receive" ref="0x408987f8" scoped=""/>
+          <arguments>
+            <value cst="I:23">
+              <type-int alignment="I:2" cname="int" size="I:2"/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+        <wire loc="99:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="OppPacket" ref="0x41046af8" scoped=""/></from>
+          <to><interface-ref name="OppPacket" ref="0x4105dca0" scoped=""/></to>
+        </wire>
+        <wire loc="100:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="AMPacket" ref="0x41045cf8" scoped=""/></from>
+          <to><interface-ref name="AMPacket" ref="0x408bd140" scoped=""/></to>
+        </wire>
+        <wire loc="101:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="Leds" ref="0x41044960" scoped=""/></from>
+          <to><interface-ref name="Leds" ref="0x4064c010" scoped=""/></to>
+        </wire>
+        <wire loc="103:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="Leds" ref="0x4107a530" scoped=""/></from>
+          <to><interface-ref name="Leds" ref="0x4064c010" scoped=""/></to>
+        </wire>
+        <wire loc="104:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="LocalTime" ref="0x4107e2a0" scoped=""/></from>
+          <to><interface-ref name="LocalTime" ref="0x410ad130" scoped=""/></to>
+        </wire>
+        <wire loc="106:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="SubDupReceive" ref="0x40fa0260" scoped=""/></from>
+          <to><interface-ref name="DuplicateReceive" ref="0x410a6eb0" scoped=""/></to>
+        </wire>
+        <wire loc="107:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="Unique" ref="0x40fc0350" scoped=""/></from>
+          <to><interface-ref name="Unique" ref="0x410d2240" scoped=""/></to>
+        </wire>
+        <wire loc="108:../../tos/chips/cc2420/opp/OppC.nc">
+          <from><interface-ref name="TxTime" ref="0x40fbf2e0" scoped=""/></from>
+          <to><interface-ref name="TxTime" ref="0x410d2920" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component><component loc="18:TestNetworkLplC.nc" nicename="TestNetworkLplC" qname="TestNetworkLplC">
+      <module/>
+    </component><component loc="43:/opt/tinyos-2.1.2/tos/system/RandomC.nc" nicename="tos.system.RandomC" qname="RandomC">
+      <documentation loc="33:/opt/tinyos-2.1.2/tos/system/RandomC.nc">
+        <short>
+ The standard TinyOS random number generator.</short>
+        <long>
+ The standard TinyOS random number generator. If your system requires a 
+ specific random number generator, it should wire to that component
+ directly. 
+
+ @author  Barbara Hohlt 
+ @author  Phil Levis 
+ @date    March 1 2005
+</long>
+      </documentation>
+      <configuration/>
+      <wiring>
+        <wire loc="56:/opt/tinyos-2.1.2/tos/system/RandomC.nc">
+          <from><interface-ref name="Random" ref="0x410e0010" scoped=""/></from>
+          <to><interface-ref name="Random" ref="0x410dca60" scoped=""/></to>
+        </wire>
+        <wire loc="55:/opt/tinyos-2.1.2/tos/system/RandomC.nc">
+          <from><interface-ref name="SeedInit" ref="0x410de708" scoped=""/></from>
+          <to><interface-ref name="SeedInit" ref="0x410dc1a0" scoped=""/></to>
+        </wire>
+        <wire loc="54:/opt/tinyos-2.1.2/tos/system/RandomC.nc">
+          <from><interface-ref name="Init" ref="0x410a74e0" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x410e0c68" scoped=""/></to>
+        </wire>
+        <wire loc="52:/opt/tinyos-2.1.2/tos/system/RandomC.nc">
+          <from><interface-ref name="SoftwareInit" ref="0x40650c38" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x410e0c68" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component><component loc="45:/opt/tinyos-2.1.2/tos/system/LedsC.nc" nicename="tos.system.LedsC" qname="LedsC">
+      <documentation loc="34:/opt/tinyos-2.1.2/tos/system/LedsC.nc">
+        <short>
+
+ The basic TinyOS LEDs abstraction.</short>
+        <long>
+
+ The basic TinyOS LEDs abstraction.
+
+ @author Phil Buonadonna
+ @author David Gay
+ @author Philip Levis
+ @author Joe Polastre
+</long>
+      </documentation>
+      <configuration/>
+      <wiring>
+        <wire loc="51:/opt/tinyos-2.1.2/tos/system/LedsC.nc">
+          <from><interface-ref name="Leds" ref="0x4064c010" scoped=""/></from>
+          <to><interface-ref name="Leds" ref="0x40755698" scoped=""/></to>
+        </wire>
+        <wire loc="53:/opt/tinyos-2.1.2/tos/system/LedsC.nc">
+          <from><interface-ref name="Init" ref="0x4076f280" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x40755350" scoped=""/></to>
+        </wire>
+        <wire loc="54:/opt/tinyos-2.1.2/tos/system/LedsC.nc">
+          <from><interface-ref name="Led0" ref="0x407505d0" scoped=""/></from>
+          <to><interface-ref name="Led0" ref="0x40757420" scoped=""/></to>
+        </wire>
+        <wire loc="55:/opt/tinyos-2.1.2/tos/system/LedsC.nc">
+          <from><interface-ref name="Led1" ref="0x40753010" scoped=""/></from>
+          <to><interface-ref name="Led1" ref="0x40757e28" scoped=""/></to>
+        </wire>
+        <wire loc="56:/opt/tinyos-2.1.2/tos/system/LedsC.nc">
+          <from><interface-ref name="Led2" ref="0x407539f8" scoped=""/></from>
+          <to><interface-ref name="Led2" ref="0x40770880" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component><component loc="56:/opt/tinyos-2.1.2/tos/system/MainC.nc" nicename="tos.system.MainC" qname="MainC">
+      <documentation loc="45:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+        <short>
+ MainC is the system interface the TinyOS boot sequence.</short>
+        <long>
+ MainC is the system interface the TinyOS boot sequence. It wires the
+ boot sequence implementation to the scheduler and hardware resources.
+
+ @author Philip Levis
+ @date   August 6 2005
+ @see    TEP 107: Boot Sequence
+</long>
+      </documentation>
+      <configuration/>
+      <wiring>
+        <wire loc="72:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+          <from><interface-ref name="Boot" ref="0x40650010" scoped=""/></from>
+          <to><interface-ref name="Boot" ref="0x40659408" scoped=""/></to>
+        </wire>
+        <wire loc="67:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+          <from><interface-ref name="Scheduler" ref="0x406597a0" scoped=""/></from>
+          <to><interface-ref name="Scheduler" ref="0x403565f0" scoped=""/></to>
+        </wire>
+        <wire loc="68:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+          <from><interface-ref name="PlatformInit" ref="0x40659d68" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x4064e488" scoped=""/></to>
+        </wire>
+        <wire loc="71:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+          <from><interface-ref name="SoftwareInit" ref="0x4074c240" scoped=""/></from>
+          <to><interface-ref name="SoftwareInit" ref="0x40650c38" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component></referenced></component>

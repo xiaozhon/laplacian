@@ -1,0 +1,380 @@
+Round: 1
+	isolated: 11
+	prnt_set_avg_size: 1.13978494624	stdev: 0.681418473882
+	shortcut_count: 25
+
+Round: 2
+	isolated: 13
+	prnt_set_avg_size: 0.978494623656	stdev: 0.548281668128
+	shortcut_count: 12
+
+Round: 3
+	isolated: 19
+	prnt_set_avg_size: 0.924731182796	stdev: 0.643186943172
+	shortcut_count: 13
+
+Round: 4
+	isolated: 16
+	prnt_set_avg_size: 0.956989247312	stdev: 0.620682567297
+	shortcut_count: 14
+
+Round: 5
+	isolated: 15
+	prnt_set_avg_size: 0.956989247312	stdev: 0.54701493944
+	shortcut_count: 12
+
+Round: 6
+	isolated: 13
+	prnt_set_avg_size: 1.04301075269	stdev: 0.585009484247
+	shortcut_count: 18
+
+Round: 7
+	isolated: 13
+	prnt_set_avg_size: 1.06451612903	stdev: 0.652644770129
+	shortcut_count: 21
+
+Round: 8
+	isolated: 15
+	prnt_set_avg_size: 1.0	stdev: 0.622171016838
+	shortcut_count: 17
+
+Round: 9
+	isolated: 9
+	prnt_set_avg_size: 1.09677419355	stdev: 0.623285021341
+	shortcut_count: 20
+
+Round: 10
+	isolated: 16
+	prnt_set_avg_size: 0.989247311828	stdev: 0.630661432199
+	shortcut_count: 16
+
+Round: 11
+	isolated: 20
+	prnt_set_avg_size: 0.89247311828	stdev: 0.612808896722
+	shortcut_count: 11
+
+Round: 12
+	isolated: 12
+	prnt_set_avg_size: 1.05376344086	stdev: 0.611108483371
+	shortcut_count: 18
+
+Round: 13
+	isolated: 12
+	prnt_set_avg_size: 1.02150537634	stdev: 0.586194114858
+	shortcut_count: 16
+
+Round: 14
+	isolated: 19
+	prnt_set_avg_size: 1.09677419355	stdev: 0.7768770696
+	shortcut_count: 29
+
+Round: 15
+	isolated: 11
+	prnt_set_avg_size: 1.16129032258	stdev: 0.737480782773
+	shortcut_count: 27
+
+Round: 16
+	isolated: 17
+	prnt_set_avg_size: 1.05376344086	stdev: 0.738577409078
+	shortcut_count: 23
+
+Round: 17
+	isolated: 15
+	prnt_set_avg_size: 1.02150537634	stdev: 0.687499671533
+	shortcut_count: 19
+
+Round: 18
+	isolated: 19
+	prnt_set_avg_size: 1.0	stdev: 0.703294857022
+	shortcut_count: 20
+
+Round: 19
+	isolated: 16
+	prnt_set_avg_size: 1.11827956989	stdev: 0.759873537379
+	shortcut_count: 28
+
+Round: 20
+	isolated: 13
+	prnt_set_avg_size: 1.09677419355	stdev: 0.673053004496
+	shortcut_count: 23
+
+Round: 21
+	isolated: 17
+	prnt_set_avg_size: 1.0	stdev: 0.703294857022
+	shortcut_count: 19
+
+Round: 22
+	isolated: 11
+	prnt_set_avg_size: 1.10752688172	stdev: 0.663363303879
+	shortcut_count: 22
+
+Round: 23
+	isolated: 17
+	prnt_set_avg_size: 1.08602150538	stdev: 0.811952564673
+	shortcut_count: 26
+
+Round: 24
+	isolated: 12
+	prnt_set_avg_size: 1.17204301075	stdev: 0.784577907396
+	shortcut_count: 30
+
+Round: 25
+	isolated: 12
+	prnt_set_avg_size: 1.17204301075	stdev: 0.742324971789
+	shortcut_count: 29
+
+Round: 26
+	isolated: 13
+	prnt_set_avg_size: 1.18279569892	stdev: 0.802499275572
+	shortcut_count: 32
+
+Round: 27
+	isolated: 14
+	prnt_set_avg_size: 1.03225806452	stdev: 0.646772182444
+	shortcut_count: 18
+
+Round: 28
+	isolated: 18
+	prnt_set_avg_size: 1.03225806452	stdev: 0.754222706097
+	shortcut_count: 22
+
+Round: 29
+	isolated: 14
+	prnt_set_avg_size: 1.04301075269	stdev: 0.670643704495
+	shortcut_count: 19
+
+Round: 30
+	isolated: 15
+	prnt_set_avg_size: 1.16129032258	stdev: 0.820311016033
+	shortcut_count: 32
+
+Round: 31
+	isolated: 15
+	prnt_set_avg_size: 1.17204301075	stdev: 0.798165314404
+	shortcut_count: 32
+
+Round: 32
+	isolated: 17
+	prnt_set_avg_size: 0.94623655914	stdev: 0.57484156579
+	shortcut_count: 13
+
+Round: 33
+	isolated: 14
+	prnt_set_avg_size: 1.09677419355	stdev: 0.734181075919
+	shortcut_count: 24
+
+Round: 34
+	isolated: 15
+	prnt_set_avg_size: 0.989247311828	stdev: 0.613374653632
+	shortcut_count: 15
+
+Round: 35
+	isolated: 15
+	prnt_set_avg_size: 1.04301075269	stdev: 0.686489879549
+	shortcut_count: 22
+
+Round: 36
+	isolated: 15
+	prnt_set_avg_size: 0.94623655914	stdev: 0.536126918809
+	shortcut_count: 11
+
+Round: 37
+	isolated: 19
+	prnt_set_avg_size: 0.978494623656	stdev: 0.655473146414
+	shortcut_count: 18
+
+Round: 38
+	isolated: 16
+	prnt_set_avg_size: 1.08602150538	stdev: 0.728172170036
+	shortcut_count: 25
+
+Round: 39
+	isolated: 8
+	prnt_set_avg_size: 1.09677419355	stdev: 0.587769908332
+	shortcut_count: 19
+
+Round: 40
+	isolated: 16
+	prnt_set_avg_size: 1.0	stdev: 0.604641544925
+	shortcut_count: 17
+
+Round: 41
+	isolated: 9
+	prnt_set_avg_size: 1.12903225806	stdev: 0.590713191175
+	shortcut_count: 22
+
+Round: 42
+	isolated: 18
+	prnt_set_avg_size: 1.01075268817	stdev: 0.695525231346
+	shortcut_count: 21
+
+Round: 43
+	isolated: 18
+	prnt_set_avg_size: 0.94623655914	stdev: 0.677845914515
+	shortcut_count: 15
+
+Round: 44
+	isolated: 12
+	prnt_set_avg_size: 1.08602150538	stdev: 0.633405439786
+	shortcut_count: 21
+
+Round: 45
+	isolated: 11
+	prnt_set_avg_size: 1.10752688172	stdev: 0.612808896722
+	shortcut_count: 22
+
+Round: 46
+	isolated: 10
+	prnt_set_avg_size: 1.08602150538	stdev: 0.580246776913
+	shortcut_count: 19
+
+Round: 47
+	isolated: 19
+	prnt_set_avg_size: 0.967741935484	stdev: 0.646772182444
+	shortcut_count: 17
+
+Round: 48
+	isolated: 11
+	prnt_set_avg_size: 1.15053763441	stdev: 0.702472385852
+	shortcut_count: 26
+
+Round: 49
+	isolated: 19
+	prnt_set_avg_size: 1.0752688172	stdev: 0.765331597818
+	shortcut_count: 27
+
+Round: 50
+	isolated: 18
+	prnt_set_avg_size: 1.0	stdev: 0.687835939429
+	shortcut_count: 19
+
+Round: 51
+	isolated: 21
+	prnt_set_avg_size: 1.04301075269	stdev: 0.802066933289
+	shortcut_count: 26
+
+Round: 52
+	isolated: 13
+	prnt_set_avg_size: 1.08602150538	stdev: 0.682435770005
+	shortcut_count: 23
+
+Round: 53
+	isolated: 15
+	prnt_set_avg_size: 1.06451612903	stdev: 0.668917463011
+	shortcut_count: 22
+
+Round: 54
+	isolated: 17
+	prnt_set_avg_size: 1.02150537634	stdev: 0.702965984029
+	shortcut_count: 20
+
+Round: 55
+	isolated: 18
+	prnt_set_avg_size: 0.978494623656	stdev: 0.702965984029
+	shortcut_count: 18
+
+Round: 56
+	isolated: 16
+	prnt_set_avg_size: 1.04301075269	stdev: 0.7019784406
+	shortcut_count: 22
+
+Round: 57
+	isolated: 12
+	prnt_set_avg_size: 1.10752688172	stdev: 0.64695092286
+	shortcut_count: 23
+
+Round: 58
+	isolated: 16
+	prnt_set_avg_size: 1.03225806452	stdev: 0.679209105263
+	shortcut_count: 20
+
+Round: 59
+	isolated: 15
+	prnt_set_avg_size: 1.06451612903	stdev: 0.684803584004
+	shortcut_count: 22
+
+Round: 60
+	isolated: 18
+	prnt_set_avg_size: 1.03225806452	stdev: 0.725149045165
+	shortcut_count: 22
+
+Round: 61
+	isolated: 19
+	prnt_set_avg_size: 1.0752688172	stdev: 0.736696478837
+	shortcut_count: 27
+
+Round: 62
+	isolated: 19
+	prnt_set_avg_size: 1.11827956989	stdev: 0.814511693093
+	shortcut_count: 31
+
+Round: 63
+	isolated: 16
+	prnt_set_avg_size: 1.06451612903	stdev: 0.668917463011
+	shortcut_count: 23
+
+Round: 64
+	isolated: 15
+	prnt_set_avg_size: 0.989247311828	stdev: 0.595586340823
+	shortcut_count: 16
+
+Round: 65
+	isolated: 19
+	prnt_set_avg_size: 0.935483870968	stdev: 0.61881697075
+	shortcut_count: 15
+
+Round: 66
+	isolated: 19
+	prnt_set_avg_size: 1.01075268817	stdev: 0.679889675679
+	shortcut_count: 21
+
+Round: 67
+	isolated: 14
+	prnt_set_avg_size: 1.10752688172	stdev: 0.725308471142
+	shortcut_count: 25
+
+Round: 68
+	isolated: 22
+	prnt_set_avg_size: 0.903225806452	stdev: 0.640304298106
+	shortcut_count: 14
+
+Round: 69
+	isolated: 26
+	prnt_set_avg_size: 0.870967741935	stdev: 0.675624863329
+	shortcut_count: 15
+
+Round: 70
+	isolated: 17
+	prnt_set_avg_size: 1.12903225806	stdev: 0.975239771473
+	shortcut_count: 31
+
+Round: 71
+	isolated: 20
+	prnt_set_avg_size: 0.989247311828	stdev: 0.695525231346
+	shortcut_count: 20
+
+Round: 72
+	isolated: 20
+	prnt_set_avg_size: 1.1935483871	stdev: 0.953297215454
+	shortcut_count: 39
+
+Round: 73
+	isolated: 25
+	prnt_set_avg_size: 1.06451612903	stdev: 0.913535629581
+	shortcut_count: 32
+
+Round: 74
+	isolated: 24
+	prnt_set_avg_size: 1.06451612903	stdev: 0.889683423374
+	shortcut_count: 32
+
+Round: 75
+	isolated: 25
+	prnt_set_avg_size: 0.989247311828	stdev: 0.782807514976
+	shortcut_count: 25
+
+Round: 76
+	isolated: 24
+	prnt_set_avg_size: 0.913978494624	stdev: 0.713252643087
+	shortcut_count: 17
+

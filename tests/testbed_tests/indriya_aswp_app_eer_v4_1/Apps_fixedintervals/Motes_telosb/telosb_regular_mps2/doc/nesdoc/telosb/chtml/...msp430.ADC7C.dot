@@ -1,0 +1,16 @@
+digraph "...msp430.ADC7C" {
+  n0x417a9f00 [shape=ellipse, style=filled, label="Read", fontsize=12];
+  "ADC7C.AdcReadClient" [fontsize=12, shape=box,peripheries=2, style=dashed, label="AdcReadClientC\n(AdcReadClient)", URL="../chtml/tos.chips.msp430.adc12.AdcReadClientC.html"];
+  n0x417a6c20 [shape=ellipse, style=filled, label="ReadNow", fontsize=12];
+  "ADC7C.AdcReadNowClient" [fontsize=12, shape=box,peripheries=2, style=dashed, label="AdcReadNowClientC\n(AdcReadNowClient)", URL="../chtml/tos.chips.msp430.adc12.AdcReadNowClientC.html"];
+  n0x417a58d8 [shape=ellipse, style=filled, label="ReadNowResource", fontsize=12];
+  "ADC7C.AdcReadNowClient" [fontsize=12, shape=box,peripheries=2, style=dashed, label="AdcReadNowClientC\n(AdcReadNowClient)", URL="../chtml/tos.chips.msp430.adc12.AdcReadNowClientC.html"];
+  "ADC7C.AdcReadClient" [fontsize=12, shape=box,peripheries=2, style=dashed, label="AdcReadClientC\n(AdcReadClient)", URL="../chtml/tos.chips.msp430.adc12.AdcReadClientC.html"];
+  "SensorSettingsC" [fontsize=12, shape=box, URL="../chtml/...msp430.SensorSettingsC.html"];
+  "ADC7C.AdcReadNowClient" [fontsize=12, shape=box,peripheries=2, style=dashed, label="AdcReadNowClientC\n(AdcReadNowClient)", URL="../chtml/tos.chips.msp430.adc12.AdcReadNowClientC.html"];
+  "n0x417a9f00" -> "ADC7C.AdcReadClient" [label="Read<uint16_t>", URL="../ihtml/tos.interfaces.Read.html", fontsize=10];
+  "n0x417a6c20" -> "ADC7C.AdcReadNowClient" [label="ReadNow<uint16_t>", URL="../ihtml/tos.interfaces.ReadNow.html", fontsize=10];
+  "n0x417a58d8" -> "ADC7C.AdcReadNowClient" [label="Resource", URL="../ihtml/tos.interfaces.Resource.html", fontsize=10];
+  "ADC7C.AdcReadClient" -> "SensorSettingsC" [label="AdcConfigure<msp430adc12_channel_config_t *>", URL="../ihtml/tos.interfaces.AdcConfigure.html", fontsize=10];
+  "ADC7C.AdcReadNowClient" -> "SensorSettingsC" [label="AdcConfigure<msp430adc12_channel_config_t *>", URL="../ihtml/tos.interfaces.AdcConfigure.html", fontsize=10];
+}

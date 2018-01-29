@@ -1,0 +1,87 @@
+<?xml version="1.0" ?><component loc="38:../../tos/chips/cc2420/opp/NbTableP.nc" nicename="......tos.chips.cc2420.opp.NbTableP" qname="NbTableP">
+      <module/>
+    <specification><interface loc="40:../../tos/chips/cc2420/opp/NbTableP.nc" name="NbTable" provided="1" ref="0x41081f10">
+      <component-ref nicename="......tos.chips.cc2420.opp.NbTableP" qname="NbTableP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="NbTable" ref="0x41081f10" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="......tos.chips.cc2420.interfaces.NbTable" qname="NbTable"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNextHopEdc" ref="0x4107f108" scoped=""/>
+        <function-ref name="getMaxTxDc" ref="0x4107f1e8" scoped=""/>
+        <function-ref name="update" ref="0x4107f2c8" scoped=""/>
+        <function-ref name="getMyEdc" ref="0x4107f3a8" scoped=""/>
+        <function-ref name="txEnd" ref="0x4107f488" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="45:../../tos/chips/cc2420/opp/NbTableP.nc" name="LocalTime" provided="0" ref="0x4107e2a0">
+      <component-ref nicename="......tos.chips.cc2420.opp.NbTableP" qname="NbTableP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="LocalTime" ref="0x4107e2a0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.LocalTime" qname="LocalTime"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x405e1370"/>
+            <typename><typedef-ref name="TMilli" ref="0x405e1738"/></typename>
+          </type-tag>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="get" ref="0x4107e8e8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="39:../../tos/chips/cc2420/opp/NbTableP.nc" name="Init" provided="1" ref="0x41081b90">
+      <component-ref nicename="......tos.chips.cc2420.opp.NbTableP" qname="NbTableP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Init" ref="0x41081b90" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x41081d68" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="44:../../tos/chips/cc2420/opp/NbTableP.nc" name="Leds" provided="0" ref="0x4107a530">
+      <component-ref nicename="......tos.chips.cc2420.opp.NbTableP" qname="NbTableP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Leds" ref="0x4107a530" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Leds" qname="Leds"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="led0Off" ref="0x4107a708" scoped=""/>
+        <function-ref name="led0Toggle" ref="0x4107a7e8" scoped=""/>
+        <function-ref name="led1On" ref="0x4107a8c8" scoped=""/>
+        <function-ref name="led1Toggle" ref="0x4107a9a8" scoped=""/>
+        <function-ref name="led2Toggle" ref="0x4107aa88" scoped=""/>
+        <function-ref name="get" ref="0x4107ab68" scoped=""/>
+        <function-ref name="led1Off" ref="0x4107ac48" scoped=""/>
+        <function-ref name="led2Off" ref="0x4107e010" scoped=""/>
+        <function-ref name="set" ref="0x4107ad28" scoped=""/>
+        <function-ref name="led0On" ref="0x4107ae08" scoped=""/>
+        <function-ref name="led2On" ref="0x4107aee8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="64:../../tos/chips/cc2420/opp/NbTableP.nc" name="update_task" provided="0" ref="0x410781f0">
+      <component-ref nicename="......tos.chips.cc2420.opp.NbTableP" qname="NbTableP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="update_task" ref="0x410781f0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.TaskBasic" qname="TaskBasic"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="postTask" ref="0x410783c8" scoped=""/>
+        <function-ref name="runTask" ref="0x410784a8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="43:../../tos/chips/cc2420/opp/NbTableP.nc" name="NtDebug" provided="0" ref="0x4107a1c8">
+      <component-ref nicename="......tos.chips.cc2420.opp.NbTableP" qname="NbTableP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="NtDebug" ref="0x4107a1c8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="......tos.chips.cc2420.interfaces.NtDebug" qname="NtDebug"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="dumpTable" ref="0x4107a3a0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="41:../../tos/chips/cc2420/opp/NbTableP.nc" name="DutyCycle" provided="1" ref="0x4107c178">
+      <component-ref nicename="......tos.chips.cc2420.opp.NbTableP" qname="NbTableP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="DutyCycle" ref="0x4107c178" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="......tos.chips.cc2420.interfaces.DutyCycle" qname="DutyCycle"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="radioOn" ref="0x4107c350" scoped=""/>
+        <function-ref name="radioOff" ref="0x4107c430" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced/></component>

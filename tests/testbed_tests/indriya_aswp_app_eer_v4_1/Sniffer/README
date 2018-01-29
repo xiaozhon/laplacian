@@ -1,0 +1,39 @@
+* This Sniffer application comes from the Z-Monitor:
+
+	http://www.z-monitor.org/index.php?title=Main_Page 
+
+  with very tiny modifications. 
+
+* The directory contains:
+	1. the Sniffer application that can be used on Telosb motes or Micaz motes.
+	2. a simple packet parser (based on C language)that can parse sniffered packets. Current it
+	   supports parsing acknowledgement packet, CTP data packet, routing packets, and 
+	   MobileDeluge packets.
+	   
+	   
+* Usage:
+	
+	1. Install c serial forwarder:
+	  > goto tinyos-2.1.2/support/sdk/c/sf and run following commands:
+	      ./bootstrap
+	      ./configure
+	      make
+	    this will build the "libmote.a" file that needed by the PacketParser.
+	    
+	2. Install the sniffer application to a telosb/micaz mote.
+	     make telosb install,[id] bsl,/dev/ttyUSB# 			or
+	     make micaz installl,[id] mib520,/dev/ttyUSB#
+	  The [id] can be any number.
+	  
+	  > Change the value of
+	  		CFLAGS += -DSNIFFER_CHANNEL=26
+	  	in makefile to compile Sniffer for different radio channel. the channel ranges in [11, 26]
+	  	
+	3. Run PacketParser:
+	     In the Sniffer folder, run
+	     	./PacketParser 
+	     	
+	     	
+	     	
+	  
+--- TO BE CONTINUED	  

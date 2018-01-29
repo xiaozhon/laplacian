@@ -1,0 +1,25 @@
+<?xml version="1.0" ?><interfacedef loc="44:/opt/tinyos-2.1.2/tos/chips/atm128/i2c/Atm128I2C.nc" nicename="tos.chips.atm128.i2c.Atm128I2C" qname="Atm128I2C">
+      <documentation loc="35:/opt/tinyos-2.1.2/tos/chips/atm128/i2c/Atm128I2C.nc">
+        <short>
+ An interface for stopping the I2C bus.</short>
+        <long>
+ An interface for stopping the I2C bus. Needed by the resource
+ reservation system, so that when a client releases you're sure
+ there's a stop.
+
+ @author Philip Levis
+
+ @version  $Id: Atm128I2C.nc,v 1.4 2006-12-12 18:23:03 vlahan Exp $
+</long>
+      </documentation>
+      <function command="" loc="46:/opt/tinyos-2.1.2/tos/chips/atm128/i2c/Atm128I2C.nc" name="stop" provided="0" ref="0x4125dc58">
+        <interfacedef-ref nicename="tos.chips.atm128.i2c.Atm128I2C" qname="Atm128I2C"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-void alignment="I:1" size="I:1"/>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+    </interfacedef>

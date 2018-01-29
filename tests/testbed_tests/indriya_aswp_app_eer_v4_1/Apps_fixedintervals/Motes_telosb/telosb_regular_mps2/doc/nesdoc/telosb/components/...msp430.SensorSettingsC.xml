@@ -1,0 +1,36 @@
+<?xml version="1.0" ?><component loc="45:../msp430/SensorSettingsC.nc" nicename="...msp430.SensorSettingsC" qname="SensorSettingsC">
+      <documentation loc="36:../msp430/SensorSettingsC.nc">
+        <short>
+ Default ADC channel configuration for eyesIFXv1 and eyesIFXv2.</short>
+        <long>
+ Default ADC channel configuration for eyesIFXv1 and eyesIFXv2. Future
+ eyesIFX platforms may shadow this configuration (and sensors.h) in their
+ respective subdirectory.
+
+ @author Jan Hauer
+</long>
+      </documentation>
+      <module/>
+    <specification><interface loc="46:../msp430/SensorSettingsC.nc" name="AdcConfigure" provided="1" ref="0x415a7928">
+      <component-ref nicename="...msp430.SensorSettingsC" qname="SensorSettingsC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="AdcConfigure" ref="0x415a7928" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.AdcConfigure" qname="AdcConfigure"/>
+        <arguments>
+          <type-pointer alignment="I:2" size="I:2">
+            <type-qualified const="">
+                <typename><typedef-ref name="msp430adc12_channel_config_t" ref="0x41575a70"/></typename>
+              <type-tag alignment="I:2" size="I:4"><struct-ref ref="0x415755b0"/></type-tag>
+            </type-qualified>
+          </type-pointer>
+        </arguments>
+      </instance>
+      <interface-parameters>
+        <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+          <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+        </type-int>
+      </interface-parameters>
+      <interface-functions>
+        <function-ref name="getConfiguration" ref="0x415a8010" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced/></component>

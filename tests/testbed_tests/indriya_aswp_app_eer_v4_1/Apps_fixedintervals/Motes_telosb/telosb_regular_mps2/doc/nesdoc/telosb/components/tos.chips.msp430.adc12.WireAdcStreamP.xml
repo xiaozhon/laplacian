@@ -1,0 +1,431 @@
+<?xml version="1.0" ?><component loc="19:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/WireAdcStreamP.nc" nicename="tos.chips.msp430.adc12.WireAdcStreamP" qname="WireAdcStreamP">
+      <documentation loc="10:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/WireAdcStreamP.nc">
+        <short>
+ Support component for AdcReadStreamClientC.</short>
+        <long>
+ Support component for AdcReadStreamClientC.
+
+ @author David Gay
+ @author Jan Hauer 
+</long>
+      </documentation>
+      <configuration/>
+      <wiring>
+        <wire loc="31:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/WireAdcStreamP.nc">
+          <from><interface-ref name="ReadStream" ref="0x418bfdc8" scoped=""/></from>
+          <to><interface-ref name="ReadStream" ref="0x4192ee98" scoped=""/></to>
+        </wire>
+        <wire loc="32:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/WireAdcStreamP.nc">
+          <from><interface-ref name="AdcConfigure" ref="0x4190e518" scoped=""/></from>
+          <to><interface-ref name="AdcConfigure" ref="0x41918958" scoped=""/></to>
+        </wire>
+        <wire loc="33:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/WireAdcStreamP.nc">
+          <from><interface-ref name="Resource" ref="0x41971d40" scoped=""/></from>
+          <to><interface-ref name="Resource" ref="0x41915220" scoped=""/></to>
+        </wire>
+        <wire loc="35:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/WireAdcStreamP.nc">
+          <from><interface-ref name="Service" ref="0x41973650" scoped=""/></from>
+          <to><interface-ref name="ReadStream" ref="0x41912ae0" scoped=""/></to>
+        </wire>
+        <wire loc="37:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/WireAdcStreamP.nc">
+          <from><interface-ref name="SoftwareInit" ref="0x406ab558" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x41912370" scoped=""/></to>
+        </wire>
+        <wire loc="38:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/WireAdcStreamP.nc">
+          <from><interface-ref name="SingleChannel" ref="0x4190f688" scoped=""/></from>
+          <to><interface-ref name="Msp430Adc12SingleChannel" ref="0x41916620" scoped=""/></to>
+        </wire>
+        <wire loc="39:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/WireAdcStreamP.nc">
+          <from><interface-ref name="Alarm" ref="0x4190d010" scoped=""/></from>
+          <to><interface-ref name="Alarm" ref="0x419327f8" scoped=""/></to>
+        </wire>
+      </wiring>
+    <specification><interface loc="23:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/WireAdcStreamP.nc" name="Msp430Adc12SingleChannel" provided="0" ref="0x41916620">
+      <component-ref nicename="tos.chips.msp430.adc12.WireAdcStreamP" qname="WireAdcStreamP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Msp430Adc12SingleChannel" ref="0x41916620" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.chips.msp430.adc12.Msp430Adc12SingleChannel" qname="Msp430Adc12SingleChannel"/>
+      </instance>
+      <interface-parameters>
+        <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+          <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+        </type-int>
+      </interface-parameters>
+      <interface-functions>
+        <function-ref name="getData" ref="0x419167f8" scoped=""/>
+        <function-ref name="configureSingle" ref="0x419168d8" scoped=""/>
+        <function-ref name="configureSingleRepeat" ref="0x419169b8" scoped=""/>
+        <function-ref name="configureMultipleRepeat" ref="0x41916a98" scoped=""/>
+        <function-ref name="multipleDataReady" ref="0x41916b78" scoped=""/>
+        <function-ref name="configureMultiple" ref="0x41916c58" scoped=""/>
+        <function-ref name="singleDataReady" ref="0x41916d38" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="22:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/WireAdcStreamP.nc" name="AdcConfigure" provided="0" ref="0x41918958">
+      <component-ref nicename="tos.chips.msp430.adc12.WireAdcStreamP" qname="WireAdcStreamP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="AdcConfigure" ref="0x41918958" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.AdcConfigure" qname="AdcConfigure"/>
+        <arguments>
+          <type-pointer alignment="I:2" size="I:2">
+            <type-qualified const="">
+                <typename><typedef-ref name="msp430adc12_channel_config_t" ref="0x41575a70"/></typename>
+              <type-tag alignment="I:2" size="I:4"><struct-ref ref="0x415755b0"/></type-tag>
+            </type-qualified>
+          </type-pointer>
+        </arguments>
+      </instance>
+      <interface-parameters>
+        <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+          <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+        </type-int>
+      </interface-parameters>
+      <interface-functions>
+        <function-ref name="getConfiguration" ref="0x41916010" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="20:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/WireAdcStreamP.nc" name="ReadStream" provided="1" ref="0x418bfdc8">
+      <component-ref nicename="tos.chips.msp430.adc12.WireAdcStreamP" qname="WireAdcStreamP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="ReadStream" ref="0x418bfdc8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.ReadStream" qname="ReadStream"/>
+        <arguments>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-parameters>
+        <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+          <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+        </type-int>
+      </interface-parameters>
+      <interface-functions>
+        <function-ref name="bufferDone" ref="0x418bcb58" scoped=""/>
+        <function-ref name="postBuffer" ref="0x418bc408" scoped=""/>
+        <function-ref name="read" ref="0x418bc8d8" scoped=""/>
+        <function-ref name="readDone" ref="0x419180d8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="24:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/WireAdcStreamP.nc" name="Resource" provided="0" ref="0x41915220">
+      <component-ref nicename="tos.chips.msp430.adc12.WireAdcStreamP" qname="WireAdcStreamP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Resource" ref="0x41915220" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Resource" qname="Resource"/>
+      </instance>
+      <interface-parameters>
+        <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+          <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+        </type-int>
+      </interface-parameters>
+      <interface-functions>
+        <function-ref name="release" ref="0x419153f8" scoped=""/>
+        <function-ref name="immediateRequest" ref="0x419154d8" scoped=""/>
+        <function-ref name="request" ref="0x419155b8" scoped=""/>
+        <function-ref name="granted" ref="0x41915698" scoped=""/>
+        <function-ref name="isOwner" ref="0x41915778" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced><interface loc="54:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/AdcStreamP.nc" name="Alarm" provided="0" ref="0x4190d010">
+      <component-ref nicename="tos.chips.msp430.adc12.AdcStreamP" qname="AdcStreamP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Alarm" ref="0x4190d010" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Alarm" qname="Alarm"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x40035cf8"/>
+            <typename><typedef-ref name="TMilli" ref="0x405e1108"/></typename>
+          </type-tag>
+          <type-int alignment="I:2" cname="unsigned long" size="I:4" unsigned="">
+            <typename><typedef-ref name="uint32_t" ref="0x401e2250"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x4190b4e0" scoped=""/>
+        <function-ref name="fired" ref="0x4190dc78" scoped=""/>
+        <function-ref name="startAt" ref="0x4190b1a0" scoped=""/>
+        <function-ref name="isRunning" ref="0x4190def0" scoped=""/>
+        <function-ref name="getAlarm" ref="0x4190b758" scoped=""/>
+        <function-ref name="start" ref="0x4190d760" scoped=""/>
+        <function-ref name="stop" ref="0x4190da00" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="49:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/AdcStreamP.nc" name="ReadStream" provided="1" ref="0x41912ae0">
+      <component-ref nicename="tos.chips.msp430.adc12.AdcStreamP" qname="AdcStreamP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="ReadStream" ref="0x41912ae0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.ReadStream" qname="ReadStream"/>
+        <arguments>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-parameters>
+        <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+          <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+        </type-int>
+      </interface-parameters>
+      <interface-functions>
+        <function-ref name="bufferDone" ref="0x41911930" scoped=""/>
+        <function-ref name="postBuffer" ref="0x419111e0" scoped=""/>
+        <function-ref name="read" ref="0x419116b0" scoped=""/>
+        <function-ref name="readDone" ref="0x41911ea0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="24:/opt/tinyos-2.1.2/tos/system/ArbitratedReadStreamC.nc" name="ReadStream" provided="1" ref="0x4192ee98">
+      <component-ref nicename="tos.system.ArbitratedReadStreamC" qname="WireAdcStreamP.ArbitrateReadStream"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="ReadStream" ref="0x4192ee98" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.ReadStream" qname="ReadStream"/>
+        <arguments>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-parameters>
+        <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+          <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+        </type-int>
+      </interface-parameters>
+      <interface-functions>
+        <function-ref name="bufferDone" ref="0x4192dc58" scoped=""/>
+        <function-ref name="postBuffer" ref="0x4192d4e8" scoped=""/>
+        <function-ref name="read" ref="0x4192d9c8" scoped=""/>
+        <function-ref name="readDone" ref="0x419731f0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="48:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/AdcStreamP.nc" name="Init" provided="1" ref="0x41912370">
+      <component-ref nicename="tos.chips.msp430.adc12.AdcStreamP" qname="AdcStreamP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Init" ref="0x41912370" scoped=""/></type-interface>
+      <attribute-value>
+        <attribute-ref name="atleastonce" ref="0x40350c58"/>
+        <value-structured>
+          <type-tag alignment="I:1" size="I:0"><attribute-ref name="atleastonce" ref="0x40350c58"/></type-tag>
+        </value-structured>
+      </attribute-value>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x41912548" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="44:/opt/tinyos-2.1.2/tos/chips/msp430/timer/AlarmMilli32C.nc" name="Alarm" provided="1" ref="0x419327f8">
+      <component-ref nicename="tos.chips.msp430.timer.AlarmMilli32C" qname="WireAdcStreamP.Alarm"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Alarm" ref="0x419327f8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Alarm" qname="Alarm"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x40035cf8"/>
+            <typename><typedef-ref name="TMilli" ref="0x405e1108"/></typename>
+          </type-tag>
+          <type-int alignment="I:2" cname="unsigned long" size="I:4" unsigned="">
+            <typename><typedef-ref name="uint32_t" ref="0x401e2250"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x41931d58" scoped=""/>
+        <function-ref name="fired" ref="0x41931528" scoped=""/>
+        <function-ref name="startAt" ref="0x41931a18" scoped=""/>
+        <function-ref name="isRunning" ref="0x419317a0" scoped=""/>
+        <function-ref name="getAlarm" ref="0x4192f010" scoped=""/>
+        <function-ref name="start" ref="0x41931010" scoped=""/>
+        <function-ref name="stop" ref="0x419312b0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="27:/opt/tinyos-2.1.2/tos/system/ArbitratedReadStreamC.nc" name="Resource" provided="0" ref="0x41971d40">
+      <component-ref nicename="tos.system.ArbitratedReadStreamC" qname="WireAdcStreamP.ArbitrateReadStream"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Resource" ref="0x41971d40" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Resource" qname="Resource"/>
+      </instance>
+      <interface-parameters>
+        <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+          <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+        </type-int>
+      </interface-parameters>
+      <interface-functions>
+        <function-ref name="release" ref="0x41971f28" scoped=""/>
+        <function-ref name="immediateRequest" ref="0x41970018" scoped=""/>
+        <function-ref name="request" ref="0x419700f8" scoped=""/>
+        <function-ref name="granted" ref="0x419701d8" scoped=""/>
+        <function-ref name="isOwner" ref="0x419702b8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="26:/opt/tinyos-2.1.2/tos/system/ArbitratedReadStreamC.nc" name="Service" provided="0" ref="0x41973650">
+      <component-ref nicename="tos.system.ArbitratedReadStreamC" qname="WireAdcStreamP.ArbitrateReadStream"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Service" ref="0x41973650" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.ReadStream" qname="ReadStream"/>
+        <arguments>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-parameters>
+        <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+          <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+        </type-int>
+      </interface-parameters>
+      <interface-functions>
+        <function-ref name="bufferDone" ref="0x41971440" scoped=""/>
+        <function-ref name="postBuffer" ref="0x41973c88" scoped=""/>
+        <function-ref name="read" ref="0x419711b0" scoped=""/>
+        <function-ref name="readDone" ref="0x419719c0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="58:/opt/tinyos-2.1.2/tos/system/MainC.nc" name="SoftwareInit" provided="0" ref="0x406ab558">
+      <component-ref nicename="tos.system.MainC" qname="MainC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="SoftwareInit" ref="0x406ab558" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x406ab730" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="52:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/AdcStreamP.nc" name="SingleChannel" provided="0" ref="0x4190f688">
+      <component-ref nicename="tos.chips.msp430.adc12.AdcStreamP" qname="AdcStreamP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="SingleChannel" ref="0x4190f688" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.chips.msp430.adc12.Msp430Adc12SingleChannel" qname="Msp430Adc12SingleChannel"/>
+      </instance>
+      <interface-parameters>
+        <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+          <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+        </type-int>
+      </interface-parameters>
+      <interface-functions>
+        <function-ref name="getData" ref="0x4190f860" scoped=""/>
+        <function-ref name="configureSingle" ref="0x4190f940" scoped=""/>
+        <function-ref name="configureSingleRepeat" ref="0x4190fa20" scoped=""/>
+        <function-ref name="configureMultipleRepeat" ref="0x4190fb00" scoped=""/>
+        <function-ref name="multipleDataReady" ref="0x4190fbe0" scoped=""/>
+        <function-ref name="configureMultiple" ref="0x4190fcc0" scoped=""/>
+        <function-ref name="singleDataReady" ref="0x4190fda0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="53:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/AdcStreamP.nc" name="AdcConfigure" provided="0" ref="0x4190e518">
+      <component-ref nicename="tos.chips.msp430.adc12.AdcStreamP" qname="AdcStreamP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="AdcConfigure" ref="0x4190e518" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.AdcConfigure" qname="AdcConfigure"/>
+        <arguments>
+          <type-pointer alignment="I:2" size="I:2">
+            <type-qualified const="">
+                <typename><typedef-ref name="msp430adc12_channel_config_t" ref="0x41575a70"/></typename>
+              <type-tag alignment="I:2" size="I:4"><struct-ref ref="0x415755b0"/></type-tag>
+            </type-qualified>
+          </type-pointer>
+        </arguments>
+      </instance>
+      <interface-parameters>
+        <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+          <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+        </type-int>
+      </interface-parameters>
+      <interface-functions>
+        <function-ref name="getConfiguration" ref="0x4190eb60" scoped=""/>
+      </interface-functions>
+    </interface><component loc="46:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/AdcStreamP.nc" nicename="tos.chips.msp430.adc12.AdcStreamP" qname="AdcStreamP" safe="">
+      <documentation loc="39:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/AdcStreamP.nc">
+        <short>
+ Convert MSP430 HAL A/D interface to the HIL interfaces (adapted atmega code).</short>
+        <long>
+ Convert MSP430 HAL A/D interface to the HIL interfaces (adapted atmega code).
+ @author David Gay
+ @author Jan Hauer &lt;hauer@tkn.tu-berlin.de&gt;
+</long>
+      </documentation>
+      <module/>
+    </component><component loc="23(WireAdcStreamP.ArbitrateReadStream):/opt/tinyos-2.1.2/tos/system/ArbitratedReadStreamC.nc" nicename="tos.system.ArbitratedReadStreamC" qname="WireAdcStreamP.ArbitrateReadStream">
+      <documentation loc="10:/opt/tinyos-2.1.2/tos/system/ArbitratedReadStreamC.nc">
+        <short>
+ Implement arbitrated access to a Read interface, based on an
+ underlying arbitrated Resource interface.</short>
+        <long>
+ Implement arbitrated access to a Read interface, based on an
+ underlying arbitrated Resource interface.
+
+ Note that this code does not deal with unexpected events: it assumes
+ that all events it receives are in response to commands that it
+ made. See tos/chips/atm128/adc for an example of using
+ ArbitratedReadStreamC in a safe way.
+
+ @param width_t Width of the underlying ReadStream interface.
+
+ @author David Gay
+</long>
+      </documentation>
+      <instance number="0">
+        <component-ref nicename="tos.system.ArbitratedReadStreamC" qname="ArbitratedReadStreamC"/>
+        <arguments>
+          <value cst="I:1">
+            <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned=""/>
+          </value>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <module/>
+    </component><component loc="56:/opt/tinyos-2.1.2/tos/system/MainC.nc" nicename="tos.system.MainC" qname="MainC">
+      <documentation loc="45:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+        <short>
+ MainC is the system interface the TinyOS boot sequence.</short>
+        <long>
+ MainC is the system interface the TinyOS boot sequence. It wires the
+ boot sequence implementation to the scheduler and hardware resources.
+
+ @author Philip Levis
+ @date   August 6 2005
+ @see    TEP 107: Boot Sequence
+</long>
+      </documentation>
+      <configuration/>
+      <wiring>
+        <wire loc="72:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+          <from><interface-ref name="Boot" ref="0x4069c800" scoped=""/></from>
+          <to><interface-ref name="Boot" ref="0x406a8df8" scoped=""/></to>
+        </wire>
+        <wire loc="67:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+          <from><interface-ref name="Scheduler" ref="0x406a71d0" scoped=""/></from>
+          <to><interface-ref name="Scheduler" ref="0x403555f0" scoped=""/></to>
+        </wire>
+        <wire loc="68:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+          <from><interface-ref name="PlatformInit" ref="0x406a7798" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x406abd98" scoped=""/></to>
+        </wire>
+        <wire loc="71:/opt/tinyos-2.1.2/tos/system/MainC.nc">
+          <from><interface-ref name="SoftwareInit" ref="0x406a7ba0" scoped=""/></from>
+          <to><interface-ref name="SoftwareInit" ref="0x406ab558" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component><component loc="41(WireAdcStreamP.Alarm):/opt/tinyos-2.1.2/tos/chips/msp430/timer/AlarmMilli32C.nc" nicename="tos.chips.msp430.timer.AlarmMilli32C" qname="WireAdcStreamP.Alarm">
+      <documentation loc="33:/opt/tinyos-2.1.2/tos/chips/msp430/timer/AlarmMilli32C.nc">
+        <short>
+ AlarmMilliC is the alarm for async millisecond alarms
+
+ </short>
+        <long>
+ AlarmMilliC is the alarm for async millisecond alarms
+
+ @author Cory Sharp &lt;cssharp@eecs.berkeley.edu&gt;
+ @see  Please refer to TEP 102 for more information about this component and its
+          intended use.
+</long>
+      </documentation>
+      <instance number="1">
+        <component-ref nicename="tos.chips.msp430.timer.AlarmMilli32C" qname="AlarmMilli32C"/>
+      </instance>
+      <configuration/>
+      <wiring>
+        <wire>
+          <from><interface-ref name="Alarm" ref="0x419327f8" scoped=""/></from>
+          <to><interface-ref name="Alarm" ref="0x421a97d0" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="Init" ref="0x419323a0" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x4212e8f8" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="AlarmFrom" ref="0x421a64c0" scoped=""/></from>
+          <to><interface-ref name="Alarm" ref="0x4212ed50" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="Counter" ref="0x421a7278" scoped=""/></from>
+          <to><interface-ref name="Counter" ref="0x408060b0" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component></referenced></component>

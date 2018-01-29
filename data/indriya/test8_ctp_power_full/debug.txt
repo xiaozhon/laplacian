@@ -1,0 +1,4302 @@
+1310	1310	0
+ELSE: pre: 1310	cur: 1311	pre_total: 1310
+				cur_total: 1311
+1311	1311	0
+ELSE: pre: 1311	cur: 1312	pre_total: 1311
+				cur_total: 1312
+1312	1312	0
+ELSE: pre: 1312	cur: 1313	pre_total: 1312
+				cur_total: 1313
+1313	1313	0
+ELSE: pre: 1313	cur: 1314	pre_total: 1313
+				cur_total: 1314
+1314	1314	0
+ELSE: pre: 1314	cur: 1315	pre_total: 1314
+				cur_total: 1315
+1315	1315	0
+ELSE: pre: 1315	cur: 1316	pre_total: 1315
+				cur_total: 1316
+1316	1316	0
+ELSE: pre: 1316	cur: 1317	pre_total: 1316
+				cur_total: 1317
+1317	1317	0
+ELSE: pre: 1317	cur: 1318	pre_total: 1317
+				cur_total: 1318
+1318	1318	0
+ELSE: pre: 1318	cur: 1319	pre_total: 1318
+				cur_total: 1319
+1319	1319	0
+ELSE: pre: 1319	cur: 1320	pre_total: 1319
+				cur_total: 1320
+1320	1320	0
+ELSE: pre: 1320	cur: 1321	pre_total: 1320
+				cur_total: 1321
+1321	1321	0
+ELSE: pre: 1321	cur: 1323	pre_total: 1321
+				cur_total: 1323
+1323	1323	0
+ELSE: pre: 1323	cur: 1324	pre_total: 1323
+				cur_total: 1324
+1324	1324	0
+ELSE: pre: 1324	cur: 1325	pre_total: 1324
+				cur_total: 1325
+1325	1325	0
+ELSE: pre: 1325	cur: 1330	pre_total: 1325
+				cur_total: 1330
+1330	1330	0
+ELSE: pre: 1330	cur: 1333	pre_total: 1330
+				cur_total: 1333
+1333	1333	0
+ELSE: pre: 1333	cur: 1334	pre_total: 1333
+				cur_total: 1334
+1334	1334	0
+ELSE: pre: 1334	cur: 1335	pre_total: 1334
+				cur_total: 1335
+1335	1335	0
+ELSE: pre: 1335	cur: 1336	pre_total: 1335
+				cur_total: 1336
+1336	1336	0
+ELSE: pre: 1336	cur: 1337	pre_total: 1336
+				cur_total: 1337
+1337	1337	0
+ELSE: pre: 1337	cur: 1343	pre_total: 1337
+				cur_total: 1343
+1343	1343	0
+ELSE: pre: 1343	cur: 1344	pre_total: 1343
+				cur_total: 1344
+1344	1344	0
+ELSE: pre: 1344	cur: 1345	pre_total: 1344
+				cur_total: 1345
+1345	1345	0
+ELSE: pre: 1345	cur: 1346	pre_total: 1345
+				cur_total: 1346
+1346	1346	0
+ELSE: pre: 1346	cur: 1347	pre_total: 1346
+				cur_total: 1347
+1347	1347	0
+ELSE: pre: 1347	cur: 1348	pre_total: 1347
+				cur_total: 1348
+1348	1348	0
+ELSE: pre: 1348	cur: 1351	pre_total: 1348
+				cur_total: 1351
+1351	1351	0
+ELSE: pre: 1351	cur: 1352	pre_total: 1351
+				cur_total: 1352
+1352	1352	0
+ELSE: pre: 1352	cur: 1353	pre_total: 1352
+				cur_total: 1353
+1353	1353	0
+ELSE: pre: 1353	cur: 1354	pre_total: 1353
+				cur_total: 1354
+1354	1354	0
+ELSE: pre: 1354	cur: 1355	pre_total: 1354
+				cur_total: 1355
+1355	1355	0
+ELSE: pre: 1355	cur: 1356	pre_total: 1355
+				cur_total: 1356
+1356	1356	0
+ELSE: pre: 1356	cur: 1361	pre_total: 1356
+				cur_total: 1361
+1361	1361	0
+ELSE: pre: 1361	cur: 1362	pre_total: 1361
+				cur_total: 1362
+1362	1362	0
+ELSE: pre: 1362	cur: 1363	pre_total: 1362
+				cur_total: 1363
+1363	1363	0
+ELSE: pre: 1363	cur: 1365	pre_total: 1363
+				cur_total: 1365
+1365	1365	0
+ELSE: pre: 1365	cur: 1369	pre_total: 1365
+				cur_total: 1369
+1369	1369	0
+ELSE: pre: 1369	cur: 1370	pre_total: 1369
+				cur_total: 1370
+1370	1370	0
+ELSE: pre: 1370	cur: 1371	pre_total: 1370
+				cur_total: 1371
+1371	1371	0
+ELSE: pre: 1371	cur: 1372	pre_total: 1371
+				cur_total: 1372
+1372	1372	0
+ELSE: pre: 1372	cur: 1373	pre_total: 1372
+				cur_total: 1373
+1373	1373	0
+ELSE: pre: 1373	cur: 1374	pre_total: 1373
+				cur_total: 1374
+1374	1374	0
+ELSE: pre: 1374	cur: 1376	pre_total: 1374
+				cur_total: 1376
+1376	1376	0
+ELSE: pre: 1376	cur: 1378	pre_total: 1376
+				cur_total: 1378
+1378	1378	0
+ELSE: pre: 1378	cur: 1380	pre_total: 1378
+				cur_total: 1380
+1380	1380	0
+ELSE: pre: 1380	cur: 1381	pre_total: 1380
+				cur_total: 1381
+1381	1381	0
+ELSE: pre: 1381	cur: 1382	pre_total: 1381
+				cur_total: 1382
+1382	1382	0
+ELSE: pre: 1382	cur: 1383	pre_total: 1382
+				cur_total: 1383
+1383	1383	0
+ELSE: pre: 1383	cur: 1387	pre_total: 1383
+				cur_total: 1387
+1387	1387	0
+ELSE: pre: 1387	cur: 1388	pre_total: 1387
+				cur_total: 1388
+1388	1388	0
+ELSE: pre: 1388	cur: 1389	pre_total: 1388
+				cur_total: 1389
+1389	1389	0
+ELSE: pre: 1389	cur: 1390	pre_total: 1389
+				cur_total: 1390
+1390	1390	0
+ELSE: pre: 1390	cur: 1391	pre_total: 1390
+				cur_total: 1391
+1391	1391	0
+ELSE: pre: 1391	cur: 1392	pre_total: 1391
+				cur_total: 1392
+1392	1392	0
+ELSE: pre: 1392	cur: 1400	pre_total: 1392
+				cur_total: 1400
+1400	1400	0
+ELSE: pre: 1400	cur: 1402	pre_total: 1400
+				cur_total: 1402
+1402	1402	0
+ELSE: pre: 1402	cur: 1403	pre_total: 1402
+				cur_total: 1403
+1403	1403	0
+ELSE: pre: 1403	cur: 1405	pre_total: 1403
+				cur_total: 1405
+1405	1405	0
+ELSE: pre: 1405	cur: 1407	pre_total: 1405
+				cur_total: 1407
+1407	1407	0
+ELSE: pre: 1407	cur: 1408	pre_total: 1407
+				cur_total: 1408
+1408	1408	0
+ELSE: pre: 1408	cur: 1409	pre_total: 1408
+				cur_total: 1409
+1409	1409	0
+ELSE: pre: 1409	cur: 1410	pre_total: 1409
+				cur_total: 1410
+1410	1410	0
+ELSE: pre: 1410	cur: 1414	pre_total: 1410
+				cur_total: 1414
+1414	1414	0
+ELSE: pre: 1414	cur: 1415	pre_total: 1414
+				cur_total: 1415
+1415	1415	0
+ELSE: pre: 1415	cur: 1417	pre_total: 1415
+				cur_total: 1417
+1417	1417	0
+ELSE: pre: 1417	cur: 1418	pre_total: 1417
+				cur_total: 1418
+1418	1418	0
+ELSE: pre: 1418	cur: 1419	pre_total: 1418
+				cur_total: 1419
+1419	1419	0
+ELSE: pre: 1419	cur: 1423	pre_total: 1419
+				cur_total: 1423
+1423	1423	0
+ELSE: pre: 1423	cur: 1424	pre_total: 1423
+				cur_total: 1424
+1424	1424	0
+ELSE: pre: 1424	cur: 1427	pre_total: 1424
+				cur_total: 1427
+1427	1427	0
+ELSE: pre: 1427	cur: 1428	pre_total: 1427
+				cur_total: 1428
+1428	1428	0
+ELSE: pre: 1428	cur: 1430	pre_total: 1428
+				cur_total: 1430
+1430	1430	0
+ELSE: pre: 1430	cur: 1431	pre_total: 1430
+				cur_total: 1431
+1431	1431	0
+ELSE: pre: 1431	cur: 1432	pre_total: 1431
+				cur_total: 1432
+1432	1432	0
+ELSE: pre: 1432	cur: 1433	pre_total: 1432
+				cur_total: 1433
+1433	1433	0
+ELSE: pre: 1433	cur: 1436	pre_total: 1433
+				cur_total: 1436
+1436	1436	0
+ELSE: pre: 1436	cur: 1437	pre_total: 1436
+				cur_total: 1437
+1437	1437	0
+ELSE: pre: 1437	cur: 1439	pre_total: 1437
+				cur_total: 1439
+1439	1439	0
+ELSE: pre: 1439	cur: 1441	pre_total: 1439
+				cur_total: 1441
+1441	1441	0
+ELSE: pre: 1441	cur: 1442	pre_total: 1441
+				cur_total: 1442
+1442	1442	0
+ELSE: pre: 1442	cur: 1443	pre_total: 1442
+				cur_total: 1443
+1443	1443	0
+ELSE: pre: 1443	cur: 1444	pre_total: 1443
+				cur_total: 1444
+1444	1444	0
+ELSE: pre: 1444	cur: 1445	pre_total: 1444
+				cur_total: 1445
+1445	1445	0
+ELSE: pre: 1445	cur: 1446	pre_total: 1445
+				cur_total: 1446
+1446	1446	0
+ELSE: pre: 1446	cur: 1447	pre_total: 1446
+				cur_total: 1447
+1447	1447	0
+ELSE: pre: 1447	cur: 1448	pre_total: 1447
+				cur_total: 1448
+1448	1448	0
+ELSE: pre: 1448	cur: 1449	pre_total: 1448
+				cur_total: 1449
+1449	1449	0
+ELSE: pre: 1449	cur: 1450	pre_total: 1449
+				cur_total: 1450
+1450	1450	0
+ELSE: pre: 1450	cur: 1451	pre_total: 1450
+				cur_total: 1451
+1451	1451	0
+ELSE: pre: 1451	cur: 1454	pre_total: 1451
+				cur_total: 1454
+1454	1454	0
+ELSE: pre: 1454	cur: 1455	pre_total: 1454
+				cur_total: 1455
+1455	1455	0
+ELSE: pre: 1455	cur: 1460	pre_total: 1455
+				cur_total: 1460
+1460	1460	0
+ELSE: pre: 1460	cur: 1461	pre_total: 1460
+				cur_total: 1461
+1461	1461	0
+ELSE: pre: 1461	cur: 1462	pre_total: 1461
+				cur_total: 1462
+1462	1462	0
+ELSE: pre: 1462	cur: 1463	pre_total: 1462
+				cur_total: 1463
+1463	1463	0
+ELSE: pre: 1463	cur: 1464	pre_total: 1463
+				cur_total: 1464
+1464	1464	0
+ELSE: pre: 1464	cur: 1465	pre_total: 1464
+				cur_total: 1465
+1465	1465	0
+ELSE: pre: 1465	cur: 1468	pre_total: 1465
+				cur_total: 1468
+1468	1468	0
+ELSE: pre: 1468	cur: 1469	pre_total: 1468
+				cur_total: 1469
+1469	1469	0
+ELSE: pre: 1469	cur: 1470	pre_total: 1469
+				cur_total: 1470
+1470	1470	0
+ELSE: pre: 1470	cur: 1471	pre_total: 1470
+				cur_total: 1471
+1471	1471	0
+ELSE: pre: 1471	cur: 1472	pre_total: 1471
+				cur_total: 1472
+1472	1472	0
+ELSE: pre: 1472	cur: 1473	pre_total: 1472
+				cur_total: 1473
+1473	1473	0
+ELSE: pre: 1473	cur: 1477	pre_total: 1473
+				cur_total: 1477
+1477	1477	0
+ELSE: pre: 1477	cur: 1478	pre_total: 1477
+				cur_total: 1478
+1478	1478	0
+ELSE: pre: 1478	cur: 1482	pre_total: 1478
+				cur_total: 1482
+1482	1482	0
+ELSE: pre: 1482	cur: 1486	pre_total: 1482
+				cur_total: 1486
+1486	1486	0
+ELSE: pre: 1486	cur: 1487	pre_total: 1486
+				cur_total: 1487
+1487	1487	0
+ELSE: pre: 1487	cur: 1490	pre_total: 1487
+				cur_total: 1490
+1490	1490	0
+ELSE: pre: 1490	cur: 1491	pre_total: 1490
+				cur_total: 1491
+1491	1491	0
+ELSE: pre: 1491	cur: 1492	pre_total: 1491
+				cur_total: 1492
+1492	1492	0
+ELSE: pre: 1492	cur: 1496	pre_total: 1492
+				cur_total: 1496
+1496	1496	0
+ELSE: pre: 1496	cur: 1497	pre_total: 1496
+				cur_total: 1497
+1497	1497	0
+ELSE: pre: 1497	cur: 1498	pre_total: 1497
+				cur_total: 1498
+1498	1498	0
+ELSE: pre: 1498	cur: 1499	pre_total: 1498
+				cur_total: 1499
+1499	1499	0
+ELSE: pre: 1499	cur: 1505	pre_total: 1499
+				cur_total: 1505
+1505	1505	0
+ELSE: pre: 1505	cur: 1506	pre_total: 1505
+				cur_total: 1506
+1506	1506	0
+ELSE: pre: 1506	cur: 1507	pre_total: 1506
+				cur_total: 1507
+1507	1507	0
+ELSE: pre: 1507	cur: 1509	pre_total: 1507
+				cur_total: 1509
+1509	1509	0
+ELSE: pre: 1509	cur: 1513	pre_total: 1509
+				cur_total: 1513
+1513	1513	0
+ELSE: pre: 1513	cur: 1515	pre_total: 1513
+				cur_total: 1515
+1515	1515	0
+ELSE: pre: 1515	cur: 1517	pre_total: 1515
+				cur_total: 1517
+1517	1517	0
+ELSE: pre: 1517	cur: 1518	pre_total: 1517
+				cur_total: 1518
+1518	1518	0
+ELSE: pre: 1518	cur: 1522	pre_total: 1518
+				cur_total: 1522
+1522	1522	0
+ELSE: pre: 1522	cur: 1523	pre_total: 1522
+				cur_total: 1523
+1523	1523	0
+ELSE: pre: 1523	cur: 1527	pre_total: 1523
+				cur_total: 1527
+1527	1527	0
+ELSE: pre: 1527	cur: 1528	pre_total: 1527
+				cur_total: 1528
+1528	1528	0
+ELSE: pre: 1528	cur: 1531	pre_total: 1528
+				cur_total: 1531
+1531	1531	0
+ELSE: pre: 1531	cur: 1532	pre_total: 1531
+				cur_total: 1532
+1532	1532	0
+ELSE: pre: 1532	cur: 1533	pre_total: 1532
+				cur_total: 1533
+1533	1533	0
+ELSE: pre: 1533	cur: 1534	pre_total: 1533
+				cur_total: 1534
+1534	1534	0
+ELSE: pre: 1534	cur: 1535	pre_total: 1534
+				cur_total: 1535
+1535	1535	0
+ELSE: pre: 1535	cur: 1536	pre_total: 1535
+				cur_total: 1536
+1536	1536	0
+ELSE: pre: 1536	cur: 1537	pre_total: 1536
+				cur_total: 1537
+1537	1537	0
+ELSE: pre: 1537	cur: 1540	pre_total: 1537
+				cur_total: 1540
+1540	1540	0
+ELSE: pre: 1540	cur: 1542	pre_total: 1540
+				cur_total: 1542
+1542	1542	0
+ELSE: pre: 1542	cur: 1543	pre_total: 1542
+				cur_total: 1543
+1543	1543	0
+ELSE: pre: 1543	cur: 1544	pre_total: 1543
+				cur_total: 1544
+1544	1544	0
+ELSE: pre: 1544	cur: 1545	pre_total: 1544
+				cur_total: 1545
+1545	1545	0
+ELSE: pre: 1545	cur: 1548	pre_total: 1545
+				cur_total: 1548
+1548	1548	0
+ELSE: pre: 1548	cur: 1549	pre_total: 1548
+				cur_total: 1549
+1549	1549	0
+ELSE: pre: 1549	cur: 1550	pre_total: 1549
+				cur_total: 1550
+1550	1550	0
+ELSE: pre: 1550	cur: 1551	pre_total: 1550
+				cur_total: 1551
+1551	1551	0
+ELSE: pre: 1551	cur: 1552	pre_total: 1551
+				cur_total: 1552
+1552	1552	0
+ELSE: pre: 1552	cur: 1553	pre_total: 1552
+				cur_total: 1553
+1553	1553	0
+ELSE: pre: 1553	cur: 1554	pre_total: 1553
+				cur_total: 1554
+1554	1554	0
+ELSE: pre: 1554	cur: 1558	pre_total: 1554
+				cur_total: 1558
+1558	1558	0
+ELSE: pre: 1558	cur: 1559	pre_total: 1558
+				cur_total: 1559
+1559	1559	0
+ELSE: pre: 1559	cur: 1560	pre_total: 1559
+				cur_total: 1560
+1560	1560	0
+ELSE: pre: 1560	cur: 1561	pre_total: 1560
+				cur_total: 1561
+1561	1561	0
+ELSE: pre: 1561	cur: 1562	pre_total: 1561
+				cur_total: 1562
+1562	1562	0
+ELSE: pre: 1562	cur: 1563	pre_total: 1562
+				cur_total: 1563
+1563	1563	0
+ELSE: pre: 1563	cur: 1564	pre_total: 1563
+				cur_total: 1564
+1564	1564	0
+ELSE: pre: 1564	cur: 1565	pre_total: 1564
+				cur_total: 1565
+1565	1565	0
+ELSE: pre: 1565	cur: 1568	pre_total: 1565
+				cur_total: 1568
+1568	1568	0
+ELSE: pre: 1568	cur: 1570	pre_total: 1568
+				cur_total: 1570
+1570	1570	0
+ELSE: pre: 1570	cur: 1572	pre_total: 1570
+				cur_total: 1572
+1572	1572	0
+ELSE: pre: 1572	cur: 1576	pre_total: 1572
+				cur_total: 1576
+1576	1576	0
+ELSE: pre: 1576	cur: 1577	pre_total: 1576
+				cur_total: 1577
+1577	1577	0
+ELSE: pre: 1577	cur: 1579	pre_total: 1577
+				cur_total: 1579
+1579	1579	0
+ELSE: pre: 1579	cur: 1580	pre_total: 1579
+				cur_total: 1580
+1580	1580	0
+ELSE: pre: 1580	cur: 1581	pre_total: 1580
+				cur_total: 1581
+1581	1581	0
+ELSE: pre: 1581	cur: 1582	pre_total: 1581
+				cur_total: 1582
+1582	1582	0
+ELSE: pre: 1582	cur: 1586	pre_total: 1582
+				cur_total: 1586
+1586	1586	0
+ELSE: pre: 1586	cur: 1587	pre_total: 1586
+				cur_total: 1587
+1587	1587	0
+ELSE: pre: 1587	cur: 1588	pre_total: 1587
+				cur_total: 1588
+1588	1588	0
+ELSE: pre: 1588	cur: 1589	pre_total: 1588
+				cur_total: 1589
+1589	1589	0
+ELSE: pre: 1589	cur: 1590	pre_total: 1589
+				cur_total: 1590
+1590	1590	0
+ELSE: pre: 1590	cur: 1594	pre_total: 1590
+				cur_total: 1594
+1594	1594	0
+ELSE: pre: 1594	cur: 1595	pre_total: 1594
+				cur_total: 1595
+1595	1595	0
+ELSE: pre: 1595	cur: 1596	pre_total: 1595
+				cur_total: 1596
+1596	1596	0
+ELSE: pre: 1596	cur: 1597	pre_total: 1596
+				cur_total: 1597
+1597	1597	0
+ELSE: pre: 1597	cur: 1598	pre_total: 1597
+				cur_total: 1598
+1598	1598	0
+ELSE: pre: 1598	cur: 1599	pre_total: 1598
+				cur_total: 1599
+1599	1599	0
+ELSE: pre: 1599	cur: 1600	pre_total: 1599
+				cur_total: 1600
+1600	1600	0
+ELSE: pre: 1600	cur: 1601	pre_total: 1600
+				cur_total: 1601
+1601	1601	0
+ELSE: pre: 1601	cur: 1602	pre_total: 1601
+				cur_total: 1602
+1602	1602	0
+ELSE: pre: 1602	cur: 1603	pre_total: 1602
+				cur_total: 1603
+1603	1603	0
+ELSE: pre: 1603	cur: 1604	pre_total: 1603
+				cur_total: 1604
+1604	1604	0
+ELSE: pre: 1604	cur: 1605	pre_total: 1604
+				cur_total: 1605
+1605	1605	0
+ELSE: pre: 1605	cur: 1608	pre_total: 1605
+				cur_total: 1608
+1608	1608	0
+ELSE: pre: 1608	cur: 1612	pre_total: 1608
+				cur_total: 1612
+1612	1612	0
+ELSE: pre: 1612	cur: 1613	pre_total: 1612
+				cur_total: 1613
+1613	1613	0
+ELSE: pre: 1613	cur: 1614	pre_total: 1613
+				cur_total: 1614
+1614	1614	0
+ELSE: pre: 1614	cur: 1615	pre_total: 1614
+				cur_total: 1615
+1615	1615	0
+ELSE: pre: 1615	cur: 1616	pre_total: 1615
+				cur_total: 1616
+1616	1616	0
+ELSE: pre: 1616	cur: 1621	pre_total: 1616
+				cur_total: 1621
+1621	1621	0
+ELSE: pre: 1621	cur: 1623	pre_total: 1621
+				cur_total: 1623
+1623	1623	0
+ELSE: pre: 1623	cur: 1625	pre_total: 1623
+				cur_total: 1625
+1625	1625	0
+ELSE: pre: 1625	cur: 1630	pre_total: 1625
+				cur_total: 1630
+1630	1630	0
+ELSE: pre: 1630	cur: 1631	pre_total: 1630
+				cur_total: 1631
+1631	1631	0
+ELSE: pre: 1631	cur: 1632	pre_total: 1631
+				cur_total: 1632
+1632	1632	0
+ELSE: pre: 1632	cur: 1633	pre_total: 1632
+				cur_total: 1633
+1633	1633	0
+ELSE: pre: 1633	cur: 1634	pre_total: 1633
+				cur_total: 1634
+1634	1634	0
+ELSE: pre: 1634	cur: 1635	pre_total: 1634
+				cur_total: 1635
+1635	1635	0
+ELSE: pre: 1635	cur: 1636	pre_total: 1635
+				cur_total: 1636
+1636	1636	0
+ELSE: pre: 1636	cur: 1639	pre_total: 1636
+				cur_total: 1639
+1639	1639	0
+ELSE: pre: 1639	cur: 1640	pre_total: 1639
+				cur_total: 1640
+1640	1640	0
+ELSE: pre: 1640	cur: 1641	pre_total: 1640
+				cur_total: 1641
+1641	1641	0
+ELSE: pre: 1641	cur: 1642	pre_total: 1641
+				cur_total: 1642
+1642	1642	0
+ELSE: pre: 1642	cur: 1644	pre_total: 1642
+				cur_total: 1644
+1644	1644	0
+ELSE: pre: 1644	cur: 1650	pre_total: 1644
+				cur_total: 1650
+1650	1650	0
+ELSE: pre: 1650	cur: 1651	pre_total: 1650
+				cur_total: 1651
+1651	1651	0
+ELSE: pre: 1651	cur: 1652	pre_total: 1651
+				cur_total: 1652
+1652	1652	0
+ELSE: pre: 1652	cur: 1653	pre_total: 1652
+				cur_total: 1653
+1653	1653	0
+ELSE: pre: 1653	cur: 1657	pre_total: 1653
+				cur_total: 1657
+1657	1657	0
+ELSE: pre: 1657	cur: 1658	pre_total: 1657
+				cur_total: 1658
+1658	1658	0
+ELSE: pre: 1658	cur: 1659	pre_total: 1658
+				cur_total: 1659
+1659	1659	0
+ELSE: pre: 1659	cur: 1660	pre_total: 1659
+				cur_total: 1660
+1660	1660	0
+ELSE: pre: 1660	cur: 1661	pre_total: 1660
+				cur_total: 1661
+1661	1661	0
+ELSE: pre: 1661	cur: 1662	pre_total: 1661
+				cur_total: 1662
+1662	1662	0
+ELSE: pre: 1662	cur: 1666	pre_total: 1662
+				cur_total: 1666
+1666	1666	0
+ELSE: pre: 1666	cur: 1667	pre_total: 1666
+				cur_total: 1667
+1667	1667	0
+ELSE: pre: 1667	cur: 1668	pre_total: 1667
+				cur_total: 1668
+1668	1668	0
+ELSE: pre: 1668	cur: 1670	pre_total: 1668
+				cur_total: 1670
+1670	1670	0
+ELSE: pre: 1670	cur: 1671	pre_total: 1670
+				cur_total: 1671
+1671	1671	0
+ELSE: pre: 1671	cur: 1676	pre_total: 1671
+				cur_total: 1676
+1676	1676	0
+ELSE: pre: 1676	cur: 1679	pre_total: 1676
+				cur_total: 1679
+1679	1679	0
+ELSE: pre: 1679	cur: 1680	pre_total: 1679
+				cur_total: 1680
+1680	1680	0
+ELSE: pre: 1680	cur: 1684	pre_total: 1680
+				cur_total: 1684
+1684	1684	0
+ELSE: pre: 1684	cur: 1685	pre_total: 1684
+				cur_total: 1685
+1685	1685	0
+ELSE: pre: 1685	cur: 1686	pre_total: 1685
+				cur_total: 1686
+1686	1686	0
+ELSE: pre: 1686	cur: 1687	pre_total: 1686
+				cur_total: 1687
+1687	1687	0
+ELSE: pre: 1687	cur: 1688	pre_total: 1687
+				cur_total: 1688
+1688	1688	0
+ELSE: pre: 1688	cur: 1689	pre_total: 1688
+				cur_total: 1689
+1689	1689	0
+ELSE: pre: 1689	cur: 1691	pre_total: 1689
+				cur_total: 1691
+1691	1691	0
+ELSE: pre: 1691	cur: 1692	pre_total: 1691
+				cur_total: 1692
+1692	1692	0
+ELSE: pre: 1692	cur: 1693	pre_total: 1692
+				cur_total: 1693
+1693	1693	0
+ELSE: pre: 1693	cur: 1694	pre_total: 1693
+				cur_total: 1694
+1694	1694	0
+ELSE: pre: 1694	cur: 1695	pre_total: 1694
+				cur_total: 1695
+1695	1695	0
+ELSE: pre: 1695	cur: 1697	pre_total: 1695
+				cur_total: 1697
+1697	1697	0
+ELSE: pre: 1697	cur: 1698	pre_total: 1697
+				cur_total: 1698
+1698	1698	0
+ELSE: pre: 1698	cur: 1701	pre_total: 1698
+				cur_total: 1701
+1701	1701	0
+ELSE: pre: 1701	cur: 1702	pre_total: 1701
+				cur_total: 1702
+1702	1702	0
+ELSE: pre: 1702	cur: 1703	pre_total: 1702
+				cur_total: 1703
+1703	1703	0
+ELSE: pre: 1703	cur: 1704	pre_total: 1703
+				cur_total: 1704
+1704	1704	0
+ELSE: pre: 1704	cur: 1706	pre_total: 1704
+				cur_total: 1706
+1706	1706	0
+ELSE: pre: 1706	cur: 1707	pre_total: 1706
+				cur_total: 1707
+1707	1707	0
+ELSE: pre: 1707	cur: 1711	pre_total: 1707
+				cur_total: 1711
+1711	1711	0
+ELSE: pre: 1711	cur: 1712	pre_total: 1711
+				cur_total: 1712
+1712	1712	0
+ELSE: pre: 1712	cur: 1715	pre_total: 1712
+				cur_total: 1715
+1715	1715	0
+ELSE: pre: 1715	cur: 1717	pre_total: 1715
+				cur_total: 1717
+1717	1717	0
+ELSE: pre: 1717	cur: 1718	pre_total: 1717
+				cur_total: 1718
+1718	1718	0
+ELSE: pre: 1718	cur: 1719	pre_total: 1718
+				cur_total: 1719
+1719	1719	0
+ELSE: pre: 1719	cur: 1721	pre_total: 1719
+				cur_total: 1721
+1721	1721	0
+ELSE: pre: 1721	cur: 1722	pre_total: 1721
+				cur_total: 1722
+1722	1722	0
+ELSE: pre: 1722	cur: 1723	pre_total: 1722
+				cur_total: 1723
+1723	1723	0
+ELSE: pre: 1723	cur: 1729	pre_total: 1723
+				cur_total: 1729
+1729	1729	0
+ELSE: pre: 1729	cur: 1730	pre_total: 1729
+				cur_total: 1730
+1730	1730	0
+ELSE: pre: 1730	cur: 1733	pre_total: 1730
+				cur_total: 1733
+1733	1733	0
+ELSE: pre: 1733	cur: 1738	pre_total: 1733
+				cur_total: 1738
+1738	1738	0
+ELSE: pre: 1738	cur: 1739	pre_total: 1738
+				cur_total: 1739
+1739	1739	0
+ELSE: pre: 1739	cur: 1740	pre_total: 1739
+				cur_total: 1740
+1740	1740	0
+ELSE: pre: 1740	cur: 1741	pre_total: 1740
+				cur_total: 1741
+1741	1741	0
+ELSE: pre: 1741	cur: 1742	pre_total: 1741
+				cur_total: 1742
+1742	1742	0
+ELSE: pre: 1742	cur: 1743	pre_total: 1742
+				cur_total: 1743
+1743	1743	0
+ELSE: pre: 1743	cur: 1745	pre_total: 1743
+				cur_total: 1745
+1745	1745	0
+ELSE: pre: 1745	cur: 1746	pre_total: 1745
+				cur_total: 1746
+1746	1746	0
+ELSE: pre: 1746	cur: 1747	pre_total: 1746
+				cur_total: 1747
+1747	1747	0
+ELSE: pre: 1747	cur: 1748	pre_total: 1747
+				cur_total: 1748
+1748	1748	0
+ELSE: pre: 1748	cur: 1751	pre_total: 1748
+				cur_total: 1751
+1751	1751	0
+ELSE: pre: 1751	cur: 1752	pre_total: 1751
+				cur_total: 1752
+1752	1752	0
+ELSE: pre: 1752	cur: 1753	pre_total: 1752
+				cur_total: 1753
+1753	1753	0
+ELSE: pre: 1753	cur: 1754	pre_total: 1753
+				cur_total: 1754
+1754	1754	0
+ELSE: pre: 1754	cur: 1755	pre_total: 1754
+				cur_total: 1755
+1755	1755	0
+ELSE: pre: 1755	cur: 1756	pre_total: 1755
+				cur_total: 1756
+1756	1756	0
+ELSE: pre: 1756	cur: 1757	pre_total: 1756
+				cur_total: 1757
+1757	1757	0
+ELSE: pre: 1757	cur: 1758	pre_total: 1757
+				cur_total: 1758
+1758	1758	0
+ELSE: pre: 1758	cur: 1759	pre_total: 1758
+				cur_total: 1759
+1759	1759	0
+ELSE: pre: 1759	cur: 1760	pre_total: 1759
+				cur_total: 1760
+1760	1760	0
+ELSE: pre: 1760	cur: 1761	pre_total: 1760
+				cur_total: 1761
+1761	1761	0
+ELSE: pre: 1761	cur: 1765	pre_total: 1761
+				cur_total: 1765
+1765	1765	0
+ELSE: pre: 1765	cur: 1766	pre_total: 1765
+				cur_total: 1766
+1766	1766	0
+ELSE: pre: 1766	cur: 1767	pre_total: 1766
+				cur_total: 1767
+1767	1767	0
+ELSE: pre: 1767	cur: 1768	pre_total: 1767
+				cur_total: 1768
+1768	1768	0
+ELSE: pre: 1768	cur: 1769	pre_total: 1768
+				cur_total: 1769
+1769	1769	0
+ELSE: pre: 1769	cur: 1770	pre_total: 1769
+				cur_total: 1770
+1770	1770	0
+ELSE: pre: 1770	cur: 1771	pre_total: 1770
+				cur_total: 1771
+1771	1771	0
+ELSE: pre: 1771	cur: 1772	pre_total: 1771
+				cur_total: 1772
+1772	1772	0
+ELSE: pre: 1772	cur: 1773	pre_total: 1772
+				cur_total: 1773
+1773	1773	0
+ELSE: pre: 1773	cur: 1774	pre_total: 1773
+				cur_total: 1774
+1774	1774	0
+ELSE: pre: 1774	cur: 1775	pre_total: 1774
+				cur_total: 1775
+1775	1775	0
+ELSE: pre: 1775	cur: 1778	pre_total: 1775
+				cur_total: 1778
+1778	1778	0
+ELSE: pre: 1778	cur: 1779	pre_total: 1778
+				cur_total: 1779
+1779	1779	0
+ELSE: pre: 1779	cur: 1780	pre_total: 1779
+				cur_total: 1780
+1780	1780	0
+ELSE: pre: 1780	cur: 1781	pre_total: 1780
+				cur_total: 1781
+1781	1781	0
+ELSE: pre: 1781	cur: 1782	pre_total: 1781
+				cur_total: 1782
+1782	1782	0
+ELSE: pre: 1782	cur: 1783	pre_total: 1782
+				cur_total: 1783
+1783	1783	0
+ELSE: pre: 1783	cur: 1784	pre_total: 1783
+				cur_total: 1784
+1784	1784	0
+ELSE: pre: 1784	cur: 1785	pre_total: 1784
+				cur_total: 1785
+1785	1785	0
+ELSE: pre: 1785	cur: 1786	pre_total: 1785
+				cur_total: 1786
+1786	1786	0
+ELSE: pre: 1786	cur: 1787	pre_total: 1786
+				cur_total: 1787
+1787	1787	0
+ELSE: pre: 1787	cur: 1788	pre_total: 1787
+				cur_total: 1788
+1788	1788	0
+ELSE: pre: 1788	cur: 1792	pre_total: 1788
+				cur_total: 1792
+1792	1792	0
+ELSE: pre: 1792	cur: 1793	pre_total: 1792
+				cur_total: 1793
+1793	1793	0
+ELSE: pre: 1793	cur: 1794	pre_total: 1793
+				cur_total: 1794
+1794	1794	0
+ELSE: pre: 1794	cur: 1795	pre_total: 1794
+				cur_total: 1795
+1795	1795	0
+ELSE: pre: 1795	cur: 1796	pre_total: 1795
+				cur_total: 1796
+1796	1796	0
+ELSE: pre: 1796	cur: 1797	pre_total: 1796
+				cur_total: 1797
+1797	1797	0
+ELSE: pre: 1797	cur: 1798	pre_total: 1797
+				cur_total: 1798
+1798	1798	0
+ELSE: pre: 1798	cur: 1799	pre_total: 1798
+				cur_total: 1799
+1799	1799	0
+ELSE: pre: 1799	cur: 1800	pre_total: 1799
+				cur_total: 1800
+1800	1800	0
+ELSE: pre: 1800	cur: 1801	pre_total: 1800
+				cur_total: 1801
+1801	1801	0
+ELSE: pre: 1801	cur: 1802	pre_total: 1801
+				cur_total: 1802
+1802	1802	0
+ELSE: pre: 1802	cur: 1803	pre_total: 1802
+				cur_total: 1803
+1803	1803	0
+ELSE: pre: 1803	cur: 1804	pre_total: 1803
+				cur_total: 1804
+1804	1804	0
+ELSE: pre: 1804	cur: 1805	pre_total: 1804
+				cur_total: 1805
+1805	1805	0
+ELSE: pre: 1805	cur: 1806	pre_total: 1805
+				cur_total: 1806
+1806	1806	0
+ELSE: pre: 1806	cur: 1810	pre_total: 1806
+				cur_total: 1810
+1810	1810	0
+ELSE: pre: 1810	cur: 1811	pre_total: 1810
+				cur_total: 1811
+1811	1811	0
+ELSE: pre: 1811	cur: 1812	pre_total: 1811
+				cur_total: 1812
+1812	1812	0
+ELSE: pre: 1812	cur: 1813	pre_total: 1812
+				cur_total: 1813
+1813	1813	0
+ELSE: pre: 1813	cur: 1814	pre_total: 1813
+				cur_total: 1814
+1814	1814	0
+ELSE: pre: 1814	cur: 1815	pre_total: 1814
+				cur_total: 1815
+1815	1815	0
+ELSE: pre: 1815	cur: 1816	pre_total: 1815
+				cur_total: 1816
+1816	1816	0
+ELSE: pre: 1816	cur: 1817	pre_total: 1816
+				cur_total: 1817
+1817	1817	0
+ELSE: pre: 1817	cur: 1818	pre_total: 1817
+				cur_total: 1818
+1818	1818	0
+ELSE: pre: 1818	cur: 1819	pre_total: 1818
+				cur_total: 1819
+1819	1819	0
+ELSE: pre: 1819	cur: 1820	pre_total: 1819
+				cur_total: 1820
+1820	1820	0
+ELSE: pre: 1820	cur: 1821	pre_total: 1820
+				cur_total: 1821
+1821	1821	0
+ELSE: pre: 1821	cur: 1822	pre_total: 1821
+				cur_total: 1822
+1822	1822	0
+ELSE: pre: 1822	cur: 1823	pre_total: 1822
+				cur_total: 1823
+1823	1823	0
+ELSE: pre: 1823	cur: 1824	pre_total: 1823
+				cur_total: 1824
+1824	1824	0
+ELSE: pre: 1824	cur: 1826	pre_total: 1824
+				cur_total: 1826
+1826	1826	0
+ELSE: pre: 1826	cur: 1827	pre_total: 1826
+				cur_total: 1827
+1827	1827	0
+ELSE: pre: 1827	cur: 1828	pre_total: 1827
+				cur_total: 1828
+1828	1828	0
+ELSE: pre: 1828	cur: 1829	pre_total: 1828
+				cur_total: 1829
+1829	1829	0
+ELSE: pre: 1829	cur: 1830	pre_total: 1829
+				cur_total: 1830
+1830	1830	0
+ELSE: pre: 1830	cur: 1831	pre_total: 1830
+				cur_total: 1831
+1831	1831	0
+ELSE: pre: 1831	cur: 1832	pre_total: 1831
+				cur_total: 1832
+1832	1832	0
+ELSE: pre: 1832	cur: 1833	pre_total: 1832
+				cur_total: 1833
+1833	1833	0
+ELSE: pre: 1833	cur: 1834	pre_total: 1833
+				cur_total: 1834
+1834	1834	0
+ELSE: pre: 1834	cur: 1835	pre_total: 1834
+				cur_total: 1835
+1835	1835	0
+ELSE: pre: 1835	cur: 1836	pre_total: 1835
+				cur_total: 1836
+1836	1836	0
+ELSE: pre: 1836	cur: 1837	pre_total: 1836
+				cur_total: 1837
+1837	1837	0
+ELSE: pre: 1837	cur: 1838	pre_total: 1837
+				cur_total: 1838
+1838	1838	0
+ELSE: pre: 1838	cur: 1839	pre_total: 1838
+				cur_total: 1839
+1839	1839	0
+ELSE: pre: 1839	cur: 1840	pre_total: 1839
+				cur_total: 1840
+1840	1840	0
+ELSE: pre: 1840	cur: 1841	pre_total: 1840
+				cur_total: 1841
+1841	1841	0
+ELSE: pre: 1841	cur: 1842	pre_total: 1841
+				cur_total: 1842
+1842	1842	0
+ELSE: pre: 1842	cur: 1843	pre_total: 1842
+				cur_total: 1843
+1843	1843	0
+ELSE: pre: 1843	cur: 1844	pre_total: 1843
+				cur_total: 1844
+1844	1844	0
+ELSE: pre: 1844	cur: 1845	pre_total: 1844
+				cur_total: 1845
+1845	1845	0
+ELSE: pre: 1845	cur: 1846	pre_total: 1845
+				cur_total: 1846
+1846	1846	0
+ELSE: pre: 1846	cur: 1847	pre_total: 1846
+				cur_total: 1847
+1847	1847	0
+ELSE: pre: 1847	cur: 1848	pre_total: 1847
+				cur_total: 1848
+1848	1848	0
+ELSE: pre: 1848	cur: 1849	pre_total: 1848
+				cur_total: 1849
+1849	1849	0
+ELSE: pre: 1849	cur: 1850	pre_total: 1849
+				cur_total: 1850
+1850	1850	0
+ELSE: pre: 1850	cur: 1851	pre_total: 1850
+				cur_total: 1851
+1851	1851	0
+ELSE: pre: 1851	cur: 1852	pre_total: 1851
+				cur_total: 1852
+1852	1852	0
+ELSE: pre: 1852	cur: 1853	pre_total: 1852
+				cur_total: 1853
+1853	1853	0
+ELSE: pre: 1853	cur: 1854	pre_total: 1853
+				cur_total: 1854
+1854	1854	0
+ELSE: pre: 1854	cur: 1855	pre_total: 1854
+				cur_total: 1855
+1855	1855	0
+ELSE: pre: 1855	cur: 1856	pre_total: 1855
+				cur_total: 1856
+1856	1856	0
+ELSE: pre: 1856	cur: 1857	pre_total: 1856
+				cur_total: 1857
+1857	1857	0
+ELSE: pre: 1857	cur: 1858	pre_total: 1857
+				cur_total: 1858
+1858	1858	0
+ELSE: pre: 1858	cur: 1859	pre_total: 1858
+				cur_total: 1859
+1859	1859	0
+ELSE: pre: 1859	cur: 1860	pre_total: 1859
+				cur_total: 1860
+1860	1860	0
+ELSE: pre: 1860	cur: 1861	pre_total: 1860
+				cur_total: 1861
+1861	1861	0
+ELSE: pre: 1861	cur: 1862	pre_total: 1861
+				cur_total: 1862
+1862	1862	0
+ELSE: pre: 1862	cur: 1863	pre_total: 1862
+				cur_total: 1863
+1863	1863	0
+ELSE: pre: 1863	cur: 1864	pre_total: 1863
+				cur_total: 1864
+1864	1864	0
+ELSE: pre: 1864	cur: 1865	pre_total: 1864
+				cur_total: 1865
+1865	1865	0
+ELSE: pre: 1865	cur: 1868	pre_total: 1865
+				cur_total: 1868
+1868	1868	0
+ELSE: pre: 1868	cur: 1870	pre_total: 1868
+				cur_total: 1870
+1870	1870	0
+ELSE: pre: 1870	cur: 1873	pre_total: 1870
+				cur_total: 1873
+1873	1873	0
+ELSE: pre: 1873	cur: 1874	pre_total: 1873
+				cur_total: 1874
+1874	1874	0
+ELSE: pre: 1874	cur: 1877	pre_total: 1874
+				cur_total: 1877
+1877	1877	0
+ELSE: pre: 1877	cur: 1878	pre_total: 1877
+				cur_total: 1878
+1878	1878	0
+ELSE: pre: 1878	cur: 1879	pre_total: 1878
+				cur_total: 1879
+1879	1879	0
+ELSE: pre: 1879	cur: 1880	pre_total: 1879
+				cur_total: 1880
+1880	1880	0
+ELSE: pre: 1880	cur: 1881	pre_total: 1880
+				cur_total: 1881
+1881	1881	0
+ELSE: pre: 1881	cur: 1882	pre_total: 1881
+				cur_total: 1882
+1882	1882	0
+ELSE: pre: 1882	cur: 1883	pre_total: 1882
+				cur_total: 1883
+1883	1883	0
+ELSE: pre: 1883	cur: 1884	pre_total: 1883
+				cur_total: 1884
+1884	1884	0
+ELSE: pre: 1884	cur: 1885	pre_total: 1884
+				cur_total: 1885
+1885	1885	0
+ELSE: pre: 1885	cur: 1886	pre_total: 1885
+				cur_total: 1886
+1886	1886	0
+ELSE: pre: 1886	cur: 1891	pre_total: 1886
+				cur_total: 1891
+1891	1891	0
+ELSE: pre: 1891	cur: 1892	pre_total: 1891
+				cur_total: 1892
+1892	1892	0
+ELSE: pre: 1892	cur: 1896	pre_total: 1892
+				cur_total: 1896
+1896	1896	0
+ELSE: pre: 1896	cur: 1897	pre_total: 1896
+				cur_total: 1897
+1897	1897	0
+ELSE: pre: 1897	cur: 1898	pre_total: 1897
+				cur_total: 1898
+1898	1898	0
+ELSE: pre: 1898	cur: 1899	pre_total: 1898
+				cur_total: 1899
+1899	1899	0
+ELSE: pre: 1899	cur: 1900	pre_total: 1899
+				cur_total: 1900
+1900	1900	0
+ELSE: pre: 1900	cur: 1901	pre_total: 1900
+				cur_total: 1901
+1901	1901	0
+ELSE: pre: 1901	cur: 1902	pre_total: 1901
+				cur_total: 1902
+1902	1902	0
+ELSE: pre: 1902	cur: 1903	pre_total: 1902
+				cur_total: 1903
+1903	1903	0
+ELSE: pre: 1903	cur: 1904	pre_total: 1903
+				cur_total: 1904
+1904	1904	0
+ELSE: pre: 1904	cur: 1905	pre_total: 1904
+				cur_total: 1905
+1905	1905	0
+ELSE: pre: 1905	cur: 1906	pre_total: 1905
+				cur_total: 1906
+1906	1906	0
+ELSE: pre: 1906	cur: 1907	pre_total: 1906
+				cur_total: 1907
+1907	1907	0
+ELSE: pre: 1907	cur: 1909	pre_total: 1907
+				cur_total: 1909
+1909	1909	0
+ELSE: pre: 1909	cur: 1910	pre_total: 1909
+				cur_total: 1910
+1910	1910	0
+ELSE: pre: 1910	cur: 1911	pre_total: 1910
+				cur_total: 1911
+1911	1911	0
+ELSE: pre: 1911	cur: 1912	pre_total: 1911
+				cur_total: 1912
+1912	1912	0
+ELSE: pre: 1912	cur: 1913	pre_total: 1912
+				cur_total: 1913
+1913	1913	0
+ELSE: pre: 1913	cur: 1914	pre_total: 1913
+				cur_total: 1914
+1914	1914	0
+ELSE: pre: 1914	cur: 1918	pre_total: 1914
+				cur_total: 1918
+1918	1918	0
+ELSE: pre: 1918	cur: 1919	pre_total: 1918
+				cur_total: 1919
+1919	1919	0
+ELSE: pre: 1919	cur: 1920	pre_total: 1919
+				cur_total: 1920
+1920	1920	0
+ELSE: pre: 1920	cur: 1921	pre_total: 1920
+				cur_total: 1921
+1921	1921	0
+ELSE: pre: 1921	cur: 1922	pre_total: 1921
+				cur_total: 1922
+1922	1922	0
+ELSE: pre: 1922	cur: 1923	pre_total: 1922
+				cur_total: 1923
+1923	1923	0
+ELSE: pre: 1923	cur: 1927	pre_total: 1923
+				cur_total: 1927
+1927	1927	0
+ELSE: pre: 1927	cur: 1928	pre_total: 1927
+				cur_total: 1928
+1928	1928	0
+ELSE: pre: 1928	cur: 1929	pre_total: 1928
+				cur_total: 1929
+1929	1929	0
+ELSE: pre: 1929	cur: 1930	pre_total: 1929
+				cur_total: 1930
+1930	1930	0
+ELSE: pre: 1930	cur: 1931	pre_total: 1930
+				cur_total: 1931
+1931	1931	0
+ELSE: pre: 1931	cur: 1932	pre_total: 1931
+				cur_total: 1932
+1932	1932	0
+ELSE: pre: 1932	cur: 1933	pre_total: 1932
+				cur_total: 1933
+1933	1933	0
+ELSE: pre: 1933	cur: 1934	pre_total: 1933
+				cur_total: 1934
+1934	1934	0
+ELSE: pre: 1934	cur: 1935	pre_total: 1934
+				cur_total: 1935
+1935	1935	0
+ELSE: pre: 1935	cur: 1936	pre_total: 1935
+				cur_total: 1936
+1936	1936	0
+ELSE: pre: 1936	cur: 1937	pre_total: 1936
+				cur_total: 1937
+1937	1937	0
+ELSE: pre: 1937	cur: 1940	pre_total: 1937
+				cur_total: 1940
+1940	1940	0
+ELSE: pre: 1940	cur: 1941	pre_total: 1940
+				cur_total: 1941
+1941	1941	0
+ELSE: pre: 1941	cur: 1945	pre_total: 1941
+				cur_total: 1945
+1945	1945	0
+ELSE: pre: 1945	cur: 1946	pre_total: 1945
+				cur_total: 1946
+1946	1946	0
+ELSE: pre: 1946	cur: 1949	pre_total: 1946
+				cur_total: 1949
+1949	1949	0
+ELSE: pre: 1949	cur: 1950	pre_total: 1949
+				cur_total: 1950
+1950	1950	0
+ELSE: pre: 1950	cur: 1951	pre_total: 1950
+				cur_total: 1951
+1951	1951	0
+ELSE: pre: 1951	cur: 1952	pre_total: 1951
+				cur_total: 1952
+1952	1952	0
+ELSE: pre: 1952	cur: 1953	pre_total: 1952
+				cur_total: 1953
+1953	1953	0
+ELSE: pre: 1953	cur: 1954	pre_total: 1953
+				cur_total: 1954
+1954	1954	0
+ELSE: pre: 1954	cur: 1955	pre_total: 1954
+				cur_total: 1955
+1955	1955	0
+ELSE: pre: 1955	cur: 1956	pre_total: 1955
+				cur_total: 1956
+1956	1956	0
+ELSE: pre: 1956	cur: 1958	pre_total: 1956
+				cur_total: 1958
+1958	1958	0
+ELSE: pre: 1958	cur: 1959	pre_total: 1958
+				cur_total: 1959
+1959	1959	0
+ELSE: pre: 1959	cur: 1962	pre_total: 1959
+				cur_total: 1962
+1962	1962	0
+ELSE: pre: 1962	cur: 1963	pre_total: 1962
+				cur_total: 1963
+1963	1963	0
+ELSE: pre: 1963	cur: 1964	pre_total: 1963
+				cur_total: 1964
+1964	1964	0
+ELSE: pre: 1964	cur: 1965	pre_total: 1964
+				cur_total: 1965
+1965	1965	0
+ELSE: pre: 1965	cur: 1966	pre_total: 1965
+				cur_total: 1966
+1966	1966	0
+ELSE: pre: 1966	cur: 1967	pre_total: 1966
+				cur_total: 1967
+1967	1967	0
+ELSE: pre: 1967	cur: 1968	pre_total: 1967
+				cur_total: 1968
+1968	1968	0
+ELSE: pre: 1968	cur: 1972	pre_total: 1968
+				cur_total: 1972
+1972	1972	0
+ELSE: pre: 1972	cur: 1973	pre_total: 1972
+				cur_total: 1973
+1973	1973	0
+ELSE: pre: 1973	cur: 1976	pre_total: 1973
+				cur_total: 1976
+1976	1976	0
+ELSE: pre: 1976	cur: 1977	pre_total: 1976
+				cur_total: 1977
+1977	1977	0
+ELSE: pre: 1977	cur: 1978	pre_total: 1977
+				cur_total: 1978
+1978	1978	0
+ELSE: pre: 1978	cur: 1981	pre_total: 1978
+				cur_total: 1981
+1981	1981	0
+ELSE: pre: 1981	cur: 1983	pre_total: 1981
+				cur_total: 1983
+1983	1983	0
+ELSE: pre: 1983	cur: 1984	pre_total: 1983
+				cur_total: 1984
+1984	1984	0
+ELSE: pre: 1984	cur: 1985	pre_total: 1984
+				cur_total: 1985
+1985	1985	0
+ELSE: pre: 1985	cur: 1986	pre_total: 1985
+				cur_total: 1986
+1986	1986	0
+ELSE: pre: 1986	cur: 1987	pre_total: 1986
+				cur_total: 1987
+1987	1987	0
+ELSE: pre: 1987	cur: 1988	pre_total: 1987
+				cur_total: 1988
+1988	1988	0
+ELSE: pre: 1988	cur: 1990	pre_total: 1988
+				cur_total: 1990
+1990	1990	0
+ELSE: pre: 1990	cur: 1991	pre_total: 1990
+				cur_total: 1991
+1991	1991	0
+ELSE: pre: 1991	cur: 1992	pre_total: 1991
+				cur_total: 1992
+1992	1992	0
+ELSE: pre: 1992	cur: 1994	pre_total: 1992
+				cur_total: 1994
+1994	1994	0
+ELSE: pre: 1994	cur: 1995	pre_total: 1994
+				cur_total: 1995
+1995	1995	0
+ELSE: pre: 1995	cur: 1999	pre_total: 1995
+				cur_total: 1999
+1999	1999	0
+ELSE: pre: 1999	cur: 2000	pre_total: 1999
+				cur_total: 2000
+2000	2000	0
+ELSE: pre: 2000	cur: 2003	pre_total: 2000
+				cur_total: 2003
+2003	2003	0
+ELSE: pre: 2003	cur: 2004	pre_total: 2003
+				cur_total: 2004
+2004	2004	0
+ELSE: pre: 2004	cur: 2005	pre_total: 2004
+				cur_total: 2005
+2005	2005	0
+ELSE: pre: 2005	cur: 2006	pre_total: 2005
+				cur_total: 2006
+2006	2006	0
+ELSE: pre: 2006	cur: 2007	pre_total: 2006
+				cur_total: 2007
+2007	2007	0
+ELSE: pre: 2007	cur: 2009	pre_total: 2007
+				cur_total: 2009
+2009	2009	0
+ELSE: pre: 2009	cur: 2010	pre_total: 2009
+				cur_total: 2010
+2010	2010	0
+ELSE: pre: 2010	cur: 2012	pre_total: 2010
+				cur_total: 2012
+2012	2012	0
+ELSE: pre: 2012	cur: 2013	pre_total: 2012
+				cur_total: 2013
+2013	2013	0
+ELSE: pre: 2013	cur: 2018	pre_total: 2013
+				cur_total: 2018
+2018	2018	0
+ELSE: pre: 2018	cur: 2021	pre_total: 2018
+				cur_total: 2021
+2021	2021	0
+ELSE: pre: 2021	cur: 2022	pre_total: 2021
+				cur_total: 2022
+2022	2022	0
+ELSE: pre: 2022	cur: 2026	pre_total: 2022
+				cur_total: 2026
+2026	2026	0
+ELSE: pre: 2026	cur: 2027	pre_total: 2026
+				cur_total: 2027
+2027	2027	0
+ELSE: pre: 2027	cur: 2028	pre_total: 2027
+				cur_total: 2028
+2028	2028	0
+ELSE: pre: 2028	cur: 2029	pre_total: 2028
+				cur_total: 2029
+2029	2029	0
+ELSE: pre: 2029	cur: 2035	pre_total: 2029
+				cur_total: 2035
+2035	2035	0
+ELSE: pre: 2035	cur: 2036	pre_total: 2035
+				cur_total: 2036
+2036	2036	0
+ELSE: pre: 2036	cur: 2037	pre_total: 2036
+				cur_total: 2037
+2037	2037	0
+ELSE: pre: 2037	cur: 2039	pre_total: 2037
+				cur_total: 2039
+2039	2039	0
+ELSE: pre: 2039	cur: 2041	pre_total: 2039
+				cur_total: 2041
+2041	2041	0
+ELSE: pre: 2041	cur: 2042	pre_total: 2041
+				cur_total: 2042
+2042	2042	0
+ELSE: pre: 2042	cur: 2043	pre_total: 2042
+				cur_total: 2043
+2043	2043	0
+ELSE: pre: 2043	cur: 2044	pre_total: 2043
+				cur_total: 2044
+2044	2044	0
+ELSE: pre: 2044	cur: 2045	pre_total: 2044
+				cur_total: 2045
+2045	2045	0
+ELSE: pre: 2045	cur: 2049	pre_total: 2045
+				cur_total: 2049
+2049	2049	0
+ELSE: pre: 2049	cur: 2053	pre_total: 2049
+				cur_total: 2053
+2053	2053	0
+ELSE: pre: 2053	cur: 2054	pre_total: 2053
+				cur_total: 2054
+2054	2054	0
+ELSE: pre: 2054	cur: 2055	pre_total: 2054
+				cur_total: 2055
+2055	2055	0
+ELSE: pre: 2055	cur: 2056	pre_total: 2055
+				cur_total: 2056
+2056	2056	0
+ELSE: pre: 2056	cur: 2057	pre_total: 2056
+				cur_total: 2057
+2057	2057	0
+ELSE: pre: 2057	cur: 2058	pre_total: 2057
+				cur_total: 2058
+2058	2058	0
+ELSE: pre: 2058	cur: 2062	pre_total: 2058
+				cur_total: 2062
+2062	2062	0
+ELSE: pre: 2062	cur: 2063	pre_total: 2062
+				cur_total: 2063
+2063	2063	0
+ELSE: pre: 2063	cur: 2064	pre_total: 2063
+				cur_total: 2064
+2064	2064	0
+ELSE: pre: 2064	cur: 2065	pre_total: 2064
+				cur_total: 2065
+2065	2065	0
+ELSE: pre: 2065	cur: 2066	pre_total: 2065
+				cur_total: 2066
+2066	2066	0
+ELSE: pre: 2066	cur: 2067	pre_total: 2066
+				cur_total: 2067
+2067	2067	0
+ELSE: pre: 2067	cur: 2068	pre_total: 2067
+				cur_total: 2068
+2068	2068	0
+ELSE: pre: 2068	cur: 2072	pre_total: 2068
+				cur_total: 2072
+2072	2072	0
+ELSE: pre: 2072	cur: 2073	pre_total: 2072
+				cur_total: 2073
+2073	2073	0
+ELSE: pre: 2073	cur: 2076	pre_total: 2073
+				cur_total: 2076
+2076	2076	0
+ELSE: pre: 2076	cur: 2077	pre_total: 2076
+				cur_total: 2077
+2077	2077	0
+ELSE: pre: 2077	cur: 2078	pre_total: 2077
+				cur_total: 2078
+2078	2078	0
+ELSE: pre: 2078	cur: 2079	pre_total: 2078
+				cur_total: 2079
+2079	2079	0
+ELSE: pre: 2079	cur: 2080	pre_total: 2079
+				cur_total: 2080
+2080	2080	0
+ELSE: pre: 2080	cur: 2082	pre_total: 2080
+				cur_total: 2082
+2082	2082	0
+ELSE: pre: 2082	cur: 2084	pre_total: 2082
+				cur_total: 2084
+2084	2084	0
+ELSE: pre: 2084	cur: 2085	pre_total: 2084
+				cur_total: 2085
+2085	2085	0
+ELSE: pre: 2085	cur: 2089	pre_total: 2085
+				cur_total: 2089
+2089	2089	0
+ELSE: pre: 2089	cur: 2090	pre_total: 2089
+				cur_total: 2090
+2090	2090	0
+ELSE: pre: 2090	cur: 2093	pre_total: 2090
+				cur_total: 2093
+2093	2093	0
+ELSE: pre: 2093	cur: 2095	pre_total: 2093
+				cur_total: 2095
+2095	2095	0
+ELSE: pre: 2095	cur: 2098	pre_total: 2095
+				cur_total: 2098
+2098	2098	0
+ELSE: pre: 2098	cur: 2099	pre_total: 2098
+				cur_total: 2099
+2099	2099	0
+ELSE: pre: 2099	cur: 2100	pre_total: 2099
+				cur_total: 2100
+2100	2100	0
+ELSE: pre: 2100	cur: 2101	pre_total: 2100
+				cur_total: 2101
+2101	2101	0
+ELSE: pre: 2101	cur: 2102	pre_total: 2101
+				cur_total: 2102
+2102	2102	0
+ELSE: pre: 2102	cur: 2103	pre_total: 2102
+				cur_total: 2103
+2103	2103	0
+ELSE: pre: 2103	cur: 2107	pre_total: 2103
+				cur_total: 2107
+2107	2107	0
+ELSE: pre: 2107	cur: 2108	pre_total: 2107
+				cur_total: 2108
+2108	2108	0
+ELSE: pre: 2108	cur: 2111	pre_total: 2108
+				cur_total: 2111
+2111	2111	0
+ELSE: pre: 2111	cur: 2112	pre_total: 2111
+				cur_total: 2112
+2112	2112	0
+ELSE: pre: 2112	cur: 2116	pre_total: 2112
+				cur_total: 2116
+2116	2116	0
+ELSE: pre: 2116	cur: 2120	pre_total: 2116
+				cur_total: 2120
+2120	2120	0
+ELSE: pre: 2120	cur: 2121	pre_total: 2120
+				cur_total: 2121
+2121	2121	0
+ELSE: pre: 2121	cur: 2122	pre_total: 2121
+				cur_total: 2122
+2122	2122	0
+ELSE: pre: 2122	cur: 2123	pre_total: 2122
+				cur_total: 2123
+2123	2123	0
+ELSE: pre: 2123	cur: 2124	pre_total: 2123
+				cur_total: 2124
+2124	2124	0
+ELSE: pre: 2124	cur: 2125	pre_total: 2124
+				cur_total: 2125
+2125	2125	0
+ELSE: pre: 2125	cur: 2126	pre_total: 2125
+				cur_total: 2126
+2126	2126	0
+ELSE: pre: 2126	cur: 2129	pre_total: 2126
+				cur_total: 2129
+2129	2129	0
+ELSE: pre: 2129	cur: 2130	pre_total: 2129
+				cur_total: 2130
+2130	2130	0
+ELSE: pre: 2130	cur: 2134	pre_total: 2130
+				cur_total: 2134
+2134	2134	0
+ELSE: pre: 2134	cur: 2136	pre_total: 2134
+				cur_total: 2136
+2136	2136	0
+ELSE: pre: 2136	cur: 2138	pre_total: 2136
+				cur_total: 2138
+2138	2138	0
+ELSE: pre: 2138	cur: 2139	pre_total: 2138
+				cur_total: 2139
+2139	2139	0
+ELSE: pre: 2139	cur: 2144	pre_total: 2139
+				cur_total: 2144
+2144	2144	0
+ELSE: pre: 2144	cur: 2145	pre_total: 2144
+				cur_total: 2145
+2145	2145	0
+ELSE: pre: 2145	cur: 2146	pre_total: 2145
+				cur_total: 2146
+2146	2146	0
+ELSE: pre: 2146	cur: 2147	pre_total: 2146
+				cur_total: 2147
+2147	2147	0
+ELSE: pre: 2147	cur: 2152	pre_total: 2147
+				cur_total: 2152
+2152	2152	0
+ELSE: pre: 2152	cur: 2153	pre_total: 2152
+				cur_total: 2153
+2153	2153	0
+ELSE: pre: 2153	cur: 2154	pre_total: 2153
+				cur_total: 2154
+2154	2154	0
+ELSE: pre: 2154	cur: 2155	pre_total: 2154
+				cur_total: 2155
+2155	2155	0
+ELSE: pre: 2155	cur: 2157	pre_total: 2155
+				cur_total: 2157
+2157	2157	0
+ELSE: pre: 2157	cur: 2161	pre_total: 2157
+				cur_total: 2161
+2161	2161	0
+ELSE: pre: 2161	cur: 2162	pre_total: 2161
+				cur_total: 2162
+2162	2162	0
+ELSE: pre: 2162	cur: 2163	pre_total: 2162
+				cur_total: 2163
+2163	2163	0
+ELSE: pre: 2163	cur: 2164	pre_total: 2163
+				cur_total: 2164
+2164	2164	0
+ELSE: pre: 2164	cur: 2165	pre_total: 2164
+				cur_total: 2165
+2165	2165	0
+ELSE: pre: 2165	cur: 2166	pre_total: 2165
+				cur_total: 2166
+2166	2166	0
+ELSE: pre: 2166	cur: 2170	pre_total: 2166
+				cur_total: 2170
+2170	2170	0
+ELSE: pre: 2170	cur: 2171	pre_total: 2170
+				cur_total: 2171
+2171	2171	0
+ELSE: pre: 2171	cur: 2174	pre_total: 2171
+				cur_total: 2174
+2174	2174	0
+ELSE: pre: 2174	cur: 2175	pre_total: 2174
+				cur_total: 2175
+2175	2175	0
+ELSE: pre: 2175	cur: 2179	pre_total: 2175
+				cur_total: 2179
+2179	2179	0
+ELSE: pre: 2179	cur: 2180	pre_total: 2179
+				cur_total: 2180
+2180	2180	0
+ELSE: pre: 2180	cur: 2183	pre_total: 2180
+				cur_total: 2183
+2183	2183	0
+ELSE: pre: 2183	cur: 2184	pre_total: 2183
+				cur_total: 2184
+2184	2184	0
+ELSE: pre: 2184	cur: 2188	pre_total: 2184
+				cur_total: 2188
+2188	2188	0
+ELSE: pre: 2188	cur: 2189	pre_total: 2188
+				cur_total: 2189
+2189	2189	0
+ELSE: pre: 2189	cur: 2192	pre_total: 2189
+				cur_total: 2192
+2192	2192	0
+ELSE: pre: 2192	cur: 2193	pre_total: 2192
+				cur_total: 2193
+2193	2193	0
+ELSE: pre: 2193	cur: 2197	pre_total: 2193
+				cur_total: 2197
+2197	2197	0
+ELSE: pre: 2197	cur: 2201	pre_total: 2197
+				cur_total: 2201
+2201	2201	0
+ELSE: pre: 2201	cur: 2202	pre_total: 2201
+				cur_total: 2202
+2202	2202	0
+ELSE: pre: 2202	cur: 2203	pre_total: 2202
+				cur_total: 2203
+2203	2203	0
+ELSE: pre: 2203	cur: 2204	pre_total: 2203
+				cur_total: 2204
+2204	2204	0
+ELSE: pre: 2204	cur: 2205	pre_total: 2204
+				cur_total: 2205
+2205	2205	0
+ELSE: pre: 2205	cur: 2206	pre_total: 2205
+				cur_total: 2206
+2206	2206	0
+ELSE: pre: 2206	cur: 2207	pre_total: 2206
+				cur_total: 2207
+2207	2207	0
+ELSE: pre: 2207	cur: 2210	pre_total: 2207
+				cur_total: 2210
+2210	2210	0
+ELSE: pre: 2210	cur: 2212	pre_total: 2210
+				cur_total: 2212
+2212	2212	0
+ELSE: pre: 2212	cur: 2216	pre_total: 2212
+				cur_total: 2216
+2216	2216	0
+ELSE: pre: 2216	cur: 2217	pre_total: 2216
+				cur_total: 2217
+2217	2217	0
+ELSE: pre: 2217	cur: 2218	pre_total: 2217
+				cur_total: 2218
+2218	2218	0
+ELSE: pre: 2218	cur: 2219	pre_total: 2218
+				cur_total: 2219
+2219	2219	0
+ELSE: pre: 2219	cur: 2224	pre_total: 2219
+				cur_total: 2224
+2224	2224	0
+ELSE: pre: 2224	cur: 2225	pre_total: 2224
+				cur_total: 2225
+2225	2225	0
+ELSE: pre: 2225	cur: 2226	pre_total: 2225
+				cur_total: 2226
+2226	2226	0
+ELSE: pre: 2226	cur: 2229	pre_total: 2226
+				cur_total: 2229
+2229	2229	0
+ELSE: pre: 2229	cur: 2233	pre_total: 2229
+				cur_total: 2233
+2233	2233	0
+ELSE: pre: 2233	cur: 2234	pre_total: 2233
+				cur_total: 2234
+2234	2234	0
+ELSE: pre: 2234	cur: 2235	pre_total: 2234
+				cur_total: 2235
+2235	2235	0
+ELSE: pre: 2235	cur: 2236	pre_total: 2235
+				cur_total: 2236
+2236	2236	0
+ELSE: pre: 2236	cur: 2237	pre_total: 2236
+				cur_total: 2237
+2237	2237	0
+ELSE: pre: 2237	cur: 2238	pre_total: 2237
+				cur_total: 2238
+2238	2238	0
+ELSE: pre: 2238	cur: 2242	pre_total: 2238
+				cur_total: 2242
+2242	2242	0
+ELSE: pre: 2242	cur: 2243	pre_total: 2242
+				cur_total: 2243
+2243	2243	0
+ELSE: pre: 2243	cur: 2244	pre_total: 2243
+				cur_total: 2244
+2244	2244	0
+ELSE: pre: 2244	cur: 2245	pre_total: 2244
+				cur_total: 2245
+2245	2245	0
+ELSE: pre: 2245	cur: 2246	pre_total: 2245
+				cur_total: 2246
+2246	2246	0
+ELSE: pre: 2246	cur: 2251	pre_total: 2246
+				cur_total: 2251
+2251	2251	0
+ELSE: pre: 2251	cur: 2252	pre_total: 2251
+				cur_total: 2252
+2252	2252	0
+ELSE: pre: 2252	cur: 2253	pre_total: 2252
+				cur_total: 2253
+2253	2253	0
+ELSE: pre: 2253	cur: 2254	pre_total: 2253
+				cur_total: 2254
+2254	2254	0
+ELSE: pre: 2254	cur: 2255	pre_total: 2254
+				cur_total: 2255
+2255	2255	0
+ELSE: pre: 2255	cur: 2260	pre_total: 2255
+				cur_total: 2260
+2260	2260	0
+ELSE: pre: 2260	cur: 2261	pre_total: 2260
+				cur_total: 2261
+2261	2261	0
+ELSE: pre: 2261	cur: 2264	pre_total: 2261
+				cur_total: 2264
+2264	2264	0
+ELSE: pre: 2264	cur: 2265	pre_total: 2264
+				cur_total: 2265
+2265	2265	0
+ELSE: pre: 2265	cur: 2268	pre_total: 2265
+				cur_total: 2268
+2268	2268	0
+ELSE: pre: 2268	cur: 2269	pre_total: 2268
+				cur_total: 2269
+2269	2269	0
+ELSE: pre: 2269	cur: 2271	pre_total: 2269
+				cur_total: 2271
+2271	2271	0
+ELSE: pre: 2271	cur: 2272	pre_total: 2271
+				cur_total: 2272
+2272	2272	0
+ELSE: pre: 2272	cur: 2273	pre_total: 2272
+				cur_total: 2273
+2273	2273	0
+ELSE: pre: 2273	cur: 2274	pre_total: 2273
+				cur_total: 2274
+2274	2274	0
+ELSE: pre: 2274	cur: 2278	pre_total: 2274
+				cur_total: 2278
+2278	2278	0
+ELSE: pre: 2278	cur: 2279	pre_total: 2278
+				cur_total: 2279
+2279	2279	0
+ELSE: pre: 2279	cur: 2282	pre_total: 2279
+				cur_total: 2282
+2282	2282	0
+ELSE: pre: 2282	cur: 2284	pre_total: 2282
+				cur_total: 2284
+2284	2284	0
+ELSE: pre: 2284	cur: 2285	pre_total: 2284
+				cur_total: 2285
+2285	2285	0
+ELSE: pre: 2285	cur: 2287	pre_total: 2285
+				cur_total: 2287
+2287	2287	0
+ELSE: pre: 2287	cur: 2288	pre_total: 2287
+				cur_total: 2288
+2288	2288	0
+ELSE: pre: 2288	cur: 2291	pre_total: 2288
+				cur_total: 2291
+2291	2291	0
+ELSE: pre: 2291	cur: 2292	pre_total: 2291
+				cur_total: 2292
+2292	2292	0
+ELSE: pre: 2292	cur: 2296	pre_total: 2292
+				cur_total: 2296
+2296	2296	0
+ELSE: pre: 2296	cur: 2300	pre_total: 2296
+				cur_total: 2300
+2300	2300	0
+ELSE: pre: 2300	cur: 2301	pre_total: 2300
+				cur_total: 2301
+2301	2301	0
+ELSE: pre: 2301	cur: 2305	pre_total: 2301
+				cur_total: 2305
+2305	2305	0
+ELSE: pre: 2305	cur: 2306	pre_total: 2305
+				cur_total: 2306
+2306	2306	0
+ELSE: pre: 2306	cur: 2309	pre_total: 2306
+				cur_total: 2309
+2309	2309	0
+ELSE: pre: 2309	cur: 2310	pre_total: 2309
+				cur_total: 2310
+2310	2310	0
+ELSE: pre: 2310	cur: 2314	pre_total: 2310
+				cur_total: 2314
+2314	2314	0
+ELSE: pre: 2314	cur: 2315	pre_total: 2314
+				cur_total: 2315
+2315	2315	0
+ELSE: pre: 2315	cur: 2319	pre_total: 2315
+				cur_total: 2319
+2319	2319	0
+ELSE: pre: 2319	cur: 2320	pre_total: 2319
+				cur_total: 2320
+2320	2320	0
+ELSE: pre: 2320	cur: 2321	pre_total: 2320
+				cur_total: 2321
+2321	2321	0
+ELSE: pre: 2321	cur: 2322	pre_total: 2321
+				cur_total: 2322
+2322	2322	0
+ELSE: pre: 2322	cur: 2323	pre_total: 2322
+				cur_total: 2323
+2323	2323	0
+ELSE: pre: 2323	cur: 2324	pre_total: 2323
+				cur_total: 2324
+2324	2324	0
+ELSE: pre: 2324	cur: 2327	pre_total: 2324
+				cur_total: 2327
+2327	2327	0
+ELSE: pre: 2327	cur: 2332	pre_total: 2327
+				cur_total: 2332
+2332	2332	0
+ELSE: pre: 2332	cur: 2333	pre_total: 2332
+				cur_total: 2333
+2333	2333	0
+ELSE: pre: 2333	cur: 2334	pre_total: 2333
+				cur_total: 2334
+2334	2334	0
+ELSE: pre: 2334	cur: 2335	pre_total: 2334
+				cur_total: 2335
+2335	2335	0
+ELSE: pre: 2335	cur: 2336	pre_total: 2335
+				cur_total: 2336
+2336	2336	0
+ELSE: pre: 2336	cur: 2338	pre_total: 2336
+				cur_total: 2338
+2338	2338	0
+ELSE: pre: 2338	cur: 2342	pre_total: 2338
+				cur_total: 2342
+2342	2342	0
+ELSE: pre: 2342	cur: 2345	pre_total: 2342
+				cur_total: 2345
+2345	2345	0
+ELSE: pre: 2345	cur: 2346	pre_total: 2345
+				cur_total: 2346
+2346	2346	0
+ELSE: pre: 2346	cur: 2351	pre_total: 2346
+				cur_total: 2351
+2351	2351	0
+ELSE: pre: 2351	cur: 2352	pre_total: 2351
+				cur_total: 2352
+2352	2352	0
+ELSE: pre: 2352	cur: 2353	pre_total: 2352
+				cur_total: 2353
+2353	2353	0
+ELSE: pre: 2353	cur: 2354	pre_total: 2353
+				cur_total: 2354
+2354	2354	0
+ELSE: pre: 2354	cur: 2355	pre_total: 2354
+				cur_total: 2355
+2355	2355	0
+ELSE: pre: 2355	cur: 2359	pre_total: 2355
+				cur_total: 2359
+2359	2359	0
+ELSE: pre: 2359	cur: 2360	pre_total: 2359
+				cur_total: 2360
+2360	2360	0
+ELSE: pre: 2360	cur: 2361	pre_total: 2360
+				cur_total: 2361
+2361	2361	0
+ELSE: pre: 2361	cur: 2362	pre_total: 2361
+				cur_total: 2362
+2362	2362	0
+ELSE: pre: 2362	cur: 2363	pre_total: 2362
+				cur_total: 2363
+2363	2363	0
+ELSE: pre: 2363	cur: 2364	pre_total: 2363
+				cur_total: 2364
+2364	2364	0
+ELSE: pre: 2364	cur: 2368	pre_total: 2364
+				cur_total: 2368
+2368	2368	0
+ELSE: pre: 2368	cur: 2369	pre_total: 2368
+				cur_total: 2369
+2369	2369	0
+ELSE: pre: 2369	cur: 2372	pre_total: 2369
+				cur_total: 2372
+2372	2372	0
+ELSE: pre: 2372	cur: 2373	pre_total: 2372
+				cur_total: 2373
+2373	2373	0
+ELSE: pre: 2373	cur: 2377	pre_total: 2373
+				cur_total: 2377
+2377	2377	0
+ELSE: pre: 2377	cur: 2378	pre_total: 2377
+				cur_total: 2378
+2378	2378	0
+ELSE: pre: 2378	cur: 2379	pre_total: 2378
+				cur_total: 2379
+2379	2379	0
+ELSE: pre: 2379	cur: 2381	pre_total: 2379
+				cur_total: 2381
+2381	2381	0
+ELSE: pre: 2381	cur: 2382	pre_total: 2381
+				cur_total: 2382
+2382	2382	0
+ELSE: pre: 2382	cur: 2385	pre_total: 2382
+				cur_total: 2385
+2385	2385	0
+ELSE: pre: 2385	cur: 2386	pre_total: 2385
+				cur_total: 2386
+2386	2386	0
+ELSE: pre: 2386	cur: 2390	pre_total: 2386
+				cur_total: 2390
+2390	2390	0
+ELSE: pre: 2390	cur: 2391	pre_total: 2390
+				cur_total: 2391
+2391	2391	0
+ELSE: pre: 2391	cur: 2395	pre_total: 2391
+				cur_total: 2395
+2395	2395	0
+ELSE: pre: 2395	cur: 2396	pre_total: 2395
+				cur_total: 2396
+2396	2396	0
+ELSE: pre: 2396	cur: 2397	pre_total: 2396
+				cur_total: 2397
+2397	2397	0
+ELSE: pre: 2397	cur: 2398	pre_total: 2397
+				cur_total: 2398
+2398	2398	0
+ELSE: pre: 2398	cur: 2399	pre_total: 2398
+				cur_total: 2399
+2399	2399	0
+ELSE: pre: 2399	cur: 2400	pre_total: 2399
+				cur_total: 2400
+2400	2400	0
+ELSE: pre: 2400	cur: 2401	pre_total: 2400
+				cur_total: 2401
+2401	2401	0
+ELSE: pre: 2401	cur: 2402	pre_total: 2401
+				cur_total: 2402
+2402	2402	0
+ELSE: pre: 2402	cur: 2403	pre_total: 2402
+				cur_total: 2403
+2403	2403	0
+ELSE: pre: 2403	cur: 2404	pre_total: 2403
+				cur_total: 2404
+2404	2404	0
+ELSE: pre: 2404	cur: 2405	pre_total: 2404
+				cur_total: 2405
+2405	2405	0
+ELSE: pre: 2405	cur: 2406	pre_total: 2405
+				cur_total: 2406
+2406	2406	0
+ELSE: pre: 2406	cur: 2408	pre_total: 2406
+				cur_total: 2408
+2408	2408	0
+ELSE: pre: 2408	cur: 2409	pre_total: 2408
+				cur_total: 2409
+2409	2409	0
+ELSE: pre: 2409	cur: 2410	pre_total: 2409
+				cur_total: 2410
+2410	2410	0
+ELSE: pre: 2410	cur: 2413	pre_total: 2410
+				cur_total: 2413
+2413	2413	0
+ELSE: pre: 2413	cur: 2414	pre_total: 2413
+				cur_total: 2414
+2414	2414	0
+ELSE: pre: 2414	cur: 2417	pre_total: 2414
+				cur_total: 2417
+2417	2417	0
+ELSE: pre: 2417	cur: 2418	pre_total: 2417
+				cur_total: 2418
+2418	2418	0
+ELSE: pre: 2418	cur: 2422	pre_total: 2418
+				cur_total: 2422
+2422	2422	0
+ELSE: pre: 2422	cur: 2423	pre_total: 2422
+				cur_total: 2423
+2423	2423	0
+ELSE: pre: 2423	cur: 2424	pre_total: 2423
+				cur_total: 2424
+2424	2424	0
+ELSE: pre: 2424	cur: 2425	pre_total: 2424
+				cur_total: 2425
+2425	2425	0
+ELSE: pre: 2425	cur: 2427	pre_total: 2425
+				cur_total: 2427
+2427	2427	0
+ELSE: pre: 2427	cur: 2432	pre_total: 2427
+				cur_total: 2432
+2432	2432	0
+ELSE: pre: 2432	cur: 2433	pre_total: 2432
+				cur_total: 2433
+2433	2433	0
+ELSE: pre: 2433	cur: 2434	pre_total: 2433
+				cur_total: 2434
+2434	2434	0
+ELSE: pre: 2434	cur: 2435	pre_total: 2434
+				cur_total: 2435
+2435	2435	0
+ELSE: pre: 2435	cur: 2440	pre_total: 2435
+				cur_total: 2440
+2440	2440	0
+ELSE: pre: 2440	cur: 2441	pre_total: 2440
+				cur_total: 2441
+2441	2441	0
+ELSE: pre: 2441	cur: 2442	pre_total: 2441
+				cur_total: 2442
+2442	2442	0
+ELSE: pre: 2442	cur: 2443	pre_total: 2442
+				cur_total: 2443
+2443	2443	0
+ELSE: pre: 2443	cur: 2444	pre_total: 2443
+				cur_total: 2444
+2444	2444	0
+ELSE: pre: 2444	cur: 2445	pre_total: 2444
+				cur_total: 2445
+2445	2445	0
+ELSE: pre: 2445	cur: 2446	pre_total: 2445
+				cur_total: 2446
+2446	2446	0
+ELSE: pre: 2446	cur: 2449	pre_total: 2446
+				cur_total: 2449
+2449	2449	0
+ELSE: pre: 2449	cur: 2450	pre_total: 2449
+				cur_total: 2450
+2450	2450	0
+ELSE: pre: 2450	cur: 2451	pre_total: 2450
+				cur_total: 2451
+2451	2451	0
+ELSE: pre: 2451	cur: 2452	pre_total: 2451
+				cur_total: 2452
+2452	2452	0
+ELSE: pre: 2452	cur: 2453	pre_total: 2452
+				cur_total: 2453
+2453	2453	0
+ELSE: pre: 2453	cur: 2458	pre_total: 2453
+				cur_total: 2458
+2458	2458	0
+ELSE: pre: 2458	cur: 2459	pre_total: 2458
+				cur_total: 2459
+2459	2459	0
+ELSE: pre: 2459	cur: 2460	pre_total: 2459
+				cur_total: 2460
+2460	2460	0
+ELSE: pre: 2460	cur: 2461	pre_total: 2460
+				cur_total: 2461
+2461	2461	0
+ELSE: pre: 2461	cur: 2462	pre_total: 2461
+				cur_total: 2462
+2462	2462	0
+ELSE: pre: 2462	cur: 2463	pre_total: 2462
+				cur_total: 2463
+2463	2463	0
+ELSE: pre: 2463	cur: 2467	pre_total: 2463
+				cur_total: 2467
+2467	2467	0
+ELSE: pre: 2467	cur: 2468	pre_total: 2467
+				cur_total: 2468
+2468	2468	0
+ELSE: pre: 2468	cur: 2469	pre_total: 2468
+				cur_total: 2469
+2469	2469	0
+ELSE: pre: 2469	cur: 2470	pre_total: 2469
+				cur_total: 2470
+2470	2470	0
+ELSE: pre: 2470	cur: 2471	pre_total: 2470
+				cur_total: 2471
+2471	2471	0
+ELSE: pre: 2471	cur: 2476	pre_total: 2471
+				cur_total: 2476
+2476	2476	0
+ELSE: pre: 2476	cur: 2477	pre_total: 2476
+				cur_total: 2477
+2477	2477	0
+ELSE: pre: 2477	cur: 2480	pre_total: 2477
+				cur_total: 2480
+2480	2480	0
+ELSE: pre: 2480	cur: 2481	pre_total: 2480
+				cur_total: 2481
+2481	2481	0
+ELSE: pre: 2481	cur: 2485	pre_total: 2481
+				cur_total: 2485
+2485	2485	0
+ELSE: pre: 2485	cur: 2486	pre_total: 2485
+				cur_total: 2486
+2486	2486	0
+ELSE: pre: 2486	cur: 2487	pre_total: 2486
+				cur_total: 2487
+2487	2487	0
+ELSE: pre: 2487	cur: 2488	pre_total: 2487
+				cur_total: 2488
+2488	2488	0
+ELSE: pre: 2488	cur: 2489	pre_total: 2488
+				cur_total: 2489
+2489	2489	0
+ELSE: pre: 2489	cur: 2490	pre_total: 2489
+				cur_total: 2490
+2490	2490	0
+ELSE: pre: 2490	cur: 2491	pre_total: 2490
+				cur_total: 2491
+2491	2491	0
+ELSE: pre: 2491	cur: 2492	pre_total: 2491
+				cur_total: 2492
+2492	2492	0
+ELSE: pre: 2492	cur: 2494	pre_total: 2492
+				cur_total: 2494
+2494	2494	0
+ELSE: pre: 2494	cur: 2495	pre_total: 2494
+				cur_total: 2495
+2495	2495	0
+ELSE: pre: 2495	cur: 2496	pre_total: 2495
+				cur_total: 2496
+2496	2496	0
+ELSE: pre: 2496	cur: 2498	pre_total: 2496
+				cur_total: 2498
+2498	2498	0
+ELSE: pre: 2498	cur: 2499	pre_total: 2498
+				cur_total: 2499
+2499	2499	0
+ELSE: pre: 2499	cur: 2503	pre_total: 2499
+				cur_total: 2503
+2503	2503	0
+ELSE: pre: 2503	cur: 2504	pre_total: 2503
+				cur_total: 2504
+2504	2504	0
+ELSE: pre: 2504	cur: 2506	pre_total: 2504
+				cur_total: 2506
+2506	2506	0
+ELSE: pre: 2506	cur: 2507	pre_total: 2506
+				cur_total: 2507
+2507	2507	0
+ELSE: pre: 2507	cur: 2509	pre_total: 2507
+				cur_total: 2509
+2509	2509	0
+ELSE: pre: 2509	cur: 2510	pre_total: 2509
+				cur_total: 2510
+2510	2510	0
+ELSE: pre: 2510	cur: 2511	pre_total: 2510
+				cur_total: 2511
+2511	2511	0
+ELSE: pre: 2511	cur: 2512	pre_total: 2511
+				cur_total: 2512
+2512	2512	0
+ELSE: pre: 2512	cur: 2513	pre_total: 2512
+				cur_total: 2513
+2513	2513	0
+ELSE: pre: 2513	cur: 2514	pre_total: 2513
+				cur_total: 2514
+2514	2514	0
+ELSE: pre: 2514	cur: 2515	pre_total: 2514
+				cur_total: 2515
+2515	2515	0
+ELSE: pre: 2515	cur: 2516	pre_total: 2515
+				cur_total: 2516
+2516	2516	0
+ELSE: pre: 2516	cur: 2517	pre_total: 2516
+				cur_total: 2517
+2517	2517	0
+ELSE: pre: 2517	cur: 2518	pre_total: 2517
+				cur_total: 2518
+2518	2518	0
+ELSE: pre: 2518	cur: 2519	pre_total: 2518
+				cur_total: 2519
+2519	2519	0
+ELSE: pre: 2519	cur: 2520	pre_total: 2519
+				cur_total: 2520
+2520	2520	0
+ELSE: pre: 2520	cur: 2521	pre_total: 2520
+				cur_total: 2521
+2521	2521	0
+ELSE: pre: 2521	cur: 2523	pre_total: 2521
+				cur_total: 2523
+2523	2523	0
+ELSE: pre: 2523	cur: 2524	pre_total: 2523
+				cur_total: 2524
+2524	2524	0
+ELSE: pre: 2524	cur: 2525	pre_total: 2524
+				cur_total: 2525
+2525	2525	0
+ELSE: pre: 2525	cur: 2526	pre_total: 2525
+				cur_total: 2526
+2526	2526	0
+ELSE: pre: 2526	cur: 2530	pre_total: 2526
+				cur_total: 2530
+2530	2530	0
+ELSE: pre: 2530	cur: 2531	pre_total: 2530
+				cur_total: 2531
+2531	2531	0
+ELSE: pre: 2531	cur: 2533	pre_total: 2531
+				cur_total: 2533
+2533	2533	0
+ELSE: pre: 2533	cur: 2534	pre_total: 2533
+				cur_total: 2534
+2534	2534	0
+ELSE: pre: 2534	cur: 2535	pre_total: 2534
+				cur_total: 2535
+2535	2535	0
+ELSE: pre: 2535	cur: 2536	pre_total: 2535
+				cur_total: 2536
+2536	2536	0
+ELSE: pre: 2536	cur: 2537	pre_total: 2536
+				cur_total: 2537
+2537	2537	0
+ELSE: pre: 2537	cur: 2538	pre_total: 2537
+				cur_total: 2538
+2538	2538	0
+ELSE: pre: 2538	cur: 2539	pre_total: 2538
+				cur_total: 2539
+2539	2539	0
+ELSE: pre: 2539	cur: 2540	pre_total: 2539
+				cur_total: 2540
+2540	2540	0
+ELSE: pre: 2540	cur: 2541	pre_total: 2540
+				cur_total: 2541
+2541	2541	0
+ELSE: pre: 2541	cur: 2542	pre_total: 2541
+				cur_total: 2542
+2542	2542	0
+ELSE: pre: 2542	cur: 2543	pre_total: 2542
+				cur_total: 2543
+2543	2543	0
+ELSE: pre: 2543	cur: 2544	pre_total: 2543
+				cur_total: 2544
+2544	2544	0
+ELSE: pre: 2544	cur: 2548	pre_total: 2544
+				cur_total: 2548
+2548	2548	0
+ELSE: pre: 2548	cur: 2549	pre_total: 2548
+				cur_total: 2549
+2549	2549	0
+ELSE: pre: 2549	cur: 2550	pre_total: 2549
+				cur_total: 2550
+2550	2550	0
+ELSE: pre: 2550	cur: 2551	pre_total: 2550
+				cur_total: 2551
+2551	2551	0
+ELSE: pre: 2551	cur: 2552	pre_total: 2551
+				cur_total: 2552
+2552	2552	0
+ELSE: pre: 2552	cur: 2553	pre_total: 2552
+				cur_total: 2553
+2553	2553	0
+ELSE: pre: 2553	cur: 2557	pre_total: 2553
+				cur_total: 2557
+2557	2557	0
+ELSE: pre: 2557	cur: 2558	pre_total: 2557
+				cur_total: 2558
+2558	2558	0
+ELSE: pre: 2558	cur: 2559	pre_total: 2558
+				cur_total: 2559
+2559	2559	0
+ELSE: pre: 2559	cur: 2561	pre_total: 2559
+				cur_total: 2561
+2561	2561	0
+ELSE: pre: 2561	cur: 2562	pre_total: 2561
+				cur_total: 2562
+2562	2562	0
+ELSE: pre: 2562	cur: 2564	pre_total: 2562
+				cur_total: 2564
+2564	2564	0
+ELSE: pre: 2564	cur: 2570	pre_total: 2564
+				cur_total: 2570
+2570	2570	0
+ELSE: pre: 2570	cur: 2571	pre_total: 2570
+				cur_total: 2571
+2571	2571	0
+ELSE: pre: 2571	cur: 2573	pre_total: 2571
+				cur_total: 2573
+2573	2573	0
+ELSE: pre: 2573	cur: 2574	pre_total: 2573
+				cur_total: 2574
+2574	2574	0
+ELSE: pre: 2574	cur: 2575	pre_total: 2574
+				cur_total: 2575
+2575	2575	0
+ELSE: pre: 2575	cur: 2576	pre_total: 2575
+				cur_total: 2576
+2576	2576	0
+ELSE: pre: 2576	cur: 2577	pre_total: 2576
+				cur_total: 2577
+2577	2577	0
+ELSE: pre: 2577	cur: 2578	pre_total: 2577
+				cur_total: 2578
+2578	2578	0
+ELSE: pre: 2578	cur: 2579	pre_total: 2578
+				cur_total: 2579
+2579	2579	0
+ELSE: pre: 2579	cur: 2580	pre_total: 2579
+				cur_total: 2580
+2580	2580	0
+ELSE: pre: 2580	cur: 2585	pre_total: 2580
+				cur_total: 2585
+2585	2585	0
+ELSE: pre: 2585	cur: 2586	pre_total: 2585
+				cur_total: 2586
+2586	2586	0
+ELSE: pre: 2586	cur: 2587	pre_total: 2586
+				cur_total: 2587
+2587	2587	0
+ELSE: pre: 2587	cur: 2588	pre_total: 2587
+				cur_total: 2588
+2588	2588	0
+ELSE: pre: 2588	cur: 2589	pre_total: 2588
+				cur_total: 2589
+2589	2589	0
+ELSE: pre: 2589	cur: 2590	pre_total: 2589
+				cur_total: 2590
+2590	2590	0
+ELSE: pre: 2590	cur: 2591	pre_total: 2590
+				cur_total: 2591
+2591	2591	0
+ELSE: pre: 2591	cur: 2593	pre_total: 2591
+				cur_total: 2593
+2593	2593	0
+ELSE: pre: 2593	cur: 2594	pre_total: 2593
+				cur_total: 2594
+2594	2594	0
+ELSE: pre: 2594	cur: 2597	pre_total: 2594
+				cur_total: 2597
+2597	2597	0
+ELSE: pre: 2597	cur: 2598	pre_total: 2597
+				cur_total: 2598
+2598	2598	0
+ELSE: pre: 2598	cur: 2602	pre_total: 2598
+				cur_total: 2602
+2602	2602	0
+ELSE: pre: 2602	cur: 2603	pre_total: 2602
+				cur_total: 2603
+2603	2603	0
+ELSE: pre: 2603	cur: 2606	pre_total: 2603
+				cur_total: 2606
+2606	2606	0
+ELSE: pre: 2606	cur: 2608	pre_total: 2606
+				cur_total: 2608
+2608	2608	0
+ELSE: pre: 2608	cur: 2611	pre_total: 2608
+				cur_total: 2611
+2611	2611	0
+ELSE: pre: 2611	cur: 2612	pre_total: 2611
+				cur_total: 2612
+2612	2612	0
+ELSE: pre: 2612	cur: 2613	pre_total: 2612
+				cur_total: 2613
+2613	2613	0
+ELSE: pre: 2613	cur: 2614	pre_total: 2613
+				cur_total: 2614
+2614	2614	0
+ELSE: pre: 2614	cur: 2615	pre_total: 2614
+				cur_total: 2615
+2615	2615	0
+ELSE: pre: 2615	cur: 2616	pre_total: 2615
+				cur_total: 2616
+2616	2616	0
+ELSE: pre: 2616	cur: 2618	pre_total: 2616
+				cur_total: 2618
+2618	2618	0
+ELSE: pre: 2618	cur: 2620	pre_total: 2618
+				cur_total: 2620
+2620	2620	0
+ELSE: pre: 2620	cur: 2621	pre_total: 2620
+				cur_total: 2621
+2621	2621	0
+ELSE: pre: 2621	cur: 2624	pre_total: 2621
+				cur_total: 2624
+2624	2624	0
+ELSE: pre: 2624	cur: 2625	pre_total: 2624
+				cur_total: 2625
+2625	2625	0
+ELSE: pre: 2625	cur: 2626	pre_total: 2625
+				cur_total: 2626
+2626	2626	0
+ELSE: pre: 2626	cur: 2629	pre_total: 2626
+				cur_total: 2629
+2629	2629	0
+ELSE: pre: 2629	cur: 2630	pre_total: 2629
+				cur_total: 2630
+2630	2630	0
+ELSE: pre: 2630	cur: 2631	pre_total: 2630
+				cur_total: 2631
+2631	2631	0
+ELSE: pre: 2631	cur: 2632	pre_total: 2631
+				cur_total: 2632
+2632	2632	0
+ELSE: pre: 2632	cur: 2633	pre_total: 2632
+				cur_total: 2633
+2633	2633	0
+ELSE: pre: 2633	cur: 2634	pre_total: 2633
+				cur_total: 2634
+2634	2634	0
+ELSE: pre: 2634	cur: 2635	pre_total: 2634
+				cur_total: 2635
+2635	2635	0
+ELSE: pre: 2635	cur: 2636	pre_total: 2635
+				cur_total: 2636
+2636	2636	0
+ELSE: pre: 2636	cur: 2637	pre_total: 2636
+				cur_total: 2637
+2637	2637	0
+ELSE: pre: 2637	cur: 2638	pre_total: 2637
+				cur_total: 2638
+2638	2638	0
+ELSE: pre: 2638	cur: 2639	pre_total: 2638
+				cur_total: 2639
+2639	2639	0
+ELSE: pre: 2639	cur: 2640	pre_total: 2639
+				cur_total: 2640
+2640	2640	0
+ELSE: pre: 2640	cur: 2641	pre_total: 2640
+				cur_total: 2641
+2641	2641	0
+ELSE: pre: 2641	cur: 2642	pre_total: 2641
+				cur_total: 2642
+2642	2642	0
+ELSE: pre: 2642	cur: 2643	pre_total: 2642
+				cur_total: 2643
+2643	2643	0
+ELSE: pre: 2643	cur: 2644	pre_total: 2643
+				cur_total: 2644
+2644	2644	0
+ELSE: pre: 2644	cur: 2645	pre_total: 2644
+				cur_total: 2645
+2645	2645	0
+ELSE: pre: 2645	cur: 2646	pre_total: 2645
+				cur_total: 2646
+2646	2646	0
+ELSE: pre: 2646	cur: 2647	pre_total: 2646
+				cur_total: 2647
+2647	2647	0
+ELSE: pre: 2647	cur: 2649	pre_total: 2647
+				cur_total: 2649
+2649	2649	0
+ELSE: pre: 2649	cur: 2650	pre_total: 2649
+				cur_total: 2650
+2650	2650	0
+ELSE: pre: 2650	cur: 2651	pre_total: 2650
+				cur_total: 2651
+2651	2651	0
+ELSE: pre: 2651	cur: 2652	pre_total: 2651
+				cur_total: 2652
+2652	2652	0
+ELSE: pre: 2652	cur: 2653	pre_total: 2652
+				cur_total: 2653
+2653	2653	0
+ELSE: pre: 2653	cur: 2654	pre_total: 2653
+				cur_total: 2654
+2654	2654	0
+ELSE: pre: 2654	cur: 2656	pre_total: 2654
+				cur_total: 2656
+2656	2656	0
+ELSE: pre: 2656	cur: 2658	pre_total: 2656
+				cur_total: 2658
+2658	2658	0
+ELSE: pre: 2658	cur: 2659	pre_total: 2658
+				cur_total: 2659
+2659	2659	0
+ELSE: pre: 2659	cur: 2660	pre_total: 2659
+				cur_total: 2660
+2660	2660	0
+ELSE: pre: 2660	cur: 2661	pre_total: 2660
+				cur_total: 2661
+2661	2661	0
+ELSE: pre: 2661	cur: 2666	pre_total: 2661
+				cur_total: 2666
+2666	2666	0
+ELSE: pre: 2666	cur: 2667	pre_total: 2666
+				cur_total: 2667
+2667	2667	0
+ELSE: pre: 2667	cur: 2668	pre_total: 2667
+				cur_total: 2668
+2668	2668	0
+ELSE: pre: 2668	cur: 2669	pre_total: 2668
+				cur_total: 2669
+2669	2669	0
+ELSE: pre: 2669	cur: 2670	pre_total: 2669
+				cur_total: 2670
+2670	2670	0
+ELSE: pre: 2670	cur: 2674	pre_total: 2670
+				cur_total: 2674
+2674	2674	0
+ELSE: pre: 2674	cur: 2675	pre_total: 2674
+				cur_total: 2675
+2675	2675	0
+ELSE: pre: 2675	cur: 2676	pre_total: 2675
+				cur_total: 2676
+2676	2676	0
+ELSE: pre: 2676	cur: 2677	pre_total: 2676
+				cur_total: 2677
+2677	2677	0
+ELSE: pre: 2677	cur: 2678	pre_total: 2677
+				cur_total: 2678
+2678	2678	0
+ELSE: pre: 2678	cur: 2679	pre_total: 2678
+				cur_total: 2679
+2679	2679	0
+ELSE: pre: 2679	cur: 2681	pre_total: 2679
+				cur_total: 2681
+2681	2681	0
+ELSE: pre: 2681	cur: 2682	pre_total: 2681
+				cur_total: 2682
+2682	2682	0
+ELSE: pre: 2682	cur: 2683	pre_total: 2682
+				cur_total: 2683
+2683	2683	0
+ELSE: pre: 2683	cur: 2684	pre_total: 2683
+				cur_total: 2684
+2684	2684	0
+ELSE: pre: 2684	cur: 2687	pre_total: 2684
+				cur_total: 2687
+2687	2687	0
+ELSE: pre: 2687	cur: 2688	pre_total: 2687
+				cur_total: 2688
+2688	2688	0
+ELSE: pre: 2688	cur: 2689	pre_total: 2688
+				cur_total: 2689
+2689	2689	0
+ELSE: pre: 2689	cur: 2690	pre_total: 2689
+				cur_total: 2690
+2690	2690	0
+ELSE: pre: 2690	cur: 2692	pre_total: 2690
+				cur_total: 2692
+2692	2692	0
+ELSE: pre: 2692	cur: 2693	pre_total: 2692
+				cur_total: 2693
+2693	2693	0
+ELSE: pre: 2693	cur: 2696	pre_total: 2693
+				cur_total: 2696
+2696	2696	0
+ELSE: pre: 2696	cur: 2697	pre_total: 2696
+				cur_total: 2697
+2697	2697	0
+ELSE: pre: 2697	cur: 2699	pre_total: 2697
+				cur_total: 2699
+2699	2699	0
+ELSE: pre: 2699	cur: 2700	pre_total: 2699
+				cur_total: 2700
+2700	2700	0
+ELSE: pre: 2700	cur: 2701	pre_total: 2700
+				cur_total: 2701
+2701	2701	0
+ELSE: pre: 2701	cur: 2702	pre_total: 2701
+				cur_total: 2702
+2702	2702	0
+ELSE: pre: 2702	cur: 2703	pre_total: 2702
+				cur_total: 2703
+2703	2703	0
+ELSE: pre: 2703	cur: 2704	pre_total: 2703
+				cur_total: 2704
+2704	2704	0
+ELSE: pre: 2704	cur: 2705	pre_total: 2704
+				cur_total: 2705
+2705	2705	0
+ELSE: pre: 2705	cur: 2706	pre_total: 2705
+				cur_total: 2706
+2706	2706	0
+ELSE: pre: 2706	cur: 2710	pre_total: 2706
+				cur_total: 2710
+2710	2710	0
+ELSE: pre: 2710	cur: 2711	pre_total: 2710
+				cur_total: 2711
+2711	2711	0
+ELSE: pre: 2711	cur: 2714	pre_total: 2711
+				cur_total: 2714
+2714	2714	0
+ELSE: pre: 2714	cur: 2715	pre_total: 2714
+				cur_total: 2715
+2715	2715	0
+ELSE: pre: 2715	cur: 2716	pre_total: 2715
+				cur_total: 2716
+2716	2716	0
+ELSE: pre: 2716	cur: 2719	pre_total: 2716
+				cur_total: 2719
+2719	2719	0
+ELSE: pre: 2719	cur: 2720	pre_total: 2719
+				cur_total: 2720
+2720	2720	0
+ELSE: pre: 2720	cur: 2723	pre_total: 2720
+				cur_total: 2723
+2723	2723	0
+ELSE: pre: 2723	cur: 2724	pre_total: 2723
+				cur_total: 2724
+2724	2724	0
+ELSE: pre: 2724	cur: 2728	pre_total: 2724
+				cur_total: 2728
+2728	2728	0
+ELSE: pre: 2728	cur: 2729	pre_total: 2728
+				cur_total: 2729
+2729	2729	0
+ELSE: pre: 2729	cur: 2730	pre_total: 2729
+				cur_total: 2730
+2730	2730	0
+ELSE: pre: 2730	cur: 2731	pre_total: 2730
+				cur_total: 2731
+2731	2731	0
+ELSE: pre: 2731	cur: 2732	pre_total: 2731
+				cur_total: 2732
+2732	2732	0
+ELSE: pre: 2732	cur: 2733	pre_total: 2732
+				cur_total: 2733
+2733	2733	0
+ELSE: pre: 2733	cur: 2734	pre_total: 2733
+				cur_total: 2734
+2734	2734	0
+ELSE: pre: 2734	cur: 2735	pre_total: 2734
+				cur_total: 2735
+2735	2735	0
+ELSE: pre: 2735	cur: 2737	pre_total: 2735
+				cur_total: 2737
+2737	2737	0
+ELSE: pre: 2737	cur: 2738	pre_total: 2737
+				cur_total: 2738
+2738	2738	0
+ELSE: pre: 2738	cur: 2741	pre_total: 2738
+				cur_total: 2741
+2741	2741	0
+ELSE: pre: 2741	cur: 2742	pre_total: 2741
+				cur_total: 2742
+2742	2742	0
+ELSE: pre: 2742	cur: 2744	pre_total: 2742
+				cur_total: 2744
+2744	2744	0
+ELSE: pre: 2744	cur: 2745	pre_total: 2744
+				cur_total: 2745
+2745	2745	0
+ELSE: pre: 2745	cur: 2746	pre_total: 2745
+				cur_total: 2746
+2746	2746	0
+ELSE: pre: 2746	cur: 2748	pre_total: 2746
+				cur_total: 2748
+2748	2748	0
+ELSE: pre: 2748	cur: 2749	pre_total: 2748
+				cur_total: 2749
+2749	2749	0
+ELSE: pre: 2749	cur: 2750	pre_total: 2749
+				cur_total: 2750
+2750	2750	0
+ELSE: pre: 2750	cur: 2751	pre_total: 2750
+				cur_total: 2751
+2751	2751	0
+ELSE: pre: 2751	cur: 2755	pre_total: 2751
+				cur_total: 2755
+2755	2755	0
+ELSE: pre: 2755	cur: 2757	pre_total: 2755
+				cur_total: 2757
+2757	2757	0
+ELSE: pre: 2757	cur: 2758	pre_total: 2757
+				cur_total: 2758
+2758	2758	0
+ELSE: pre: 2758	cur: 2759	pre_total: 2758
+				cur_total: 2759
+2759	2759	0
+ELSE: pre: 2759	cur: 2760	pre_total: 2759
+				cur_total: 2760
+2760	2760	0
+ELSE: pre: 2760	cur: 2762	pre_total: 2760
+				cur_total: 2762
+2762	2762	0
+ELSE: pre: 2762	cur: 2763	pre_total: 2762
+				cur_total: 2763
+2763	2763	0
+ELSE: pre: 2763	cur: 2764	pre_total: 2763
+				cur_total: 2764
+2764	2764	0
+ELSE: pre: 2764	cur: 2766	pre_total: 2764
+				cur_total: 2766
+2766	2766	0
+ELSE: pre: 2766	cur: 2768	pre_total: 2766
+				cur_total: 2768
+2768	2768	0
+ELSE: pre: 2768	cur: 2769	pre_total: 2768
+				cur_total: 2769
+2769	2769	0
+ELSE: pre: 2769	cur: 2773	pre_total: 2769
+				cur_total: 2773
+2773	2773	0
+ELSE: pre: 2773	cur: 2774	pre_total: 2773
+				cur_total: 2774
+2774	2774	0
+ELSE: pre: 2774	cur: 2775	pre_total: 2774
+				cur_total: 2775
+2775	2775	0
+ELSE: pre: 2775	cur: 2776	pre_total: 2775
+				cur_total: 2776
+2776	2776	0
+ELSE: pre: 2776	cur: 2777	pre_total: 2776
+				cur_total: 2777
+2777	2777	0
+ELSE: pre: 2777	cur: 2778	pre_total: 2777
+				cur_total: 2778
+2778	2778	0
+ELSE: pre: 2778	cur: 2783	pre_total: 2778
+				cur_total: 2783
+2783	2783	0
+ELSE: pre: 2783	cur: 2786	pre_total: 2783
+				cur_total: 2786
+2786	2786	0
+ELSE: pre: 2786	cur: 2787	pre_total: 2786
+				cur_total: 2787
+2787	2787	0
+ELSE: pre: 2787	cur: 2788	pre_total: 2787
+				cur_total: 2788
+2788	2788	0
+ELSE: pre: 2788	cur: 2791	pre_total: 2788
+				cur_total: 2791
+2791	2791	0
+ELSE: pre: 2791	cur: 2792	pre_total: 2791
+				cur_total: 2792
+2792	2792	0
+ELSE: pre: 2792	cur: 2795	pre_total: 2792
+				cur_total: 2795
+2795	2795	0
+ELSE: pre: 2795	cur: 2796	pre_total: 2795
+				cur_total: 2796
+2796	2796	0
+ELSE: pre: 2796	cur: 2797	pre_total: 2796
+				cur_total: 2797
+2797	2797	0
+ELSE: pre: 2797	cur: 2798	pre_total: 2797
+				cur_total: 2798
+2798	2798	0
+ELSE: pre: 2798	cur: 2799	pre_total: 2798
+				cur_total: 2799
+2799	2799	0
+ELSE: pre: 2799	cur: 2800	pre_total: 2799
+				cur_total: 2800
+2800	2800	0
+ELSE: pre: 2800	cur: 2801	pre_total: 2800
+				cur_total: 2801
+2801	2801	0
+ELSE: pre: 2801	cur: 2804	pre_total: 2801
+				cur_total: 2804
+2804	2804	0
+ELSE: pre: 2804	cur: 2805	pre_total: 2804
+				cur_total: 2805
+2805	2805	0
+ELSE: pre: 2805	cur: 2806	pre_total: 2805
+				cur_total: 2806
+2806	2806	0
+ELSE: pre: 2806	cur: 2807	pre_total: 2806
+				cur_total: 2807
+2807	2807	0
+ELSE: pre: 2807	cur: 2809	pre_total: 2807
+				cur_total: 2809
+2809	2809	0
+ELSE: pre: 2809	cur: 2810	pre_total: 2809
+				cur_total: 2810
+2810	2810	0
+ELSE: pre: 2810	cur: 2813	pre_total: 2810
+				cur_total: 2813
+2813	2813	0
+ELSE: pre: 2813	cur: 2814	pre_total: 2813
+				cur_total: 2814
+2814	2814	0
+ELSE: pre: 2814	cur: 2816	pre_total: 2814
+				cur_total: 2816
+2816	2816	0
+ELSE: pre: 2816	cur: 2817	pre_total: 2816
+				cur_total: 2817
+2817	2817	0
+ELSE: pre: 2817	cur: 2818	pre_total: 2817
+				cur_total: 2818
+2818	2818	0
+ELSE: pre: 2818	cur: 2819	pre_total: 2818
+				cur_total: 2819
+2819	2819	0
+ELSE: pre: 2819	cur: 2822	pre_total: 2819
+				cur_total: 2822
+2822	2822	0
+ELSE: pre: 2822	cur: 2823	pre_total: 2822
+				cur_total: 2823
+2823	2823	0
+ELSE: pre: 2823	cur: 2824	pre_total: 2823
+				cur_total: 2824
+2824	2824	0
+ELSE: pre: 2824	cur: 2827	pre_total: 2824
+				cur_total: 2827
+2827	2827	0
+ELSE: pre: 2827	cur: 2828	pre_total: 2827
+				cur_total: 2828
+2828	2828	0
+ELSE: pre: 2828	cur: 2829	pre_total: 2828
+				cur_total: 2829
+2829	2829	0
+ELSE: pre: 2829	cur: 2831	pre_total: 2829
+				cur_total: 2831
+2831	2831	0
+ELSE: pre: 2831	cur: 2832	pre_total: 2831
+				cur_total: 2832
+2832	2832	0
+ELSE: pre: 2832	cur: 2837	pre_total: 2832
+				cur_total: 2837
+2837	2837	0
+ELSE: pre: 2837	cur: 2838	pre_total: 2837
+				cur_total: 2838
+2838	2838	0
+ELSE: pre: 2838	cur: 2839	pre_total: 2838
+				cur_total: 2839
+2839	2839	0
+ELSE: pre: 2839	cur: 2840	pre_total: 2839
+				cur_total: 2840
+2840	2840	0
+ELSE: pre: 2840	cur: 2841	pre_total: 2840
+				cur_total: 2841
+2841	2841	0
+ELSE: pre: 2841	cur: 2846	pre_total: 2841
+				cur_total: 2846
+2846	2846	0
+ELSE: pre: 2846	cur: 2848	pre_total: 2846
+				cur_total: 2848
+2848	2848	0
+ELSE: pre: 2848	cur: 2849	pre_total: 2848
+				cur_total: 2849
+2849	2849	0
+ELSE: pre: 2849	cur: 2850	pre_total: 2849
+				cur_total: 2850
+2850	2850	0
+ELSE: pre: 2850	cur: 2854	pre_total: 2850
+				cur_total: 2854
+2854	2854	0
+ELSE: pre: 2854	cur: 2855	pre_total: 2854
+				cur_total: 2855
+2855	2855	0
+ELSE: pre: 2855	cur: 2856	pre_total: 2855
+				cur_total: 2856
+2856	2856	0
+ELSE: pre: 2856	cur: 2857	pre_total: 2856
+				cur_total: 2857
+2857	2857	0
+ELSE: pre: 2857	cur: 2859	pre_total: 2857
+				cur_total: 2859
+2859	2859	0
+ELSE: pre: 2859	cur: 2863	pre_total: 2859
+				cur_total: 2863
+2863	2863	0
+ELSE: pre: 2863	cur: 2864	pre_total: 2863
+				cur_total: 2864
+2864	2864	0
+ELSE: pre: 2864	cur: 2867	pre_total: 2864
+				cur_total: 2867
+2867	2867	0
+ELSE: pre: 2867	cur: 2868	pre_total: 2867
+				cur_total: 2868
+2868	2868	0
+ELSE: pre: 2868	cur: 2869	pre_total: 2868
+				cur_total: 2869
+2869	2869	0
+ELSE: pre: 2869	cur: 2872	pre_total: 2869
+				cur_total: 2872
+2872	2872	0
+ELSE: pre: 2872	cur: 2874	pre_total: 2872
+				cur_total: 2874
+2874	2874	0
+ELSE: pre: 2874	cur: 2875	pre_total: 2874
+				cur_total: 2875
+2875	2875	0
+ELSE: pre: 2875	cur: 2876	pre_total: 2875
+				cur_total: 2876
+2876	2876	0
+ELSE: pre: 2876	cur: 2877	pre_total: 2876
+				cur_total: 2877
+2877	2877	0
+ELSE: pre: 2877	cur: 2881	pre_total: 2877
+				cur_total: 2881
+2881	2881	0
+ELSE: pre: 2881	cur: 2882	pre_total: 2881
+				cur_total: 2882
+2882	2882	0
+ELSE: pre: 2882	cur: 2885	pre_total: 2882
+				cur_total: 2885
+2885	2885	0
+ELSE: pre: 2885	cur: 2886	pre_total: 2885
+				cur_total: 2886
+2886	2886	0
+ELSE: pre: 2886	cur: 2887	pre_total: 2886
+				cur_total: 2887
+2887	2887	0
+ELSE: pre: 2887	cur: 2888	pre_total: 2887
+				cur_total: 2888
+2888	2888	0
+ELSE: pre: 2888	cur: 2890	pre_total: 2888
+				cur_total: 2890
+2890	2890	0
+ELSE: pre: 2890	cur: 2891	pre_total: 2890
+				cur_total: 2891
+2891	2891	0
+ELSE: pre: 2891	cur: 2892	pre_total: 2891
+				cur_total: 2892
+2892	2892	0
+ELSE: pre: 2892	cur: 2893	pre_total: 2892
+				cur_total: 2893
+2893	2893	0
+ELSE: pre: 2893	cur: 2895	pre_total: 2893
+				cur_total: 2895
+2895	2895	0
+ELSE: pre: 2895	cur: 2899	pre_total: 2895
+				cur_total: 2899
+2899	2899	0
+ELSE: pre: 2899	cur: 2900	pre_total: 2899
+				cur_total: 2900
+2900	2900	0
+ELSE: pre: 2900	cur: 2901	pre_total: 2900
+				cur_total: 2901
+2901	2901	0
+ELSE: pre: 2901	cur: 2902	pre_total: 2901
+				cur_total: 2902
+2902	2902	0
+ELSE: pre: 2902	cur: 2903	pre_total: 2902
+				cur_total: 2903
+2903	2903	0
+ELSE: pre: 2903	cur: 2904	pre_total: 2903
+				cur_total: 2904
+2904	2904	0
+ELSE: pre: 2904	cur: 2905	pre_total: 2904
+				cur_total: 2905
+2905	2905	0
+ELSE: pre: 2905	cur: 2908	pre_total: 2905
+				cur_total: 2908
+2908	2908	0
+ELSE: pre: 2908	cur: 2909	pre_total: 2908
+				cur_total: 2909
+2909	2909	0
+ELSE: pre: 2909	cur: 2910	pre_total: 2909
+				cur_total: 2910
+2910	2910	0
+ELSE: pre: 2910	cur: 2911	pre_total: 2910
+				cur_total: 2911
+2911	2911	0
+ELSE: pre: 2911	cur: 2913	pre_total: 2911
+				cur_total: 2913
+2913	2913	0
+ELSE: pre: 2913	cur: 2917	pre_total: 2913
+				cur_total: 2917
+2917	2917	0
+ELSE: pre: 2917	cur: 2918	pre_total: 2917
+				cur_total: 2918
+2918	2918	0
+ELSE: pre: 2918	cur: 2919	pre_total: 2918
+				cur_total: 2919
+2919	2919	0
+ELSE: pre: 2919	cur: 2921	pre_total: 2919
+				cur_total: 2921
+2921	2921	0
+ELSE: pre: 2921	cur: 2922	pre_total: 2921
+				cur_total: 2922
+2922	2922	0
+ELSE: pre: 2922	cur: 2926	pre_total: 2922
+				cur_total: 2926
+2926	2926	0
+ELSE: pre: 2926	cur: 2927	pre_total: 2926
+				cur_total: 2927
+2927	2927	0
+ELSE: pre: 2927	cur: 2928	pre_total: 2927
+				cur_total: 2928
+2928	2928	0
+ELSE: pre: 2928	cur: 2929	pre_total: 2928
+				cur_total: 2929
+2929	2929	0
+ELSE: pre: 2929	cur: 2930	pre_total: 2929
+				cur_total: 2930
+2930	2930	0
+ELSE: pre: 2930	cur: 2931	pre_total: 2930
+				cur_total: 2931
+2931	2931	0
+ELSE: pre: 2931	cur: 2932	pre_total: 2931
+				cur_total: 2932
+2932	2932	0
+ELSE: pre: 2932	cur: 2933	pre_total: 2932
+				cur_total: 2933
+2933	2933	0
+ELSE: pre: 2933	cur: 2934	pre_total: 2933
+				cur_total: 2934
+2934	2934	0
+ELSE: pre: 2934	cur: 2935	pre_total: 2934
+				cur_total: 2935
+2935	2935	0
+ELSE: pre: 2935	cur: 2936	pre_total: 2935
+				cur_total: 2936
+2936	2936	0
+ELSE: pre: 2936	cur: 2944	pre_total: 2936
+				cur_total: 2944
+2944	2944	0
+ELSE: pre: 2944	cur: 2945	pre_total: 2944
+				cur_total: 2945
+2945	2945	0
+ELSE: pre: 2945	cur: 2946	pre_total: 2945
+				cur_total: 2946
+2946	2946	0
+ELSE: pre: 2946	cur: 2947	pre_total: 2946
+				cur_total: 2947
+2947	2947	0
+ELSE: pre: 2947	cur: 2948	pre_total: 2947
+				cur_total: 2948
+2948	2948	0
+ELSE: pre: 2948	cur: 2949	pre_total: 2948
+				cur_total: 2949
+2949	2949	0
+ELSE: pre: 2949	cur: 2950	pre_total: 2949
+				cur_total: 2950
+2950	2950	0
+ELSE: pre: 2950	cur: 2951	pre_total: 2950
+				cur_total: 2951
+2951	2951	0
+ELSE: pre: 2951	cur: 2952	pre_total: 2951
+				cur_total: 2952
+2952	2952	0
+ELSE: pre: 2952	cur: 2953	pre_total: 2952
+				cur_total: 2953
+2953	2953	0
+ELSE: pre: 2953	cur: 2954	pre_total: 2953
+				cur_total: 2954
+2954	2954	0
+ELSE: pre: 2954	cur: 2955	pre_total: 2954
+				cur_total: 2955
+2955	2955	0
+ELSE: pre: 2955	cur: 2957	pre_total: 2955
+				cur_total: 2957
+2957	2957	0
+ELSE: pre: 2957	cur: 2958	pre_total: 2957
+				cur_total: 2958
+2958	2958	0
+ELSE: pre: 2958	cur: 2960	pre_total: 2958
+				cur_total: 2960
+2960	2960	0
+ELSE: pre: 2960	cur: 2961	pre_total: 2960
+				cur_total: 2961
+2961	2961	0
+ELSE: pre: 2961	cur: 2962	pre_total: 2961
+				cur_total: 2962
+2962	2962	0
+ELSE: pre: 2962	cur: 2964	pre_total: 2962
+				cur_total: 2964
+2964	2964	0
+ELSE: pre: 2964	cur: 2965	pre_total: 2964
+				cur_total: 2965
+2965	2965	0
+ELSE: pre: 2965	cur: 2966	pre_total: 2965
+				cur_total: 2966
+2966	2966	0
+ELSE: pre: 2966	cur: 2968	pre_total: 2966
+				cur_total: 2968
+2968	2968	0
+ELSE: pre: 2968	cur: 2970	pre_total: 2968
+				cur_total: 2970
+2970	2970	0
+ELSE: pre: 2970	cur: 2971	pre_total: 2970
+				cur_total: 2971
+2971	2971	0
+ELSE: pre: 2971	cur: 2972	pre_total: 2971
+				cur_total: 2972
+2972	2972	0
+ELSE: pre: 2972	cur: 2973	pre_total: 2972
+				cur_total: 2973
+2973	2973	0
+ELSE: pre: 2973	cur: 2974	pre_total: 2973
+				cur_total: 2974
+2974	2974	0
+ELSE: pre: 2974	cur: 2975	pre_total: 2974
+				cur_total: 2975
+2975	2975	0
+ELSE: pre: 2975	cur: 2977	pre_total: 2975
+				cur_total: 2977
+2977	2977	0
+ELSE: pre: 2977	cur: 2978	pre_total: 2977
+				cur_total: 2978
+2978	2978	0
+ELSE: pre: 2978	cur: 2980	pre_total: 2978
+				cur_total: 2980
+2980	2980	0
+ELSE: pre: 2980	cur: 2981	pre_total: 2980
+				cur_total: 2981
+2981	2981	0
+ELSE: pre: 2981	cur: 2982	pre_total: 2981
+				cur_total: 2982
+2982	2982	0
+ELSE: pre: 2982	cur: 2983	pre_total: 2982
+				cur_total: 2983
+2983	2983	0
+ELSE: pre: 2983	cur: 2984	pre_total: 2983
+				cur_total: 2984
+2984	2984	0
+ELSE: pre: 2984	cur: 2985	pre_total: 2984
+				cur_total: 2985
+2985	2985	0
+ELSE: pre: 2985	cur: 2987	pre_total: 2985
+				cur_total: 2987
+2987	2987	0
+ELSE: pre: 2987	cur: 2988	pre_total: 2987
+				cur_total: 2988
+2988	2988	0
+ELSE: pre: 2988	cur: 2989	pre_total: 2988
+				cur_total: 2989
+2989	2989	0
+ELSE: pre: 2989	cur: 2990	pre_total: 2989
+				cur_total: 2990
+2990	2990	0
+ELSE: pre: 2990	cur: 2991	pre_total: 2990
+				cur_total: 2991
+2991	2991	0
+ELSE: pre: 2991	cur: 2992	pre_total: 2991
+				cur_total: 2992
+2992	2992	0
+ELSE: pre: 2992	cur: 2994	pre_total: 2992
+				cur_total: 2994
+2994	2994	0
+ELSE: pre: 2994	cur: 2998	pre_total: 2994
+				cur_total: 2998
+2998	2998	0
+ELSE: pre: 2998	cur: 2999	pre_total: 2998
+				cur_total: 2999
+2999	2999	0
+ELSE: pre: 2999	cur: 3000	pre_total: 2999
+				cur_total: 3000
+3000	3000	0
+ELSE: pre: 3000	cur: 3001	pre_total: 3000
+				cur_total: 3001
+3001	3001	0
+ELSE: pre: 3001	cur: 3002	pre_total: 3001
+				cur_total: 3002
+3002	3002	0
+ELSE: pre: 3002	cur: 3003	pre_total: 3002
+				cur_total: 3003
+3003	3003	0
+ELSE: pre: 3003	cur: 3005	pre_total: 3003
+				cur_total: 3005
+3005	3005	0
+ELSE: pre: 3005	cur: 3006	pre_total: 3005
+				cur_total: 3006
+3006	3006	0
+ELSE: pre: 3006	cur: 3007	pre_total: 3006
+				cur_total: 3007
+3007	3007	0
+ELSE: pre: 3007	cur: 3008	pre_total: 3007
+				cur_total: 3008
+3008	3008	0
+ELSE: pre: 3008	cur: 3012	pre_total: 3008
+				cur_total: 3012
+3012	3012	0
+ELSE: pre: 3012	cur: 3013	pre_total: 3012
+				cur_total: 3013
+3013	3013	0
+ELSE: pre: 3013	cur: 3014	pre_total: 3013
+				cur_total: 3014
+3014	3014	0
+ELSE: pre: 3014	cur: 3015	pre_total: 3014
+				cur_total: 3015
+3015	3015	0
+ELSE: pre: 3015	cur: 3017	pre_total: 3015
+				cur_total: 3017
+3017	3017	0
+ELSE: pre: 3017	cur: 3020	pre_total: 3017
+				cur_total: 3020
+3020	3020	0
+ELSE: pre: 3020	cur: 3024	pre_total: 3020
+				cur_total: 3024
+3024	3024	0
+ELSE: pre: 3024	cur: 3025	pre_total: 3024
+				cur_total: 3025
+3025	3025	0
+ELSE: pre: 3025	cur: 3026	pre_total: 3025
+				cur_total: 3026
+3026	3026	0
+ELSE: pre: 3026	cur: 3029	pre_total: 3026
+				cur_total: 3029
+3029	3029	0
+ELSE: pre: 3029	cur: 3030	pre_total: 3029
+				cur_total: 3030
+3030	3030	0
+ELSE: pre: 3030	cur: 3031	pre_total: 3030
+				cur_total: 3031
+3031	3031	0
+ELSE: pre: 3031	cur: 3032	pre_total: 3031
+				cur_total: 3032
+3032	3032	0
+ELSE: pre: 3032	cur: 3033	pre_total: 3032
+				cur_total: 3033
+3033	3033	0
+ELSE: pre: 3033	cur: 3034	pre_total: 3033
+				cur_total: 3034
+3034	3034	0
+ELSE: pre: 3034	cur: 3035	pre_total: 3034
+				cur_total: 3035
+3035	3035	0
+ELSE: pre: 3035	cur: 3038	pre_total: 3035
+				cur_total: 3038
+3038	3038	0
+ELSE: pre: 3038	cur: 3039	pre_total: 3038
+				cur_total: 3039
+3039	3039	0
+ELSE: pre: 3039	cur: 3043	pre_total: 3039
+				cur_total: 3043
+3043	3043	0
+ELSE: pre: 3043	cur: 3044	pre_total: 3043
+				cur_total: 3044
+3044	3044	0
+ELSE: pre: 3044	cur: 3047	pre_total: 3044
+				cur_total: 3047
+3047	3047	0
+ELSE: pre: 3047	cur: 3048	pre_total: 3047
+				cur_total: 3048
+3048	3048	0
+ELSE: pre: 3048	cur: 3053	pre_total: 3048
+				cur_total: 3053
+3053	3053	0
+ELSE: pre: 3053	cur: 3056	pre_total: 3053
+				cur_total: 3056
+3056	3056	0
+ELSE: pre: 3056	cur: 3057	pre_total: 3056
+				cur_total: 3057
+3057	3057	0
+ELSE: pre: 3057	cur: 3064	pre_total: 3057
+				cur_total: 3064
+3064	3064	0
+ELSE: pre: 3064	cur: 3065	pre_total: 3064
+				cur_total: 3065
+3065	3065	0
+ELSE: pre: 3065	cur: 3070	pre_total: 3065
+				cur_total: 3070
+3070	3070	0
+ELSE: pre: 3070	cur: 3071	pre_total: 3070
+				cur_total: 3071
+3071	3071	0
+ELSE: pre: 3071	cur: 3072	pre_total: 3071
+				cur_total: 3072
+3072	3072	0
+ELSE: pre: 3072	cur: 3073	pre_total: 3072
+				cur_total: 3073
+3073	3073	0
+ELSE: pre: 3073	cur: 3074	pre_total: 3073
+				cur_total: 3074
+3074	3074	0
+ELSE: pre: 3074	cur: 3079	pre_total: 3074
+				cur_total: 3079
+3079	3079	0
+ELSE: pre: 3079	cur: 3080	pre_total: 3079
+				cur_total: 3080
+3080	3080	0
+ELSE: pre: 3080	cur: 3081	pre_total: 3080
+				cur_total: 3081
+3081	3081	0
+ELSE: pre: 3081	cur: 3082	pre_total: 3081
+				cur_total: 3082
+3082	3082	0
+ELSE: pre: 3082	cur: 3084	pre_total: 3082
+				cur_total: 3084
+3084	3084	0
+ELSE: pre: 3084	cur: 3088	pre_total: 3084
+				cur_total: 3088
+3088	3088	0
+ELSE: pre: 3088	cur: 3089	pre_total: 3088
+				cur_total: 3089
+3089	3089	0
+ELSE: pre: 3089	cur: 3092	pre_total: 3089
+				cur_total: 3092
+3092	3092	0
+ELSE: pre: 3092	cur: 3093	pre_total: 3092
+				cur_total: 3093
+3093	3093	0
+ELSE: pre: 3093	cur: 3095	pre_total: 3093
+				cur_total: 3095
+3095	3095	0
+ELSE: pre: 3095	cur: 3096	pre_total: 3095
+				cur_total: 3096
+3096	3096	0
+ELSE: pre: 3096	cur: 3097	pre_total: 3096
+				cur_total: 3097
+3097	3097	0
+ELSE: pre: 3097	cur: 3098	pre_total: 3097
+				cur_total: 3098
+3098	3098	0
+ELSE: pre: 3098	cur: 3099	pre_total: 3098
+				cur_total: 3099
+3099	3099	0
+ELSE: pre: 3099	cur: 3100	pre_total: 3099
+				cur_total: 3100
+3100	3100	0
+ELSE: pre: 3100	cur: 3101	pre_total: 3100
+				cur_total: 3101
+3101	3101	0
+ELSE: pre: 3101	cur: 3102	pre_total: 3101
+				cur_total: 3102
+3102	3102	0
+ELSE: pre: 3102	cur: 3106	pre_total: 3102
+				cur_total: 3106
+3106	3106	0
+ELSE: pre: 3106	cur: 3107	pre_total: 3106
+				cur_total: 3107
+3107	3107	0
+ELSE: pre: 3107	cur: 3108	pre_total: 3107
+				cur_total: 3108
+3108	3108	0
+ELSE: pre: 3108	cur: 3109	pre_total: 3108
+				cur_total: 3109
+3109	3109	0
+ELSE: pre: 3109	cur: 3110	pre_total: 3109
+				cur_total: 3110
+3110	3110	0
+ELSE: pre: 3110	cur: 3111	pre_total: 3110
+				cur_total: 3111
+3111	3111	0
+ELSE: pre: 3111	cur: 3112	pre_total: 3111
+				cur_total: 3112
+3112	3112	0
+ELSE: pre: 3112	cur: 3113	pre_total: 3112
+				cur_total: 3113
+3113	3113	0
+ELSE: pre: 3113	cur: 3114	pre_total: 3113
+				cur_total: 3114
+3114	3114	0
+ELSE: pre: 3114	cur: 3115	pre_total: 3114
+				cur_total: 3115
+3115	3115	0
+ELSE: pre: 3115	cur: 3117	pre_total: 3115
+				cur_total: 3117
+3117	3117	0
+ELSE: pre: 3117	cur: 3119	pre_total: 3117
+				cur_total: 3119
+3119	3119	0
+ELSE: pre: 3119	cur: 3120	pre_total: 3119
+				cur_total: 3120
+3120	3120	0
+ELSE: pre: 3120	cur: 3121	pre_total: 3120
+				cur_total: 3121
+3121	3121	0
+ELSE: pre: 3121	cur: 3123	pre_total: 3121
+				cur_total: 3123
+3123	3123	0
+ELSE: pre: 3123	cur: 3124	pre_total: 3123
+				cur_total: 3124
+3124	3124	0
+ELSE: pre: 3124	cur: 3125	pre_total: 3124
+				cur_total: 3125
+3125	3125	0
+ELSE: pre: 3125	cur: 3126	pre_total: 3125
+				cur_total: 3126
+3126	3126	0
+ELSE: pre: 3126	cur: 3127	pre_total: 3126
+				cur_total: 3127
+3127	3127	0
+ELSE: pre: 3127	cur: 3128	pre_total: 3127
+				cur_total: 3128
+3128	3128	0
+ELSE: pre: 3128	cur: 3129	pre_total: 3128
+				cur_total: 3129
+3129	3129	0
+ELSE: pre: 3129	cur: 3133	pre_total: 3129
+				cur_total: 3133
+3133	3133	0
+ELSE: pre: 3133	cur: 3134	pre_total: 3133
+				cur_total: 3134
+3134	3134	0
+ELSE: pre: 3134	cur: 3135	pre_total: 3134
+				cur_total: 3135
+3135	3135	0
+ELSE: pre: 3135	cur: 3136	pre_total: 3135
+				cur_total: 3136
+3136	3136	0
+ELSE: pre: 3136	cur: 3137	pre_total: 3136
+				cur_total: 3137
+3137	3137	0
+ELSE: pre: 3137	cur: 3138	pre_total: 3137
+				cur_total: 3138
+3138	3138	0
+ELSE: pre: 3138	cur: 3142	pre_total: 3138
+				cur_total: 3142
+3142	3142	0
+ELSE: pre: 3142	cur: 3143	pre_total: 3142
+				cur_total: 3143
+3143	3143	0
+ELSE: pre: 3143	cur: 3146	pre_total: 3143
+				cur_total: 3146
+3146	3146	0
+ELSE: pre: 3146	cur: 3148	pre_total: 3146
+				cur_total: 3148
+3148	3148	0
+ELSE: pre: 3148	cur: 3149	pre_total: 3148
+				cur_total: 3149
+3149	3149	0
+ELSE: pre: 3149	cur: 3150	pre_total: 3149
+				cur_total: 3150
+3150	3150	0
+ELSE: pre: 3150	cur: 3151	pre_total: 3150
+				cur_total: 3151
+3151	3151	0
+ELSE: pre: 3151	cur: 3153	pre_total: 3151
+				cur_total: 3153
+3153	3153	0
+ELSE: pre: 3153	cur: 3154	pre_total: 3153
+				cur_total: 3154
+3154	3154	0
+ELSE: pre: 3154	cur: 3155	pre_total: 3154
+				cur_total: 3155
+3155	3155	0
+ELSE: pre: 3155	cur: 3156	pre_total: 3155
+				cur_total: 3156
+3156	3156	0
+ELSE: pre: 3156	cur: 3161	pre_total: 3156
+				cur_total: 3161
+3161	3161	0
+ELSE: pre: 3161	cur: 3164	pre_total: 3161
+				cur_total: 3164
+3164	3164	0
+ELSE: pre: 3164	cur: 3165	pre_total: 3164
+				cur_total: 3165
+3165	3165	0
+ELSE: pre: 3165	cur: 3169	pre_total: 3165
+				cur_total: 3169
+3169	3169	0
+ELSE: pre: 3169	cur: 3170	pre_total: 3169
+				cur_total: 3170
+3170	3170	0
+ELSE: pre: 3170	cur: 3171	pre_total: 3170
+				cur_total: 3171
+3171	3171	0
+ELSE: pre: 3171	cur: 3173	pre_total: 3171
+				cur_total: 3173
+3173	3173	0
+ELSE: pre: 3173	cur: 3174	pre_total: 3173
+				cur_total: 3174
+3174	3174	0
+ELSE: pre: 3174	cur: 3178	pre_total: 3174
+				cur_total: 3178
+3178	3178	0
+ELSE: pre: 3178	cur: 3179	pre_total: 3178
+				cur_total: 3179
+3179	3179	0
+ELSE: pre: 3179	cur: 3180	pre_total: 3179
+				cur_total: 3180
+3180	3180	0
+ELSE: pre: 3180	cur: 3182	pre_total: 3180
+				cur_total: 3182
+3182	3182	0
+ELSE: pre: 3182	cur: 3183	pre_total: 3182
+				cur_total: 3183
+3183	3183	0
+ELSE: pre: 3183	cur: 3187	pre_total: 3183
+				cur_total: 3187
+3187	3187	0
+ELSE: pre: 3187	cur: 3189	pre_total: 3187
+				cur_total: 3189
+3189	3189	0
+ELSE: pre: 3189	cur: 3190	pre_total: 3189
+				cur_total: 3190
+3190	3190	0
+ELSE: pre: 3190	cur: 3191	pre_total: 3190
+				cur_total: 3191
+3191	3191	0
+ELSE: pre: 3191	cur: 3192	pre_total: 3191
+				cur_total: 3192
+3192	3192	0
+ELSE: pre: 3192	cur: 3196	pre_total: 3192
+				cur_total: 3196
+3196	3196	0
+ELSE: pre: 3196	cur: 3197	pre_total: 3196
+				cur_total: 3197
+3197	3197	0
+ELSE: pre: 3197	cur: 3198	pre_total: 3197
+				cur_total: 3198
+3198	3198	0
+ELSE: pre: 3198	cur: 3199	pre_total: 3198
+				cur_total: 3199
+3199	3199	0
+ELSE: pre: 3199	cur: 3200	pre_total: 3199
+				cur_total: 3200
+3200	3200	0
+ELSE: pre: 3200	cur: 3205	pre_total: 3200
+				cur_total: 3205
+3205	3205	0
+ELSE: pre: 3205	cur: 3206	pre_total: 3205
+				cur_total: 3206
+3206	3206	0
+ELSE: pre: 3206	cur: 3207	pre_total: 3206
+				cur_total: 3207
+3207	3207	0
+ELSE: pre: 3207	cur: 3208	pre_total: 3207
+				cur_total: 3208
+3208	3208	0
+ELSE: pre: 3208	cur: 3209	pre_total: 3208
+				cur_total: 3209
+3209	3209	0
+ELSE: pre: 3209	cur: 3210	pre_total: 3209
+				cur_total: 3210
+3210	3210	0
+ELSE: pre: 3210	cur: 3214	pre_total: 3210
+				cur_total: 3214
+3214	3214	0
+ELSE: pre: 3214	cur: 3216	pre_total: 3214
+				cur_total: 3216
+3216	3216	0
+ELSE: pre: 3216	cur: 3217	pre_total: 3216
+				cur_total: 3217
+3217	3217	0
+ELSE: pre: 3217	cur: 3218	pre_total: 3217
+				cur_total: 3218
+3218	3218	0
+ELSE: pre: 3218	cur: 3220	pre_total: 3218
+				cur_total: 3220
+3220	3220	0
+ELSE: pre: 3220	cur: 3221	pre_total: 3220
+				cur_total: 3221
+3221	3221	0
+ELSE: pre: 3221	cur: 3222	pre_total: 3221
+				cur_total: 3222
+3222	3222	0
+ELSE: pre: 3222	cur: 3223	pre_total: 3222
+				cur_total: 3223
+3223	3223	0
+ELSE: pre: 3223	cur: 3224	pre_total: 3223
+				cur_total: 3224
+3224	3224	0
+ELSE: pre: 3224	cur: 3225	pre_total: 3224
+				cur_total: 3225
+3225	3225	0
+ELSE: pre: 3225	cur: 3226	pre_total: 3225
+				cur_total: 3226
+3226	3226	0
+ELSE: pre: 3226	cur: 3227	pre_total: 3226
+				cur_total: 3227
+3227	3227	0
+ELSE: pre: 3227	cur: 3228	pre_total: 3227
+				cur_total: 3228
+3228	3228	0
+ELSE: pre: 3228	cur: 3232	pre_total: 3228
+				cur_total: 3232
+3232	3232	0
+ELSE: pre: 3232	cur: 3233	pre_total: 3232
+				cur_total: 3233
+3233	3233	0
+ELSE: pre: 3233	cur: 3236	pre_total: 3233
+				cur_total: 3236
+3236	3236	0
+ELSE: pre: 3236	cur: 3237	pre_total: 3236
+				cur_total: 3237
+3237	3237	0
+ELSE: pre: 3237	cur: 3241	pre_total: 3237
+				cur_total: 3241
+3241	3241	0
+ELSE: pre: 3241	cur: 3242	pre_total: 3241
+				cur_total: 3242
+3242	3242	0
+ELSE: pre: 3242	cur: 3245	pre_total: 3242
+				cur_total: 3245
+3245	3245	0
+ELSE: pre: 3245	cur: 3246	pre_total: 3245
+				cur_total: 3246
+3246	3246	0
+ELSE: pre: 3246	cur: 3250	pre_total: 3246
+				cur_total: 3250
+3250	3250	0
+ELSE: pre: 3250	cur: 3251	pre_total: 3250
+				cur_total: 3251
+3251	3251	0
+ELSE: pre: 3251	cur: 3254	pre_total: 3251
+				cur_total: 3254
+3254	3254	0
+ELSE: pre: 3254	cur: 3255	pre_total: 3254
+				cur_total: 3255
+3255	3255	0
+ELSE: pre: 3255	cur: 3259	pre_total: 3255
+				cur_total: 3259
+3259	3259	0
+ELSE: pre: 3259	cur: 3260	pre_total: 3259
+				cur_total: 3260
+3260	3260	0
+ELSE: pre: 3260	cur: 3261	pre_total: 3260
+				cur_total: 3261
+3261	3261	0
+ELSE: pre: 3261	cur: 3262	pre_total: 3261
+				cur_total: 3262
+3262	3262	0
+ELSE: pre: 3262	cur: 3263	pre_total: 3262
+				cur_total: 3263
+3263	3263	0
+ELSE: pre: 3263	cur: 3264	pre_total: 3263
+				cur_total: 3264
+3264	3264	0
+ELSE: pre: 3264	cur: 3268	pre_total: 3264
+				cur_total: 3268
+3268	3268	0
+ELSE: pre: 3268	cur: 3269	pre_total: 3268
+				cur_total: 3269
+3269	3269	0
+ELSE: pre: 3269	cur: 3270	pre_total: 3269
+				cur_total: 3270
+3270	3270	0
+ELSE: pre: 3270	cur: 3271	pre_total: 3270
+				cur_total: 3271
+3271	3271	0
+ELSE: pre: 3271	cur: 3272	pre_total: 3271
+				cur_total: 3272
+3272	3272	0
+ELSE: pre: 3272	cur: 3273	pre_total: 3272
+				cur_total: 3273
+3273	3273	0
+ELSE: pre: 3273	cur: 3277	pre_total: 3273
+				cur_total: 3277
+3277	3277	0
+ELSE: pre: 3277	cur: 3278	pre_total: 3277
+				cur_total: 3278
+3278	3278	0
+ELSE: pre: 3278	cur: 3279	pre_total: 3278
+				cur_total: 3279
+3279	3279	0
+ELSE: pre: 3279	cur: 3280	pre_total: 3279
+				cur_total: 3280
+3280	3280	0
+ELSE: pre: 3280	cur: 3281	pre_total: 3280
+				cur_total: 3281
+3281	3281	0
+ELSE: pre: 3281	cur: 3283	pre_total: 3281
+				cur_total: 3283
+3283	3283	0
+ELSE: pre: 3283	cur: 3284	pre_total: 3283
+				cur_total: 3284
+3284	3284	0
+ELSE: pre: 3284	cur: 3287	pre_total: 3284
+				cur_total: 3287
+3287	3287	0
+ELSE: pre: 3287	cur: 3288	pre_total: 3287
+				cur_total: 3288
+3288	3288	0
+ELSE: pre: 3288	cur: 3290	pre_total: 3288
+				cur_total: 3290
+3290	3290	0
+ELSE: pre: 3290	cur: 3291	pre_total: 3290
+				cur_total: 3291
+3291	3291	0
+ELSE: pre: 3291	cur: 3296	pre_total: 3291
+				cur_total: 3296
+3296	3296	0
+ELSE: pre: 3296	cur: 3297	pre_total: 3296
+				cur_total: 3297
+3297	3297	0
+ELSE: pre: 3297	cur: 3298	pre_total: 3297
+				cur_total: 3298
+3298	3298	0
+ELSE: pre: 3298	cur: 3299	pre_total: 3298
+				cur_total: 3299
+3299	3299	0
+ELSE: pre: 3299	cur: 3300	pre_total: 3299
+				cur_total: 3300
+3300	3300	0
+ELSE: pre: 3300	cur: 3304	pre_total: 3300
+				cur_total: 3304
+3304	3304	0
+ELSE: pre: 3304	cur: 3305	pre_total: 3304
+				cur_total: 3305
+3305	3305	0
+ELSE: pre: 3305	cur: 3306	pre_total: 3305
+				cur_total: 3306
+3306	3306	0
+ELSE: pre: 3306	cur: 3307	pre_total: 3306
+				cur_total: 3307
+3307	3307	0
+ELSE: pre: 3307	cur: 3309	pre_total: 3307
+				cur_total: 3309
+3309	3309	0
+ELSE: pre: 3309	cur: 3313	pre_total: 3309
+				cur_total: 3313
+3313	3313	0
+ELSE: pre: 3313	cur: 3314	pre_total: 3313
+				cur_total: 3314
+3314	3314	0
+ELSE: pre: 3314	cur: 3317	pre_total: 3314
+				cur_total: 3317
+3317	3317	0
+ELSE: pre: 3317	cur: 3318	pre_total: 3317
+				cur_total: 3318
+3318	3318	0
+ELSE: pre: 3318	cur: 3322	pre_total: 3318
+				cur_total: 3322
+3322	3322	0
+ELSE: pre: 3322	cur: 3323	pre_total: 3322
+				cur_total: 3323
+3323	3323	0
+ELSE: pre: 3323	cur: 3326	pre_total: 3323
+				cur_total: 3326
+3326	3326	0
+ELSE: pre: 3326	cur: 3327	pre_total: 3326
+				cur_total: 3327
+3327	3327	0
+ELSE: pre: 3327	cur: 3328	pre_total: 3327
+				cur_total: 3328
+3328	3328	0
+ELSE: pre: 3328	cur: 3329	pre_total: 3328
+				cur_total: 3329
+3329	3329	0
+ELSE: pre: 3329	cur: 3331	pre_total: 3329
+				cur_total: 3331
+3331	3331	0
+ELSE: pre: 3331	cur: 3332	pre_total: 3331
+				cur_total: 3332
+3332	3332	0
+ELSE: pre: 3332	cur: 3333	pre_total: 3332
+				cur_total: 3333
+3333	3333	0
+ELSE: pre: 3333	cur: 3334	pre_total: 3333
+				cur_total: 3334
+3334	3334	0
+ELSE: pre: 3334	cur: 3335	pre_total: 3334
+				cur_total: 3335
+3335	3335	0
+ELSE: pre: 3335	cur: 3336	pre_total: 3335
+				cur_total: 3336
+3336	3336	0
+ELSE: pre: 3336	cur: 3339	pre_total: 3336
+				cur_total: 3339
+3339	3339	0
+ELSE: pre: 3339	cur: 3340	pre_total: 3339
+				cur_total: 3340
+3340	3340	0
+ELSE: pre: 3340	cur: 3341	pre_total: 3340
+				cur_total: 3341
+3341	3341	0
+ELSE: pre: 3341	cur: 3342	pre_total: 3341
+				cur_total: 3342
+3342	3342	0
+ELSE: pre: 3342	cur: 3343	pre_total: 3342
+				cur_total: 3343
+3343	3343	0
+ELSE: pre: 3343	cur: 3344	pre_total: 3343
+				cur_total: 3344
+3344	3344	0
+ELSE: pre: 3344	cur: 3345	pre_total: 3344
+				cur_total: 3345
+3345	3345	0
+ELSE: pre: 3345	cur: 3346	pre_total: 3345
+				cur_total: 3346
+3346	3346	0
+ELSE: pre: 3346	cur: 3349	pre_total: 3346
+				cur_total: 3349
+3349	3349	0
+ELSE: pre: 3349	cur: 3350	pre_total: 3349
+				cur_total: 3350
+3350	3350	0
+ELSE: pre: 3350	cur: 3351	pre_total: 3350
+				cur_total: 3351
+3351	3351	0
+ELSE: pre: 3351	cur: 3352	pre_total: 3351
+				cur_total: 3352
+3352	3352	0
+ELSE: pre: 3352	cur: 3353	pre_total: 3352
+				cur_total: 3353
+3353	3353	0
+ELSE: pre: 3353	cur: 3354	pre_total: 3353
+				cur_total: 3354
+3354	3354	0
+ELSE: pre: 3354	cur: 3358	pre_total: 3354
+				cur_total: 3358
+3358	3358	0
+ELSE: pre: 3358	cur: 3359	pre_total: 3358
+				cur_total: 3359
+3359	3359	0
+ELSE: pre: 3359	cur: 3360	pre_total: 3359
+				cur_total: 3360
+3360	3360	0
+ELSE: pre: 3360	cur: 3361	pre_total: 3360
+				cur_total: 3361
+3361	3361	0
+ELSE: pre: 3361	cur: 3362	pre_total: 3361
+				cur_total: 3362
+3362	3362	0
+ELSE: pre: 3362	cur: 3363	pre_total: 3362
+				cur_total: 3363
+3363	3363	0
+ELSE: pre: 3363	cur: 3367	pre_total: 3363
+				cur_total: 3367
+3367	3367	0
+ELSE: pre: 3367	cur: 3368	pre_total: 3367
+				cur_total: 3368
+3368	3368	0
+ELSE: pre: 3368	cur: 3369	pre_total: 3368
+				cur_total: 3369
+3369	3369	0
+ELSE: pre: 3369	cur: 3370	pre_total: 3369
+				cur_total: 3370
+3370	3370	0
+ELSE: pre: 3370	cur: 3371	pre_total: 3370
+				cur_total: 3371
+3371	3371	0
+ELSE: pre: 3371	cur: 3372	pre_total: 3371
+				cur_total: 3372
+3372	3372	0
+ELSE: pre: 3372	cur: 3373	pre_total: 3372
+				cur_total: 3373
+3373	3373	0
+ELSE: pre: 3373	cur: 3376	pre_total: 3373
+				cur_total: 3376
+3376	3376	0
+ELSE: pre: 3376	cur: 3377	pre_total: 3376
+				cur_total: 3377
+3377	3377	0
+ELSE: pre: 3377	cur: 3378	pre_total: 3377
+				cur_total: 3378
+3378	3378	0
+ELSE: pre: 3378	cur: 3380	pre_total: 3378
+				cur_total: 3380
+3380	3380	0
+ELSE: pre: 3380	cur: 3381	pre_total: 3380
+				cur_total: 3381
+3381	3381	0
+ELSE: pre: 3381	cur: 3382	pre_total: 3381
+				cur_total: 3382
+3382	3382	0
+ELSE: pre: 3382	cur: 3383	pre_total: 3382
+				cur_total: 3383
+3383	3383	0
+ELSE: pre: 3383	cur: 3385	pre_total: 3383
+				cur_total: 3385
+3385	3385	0
+ELSE: pre: 3385	cur: 3387	pre_total: 3385
+				cur_total: 3387
+3387	3387	0
+ELSE: pre: 3387	cur: 3388	pre_total: 3387
+				cur_total: 3388
+3388	3388	0
+ELSE: pre: 3388	cur: 3389	pre_total: 3388
+				cur_total: 3389
+3389	3389	0
+ELSE: pre: 3389	cur: 3390	pre_total: 3389
+				cur_total: 3390
+3390	3390	0
+ELSE: pre: 3390	cur: 3391	pre_total: 3390
+				cur_total: 3391
+3391	3391	0
+ELSE: pre: 3391	cur: 3392	pre_total: 3391
+				cur_total: 3392
+3392	3392	0
+ELSE: pre: 3392	cur: 3393	pre_total: 3392
+				cur_total: 3393
+3393	3393	0
+ELSE: pre: 3393	cur: 3394	pre_total: 3393
+				cur_total: 3394
+3394	3394	0
+ELSE: pre: 3394	cur: 3395	pre_total: 3394
+				cur_total: 3395
+3395	3395	0
+ELSE: pre: 3395	cur: 3396	pre_total: 3395
+				cur_total: 3396
+3396	3396	0
+ELSE: pre: 3396	cur: 3397	pre_total: 3396
+				cur_total: 3397
+3397	3397	0
+ELSE: pre: 3397	cur: 3398	pre_total: 3397
+				cur_total: 3398
+3398	3398	0
+ELSE: pre: 3398	cur: 3399	pre_total: 3398
+				cur_total: 3399
+3399	3399	0
+ELSE: pre: 3399	cur: 3400	pre_total: 3399
+				cur_total: 3400
+3400	3400	0
+ELSE: pre: 3400	cur: 3401	pre_total: 3400
+				cur_total: 3401
+3401	3401	0
+ELSE: pre: 3401	cur: 3402	pre_total: 3401
+				cur_total: 3402
+3402	3402	0
+ELSE: pre: 3402	cur: 3403	pre_total: 3402
+				cur_total: 3403
+3403	3403	0
+ELSE: pre: 3403	cur: 3404	pre_total: 3403
+				cur_total: 3404
+3404	3404	0
+ELSE: pre: 3404	cur: 3405	pre_total: 3404
+				cur_total: 3405
+3405	3405	0
+ELSE: pre: 3405	cur: 3406	pre_total: 3405
+				cur_total: 3406
+3406	3406	0
+ELSE: pre: 3406	cur: 3407	pre_total: 3406
+				cur_total: 3407
+3407	3407	0
+ELSE: pre: 3407	cur: 3408	pre_total: 3407
+				cur_total: 3408
+3408	3408	0
+ELSE: pre: 3408	cur: 3412	pre_total: 3408
+				cur_total: 3412
+3412	3412	0
+ELSE: pre: 3412	cur: 3413	pre_total: 3412
+				cur_total: 3413
+3413	3413	0
+ELSE: pre: 3413	cur: 3416	pre_total: 3413
+				cur_total: 3416
+3416	3416	0
+ELSE: pre: 3416	cur: 3417	pre_total: 3416
+				cur_total: 3417
+3417	3417	0
+ELSE: pre: 3417	cur: 3421	pre_total: 3417
+				cur_total: 3421
+3421	3421	0
+ELSE: pre: 3421	cur: 3422	pre_total: 3421
+				cur_total: 3422
+3422	3422	0
+ELSE: pre: 3422	cur: 3423	pre_total: 3422
+				cur_total: 3423
+3423	3423	0
+ELSE: pre: 3423	cur: 3424	pre_total: 3423
+				cur_total: 3424
+3424	3424	0
+ELSE: pre: 3424	cur: 3425	pre_total: 3424
+				cur_total: 3425
+3425	3425	0
+ELSE: pre: 3425	cur: 3426	pre_total: 3425
+				cur_total: 3426
+3426	3426	0
+ELSE: pre: 3426	cur: 3430	pre_total: 3426
+				cur_total: 3430
+3430	3430	0
+ELSE: pre: 3430	cur: 3431	pre_total: 3430
+				cur_total: 3431
+3431	3431	0
+ELSE: pre: 3431	cur: 3432	pre_total: 3431
+				cur_total: 3432
+3432	3432	0
+ELSE: pre: 3432	cur: 3433	pre_total: 3432
+				cur_total: 3433
+3433	3433	0
+ELSE: pre: 3433	cur: 3434	pre_total: 3433
+				cur_total: 3434
+3434	3434	0
+ELSE: pre: 3434	cur: 3435	pre_total: 3434
+				cur_total: 3435
+3435	3435	0
+ELSE: pre: 3435	cur: 3436	pre_total: 3435
+				cur_total: 3436
+3436	3436	0
+ELSE: pre: 3436	cur: 3437	pre_total: 3436
+				cur_total: 3437
+3437	3437	0
+ELSE: pre: 3437	cur: 3438	pre_total: 3437
+				cur_total: 3438
+3438	3438	0
+ELSE: pre: 3438	cur: 3439	pre_total: 3438
+				cur_total: 3439
+3439	3439	0
+ELSE: pre: 3439	cur: 3440	pre_total: 3439
+				cur_total: 3440
+3440	3440	0
+ELSE: pre: 3440	cur: 3441	pre_total: 3440
+				cur_total: 3441
+3441	3441	0
+ELSE: pre: 3441	cur: 3442	pre_total: 3441
+				cur_total: 3442
+3442	3442	0
+ELSE: pre: 3442	cur: 3443	pre_total: 3442
+				cur_total: 3443
+3443	3443	0
+ELSE: pre: 3443	cur: 3444	pre_total: 3443
+				cur_total: 3444
+3444	3444	0
+ELSE: pre: 3444	cur: 3445	pre_total: 3444
+				cur_total: 3445
+3445	3445	0
+ELSE: pre: 3445	cur: 3446	pre_total: 3445
+				cur_total: 3446
+3446	3446	0
+ELSE: pre: 3446	cur: 3448	pre_total: 3446
+				cur_total: 3448
+3448	3448	0
+ELSE: pre: 3448	cur: 3449	pre_total: 3448
+				cur_total: 3449
+3449	3449	0
+ELSE: pre: 3449	cur: 3450	pre_total: 3449
+				cur_total: 3450
+3450	3450	0
+ELSE: pre: 3450	cur: 3451	pre_total: 3450
+				cur_total: 3451
+3451	3451	0
+ELSE: pre: 3451	cur: 3452	pre_total: 3451
+				cur_total: 3452
+3452	3452	0
+ELSE: pre: 3452	cur: 3453	pre_total: 3452
+				cur_total: 3453
+3453	3453	0
+ELSE: pre: 3453	cur: 3456	pre_total: 3453
+				cur_total: 3456
+3456	3456	0
+ELSE: pre: 3456	cur: 3457	pre_total: 3456
+				cur_total: 3457
+3457	3457	0
+ELSE: pre: 3457	cur: 3458	pre_total: 3457
+				cur_total: 3458
+3458	3458	0
+ELSE: pre: 3458	cur: 3459	pre_total: 3458
+				cur_total: 3459
+3459	3459	0
+ELSE: pre: 3459	cur: 3460	pre_total: 3459
+				cur_total: 3460
+3460	3460	0
+ELSE: pre: 3460	cur: 3461	pre_total: 3460
+				cur_total: 3461
+3461	3461	0
+ELSE: pre: 3461	cur: 3462	pre_total: 3461
+				cur_total: 3462
+3462	3462	0
+ELSE: pre: 3462	cur: 3463	pre_total: 3462
+				cur_total: 3463
+3463	3463	0
+ELSE: pre: 3463	cur: 3464	pre_total: 3463
+				cur_total: 3464
+3464	3464	0
+ELSE: pre: 3464	cur: 3465	pre_total: 3464
+				cur_total: 3465
+3465	3465	0
+ELSE: pre: 3465	cur: 3466	pre_total: 3465
+				cur_total: 3466
+3466	3466	0
+ELSE: pre: 3466	cur: 3467	pre_total: 3466
+				cur_total: 3467
+3467	3467	0
+ELSE: pre: 3467	cur: 3468	pre_total: 3467
+				cur_total: 3468
+3468	3468	0
+ELSE: pre: 3468	cur: 3469	pre_total: 3468
+				cur_total: 3469
+3469	3469	0
+ELSE: pre: 3469	cur: 3470	pre_total: 3469
+				cur_total: 3470
+3470	3470	0
+ELSE: pre: 3470	cur: 3471	pre_total: 3470
+				cur_total: 3471
+3471	3471	0
+ELSE: pre: 3471	cur: 3475	pre_total: 3471
+				cur_total: 3475
+3475	3475	0
+ELSE: pre: 3475	cur: 3476	pre_total: 3475
+				cur_total: 3476
+3476	3476	0
+ELSE: pre: 3476	cur: 3477	pre_total: 3476
+				cur_total: 3477
+3477	3477	0
+ELSE: pre: 3477	cur: 3478	pre_total: 3477
+				cur_total: 3478
+3478	3478	0
+ELSE: pre: 3478	cur: 3479	pre_total: 3478
+				cur_total: 3479
+3479	3479	0
+ELSE: pre: 3479	cur: 3480	pre_total: 3479
+				cur_total: 3480
+3480	3480	0
+ELSE: pre: 3480	cur: 3481	pre_total: 3480
+				cur_total: 3481
+3481	3481	0
+ELSE: pre: 3481	cur: 3482	pre_total: 3481
+				cur_total: 3482
+3482	3482	0
+ELSE: pre: 3482	cur: 3483	pre_total: 3482
+				cur_total: 3483
+3483	3483	0
+ELSE: pre: 3483	cur: 3484	pre_total: 3483
+				cur_total: 3484
+3484	3484	0
+ELSE: pre: 3484	cur: 3485	pre_total: 3484
+				cur_total: 3485
+3485	3485	0
+ELSE: pre: 3485	cur: 3486	pre_total: 3485
+				cur_total: 3486
+3486	3486	0
+ELSE: pre: 3486	cur: 3487	pre_total: 3486
+				cur_total: 3487
+3487	3487	0
+ELSE: pre: 3487	cur: 3488	pre_total: 3487
+				cur_total: 3488
+3488	3488	0
+ELSE: pre: 3488	cur: 3489	pre_total: 3488
+				cur_total: 3489
+3489	3489	0
+ELSE: pre: 3489	cur: 3493	pre_total: 3489
+				cur_total: 3493
+3493	3493	0
+ELSE: pre: 3493	cur: 3494	pre_total: 3493
+				cur_total: 3494
+3494	3494	0
+ELSE: pre: 3494	cur: 3495	pre_total: 3494
+				cur_total: 3495
+3495	3495	0
+ELSE: pre: 3495	cur: 3496	pre_total: 3495
+				cur_total: 3496
+3496	3496	0
+ELSE: pre: 3496	cur: 3497	pre_total: 3496
+				cur_total: 3497
+3497	3497	0
+ELSE: pre: 3497	cur: 3498	pre_total: 3497
+				cur_total: 3498
+3498	3498	0
+ELSE: pre: 3498	cur: 3500	pre_total: 3498
+				cur_total: 3500
+3500	3500	0
+ELSE: pre: 3500	cur: 3502	pre_total: 3500
+				cur_total: 3502
+3502	3502	0
+ELSE: pre: 3502	cur: 3503	pre_total: 3502
+				cur_total: 3503
+3503	3503	0
+ELSE: pre: 3503	cur: 3504	pre_total: 3503
+				cur_total: 3504
+3504	3504	0
+ELSE: pre: 3504	cur: 3505	pre_total: 3504
+				cur_total: 3505
+3505	3505	0
+ELSE: pre: 3505	cur: 3506	pre_total: 3505
+				cur_total: 3506
+3506	3506	0
+ELSE: pre: 3506	cur: 3507	pre_total: 3506
+				cur_total: 3507
+3507	3507	0
+ELSE: pre: 3507	cur: 3508	pre_total: 3507
+				cur_total: 3508
+3508	3508	0
+ELSE: pre: 3508	cur: 3509	pre_total: 3508
+				cur_total: 3509
+3509	3509	0
+ELSE: pre: 3509	cur: 3510	pre_total: 3509
+				cur_total: 3510
+3510	3510	0
+ELSE: pre: 3510	cur: 3511	pre_total: 3510
+				cur_total: 3511
+3511	3511	0
+ELSE: pre: 3511	cur: 3512	pre_total: 3511
+				cur_total: 3512
+3512	3512	0
+ELSE: pre: 3512	cur: 3515	pre_total: 3512
+				cur_total: 3515
+3515	3515	0
+ELSE: pre: 3515	cur: 3516	pre_total: 3515
+				cur_total: 3516
+3516	3516	0
+ELSE: pre: 3516	cur: 3520	pre_total: 3516
+				cur_total: 3520
+3520	3520	0
+ELSE: pre: 3520	cur: 3521	pre_total: 3520
+				cur_total: 3521
+3521	3521	0
+ELSE: pre: 3521	cur: 3522	pre_total: 3521
+				cur_total: 3522
+3522	3522	0
+ELSE: pre: 3522	cur: 3523	pre_total: 3522
+				cur_total: 3523
+3523	3523	0
+ELSE: pre: 3523	cur: 3524	pre_total: 3523
+				cur_total: 3524
+133	sent	3524	rcvd	1867
+132	sent	3524	rcvd	1972
+131	sent	3524	rcvd	2002
+130	sent	3524	rcvd	2017
+137	sent	3524	rcvd	1403
+136	sent	3524	rcvd	2076
+135	sent	3524	rcvd	1766
+134	sent	3524	rcvd	1923
+138	sent	3524	rcvd	1627
+24	sent	3524	rcvd	2215
+25	sent	3524	rcvd	2151
+26	sent	3524	rcvd	2062
+27	sent	3524	rcvd	2215
+20	sent	3524	rcvd	1823
+21	sent	3524	rcvd	2083
+28	sent	3524	rcvd	2044
+4	sent	3524	rcvd	1641
+8	sent	3524	rcvd	2204
+120	sent	3524	rcvd	1932
+121	sent	3524	rcvd	1613
+122	sent	3524	rcvd	2010
+123	sent	3524	rcvd	1662
+124	sent	3524	rcvd	2009
+126	sent	3524	rcvd	1416
+127	sent	3524	rcvd	1853
+128	sent	3524	rcvd	1995
+129	sent	3524	rcvd	1540
+59	sent	3524	rcvd	2121
+58	sent	3524	rcvd	2115
+54	sent	3524	rcvd	1895
+57	sent	3524	rcvd	2127
+51	sent	3524	rcvd	1986
+50	sent	3524	rcvd	2093
+52	sent	3524	rcvd	2215
+115	sent	3524	rcvd	1795
+117	sent	3524	rcvd	1966
+116	sent	3524	rcvd	2031
+83	sent	3524	rcvd	1689
+80	sent	3524	rcvd	2056
+81	sent	3524	rcvd	1949
+119	sent	3524	rcvd	1642
+118	sent	3524	rcvd	1936
+84	sent	3524	rcvd	1187
+85	sent	3524	rcvd	2063
+3	sent	3524	rcvd	2095
+7	sent	3524	rcvd	1830
+39	sent	3524	rcvd	2076
+38	sent	3524	rcvd	2177
+33	sent	3524	rcvd	2068
+32	sent	3524	rcvd	2212
+30	sent	3524	rcvd	2151
+37	sent	3524	rcvd	1978
+36	sent	3524	rcvd	2168
+35	sent	3524	rcvd	2167
+34	sent	3524	rcvd	2108
+60	sent	3524	rcvd	2214
+63	sent	3524	rcvd	2011
+64	sent	3524	rcvd	1604
+65	sent	3524	rcvd	1755
+66	sent	3524	rcvd	1739
+67	sent	3524	rcvd	2093
+68	sent	3524	rcvd	1956
+69	sent	3524	rcvd	1687
+2	sent	3524	rcvd	2201
+6	sent	3524	rcvd	1689
+11	sent	3524	rcvd	1906
+10	sent	3524	rcvd	1756
+13	sent	3524	rcvd	1610
+12	sent	3524	rcvd	1916
+15	sent	3524	rcvd	1876
+14	sent	3524	rcvd	2203
+17	sent	3524	rcvd	2149
+19	sent	3524	rcvd	1639
+18	sent	3524	rcvd	2212
+48	sent	3524	rcvd	2045
+46	sent	3524	rcvd	2093
+47	sent	3524	rcvd	2186
+44	sent	3524	rcvd	1993
+45	sent	3524	rcvd	2072
+42	sent	3524	rcvd	2159
+43	sent	3524	rcvd	2050
+40	sent	3524	rcvd	2007
+41	sent	3524	rcvd	1953
+1	sent	3524	rcvd	1927
+5	sent	3524	rcvd	1964
+9	sent	3524	rcvd	1631
+77	sent	3524	rcvd	2123
+76	sent	3524	rcvd	1876
+75	sent	3524	rcvd	2070
+74	sent	3524	rcvd	1958
+73	sent	3524	rcvd	1865
+72	sent	3524	rcvd	2065
+71	sent	3524	rcvd	2113
+70	sent	3524	rcvd	1838
+79	sent	3524	rcvd	1917
+78	sent	3524	rcvd	2057

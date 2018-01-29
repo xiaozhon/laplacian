@@ -1,0 +1,15 @@
+<area shape="rect" id="node2" href="../chtml/tos.system.ArbitratedReadC.html" title="ArbitratedReadC\n(ArbitrateRead)" alt="" coords="64,120,213,171">
+<area shape="poly" id="edge2" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;[uint8_t]" alt="" coords="141,53 141,106 136,106 136,53">
+<area shape="rect" id="edge2" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;[uint8_t]" alt="" coords="139,78,299,95">
+<area shape="rect" id="node4" href="../chtml/tos.chips.atm128.adc.AdcP.html" title="AdcP" alt="" coords="269,237,341,285">
+<area shape="poly" id="edge10" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;[uint8_t]" alt="" coords="162,169 208,211 258,239 255,244 205,215 158,173">
+<area shape="rect" id="edge10" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;[uint8_t]" alt="" coords="207,195,367,213">
+<area shape="poly" id="edge6" href="../ihtml/tos.interfaces.Resource.html" title="Resource[uint8_t]" alt="" coords="91,172 70,196 64,224 59,223 66,193 87,169">
+<area shape="rect" id="edge6" href="../ihtml/tos.interfaces.Resource.html" title="Resource[uint8_t]" alt="" coords="68,195,181,213">
+<area shape="poly" id="edge4" href="../ihtml/tos.interfaces.ReadNow.html" title="ReadNow&lt;uint16_t&gt;[uint8_t]" alt="" coords="397,171 388,193 374,215 355,234 351,230 370,212 383,191 392,169">
+<area shape="rect" id="edge4" href="../ihtml/tos.interfaces.ReadNow.html" title="ReadNow&lt;uint16_t&gt;[uint8_t]" alt="" coords="383,195,569,213">
+<area shape="poly" id="edge8" href="../ihtml/tos.chips.atm128.adc.Atm128AdcConfig.html" title="Atm128AdcConfig[uint8_t]" alt="" coords="270,271 236,286 221,297 209,311 203,327 201,344 196,344 198,325 204,308 217,293 234,281 268,266">
+<area shape="rect" id="edge8" href="../ihtml/tos.chips.atm128.adc.Atm128AdcConfig.html" title="Atm128AdcConfig[uint8_t]" alt="" coords="207,310,376,327">
+<area shape="rect" id="node7" href="../chtml/tos.chips.atm128.adc.Atm128AdcC.html" title="Atm128AdcC" alt="" coords="337,352,473,411">
+<area shape="poly" id="edge12" href="../ihtml/tos.chips.atm128.adc.Atm128AdcSingle.html" title="Atm128AdcSingle" alt="" coords="343,278 362,291 378,308 395,338 391,341 374,311 358,295 340,282">
+<area shape="rect" id="edge12" href="../ihtml/tos.chips.atm128.adc.Atm128AdcSingle.html" title="Atm128AdcSingle" alt="" coords="387,310,501,327">

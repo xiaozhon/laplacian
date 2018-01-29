@@ -1,0 +1,3 @@
+test	avg_prntSet	std
+add-26	1.8094	0.4250
+

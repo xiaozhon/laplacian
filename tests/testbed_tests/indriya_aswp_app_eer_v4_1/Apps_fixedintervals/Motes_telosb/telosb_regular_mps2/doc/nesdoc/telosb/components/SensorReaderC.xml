@@ -1,0 +1,1458 @@
+<?xml version="1.0" ?><component loc="7:SensorReaderC.nc" nicename="SensorReaderC" qname="SensorReaderC">
+      <documentation loc="1:SensorReaderC.nc">
+        <short>
+ Simply wires our implementation of SensorReader to
+ the sensors and provides the result
+ Author: Newlyn Erratt, Yimei Li
+</short>
+      </documentation>
+      <configuration/>
+      <wiring>
+        <wire loc="49:SensorReaderC.nc">
+          <from><interface-ref name="SensorReader" ref="0x41535b80" scoped=""/></from>
+          <to><interface-ref name="SensorReader" ref="0x41527cf8" scoped=""/></to>
+        </wire>
+        <wire loc="28:SensorReaderC.nc">
+          <from><interface-ref name="StdControl" ref="0x41527040" scoped=""/></from>
+          <to><interface-ref name="StdControl" ref="0x415241d8" scoped=""/></to>
+        </wire>
+        <wire loc="20:SensorReaderC.nc">
+          <from><interface-ref name="UartStream" ref="0x4155cce0" scoped=""/></from>
+          <to><interface-ref name="UartStream" ref="0x4188b060" scoped=""/></to>
+        </wire>
+        <wire loc="21:SensorReaderC.nc">
+          <from><interface-ref name="UartResource" ref="0x415146c8" scoped=""/></from>
+          <to><interface-ref name="Resource" ref="0x41833910" scoped=""/></to>
+        </wire>
+        <wire loc="24:SensorReaderC.nc">
+          <from><interface-ref name="Power2_5" ref="0x41521e98" scoped=""/></from>
+          <to><interface-ref name="Port23" ref="0x409e3d88" scoped=""/></to>
+        </wire>
+        <wire loc="25:SensorReaderC.nc">
+          <from><interface-ref name="Power5_0" ref="0x4151f030" scoped=""/></from>
+          <to><interface-ref name="Port26" ref="0x409df368" scoped=""/></to>
+        </wire>
+        <wire loc="29:SensorReaderC.nc">
+          <from><interface-ref name="Timer" ref="0x41518010" scoped=""/></from>
+          <to><interface-ref name="Timer" ref="0x4157bc60" scoped=""/></to>
+        </wire>
+        <wire loc="34:SensorReaderC.nc">
+          <from><interface-ref name="Voltage" ref="0x41524770" scoped=""/></from>
+          <to><interface-ref name="Read" ref="0x418d9df8" scoped=""/></to>
+        </wire>
+        <wire loc="36:SensorReaderC.nc">
+          <from><interface-ref name="Temperature" ref="0x415224b0" scoped=""/></from>
+          <to><interface-ref name="Temperature" ref="0x41835078" scoped=""/></to>
+        </wire>
+        <wire loc="37:SensorReaderC.nc">
+          <from><interface-ref name="Humidity" ref="0x415211f0" scoped=""/></from>
+          <to><interface-ref name="Humidity" ref="0x41834010" scoped=""/></to>
+        </wire>
+        <wire loc="40:SensorReaderC.nc">
+          <from><interface-ref name="ADC0" ref="0x4151e1c8" scoped=""/></from>
+          <to><interface-ref name="Read" ref="0x41576010" scoped=""/></to>
+        </wire>
+        <wire loc="41:SensorReaderC.nc">
+          <from><interface-ref name="ADC1" ref="0x4151eea8" scoped=""/></from>
+          <to><interface-ref name="Read" ref="0x4172e5d8" scoped=""/></to>
+        </wire>
+        <wire loc="42:SensorReaderC.nc">
+          <from><interface-ref name="ADC2" ref="0x4151dba0" scoped=""/></from>
+          <to><interface-ref name="Read" ref="0x41778998" scoped=""/></to>
+        </wire>
+        <wire loc="43:SensorReaderC.nc">
+          <from><interface-ref name="ADC3" ref="0x4151b898" scoped=""/></from>
+          <to><interface-ref name="Read" ref="0x4176a010" scoped=""/></to>
+        </wire>
+        <wire loc="46:SensorReaderC.nc">
+          <from><interface-ref name="ADC6" ref="0x4151a5b0" scoped=""/></from>
+          <to><interface-ref name="Read" ref="0x4175d5d8" scoped=""/></to>
+        </wire>
+        <wire loc="47:SensorReaderC.nc">
+          <from><interface-ref name="ADC7" ref="0x415192b0" scoped=""/></from>
+          <to><interface-ref name="Read" ref="0x417a8998" scoped=""/></to>
+        </wire>
+        <wire loc="54:SensorReaderC.nc">
+          <from><interface-ref name="MoteClockInit" ref="0x41514e58" scoped=""/></from>
+          <to><interface-ref name="MoteClockInit" ref="0x406be968" scoped=""/></to>
+        </wire>
+        <wire loc="57:SensorReaderC.nc">
+          <from><interface-ref name="delayTimer" ref="0x41513340" scoped=""/></from>
+          <to><interface-ref name="Timer" ref="0x4195c010" scoped=""/></to>
+        </wire>
+      </wiring>
+    <specification><interface loc="8:SensorReaderC.nc" name="SensorReader" provided="1" ref="0x41535b80">
+      <component-ref nicename="SensorReaderC" qname="SensorReaderC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="SensorReader" ref="0x41535b80" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="SensorReader" qname="SensorReader"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getReadings" ref="0x41535d58" scoped=""/>
+        <function-ref name="readingsDone" ref="0x41535e38" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="9:SensorReaderC.nc" name="StdControl" provided="1" ref="0x41527040">
+      <component-ref nicename="SensorReaderC" qname="SensorReaderC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="StdControl" ref="0x41527040" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.StdControl" qname="StdControl"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="start" ref="0x41527218" scoped=""/>
+        <function-ref name="stop" ref="0x415272f8" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced><interface loc="36:SensorReaderP.nc" name="ADC3" provided="0" ref="0x4151b898">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="ADC3" ref="0x4151b898" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x4151bec0" scoped=""/>
+        <function-ref name="readDone" ref="0x4151a130" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="40:SensorReaderP.nc" name="ADC7" provided="0" ref="0x415192b0">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="ADC7" ref="0x415192b0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x41519958" scoped=""/>
+        <function-ref name="readDone" ref="0x41519bb0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="45:SensorReaderP.nc" name="UartStream" provided="0" ref="0x4155cce0">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="UartStream" ref="0x4155cce0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.UartStream" qname="UartStream"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="send" ref="0x4155ceb8" scoped=""/>
+        <function-ref name="receivedByte" ref="0x41514010" scoped=""/>
+        <function-ref name="receive" ref="0x415140f0" scoped=""/>
+        <function-ref name="enableReceiveInterrupt" ref="0x415141d0" scoped=""/>
+        <function-ref name="receiveDone" ref="0x415142b0" scoped=""/>
+        <function-ref name="disableReceiveInterrupt" ref="0x41514390" scoped=""/>
+        <function-ref name="sendDone" ref="0x41514470" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="39:/opt/tinyos-2.1.2/tos/platforms/telosb/MoteClockC.nc" name="MoteClockInit" provided="1" ref="0x406be968">
+      <component-ref nicename="tos.platforms.telosb.MoteClockC" qname="MoteClockC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="MoteClockInit" ref="0x406be968" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x406beb40" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="42:SensorReaderP.nc" name="Timer" provided="0" ref="0x41518010">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Timer" ref="0x41518010" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x40035cf8"/>
+            <typename><typedef-ref name="TMilli" ref="0x405e1108"/></typename>
+          </type-tag>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x41516b00" scoped=""/>
+        <function-ref name="fired" ref="0x41518d90" scoped=""/>
+        <function-ref name="startPeriodicAt" ref="0x415164c0" scoped=""/>
+        <function-ref name="isOneShot" ref="0x41516268" scoped=""/>
+        <function-ref name="getdt" ref="0x41515010" scoped=""/>
+        <function-ref name="gett0" ref="0x41516d58" scoped=""/>
+        <function-ref name="isRunning" ref="0x41516010" scoped=""/>
+        <function-ref name="startPeriodic" ref="0x41518638" scoped=""/>
+        <function-ref name="startOneShotAt" ref="0x415167e0" scoped=""/>
+        <function-ref name="startOneShot" ref="0x415188b8" scoped=""/>
+        <function-ref name="stop" ref="0x41518b38" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="34:SensorReaderP.nc" name="ADC1" provided="0" ref="0x4151eea8">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="ADC1" ref="0x4151eea8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x4151d4e8" scoped=""/>
+        <function-ref name="readDone" ref="0x4151d740" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="35:SensorReaderP.nc" name="ADC2" provided="0" ref="0x4151dba0">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="ADC2" ref="0x4151dba0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x4151b1e0" scoped=""/>
+        <function-ref name="readDone" ref="0x4151b438" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="33:SensorReaderP.nc" name="ADC0" provided="0" ref="0x4151e1c8">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="ADC0" ref="0x4151e1c8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x4151e7f0" scoped=""/>
+        <function-ref name="readDone" ref="0x4151ea48" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="31:SensorReaderP.nc" name="Power5_0" provided="0" ref="0x4151f030">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Power5_0" ref="0x4151f030" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.chips.msp430.pins.HplMsp430GeneralIO" qname="HplMsp430GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x4151f208" scoped=""/>
+        <function-ref name="isInput" ref="0x4151f2e8" scoped=""/>
+        <function-ref name="setResistor" ref="0x4151f3c8" scoped=""/>
+        <function-ref name="toggle" ref="0x4151f4a8" scoped=""/>
+        <function-ref name="isOutput" ref="0x4151f588" scoped=""/>
+        <function-ref name="getResistor" ref="0x4151f668" scoped=""/>
+        <function-ref name="makeOutput" ref="0x4151f748" scoped=""/>
+        <function-ref name="get" ref="0x4151f828" scoped=""/>
+        <function-ref name="selectIOFunc" ref="0x4151f908" scoped=""/>
+        <function-ref name="getRaw" ref="0x4151f9e8" scoped=""/>
+        <function-ref name="set" ref="0x4151fac8" scoped=""/>
+        <function-ref name="selectModuleFunc" ref="0x4151fba8" scoped=""/>
+        <function-ref name="isIOFunc" ref="0x4151fc88" scoped=""/>
+        <function-ref name="isModuleFunc" ref="0x4151fde8" scoped=""/>
+        <function-ref name="clr" ref="0x4151fec8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="11:../msp430/ADC0C.nc" name="Read" provided="1" ref="0x41576010">
+      <component-ref nicename="...msp430.ADC0C" qname="SensorReaderC.ADC0C"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Read" ref="0x41576010" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x41576638" scoped=""/>
+        <function-ref name="readDone" ref="0x41576890" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="4:../msp430/UartSerialC.nc" name="Resource" provided="1" ref="0x41833910">
+      <component-ref nicename="...msp430.UartSerialC" qname="UartSerialC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Resource" ref="0x41833910" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Resource" qname="Resource"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="release" ref="0x41833ae8" scoped=""/>
+        <function-ref name="immediateRequest" ref="0x41833bc8" scoped=""/>
+        <function-ref name="request" ref="0x41833ca8" scoped=""/>
+        <function-ref name="granted" ref="0x41833d88" scoped=""/>
+        <function-ref name="isOwner" ref="0x41833e68" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="39:SensorReaderP.nc" name="ADC6" provided="0" ref="0x4151a5b0">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="ADC6" ref="0x4151a5b0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x4151abd8" scoped=""/>
+        <function-ref name="readDone" ref="0x4151ae30" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="23:SensorReaderP.nc" name="SensorReader" provided="1" ref="0x41527cf8">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="SensorReader" ref="0x41527cf8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="SensorReader" qname="SensorReader"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getReadings" ref="0x41527ed0" scoped=""/>
+        <function-ref name="readingsDone" ref="0x41524010" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="46:SensorReaderP.nc" name="UartResource" provided="0" ref="0x415146c8">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="UartResource" ref="0x415146c8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Resource" qname="Resource"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="release" ref="0x415148a0" scoped=""/>
+        <function-ref name="immediateRequest" ref="0x41514980" scoped=""/>
+        <function-ref name="request" ref="0x41514a60" scoped=""/>
+        <function-ref name="granted" ref="0x41514b40" scoped=""/>
+        <function-ref name="isOwner" ref="0x41514c20" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="48:SensorReaderP.nc" name="MoteClockInit" provided="0" ref="0x41514e58">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="MoteClockInit" ref="0x41514e58" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x41513050" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="49:SensorReaderP.nc" name="delayTimer" provided="0" ref="0x41513340">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="delayTimer" ref="0x41513340" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x40035cf8"/>
+            <typename><typedef-ref name="TMilli" ref="0x405e1108"/></typename>
+          </type-tag>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x4155ae38" scoped=""/>
+        <function-ref name="fired" ref="0x4155a0f0" scoped=""/>
+        <function-ref name="startPeriodicAt" ref="0x4155a7f8" scoped=""/>
+        <function-ref name="isOneShot" ref="0x4155a5a0" scoped=""/>
+        <function-ref name="getdt" ref="0x41559310" scoped=""/>
+        <function-ref name="gett0" ref="0x415590b8" scoped=""/>
+        <function-ref name="isRunning" ref="0x4155a348" scoped=""/>
+        <function-ref name="startPeriodic" ref="0x41513968" scoped=""/>
+        <function-ref name="startOneShotAt" ref="0x4155ab18" scoped=""/>
+        <function-ref name="startOneShot" ref="0x41513be8" scoped=""/>
+        <function-ref name="stop" ref="0x41513e68" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="28:SensorReaderP.nc" name="Temperature" provided="0" ref="0x415224b0">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Temperature" ref="0x415224b0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x41522ad8" scoped=""/>
+        <function-ref name="readDone" ref="0x41522d30" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="48:/opt/tinyos-2.1.2/tos/platforms/telosa/chips/sht11/SensirionSht11C.nc" name="Humidity" provided="1" ref="0x41834010">
+      <component-ref nicename="tos.platforms.telosa.chips.sht11.SensirionSht11C" qname="SensorReaderC.SensirionSht11C"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Humidity" ref="0x41834010" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x41834638" scoped=""/>
+        <function-ref name="readDone" ref="0x41834890" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="7:../msp430/InternalVoltageC.nc" name="Read" provided="1" ref="0x418d9df8">
+      <component-ref nicename="...msp430.InternalVoltageC" qname="SensorReaderC.InternalVoltageC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Read" ref="0x418d9df8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x418d0448" scoped=""/>
+        <function-ref name="readDone" ref="0x418d06a0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="45:/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc" name="Timer" provided="1" ref="0x4195c010">
+      <component-ref nicename="tos.system.TimerMilliC" qname="SensorReaderC.delayTimerC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Timer" ref="0x4195c010" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x40035cf8"/>
+            <typename><typedef-ref name="TMilli" ref="0x405e1108"/></typename>
+          </type-tag>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x4195bb00" scoped=""/>
+        <function-ref name="fired" ref="0x4195cd90" scoped=""/>
+        <function-ref name="startPeriodicAt" ref="0x4195b4c0" scoped=""/>
+        <function-ref name="isOneShot" ref="0x4195b268" scoped=""/>
+        <function-ref name="getdt" ref="0x41959010" scoped=""/>
+        <function-ref name="gett0" ref="0x4195bd58" scoped=""/>
+        <function-ref name="isRunning" ref="0x4195b010" scoped=""/>
+        <function-ref name="startPeriodic" ref="0x4195c638" scoped=""/>
+        <function-ref name="startOneShotAt" ref="0x4195b7e0" scoped=""/>
+        <function-ref name="startOneShot" ref="0x4195c8b8" scoped=""/>
+        <function-ref name="stop" ref="0x4195cb38" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="11:../msp430/ADC2C.nc" name="Read" provided="1" ref="0x41778998">
+      <component-ref nicename="...msp430.ADC2C" qname="SensorReaderC.ADC2C"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Read" ref="0x41778998" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x41777010" scoped=""/>
+        <function-ref name="readDone" ref="0x41777268" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="11:../msp430/ADC7C.nc" name="Read" provided="1" ref="0x417a8998">
+      <component-ref nicename="...msp430.ADC7C" qname="SensorReaderC.ADC7C"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Read" ref="0x417a8998" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x417a7010" scoped=""/>
+        <function-ref name="readDone" ref="0x417a7268" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="11:../msp430/ADC3C.nc" name="Read" provided="1" ref="0x4176a010">
+      <component-ref nicename="...msp430.ADC3C" qname="SensorReaderC.ADC3C"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Read" ref="0x4176a010" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x4176a638" scoped=""/>
+        <function-ref name="readDone" ref="0x4176a890" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="66:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc" name="Port26" provided="1" ref="0x409df368">
+      <component-ref nicename="tos.chips.msp430.pins.HplMsp430GeneralIOC" qname="HplMsp430GeneralIOC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Port26" ref="0x409df368" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.chips.msp430.pins.HplMsp430GeneralIO" qname="HplMsp430GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x409df540" scoped=""/>
+        <function-ref name="isInput" ref="0x409df620" scoped=""/>
+        <function-ref name="setResistor" ref="0x409df700" scoped=""/>
+        <function-ref name="toggle" ref="0x409df7e0" scoped=""/>
+        <function-ref name="isOutput" ref="0x409df8c0" scoped=""/>
+        <function-ref name="getResistor" ref="0x409df9a0" scoped=""/>
+        <function-ref name="makeOutput" ref="0x409dfa80" scoped=""/>
+        <function-ref name="get" ref="0x409dfb60" scoped=""/>
+        <function-ref name="selectIOFunc" ref="0x409dfc40" scoped=""/>
+        <function-ref name="getRaw" ref="0x409dfd20" scoped=""/>
+        <function-ref name="set" ref="0x409dfe00" scoped=""/>
+        <function-ref name="selectModuleFunc" ref="0x409dfee0" scoped=""/>
+        <function-ref name="isIOFunc" ref="0x409de010" scoped=""/>
+        <function-ref name="isModuleFunc" ref="0x409de170" scoped=""/>
+        <function-ref name="clr" ref="0x409de250" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="63:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc" name="Port23" provided="1" ref="0x409e3d88">
+      <component-ref nicename="tos.chips.msp430.pins.HplMsp430GeneralIOC" qname="HplMsp430GeneralIOC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Port23" ref="0x409e3d88" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.chips.msp430.pins.HplMsp430GeneralIO" qname="HplMsp430GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x409e2010" scoped=""/>
+        <function-ref name="isInput" ref="0x409e20f0" scoped=""/>
+        <function-ref name="setResistor" ref="0x409e21d0" scoped=""/>
+        <function-ref name="toggle" ref="0x409e22b0" scoped=""/>
+        <function-ref name="isOutput" ref="0x409e2390" scoped=""/>
+        <function-ref name="getResistor" ref="0x409e2470" scoped=""/>
+        <function-ref name="makeOutput" ref="0x409e2550" scoped=""/>
+        <function-ref name="get" ref="0x409e2630" scoped=""/>
+        <function-ref name="selectIOFunc" ref="0x409e2710" scoped=""/>
+        <function-ref name="getRaw" ref="0x409e27f0" scoped=""/>
+        <function-ref name="set" ref="0x409e28d0" scoped=""/>
+        <function-ref name="selectModuleFunc" ref="0x409e29b0" scoped=""/>
+        <function-ref name="isIOFunc" ref="0x409e2a90" scoped=""/>
+        <function-ref name="isModuleFunc" ref="0x409e2bf0" scoped=""/>
+        <function-ref name="clr" ref="0x409e2cd0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="11:../msp430/ADC6C.nc" name="Read" provided="1" ref="0x4175d5d8">
+      <component-ref nicename="...msp430.ADC6C" qname="SensorReaderC.ADC6C"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Read" ref="0x4175d5d8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x4175dc00" scoped=""/>
+        <function-ref name="readDone" ref="0x4175de58" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="24:SensorReaderP.nc" name="StdControl" provided="1" ref="0x415241d8">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="StdControl" ref="0x415241d8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.StdControl" qname="StdControl"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="start" ref="0x415243b0" scoped=""/>
+        <function-ref name="stop" ref="0x41524490" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="45:/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc" name="Timer" provided="1" ref="0x4157bc60">
+      <component-ref nicename="tos.system.TimerMilliC" qname="SensorReaderC.TimerMilliC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Timer" ref="0x4157bc60" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
+        <arguments>
+          <type-tag alignment="I:2" size="I:2"><struct-ref ref="0x40035cf8"/>
+            <typename><typedef-ref name="TMilli" ref="0x405e1108"/></typename>
+          </type-tag>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x41579790" scoped=""/>
+        <function-ref name="fired" ref="0x4157aa20" scoped=""/>
+        <function-ref name="startPeriodicAt" ref="0x41579150" scoped=""/>
+        <function-ref name="isOneShot" ref="0x4157aed0" scoped=""/>
+        <function-ref name="getdt" ref="0x41579c40" scoped=""/>
+        <function-ref name="gett0" ref="0x415799e8" scoped=""/>
+        <function-ref name="isRunning" ref="0x4157ac78" scoped=""/>
+        <function-ref name="startPeriodic" ref="0x4157a2c8" scoped=""/>
+        <function-ref name="startOneShotAt" ref="0x41579470" scoped=""/>
+        <function-ref name="startOneShot" ref="0x4157a548" scoped=""/>
+        <function-ref name="stop" ref="0x4157a7c8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="30:SensorReaderP.nc" name="Power2_5" provided="0" ref="0x41521e98">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Power2_5" ref="0x41521e98" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.chips.msp430.pins.HplMsp430GeneralIO" qname="HplMsp430GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x415200c0" scoped=""/>
+        <function-ref name="isInput" ref="0x415201a0" scoped=""/>
+        <function-ref name="setResistor" ref="0x41520280" scoped=""/>
+        <function-ref name="toggle" ref="0x41520360" scoped=""/>
+        <function-ref name="isOutput" ref="0x41520440" scoped=""/>
+        <function-ref name="getResistor" ref="0x41520520" scoped=""/>
+        <function-ref name="makeOutput" ref="0x41520600" scoped=""/>
+        <function-ref name="get" ref="0x415206e0" scoped=""/>
+        <function-ref name="selectIOFunc" ref="0x415207c0" scoped=""/>
+        <function-ref name="getRaw" ref="0x415208a0" scoped=""/>
+        <function-ref name="set" ref="0x41520980" scoped=""/>
+        <function-ref name="selectModuleFunc" ref="0x41520a60" scoped=""/>
+        <function-ref name="isIOFunc" ref="0x41520b40" scoped=""/>
+        <function-ref name="isModuleFunc" ref="0x41520ca0" scoped=""/>
+        <function-ref name="clr" ref="0x41520d80" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="46:/opt/tinyos-2.1.2/tos/platforms/telosa/chips/sht11/SensirionSht11C.nc" name="Temperature" provided="1" ref="0x41835078">
+      <component-ref nicename="tos.platforms.telosa.chips.sht11.SensirionSht11C" qname="SensorReaderC.SensirionSht11C"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Temperature" ref="0x41835078" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x418356a0" scoped=""/>
+        <function-ref name="readDone" ref="0x418358f8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="5:../msp430/UartSerialC.nc" name="UartStream" provided="1" ref="0x4188b060">
+      <component-ref nicename="...msp430.UartSerialC" qname="UartSerialC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="UartStream" ref="0x4188b060" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.UartStream" qname="UartStream"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="send" ref="0x4188b238" scoped=""/>
+        <function-ref name="receivedByte" ref="0x4188b318" scoped=""/>
+        <function-ref name="receive" ref="0x4188b3f8" scoped=""/>
+        <function-ref name="enableReceiveInterrupt" ref="0x4188b4d8" scoped=""/>
+        <function-ref name="receiveDone" ref="0x4188b5b8" scoped=""/>
+        <function-ref name="disableReceiveInterrupt" ref="0x4188b698" scoped=""/>
+        <function-ref name="sendDone" ref="0x4188b778" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="26:SensorReaderP.nc" name="Voltage" provided="0" ref="0x41524770">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Voltage" ref="0x41524770" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x41524d98" scoped=""/>
+        <function-ref name="readDone" ref="0x41522010" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="11:../msp430/ADC1C.nc" name="Read" provided="1" ref="0x4172e5d8">
+      <component-ref nicename="...msp430.ADC1C" qname="SensorReaderC.ADC1C"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Read" ref="0x4172e5d8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x4172ec00" scoped=""/>
+        <function-ref name="readDone" ref="0x4172ee58" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="29:SensorReaderP.nc" name="Humidity" provided="0" ref="0x415211f0">
+      <component-ref nicename="SensorReaderP" qname="SensorReaderP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Humidity" ref="0x415211f0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x41521818" scoped=""/>
+        <function-ref name="readDone" ref="0x41521a70" scoped=""/>
+      </interface-functions>
+    </interface><component loc="1:../msp430/UartSerialC.nc" nicename="...msp430.UartSerialC" qname="UartSerialC">
+      <configuration/>
+      <wiring>
+        <wire loc="11:../msp430/UartSerialC.nc">
+          <from><interface-ref name="UartStream" ref="0x4188b060" scoped=""/></from>
+          <to><interface-ref name="UartStream" ref="0x418dd668" scoped=""/></to>
+        </wire>
+        <wire loc="15:../msp430/UartSerialC.nc">
+          <from><interface-ref name="Resource" ref="0x41833910" scoped=""/></from>
+          <to><interface-ref name="Resource" ref="0x418db300" scoped=""/></to>
+        </wire>
+        <wire loc="16:../msp430/UartSerialC.nc">
+          <from><interface-ref name="Msp430UartConfigure" ref="0x418dc320" scoped=""/></from>
+          <to><interface-ref name="Msp430UartConfigure" ref="0x418dba78" scoped=""/></to>
+        </wire>
+        <wire loc="17:../msp430/UartSerialC.nc">
+          <from><interface-ref name="SubResource" ref="0x418dbe98" scoped=""/></from>
+          <to><interface-ref name="Resource" ref="0x41889b38" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component><component loc="8(SensorReaderC.ADC1C):../msp430/ADC1C.nc" nicename="...msp430.ADC1C" qname="SensorReaderC.ADC1C">
+      <instance number="0">
+        <component-ref nicename="...msp430.ADC1C" qname="ADC1C"/>
+      </instance>
+      <configuration/>
+      <wiring>
+        <wire>
+          <from><interface-ref name="Read" ref="0x4172e5d8" scoped=""/></from>
+          <to><interface-ref name="Read" ref="0x41fd9190" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="ReadNow" ref="0x4172d210" scoped=""/></from>
+          <to><interface-ref name="ReadNow" ref="0x41fd7878" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="ReadNowResource" ref="0x4172ddc8" scoped=""/></from>
+          <to><interface-ref name="Resource" ref="0x41fd7150" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="AdcConfigure" ref="0x41fd9dd8" scoped=""/></from>
+          <to><interface-ref name="AdcConfigure" ref="0x415a7928" scoped=""/>
+          <arguments>
+            <value cst="I:1">
+              <type-int alignment="I:2" cname="int" size="I:2"/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+        <wire>
+          <from><interface-ref name="AdcConfigure" ref="0x41fd6518" scoped=""/></from>
+          <to><interface-ref name="AdcConfigure" ref="0x415a7928" scoped=""/>
+          <arguments>
+            <value cst="I:1">
+              <type-int alignment="I:2" cname="int" size="I:2"/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+      </wiring>
+    </component><component loc="8(SensorReaderC.ADC3C):../msp430/ADC3C.nc" nicename="...msp430.ADC3C" qname="SensorReaderC.ADC3C">
+      <instance number="0">
+        <component-ref nicename="...msp430.ADC3C" qname="ADC3C"/>
+      </instance>
+      <configuration/>
+      <wiring>
+        <wire>
+          <from><interface-ref name="Read" ref="0x4176a010" scoped=""/></from>
+          <to><interface-ref name="Read" ref="0x42008190" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="ReadNow" ref="0x4176ac18" scoped=""/></from>
+          <to><interface-ref name="ReadNow" ref="0x42006878" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="ReadNowResource" ref="0x4175f7e8" scoped=""/></from>
+          <to><interface-ref name="Resource" ref="0x42006150" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="AdcConfigure" ref="0x42008dd8" scoped=""/></from>
+          <to><interface-ref name="AdcConfigure" ref="0x415a7928" scoped=""/>
+          <arguments>
+            <value cst="I:3">
+              <type-int alignment="I:2" cname="int" size="I:2"/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+        <wire>
+          <from><interface-ref name="AdcConfigure" ref="0x42005518" scoped=""/></from>
+          <to><interface-ref name="AdcConfigure" ref="0x415a7928" scoped=""/>
+          <arguments>
+            <value cst="I:3">
+              <type-int alignment="I:2" cname="int" size="I:2"/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+      </wiring>
+    </component><component loc="8(SensorReaderC.ADC6C):../msp430/ADC6C.nc" nicename="...msp430.ADC6C" qname="SensorReaderC.ADC6C">
+      <instance number="0">
+        <component-ref nicename="...msp430.ADC6C" qname="ADC6C"/>
+      </instance>
+      <configuration/>
+      <wiring>
+        <wire>
+          <from><interface-ref name="Read" ref="0x4175d5d8" scoped=""/></from>
+          <to><interface-ref name="Read" ref="0x4205d190" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="ReadNow" ref="0x4175c210" scoped=""/></from>
+          <to><interface-ref name="ReadNow" ref="0x4205b878" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="ReadNowResource" ref="0x4175cdc8" scoped=""/></from>
+          <to><interface-ref name="Resource" ref="0x4205b150" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="AdcConfigure" ref="0x4205ddd8" scoped=""/></from>
+          <to><interface-ref name="AdcConfigure" ref="0x415a7928" scoped=""/>
+          <arguments>
+            <value cst="I:4">
+              <type-int alignment="I:2" cname="int" size="I:2"/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+        <wire>
+          <from><interface-ref name="AdcConfigure" ref="0x42059518" scoped=""/></from>
+          <to><interface-ref name="AdcConfigure" ref="0x415a7928" scoped=""/>
+          <arguments>
+            <value cst="I:4">
+              <type-int alignment="I:2" cname="int" size="I:2"/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+      </wiring>
+    </component><component loc="8(SensorReaderC.ADC7C):../msp430/ADC7C.nc" nicename="...msp430.ADC7C" qname="SensorReaderC.ADC7C">
+      <instance number="0">
+        <component-ref nicename="...msp430.ADC7C" qname="ADC7C"/>
+      </instance>
+      <configuration/>
+      <wiring>
+        <wire>
+          <from><interface-ref name="Read" ref="0x417a8998" scoped=""/></from>
+          <to><interface-ref name="Read" ref="0x42038190" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="ReadNow" ref="0x417a75f0" scoped=""/></from>
+          <to><interface-ref name="ReadNow" ref="0x42036878" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="ReadNowResource" ref="0x4179d1c0" scoped=""/></from>
+          <to><interface-ref name="Resource" ref="0x42036150" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="AdcConfigure" ref="0x42038dd8" scoped=""/></from>
+          <to><interface-ref name="AdcConfigure" ref="0x415a7928" scoped=""/>
+          <arguments>
+            <value cst="I:5">
+              <type-int alignment="I:2" cname="int" size="I:2"/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+        <wire>
+          <from><interface-ref name="AdcConfigure" ref="0x42034518" scoped=""/></from>
+          <to><interface-ref name="AdcConfigure" ref="0x415a7928" scoped=""/>
+          <arguments>
+            <value cst="I:5">
+              <type-int alignment="I:2" cname="int" size="I:2"/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+      </wiring>
+    </component><component loc="44(SensorReaderC.TimerMilliC):/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc" nicename="tos.system.TimerMilliC" qname="SensorReaderC.TimerMilliC">
+      <documentation loc="33:/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc">
+        <short>
+ The virtualized millisecond timer abstraction.</short>
+        <long>
+ The virtualized millisecond timer abstraction. Instantiating this 
+ component gives an independent millisecond granularity timer.
+
+ @author Philip Levis
+ @date   January 16 2006
+ @see    TEP 102: Timers
+</long>
+      </documentation>
+      <instance number="11">
+        <component-ref nicename="tos.system.TimerMilliC" qname="TimerMilliC"/>
+      </instance>
+      <configuration/>
+      <wiring>
+        <wire>
+          <from><interface-ref name="Timer" ref="0x4157bc60" scoped=""/></from>
+          <to><interface-ref name="TimerMilli" ref="0x407a8938" scoped=""/>
+          <arguments>
+            <value cst="I:11">
+              <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned=""/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+      </wiring>
+    </component><component loc="6(SensorReaderC.InternalVoltageC):../msp430/InternalVoltageC.nc" nicename="...msp430.InternalVoltageC" qname="SensorReaderC.InternalVoltageC">
+      <instance number="0">
+        <component-ref nicename="...msp430.InternalVoltageC" qname="InternalVoltageC"/>
+      </instance>
+      <configuration/>
+      <wiring>
+        <wire>
+          <from><interface-ref name="Read" ref="0x418d9df8" scoped=""/></from>
+          <to><interface-ref name="Read" ref="0x42150ef8" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="ReadNow" ref="0x419607a8" scoped=""/></from>
+          <to><interface-ref name="ReadNow" ref="0x4214ad48" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="ReadStream" ref="0x418d0a28" scoped=""/></from>
+          <to><interface-ref name="ReadStream" ref="0x4214dd78" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="Resource" ref="0x41960060" scoped=""/></from>
+          <to><interface-ref name="Resource" ref="0x4214a620" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="AdcConfigure" ref="0x4214fb78" scoped=""/></from>
+          <to><interface-ref name="AdcConfigure" ref="0x415a7928" scoped=""/>
+          <arguments>
+            <value cst="I:6">
+              <type-int alignment="I:2" cname="int" size="I:2"/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+        <wire>
+          <from><interface-ref name="AdcConfigure" ref="0x4214b460" scoped=""/></from>
+          <to><interface-ref name="AdcConfigure" ref="0x415a7928" scoped=""/>
+          <arguments>
+            <value cst="I:6">
+              <type-int alignment="I:2" cname="int" size="I:2"/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+        <wire>
+          <from><interface-ref name="AdcConfigure" ref="0x42148a20" scoped=""/></from>
+          <to><interface-ref name="AdcConfigure" ref="0x415a7928" scoped=""/>
+          <arguments>
+            <value cst="I:6">
+              <type-int alignment="I:2" cname="int" size="I:2"/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+      </wiring>
+    </component><component loc="37:/opt/tinyos-2.1.2/tos/platforms/telosb/MoteClockC.nc" nicename="tos.platforms.telosb.MoteClockC" qname="MoteClockC">
+      <documentation loc="33:/opt/tinyos-2.1.2/tos/platforms/telosb/MoteClockC.nc">
+        <short>
+ </short>
+        <long>
+ @author Vlado Handziski &lt;handzisk@tkn.tu-berlind.de&gt;
+</long>
+      </documentation>
+      <configuration/>
+      <wiring>
+        <wire loc="46:/opt/tinyos-2.1.2/tos/platforms/telosb/MoteClockC.nc">
+          <from><interface-ref name="MoteClockInit" ref="0x406be968" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x406bd200" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component><component loc="44(SensorReaderC.delayTimerC):/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc" nicename="tos.system.TimerMilliC" qname="SensorReaderC.delayTimerC">
+      <documentation loc="33:/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc">
+        <short>
+ The virtualized millisecond timer abstraction.</short>
+        <long>
+ The virtualized millisecond timer abstraction. Instantiating this 
+ component gives an independent millisecond granularity timer.
+
+ @author Philip Levis
+ @date   January 16 2006
+ @see    TEP 102: Timers
+</long>
+      </documentation>
+      <instance number="17">
+        <component-ref nicename="tos.system.TimerMilliC" qname="TimerMilliC"/>
+      </instance>
+      <configuration/>
+      <wiring>
+        <wire>
+          <from><interface-ref name="Timer" ref="0x4195c010" scoped=""/></from>
+          <to><interface-ref name="TimerMilli" ref="0x407a8938" scoped=""/>
+          <arguments>
+            <value cst="I:17">
+              <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned=""/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+      </wiring>
+    </component><component loc="8(SensorReaderC.ADC2C):../msp430/ADC2C.nc" nicename="...msp430.ADC2C" qname="SensorReaderC.ADC2C">
+      <instance number="0">
+        <component-ref nicename="...msp430.ADC2C" qname="ADC2C"/>
+      </instance>
+      <configuration/>
+      <wiring>
+        <wire>
+          <from><interface-ref name="Read" ref="0x41778998" scoped=""/></from>
+          <to><interface-ref name="Read" ref="0x4202d190" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="ReadNow" ref="0x417775f0" scoped=""/></from>
+          <to><interface-ref name="ReadNow" ref="0x4202b878" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="ReadNowResource" ref="0x4176c1c0" scoped=""/></from>
+          <to><interface-ref name="Resource" ref="0x4202b150" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="AdcConfigure" ref="0x4202ddd8" scoped=""/></from>
+          <to><interface-ref name="AdcConfigure" ref="0x415a7928" scoped=""/>
+          <arguments>
+            <value cst="I:2">
+              <type-int alignment="I:2" cname="int" size="I:2"/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+        <wire>
+          <from><interface-ref name="AdcConfigure" ref="0x4202a518" scoped=""/></from>
+          <to><interface-ref name="AdcConfigure" ref="0x415a7928" scoped=""/>
+          <arguments>
+            <value cst="I:2">
+              <type-int alignment="I:2" cname="int" size="I:2"/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+      </wiring>
+    </component><component loc="45:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc" nicename="tos.chips.msp430.pins.HplMsp430GeneralIOC" qname="HplMsp430GeneralIOC">
+      <documentation loc="35:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+        <short>
+ HPL for the TI MSP430 family of microprocessors.</short>
+        <long>
+ HPL for the TI MSP430 family of microprocessors. This provides an
+ abstraction for general-purpose I/O.
+
+ @author Joe Polastre
+ @author Xavier Orduna &lt;xorduna@dexmatech.com&gt;
+ @author Peter A. Bigot &lt;pab@peoplepowerco.com&gt;
+ @author Eric B. Decker &lt;cire831@gmail.com&gt;
+</long>
+      </documentation>
+      <configuration/>
+      <wiring>
+        <wire loc="442:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port14" ref="0x409ea178" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a46140" scoped=""/></to>
+        </wire>
+        <wire loc="455:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port26" ref="0x409df368" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a74d68" scoped=""/></to>
+        </wire>
+        <wire loc="531:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="SDA" ref="0x40a1c4a8" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a6c5c8" scoped=""/></to>
+        </wire>
+        <wire loc="551:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="ADC6" ref="0x40a29280" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40ab1d68" scoped=""/></to>
+        </wire>
+        <wire loc="532:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="SOMI0" ref="0x40a1b680" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a69d68" scoped=""/></to>
+        </wire>
+        <wire loc="460:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port30" ref="0x409dd688" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a6fd68" scoped=""/></to>
+        </wire>
+        <wire loc="473:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port42" ref="0x409f3928" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a79d68" scoped=""/></to>
+        </wire>
+        <wire loc="486:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port54" ref="0x40a0aa08" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40aa7d68" scoped=""/></to>
+        </wire>
+        <wire loc="497:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port64" ref="0x40a01848" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40ab6d68" scoped=""/></to>
+        </wire>
+        <wire loc="535:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="UTXD0" ref="0x40a18bc0" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a88d68" scoped=""/></to>
+        </wire>
+        <wire loc="545:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="ADC0" ref="0x40a0f918" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a9dd68" scoped=""/></to>
+        </wire>
+        <wire loc="557:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="SVSIN" ref="0x40a25920" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40aae5c8" scoped=""/></to>
+        </wire>
+        <wire loc="445:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port17" ref="0x409e7688" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a61730" scoped=""/></to>
+        </wire>
+        <wire loc="536:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="URXD0" ref="0x40a17d80" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a855c8" scoped=""/></to>
+        </wire>
+        <wire loc="450:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port21" ref="0x409e5a08" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a5c5c8" scoped=""/></to>
+        </wire>
+        <wire loc="463:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port33" ref="0x409fcbc8" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a665c8" scoped=""/></to>
+        </wire>
+        <wire loc="476:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port45" ref="0x409f0e68" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a955c8" scoped=""/></to>
+        </wire>
+        <wire loc="489:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port57" ref="0x40a06010" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a9f5c8" scoped=""/></to>
+        </wire>
+        <wire loc="500:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port67" ref="0x409fed88" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40aae5c8" scoped=""/></to>
+        </wire>
+        <wire loc="440:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port12" ref="0x409d0d88" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a4b220" scoped=""/></to>
+        </wire>
+        <wire loc="453:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port24" ref="0x409e1010" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a55de8" scoped=""/></to>
+        </wire>
+        <wire loc="466:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port36" ref="0x409f8178" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a83d68" scoped=""/></to>
+        </wire>
+        <wire loc="530:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="SIMO0" ref="0x40a1d360" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a6c5c8" scoped=""/></to>
+        </wire>
+        <wire loc="548:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="ADC3" ref="0x40a2de58" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40ab95c8" scoped=""/></to>
+        </wire>
+        <wire loc="555:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="DAC1" ref="0x40a26758" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40aae5c8" scoped=""/></to>
+        </wire>
+        <wire loc="541:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="UCLK1" ref="0x40a123e0" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40aa95c8" scoped=""/></to>
+        </wire>
+        <wire loc="471:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port40" ref="0x409f64c8" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a7ee68" scoped=""/></to>
+        </wire>
+        <wire loc="484:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port52" ref="0x40a0c688" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40aacd68" scoped=""/></to>
+        </wire>
+        <wire loc="495:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port62" ref="0x40a034c8" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40abcd68" scoped=""/></to>
+        </wire>
+        <wire loc="549:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="ADC4" ref="0x40a2b010" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40ab6d68" scoped=""/></to>
+        </wire>
+        <wire loc="538:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="STE1" ref="0x40a15010" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a8dd68" scoped=""/></to>
+        </wire>
+        <wire loc="443:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port15" ref="0x409e9368" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a438a0" scoped=""/></to>
+        </wire>
+        <wire loc="456:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port27" ref="0x409de4c8" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a715c8" scoped=""/></to>
+        </wire>
+        <wire loc="493:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port60" ref="0x40a05178" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a9dd68" scoped=""/></to>
+        </wire>
+        <wire loc="461:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port31" ref="0x409dc848" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a6c5c8" scoped=""/></to>
+        </wire>
+        <wire loc="474:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port43" ref="0x409f2ae8" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a9a5c8" scoped=""/></to>
+        </wire>
+        <wire loc="487:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port55" ref="0x40a09bc8" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40aa45c8" scoped=""/></to>
+        </wire>
+        <wire loc="498:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port65" ref="0x40a00a08" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40ab35c8" scoped=""/></to>
+        </wire>
+        <wire loc="540:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="SOMI1" ref="0x40a13288" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40aacd68" scoped=""/></to>
+        </wire>
+        <wire loc="438:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port10" ref="0x409cba10" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a203a8" scoped=""/></to>
+        </wire>
+        <wire loc="451:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port22" ref="0x409e4bc8" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a5ad68" scoped=""/></to>
+        </wire>
+        <wire loc="464:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port34" ref="0x409fbd88" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a88d68" scoped=""/></to>
+        </wire>
+        <wire loc="477:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port46" ref="0x409ee010" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a93d68" scoped=""/></to>
+        </wire>
+        <wire loc="542:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="UTXD1" ref="0x40a115a0" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a83d68" scoped=""/></to>
+        </wire>
+        <wire loc="546:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="ADC1" ref="0x40a30ad8" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40abe5c8" scoped=""/></to>
+        </wire>
+        <wire loc="552:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="ADC7" ref="0x40a283d8" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40aae5c8" scoped=""/></to>
+        </wire>
+        <wire loc="482:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port50" ref="0x40a0e368" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a8dd68" scoped=""/></to>
+        </wire>
+        <wire loc="543:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="URXD1" ref="0x40a10760" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a805c8" scoped=""/></to>
+        </wire>
+        <wire loc="441:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port13" ref="0x409eb010" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a49918" scoped=""/></to>
+        </wire>
+        <wire loc="454:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port25" ref="0x409e01b0" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a765c8" scoped=""/></to>
+        </wire>
+        <wire loc="467:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port37" ref="0x409f7368" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a805c8" scoped=""/></to>
+        </wire>
+        <wire loc="539:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="SIMO1" ref="0x40a14170" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a8a5c8" scoped=""/></to>
+        </wire>
+        <wire loc="550:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="ADC5" ref="0x40a2a168" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40ab35c8" scoped=""/></to>
+        </wire>
+        <wire loc="472:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port41" ref="0x409f4768" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a7b5c8" scoped=""/></to>
+        </wire>
+        <wire loc="485:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port53" ref="0x40a0b848" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40aa95c8" scoped=""/></to>
+        </wire>
+        <wire loc="496:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port63" ref="0x40a02688" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40ab95c8" scoped=""/></to>
+        </wire>
+        <wire loc="444:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port16" ref="0x409e84c8" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a63010" scoped=""/></to>
+        </wire>
+        <wire loc="494:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port61" ref="0x40a04368" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40abe5c8" scoped=""/></to>
+        </wire>
+        <wire loc="449:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port20" ref="0x409e6848" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a5fdf8" scoped=""/></to>
+        </wire>
+        <wire loc="462:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port32" ref="0x409fda08" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a69d68" scoped=""/></to>
+        </wire>
+        <wire loc="475:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port44" ref="0x409f1ca8" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a98d68" scoped=""/></to>
+        </wire>
+        <wire loc="488:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port56" ref="0x40a08d88" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40aa2d68" scoped=""/></to>
+        </wire>
+        <wire loc="499:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port66" ref="0x409ffbc8" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40ab1d68" scoped=""/></to>
+        </wire>
+        <wire loc="439:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port11" ref="0x409d1bc8" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a4ea80" scoped=""/></to>
+        </wire>
+        <wire loc="452:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port23" ref="0x409e3d88" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a575c8" scoped=""/></to>
+        </wire>
+        <wire loc="465:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port35" ref="0x409f9010" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a855c8" scoped=""/></to>
+        </wire>
+        <wire loc="478:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port47" ref="0x409ed178" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a8f5c8" scoped=""/></to>
+        </wire>
+        <wire loc="534:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="SCL" ref="0x40a199e8" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a665c8" scoped=""/></to>
+        </wire>
+        <wire loc="547:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="ADC2" ref="0x40a2ec98" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40abcd68" scoped=""/></to>
+        </wire>
+        <wire loc="533:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="UCLK0" ref="0x40a1a840" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a665c8" scoped=""/></to>
+        </wire>
+        <wire loc="483:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="Port51" ref="0x40a0d4c8" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a8a5c8" scoped=""/></to>
+        </wire>
+        <wire loc="554:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="DAC0" ref="0x40a27598" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40ab1d68" scoped=""/></to>
+        </wire>
+        <wire loc="558:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="SVSOUT" ref="0x40a24ae8" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a9f5c8" scoped=""/></to>
+        </wire>
+        <wire loc="529:/opt/tinyos-2.1.2/tos/chips/msp430/pins/HplMsp430GeneralIOC.nc">
+          <from><interface-ref name="STE0" ref="0x40a1e010" scoped=""/></from>
+          <to><interface-ref name="IO" ref="0x40a6fd68" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component><component loc="45(SensorReaderC.SensirionSht11C):/opt/tinyos-2.1.2/tos/platforms/telosa/chips/sht11/SensirionSht11C.nc" nicename="tos.platforms.telosa.chips.sht11.SensirionSht11C" qname="SensorReaderC.SensirionSht11C">
+      <documentation loc="32:/opt/tinyos-2.1.2/tos/platforms/telosa/chips/sht11/SensirionSht11C.nc">
+        <short>
+ SensirionSht11C is a top-level access component for the Sensirion
+ SHT11 model humidity and temperature sensor, available on the
+ telosb platform.</short>
+        <long>
+ SensirionSht11C is a top-level access component for the Sensirion
+ SHT11 model humidity and temperature sensor, available on the
+ telosb platform. Because this component represents one physical
+ device, simultaneous calls to read temperature and humidity will be
+ arbitrated and executed in sequential order. Feel free to read both
+ at the same time, just be aware that they'll come back
+ sequentially.
+
+ @author Gilman Tolle &lt;gtolle@archrock.com&gt;
+ @version $Revision: 1.5 $ $Date: 2007-04-13 21:46:18 $
+</long>
+      </documentation>
+      <instance number="0">
+        <component-ref nicename="tos.platforms.telosa.chips.sht11.SensirionSht11C" qname="SensirionSht11C"/>
+      </instance>
+      <configuration/>
+      <wiring>
+        <wire>
+          <from><interface-ref name="HumidityMetadata" ref="0x41834ba8" scoped=""/></from>
+          <to><interface-ref name="HumidityMetadata" ref="0x4208d030" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="Humidity" ref="0x41834010" scoped=""/></from>
+          <to><interface-ref name="Humidity" ref="0x4208d418" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="TemperatureMetadata" ref="0x41835c10" scoped=""/></from>
+          <to><interface-ref name="TemperatureMetadata" ref="0x4208e090" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="Temperature" ref="0x41835078" scoped=""/></from>
+          <to><interface-ref name="Temperature" ref="0x4208e478" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="TempResource" ref="0x4208c010" scoped=""/></from>
+          <to><interface-ref name="Resource" ref="0x417c43c0" scoped=""/>
+          <arguments>
+            <value cst="I:0">
+              <type-int alignment="I:2" cname="int" size="I:2"/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+        <wire>
+          <from><interface-ref name="Sht11Temp" ref="0x4208cdc0" scoped=""/></from>
+          <to><interface-ref name="SensirionSht11" ref="0x417c4e10" scoped=""/>
+          <arguments>
+            <value cst="I:0">
+              <type-int alignment="I:2" cname="int" size="I:2"/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+        <wire>
+          <from><interface-ref name="HumResource" ref="0x4208c6e8" scoped=""/></from>
+          <to><interface-ref name="Resource" ref="0x417c43c0" scoped=""/>
+          <arguments>
+            <value cst="I:1">
+              <type-int alignment="I:2" cname="int" size="I:2"/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+        <wire>
+          <from><interface-ref name="Sht11Hum" ref="0x4208b970" scoped=""/></from>
+          <to><interface-ref name="SensirionSht11" ref="0x417c4e10" scoped=""/>
+          <arguments>
+            <value cst="I:1">
+              <type-int alignment="I:2" cname="int" size="I:2"/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+      </wiring>
+    </component><component loc="22:SensorReaderP.nc" nicename="SensorReaderP" qname="SensorReaderP">
+      <documentation loc="1:SensorReaderP.nc">
+        <short>
+ This file provides an implementation for reading the sensors
+ to remove the reading of values away from the main application
+ Author: Newlyn Erratt, Yimei Li, Xiaoyang Zhong
+
+ 1.</short>
+        <long>
+ This file provides an implementation for reading the sensors
+ to remove the reading of values away from the main application
+ Author: Newlyn Erratt, Yimei Li, Xiaoyang Zhong
+
+ 1. Make the MPS2 readings of resolution 0.1.
+ 2. The first two fields in ADC[] array: adc[0] and adc[1] is used to store the 
+    MPS2 readings.
+	 - uint32_t mps2_readings = mps2_wp &lt;&lt; 21 + mps2_temp;
+	 -          adc[0] = mps2_readings &gt;&gt; 16;
+	 -			adc[1] = mps2_readings;		// it automatically get the lower bytes.
+
+ 3. Conversion foluma for MPS2 readings
+ 		MPS2 Water potential = -mps2_wp * 0.1 kPa
+ 		MPS2 Temprature = (mps2_temp - 400) * 0.1 Celsius
+
+ Reading ADC and reading MPS2 go parallel.
+</long>
+      </documentation>
+      <module/>
+    </component><component loc="8(SensorReaderC.ADC0C):../msp430/ADC0C.nc" nicename="...msp430.ADC0C" qname="SensorReaderC.ADC0C">
+      <instance number="0">
+        <component-ref nicename="...msp430.ADC0C" qname="ADC0C"/>
+      </instance>
+      <configuration/>
+      <wiring>
+        <wire>
+          <from><interface-ref name="Read" ref="0x41576010" scoped=""/></from>
+          <to><interface-ref name="Read" ref="0x41fad058" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="ReadNow" ref="0x41576c18" scoped=""/></from>
+          <to><interface-ref name="ReadNow" ref="0x41fab738" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="ReadNowResource" ref="0x417307e8" scoped=""/></from>
+          <to><interface-ref name="Resource" ref="0x41fab010" scoped=""/></to>
+        </wire>
+        <wire>
+          <from><interface-ref name="AdcConfigure" ref="0x41fadca0" scoped=""/></from>
+          <to><interface-ref name="AdcConfigure" ref="0x415a7928" scoped=""/>
+          <arguments>
+            <value cst="I:0">
+              <type-int alignment="I:2" cname="int" size="I:2"/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+        <wire>
+          <from><interface-ref name="AdcConfigure" ref="0x41fa93d8" scoped=""/></from>
+          <to><interface-ref name="AdcConfigure" ref="0x415a7928" scoped=""/>
+          <arguments>
+            <value cst="I:0">
+              <type-int alignment="I:2" cname="int" size="I:2"/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+      </wiring>
+    </component></referenced></component>

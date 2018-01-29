@@ -1,0 +1,512 @@
+<?xml version="1.0" ?><component abstract="" loc="115:../../../net_EER/eer/CtpForwardingEngineP.nc" nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP">
+      <parameters>
+      </parameters>
+      <module/>
+    <specification><interface loc="153:../../../net_EER/eer/CtpForwardingEngineP.nc" name="SubReceive" provided="0" ref="0x40de5348">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="SubReceive" ref="0x40de5348" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Receive" qname="Receive"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="receive" ref="0x40de5520" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="156:../../../net_EER/eer/CtpForwardingEngineP.nc" name="RootControl" provided="0" ref="0x40de17e0">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="RootControl" ref="0x40de17e0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename=".........net_EER.RootControl" qname="RootControl"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="isRoot" ref="0x40de19b8" scoped=""/>
+        <function-ref name="setRoot" ref="0x40de1a98" scoped=""/>
+        <function-ref name="unsetRoot" ref="0x40de1b78" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="136:../../../net_EER/eer/CtpForwardingEngineP.nc" name="SubSend" provided="0" ref="0x40dcab08">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="SubSend" ref="0x40dcab08" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.AMSend" qname="AMSend"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="send" ref="0x40dcace0" scoped=""/>
+        <function-ref name="getPayload" ref="0x40dcadc0" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x40dcaea0" scoped=""/>
+        <function-ref name="cancel" ref="0x40dc9010" scoped=""/>
+        <function-ref name="sendDone" ref="0x40dc90f0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="167:../../../net_EER/eer/CtpForwardingEngineP.nc" name="CollectionDebug" provided="0" ref="0x40dde318">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="CollectionDebug" ref="0x40dde318" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename=".........net_EER.CollectionDebug" qname="CollectionDebug"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="logEvent" ref="0x40dde4f0" scoped=""/>
+        <function-ref name="logEventMsg" ref="0x40dde5d0" scoped=""/>
+        <function-ref name="logEventSimple" ref="0x40dde6b0" scoped=""/>
+        <function-ref name="logEventRoute" ref="0x40dde790" scoped=""/>
+        <function-ref name="logEventDbg" ref="0x40dde870" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="124:../../../net_EER/eer/CtpForwardingEngineP.nc" name="CollectionPacket" provided="1" ref="0x40dccd20">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="CollectionPacket" ref="0x40dccd20" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename=".........net_EER.CollectionPacket" qname="CollectionPacket"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="setSequenceNumber" ref="0x40dccef8" scoped=""/>
+        <function-ref name="setOrigin" ref="0x40dcb010" scoped=""/>
+        <function-ref name="setType" ref="0x40dcb0f0" scoped=""/>
+        <function-ref name="getOrigin" ref="0x40dcb1d0" scoped=""/>
+        <function-ref name="getSequenceNumber" ref="0x40dcb2b0" scoped=""/>
+        <function-ref name="getType" ref="0x40dcb390" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="140:../../../net_EER/eer/CtpForwardingEngineP.nc" name="LinkEstimator" provided="0" ref="0x40dc6c50">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="LinkEstimator" ref="0x40dc6c50" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename=".........net_EER.4bitle.LinkEstimator" qname="LinkEstimator"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="txAck" ref="0x40dc6e28" scoped=""/>
+        <function-ref name="pinNeighbor" ref="0x40dc6f08" scoped=""/>
+        <function-ref name="txNoAck" ref="0x40dc5010" scoped=""/>
+        <function-ref name="setLinkRssi" ref="0x40dc50f0" scoped=""/>
+        <function-ref name="insertNeighbor" ref="0x40dc51d0" scoped=""/>
+        <function-ref name="evicted" ref="0x40dc52b0" scoped=""/>
+        <function-ref name="clearDLQ" ref="0x40dc5390" scoped=""/>
+        <function-ref name="getLinkRssi" ref="0x40dc5470" scoped=""/>
+        <function-ref name="unpinNeighbor" ref="0x40dc5550" scoped=""/>
+        <function-ref name="getLinkQuality" ref="0x40dc5630" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="151:../../../net_EER/eer/CtpForwardingEngineP.nc" name="SentCache" provided="0" ref="0x40de2530">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="SentCache" ref="0x40de2530" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Cache" qname="Cache"/>
+        <arguments>
+          <type-pointer alignment="I:1" size="I:2">
+            <type-tag alignment="I:1" size="I:93"><nx_struct-ref name="message_t" ref="0x40408f20"/>
+              <typename><typedef-ref name="message_t" ref="0x40407cf0"/></typename>
+            </type-tag>
+          </type-pointer>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="insert" ref="0x40de2b58" scoped=""/>
+        <function-ref name="flush" ref="0x40de5068" scoped=""/>
+        <function-ref name="lookup" ref="0x40de2dd8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="122:../../../net_EER/eer/CtpForwardingEngineP.nc" name="Intercept" provided="1" ref="0x40dcc288">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Intercept" ref="0x40dcc288" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Intercept" qname="Intercept"/>
+      </instance>
+      <interface-parameters>
+        <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+          <typename><typedef-ref name="collection_id_t" ref="0x4043c968"/></typename>
+        </type-int>
+      </interface-parameters>
+      <interface-functions>
+        <function-ref name="forward" ref="0x40dcc460" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="123:../../../net_EER/eer/CtpForwardingEngineP.nc" name="Packet" provided="1" ref="0x40dcc5e0">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Packet" ref="0x40dcc5e0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Packet" qname="Packet"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="clear" ref="0x40dcc7b8" scoped=""/>
+        <function-ref name="payloadLength" ref="0x40dcc898" scoped=""/>
+        <function-ref name="getPayload" ref="0x40dcc978" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x40dcca58" scoped=""/>
+        <function-ref name="setPayloadLength" ref="0x40dccb38" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="182:../../../net_EER/eer/CtpForwardingEngineP.nc" name="CC2420Packet" provided="0" ref="0x40e0da90">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="CC2420Packet" ref="0x40e0da90" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.chips.cc2420.interfaces.CC2420Packet" qname="CC2420Packet"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="setPower" ref="0x40e0dc68" scoped=""/>
+        <function-ref name="setNetwork" ref="0x40e0dd48" scoped=""/>
+        <function-ref name="getRssi" ref="0x40e0de28" scoped=""/>
+        <function-ref name="getNetwork" ref="0x40e0df08" scoped=""/>
+        <function-ref name="getPower" ref="0x40e0c010" scoped=""/>
+        <function-ref name="getLqi" ref="0x40e0c0f0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="121:../../../net_EER/eer/CtpForwardingEngineP.nc" name="Snoop" provided="1" ref="0x40dcdbb0">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Snoop" ref="0x40dcdbb0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Receive" qname="Receive"/>
+      </instance>
+      <interface-parameters>
+        <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+          <typename><typedef-ref name="collection_id_t" ref="0x4043c968"/></typename>
+        </type-int>
+      </interface-parameters>
+      <interface-functions>
+        <function-ref name="receive" ref="0x40dcdd88" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="160:../../../net_EER/eer/CtpForwardingEngineP.nc" name="Random" provided="0" ref="0x40ddfda0">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Random" ref="0x40ddfda0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Random" qname="Random"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="rand16" ref="0x40dde010" scoped=""/>
+        <function-ref name="rand32" ref="0x40dde0f0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="119:../../../net_EER/eer/CtpForwardingEngineP.nc" name="Send" provided="1" ref="0x40dce9e8">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Send" ref="0x40dce9e8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Send" qname="Send"/>
+      </instance>
+      <interface-parameters>
+        <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+          <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+        </type-int>
+      </interface-parameters>
+      <interface-functions>
+        <function-ref name="send" ref="0x40dcebc0" scoped=""/>
+        <function-ref name="getPayload" ref="0x40dceca0" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x40dced80" scoped=""/>
+        <function-ref name="cancel" ref="0x40dcee60" scoped=""/>
+        <function-ref name="sendDone" ref="0x40dcd010" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="139:../../../net_EER/eer/CtpForwardingEngineP.nc" name="RetxmitTimer" provided="0" ref="0x40dc9990">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="RetxmitTimer" ref="0x40dc9990" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
+        <arguments>
+          <type-tag alignment="I:1" size="I:2"><struct-ref ref="0x40382900"/>
+            <typename><typedef-ref name="TMilli" ref="0x40382ac8"/></typename>
+          </type-tag>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x40dc6508" scoped=""/>
+        <function-ref name="fired" ref="0x40dc77a0" scoped=""/>
+        <function-ref name="startPeriodicAt" ref="0x40dc7ea8" scoped=""/>
+        <function-ref name="isOneShot" ref="0x40dc7c50" scoped=""/>
+        <function-ref name="getdt" ref="0x40dc69b8" scoped=""/>
+        <function-ref name="gett0" ref="0x40dc6760" scoped=""/>
+        <function-ref name="isRunning" ref="0x40dc79f8" scoped=""/>
+        <function-ref name="startPeriodic" ref="0x40dc7048" scoped=""/>
+        <function-ref name="startOneShotAt" ref="0x40dc61e8" scoped=""/>
+        <function-ref name="startOneShot" ref="0x40dc72c8" scoped=""/>
+        <function-ref name="stop" ref="0x40dc7548" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="173:../../../net_EER/eer/CtpForwardingEngineP.nc" name="RadioControl" provided="0" ref="0x40ddeb00">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="RadioControl" ref="0x40ddeb00" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.SplitControl" qname="SplitControl"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="startDone" ref="0x40ddecd8" scoped=""/>
+        <function-ref name="stopDone" ref="0x40ddedb8" scoped=""/>
+        <function-ref name="start" ref="0x40ddee98" scoped=""/>
+        <function-ref name="stop" ref="0x40ddd010" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="300:../../../net_EER/eer/CtpForwardingEngineP.nc" name="sendTask" provided="0" ref="0x40dfe010">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="sendTask" ref="0x40dfe010" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.TaskBasic" qname="TaskBasic"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="postTask" ref="0x40dfe1e8" scoped=""/>
+        <function-ref name="runTask" ref="0x40dfe2c8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="148:../../../net_EER/eer/CtpForwardingEngineP.nc" name="SendQueue" provided="0" ref="0x40df4010">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="SendQueue" ref="0x40df4010" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Queue" qname="Queue"/>
+        <arguments>
+          <type-pointer alignment="I:1" size="I:2">
+            <type-tag alignment="I:1" size="I:8"><struct-ref ref="0x40dd9c40"/>
+              <typename><typedef-ref name="fe_queue_entry_t" ref="0x40dd8010"/></typename>
+            </type-tag>
+          </type-pointer>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="head" ref="0x40df4d40" scoped=""/>
+        <function-ref name="enqueue" ref="0x40ded458" scoped=""/>
+        <function-ref name="element" ref="0x40ded7a8" scoped=""/>
+        <function-ref name="maxSize" ref="0x40df4ae8" scoped=""/>
+        <function-ref name="dequeue" ref="0x40ded0e8" scoped=""/>
+        <function-ref name="empty" ref="0x40df4638" scoped=""/>
+        <function-ref name="size" ref="0x40df4890" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="155:../../../net_EER/eer/CtpForwardingEngineP.nc" name="CtpInfo" provided="0" ref="0x40de5a80">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="CtpInfo" ref="0x40de5a80" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename=".........net_EER.eer.CtpInfo" qname="CtpInfo"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNeighborLinkQuality" ref="0x40de5c58" scoped=""/>
+        <function-ref name="recomputeRoutes" ref="0x40de5d38" scoped=""/>
+        <function-ref name="numNeighbors" ref="0x40de5e18" scoped=""/>
+        <function-ref name="triggerRouteUpdate" ref="0x40de5ef8" scoped=""/>
+        <function-ref name="getEtx" ref="0x40de1010" scoped=""/>
+        <function-ref name="triggerImmediateRouteUpdate" ref="0x40de10f0" scoped=""/>
+        <function-ref name="setNeighborCongested" ref="0x40de11d0" scoped=""/>
+        <function-ref name="getNeighborAddr" ref="0x40de12b0" scoped=""/>
+        <function-ref name="getParent" ref="0x40de1390" scoped=""/>
+        <function-ref name="getNeighborRouteQuality" ref="0x40de1470" scoped=""/>
+        <function-ref name="isNeighborCongested" ref="0x40de1550" scoped=""/>
+        <function-ref name="getNeighborEtx" ref="0x40de1630" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="142:../../../net_EER/eer/CtpForwardingEngineP.nc" name="SubPacket" provided="0" ref="0x40df53d0">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="SubPacket" ref="0x40df53d0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Packet" qname="Packet"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="clear" ref="0x40df55a8" scoped=""/>
+        <function-ref name="payloadLength" ref="0x40df5688" scoped=""/>
+        <function-ref name="getPayload" ref="0x40df5768" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x40df5848" scoped=""/>
+        <function-ref name="setPayloadLength" ref="0x40df5928" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="176:../../../net_EER/eer/CtpForwardingEngineP.nc" name="EerInstrumentation" provided="0" ref="0x40ddd218">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="EerInstrumentation" ref="0x40ddd218" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename=".........net_EER.eer.EerInstrumentation" qname="EerInstrumentation"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="summary" ref="0x40e0e010" scoped=""/>
+        <function-ref name="ctrl_tricklereset" ref="0x40ddd4d0" scoped=""/>
+        <function-ref name="summary_size" ref="0x40ddd5b0" scoped=""/>
+        <function-ref name="data_pktdup" ref="0x40ddd690" scoped=""/>
+        <function-ref name="ctrl_txpkt" ref="0x40ddd770" scoped=""/>
+        <function-ref name="init" ref="0x40ddd850" scoped=""/>
+        <function-ref name="data_queuedrop" ref="0x40ddd930" scoped=""/>
+        <function-ref name="data_txpkt" ref="0x40ddda10" scoped=""/>
+        <function-ref name="data_rxpkt" ref="0x40dddaf0" scoped=""/>
+        <function-ref name="ctrl_rxpkt" ref="0x40dddbd0" scoped=""/>
+        <function-ref name="data_rxack" ref="0x40dddcb0" scoped=""/>
+        <function-ref name="data_inconsistent" ref="0x40dddd90" scoped=""/>
+        <function-ref name="set_total_time" ref="0x40ddde70" scoped=""/>
+        <function-ref name="ctrl_parentchange" ref="0x40ddd3f0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="117:../../../net_EER/eer/CtpForwardingEngineP.nc" name="Init" provided="1" ref="0x40dd0f20">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Init" ref="0x40dd0f20" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x40dce110" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="120:../../../net_EER/eer/CtpForwardingEngineP.nc" name="Receive" provided="1" ref="0x40dcd4c8">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Receive" ref="0x40dcd4c8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Receive" qname="Receive"/>
+      </instance>
+      <interface-parameters>
+        <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+          <typename><typedef-ref name="collection_id_t" ref="0x4043c968"/></typename>
+        </type-int>
+      </interface-parameters>
+      <interface-functions>
+        <function-ref name="receive" ref="0x40dcd6a0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="126:../../../net_EER/eer/CtpForwardingEngineP.nc" name="CtpCongestion" provided="1" ref="0x40dca5d8">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="CtpCongestion" ref="0x40dca5d8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename=".........net_EER.eer.CtpCongestion" qname="CtpCongestion"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="isCongested" ref="0x40dca7b0" scoped=""/>
+        <function-ref name="setClientCongested" ref="0x40dca890" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="141:../../../net_EER/eer/CtpForwardingEngineP.nc" name="UnicastNameFreeRouting" provided="0" ref="0x40df3c90">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="UnicastNameFreeRouting" ref="0x40df3c90" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename=".........net_EER.UnicastNameFreeRouting" qname="UnicastNameFreeRouting"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="hasRoute" ref="0x40df3e68" scoped=""/>
+        <function-ref name="routeFound" ref="0x40df5010" scoped=""/>
+        <function-ref name="nextHop" ref="0x40df50f0" scoped=""/>
+        <function-ref name="noRoute" ref="0x40df51d0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="159:../../../net_EER/eer/CtpForwardingEngineP.nc" name="Leds" provided="0" ref="0x40ddf188">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="Leds" ref="0x40ddf188" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Leds" qname="Leds"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="led0Off" ref="0x40ddf360" scoped=""/>
+        <function-ref name="led0Toggle" ref="0x40ddf440" scoped=""/>
+        <function-ref name="led1On" ref="0x40ddf520" scoped=""/>
+        <function-ref name="led1Toggle" ref="0x40ddf600" scoped=""/>
+        <function-ref name="led2Toggle" ref="0x40ddf6e0" scoped=""/>
+        <function-ref name="get" ref="0x40ddf7c0" scoped=""/>
+        <function-ref name="led1Off" ref="0x40ddf8a0" scoped=""/>
+        <function-ref name="led2Off" ref="0x40ddfc20" scoped=""/>
+        <function-ref name="set" ref="0x40ddf980" scoped=""/>
+        <function-ref name="led0On" ref="0x40ddfa60" scoped=""/>
+        <function-ref name="led2On" ref="0x40ddfb40" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="138:../../../net_EER/eer/CtpForwardingEngineP.nc" name="PacketAcknowledgements" provided="0" ref="0x40dc9310">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="PacketAcknowledgements" ref="0x40dc9310" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.PacketAcknowledgements" qname="PacketAcknowledgements"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="requestAck" ref="0x40dc94e8" scoped=""/>
+        <function-ref name="noAck" ref="0x40dc95c8" scoped=""/>
+        <function-ref name="wasAcked" ref="0x40dc96a8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="125:../../../net_EER/eer/CtpForwardingEngineP.nc" name="CtpPacket" provided="1" ref="0x40dcb530">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="CtpPacket" ref="0x40dcb530" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename=".........net_EER.eer.CtpPacket" qname="CtpPacket"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="setSequenceNumber" ref="0x40dcb708" scoped=""/>
+        <function-ref name="option" ref="0x40dcb7e8" scoped=""/>
+        <function-ref name="setEtx" ref="0x40dcb8c8" scoped=""/>
+        <function-ref name="setOrigin" ref="0x40dcb9a8" scoped=""/>
+        <function-ref name="clearOption" ref="0x40dcba88" scoped=""/>
+        <function-ref name="getEtx" ref="0x40dcbb68" scoped=""/>
+        <function-ref name="getOrigin" ref="0x40dcbc48" scoped=""/>
+        <function-ref name="setType" ref="0x40dcbd28" scoped=""/>
+        <function-ref name="setOption" ref="0x40dcbe08" scoped=""/>
+        <function-ref name="matchPacket" ref="0x40dcbee8" scoped=""/>
+        <function-ref name="getThl" ref="0x40dca010" scoped=""/>
+        <function-ref name="getSequenceNumber" ref="0x40dca0f0" scoped=""/>
+        <function-ref name="matchInstance" ref="0x40dca1d0" scoped=""/>
+        <function-ref name="getType" ref="0x40dca330" scoped=""/>
+        <function-ref name="setThl" ref="0x40dca410" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="149:../../../net_EER/eer/CtpForwardingEngineP.nc" name="QEntryPool" provided="0" ref="0x40de6318">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="QEntryPool" ref="0x40de6318" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Pool" qname="Pool"/>
+        <arguments>
+          <type-tag alignment="I:1" size="I:8"><struct-ref ref="0x40dd9c40"/>
+            <typename><typedef-ref name="fe_queue_entry_t" ref="0x40dd8010"/></typename>
+          </type-tag>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="get" ref="0x40dec3f8" scoped=""/>
+        <function-ref name="maxSize" ref="0x40de6df0" scoped=""/>
+        <function-ref name="empty" ref="0x40de6940" scoped=""/>
+        <function-ref name="put" ref="0x40dec068" scoped=""/>
+        <function-ref name="size" ref="0x40de6b98" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="177:../../../net_EER/eer/CtpForwardingEngineP.nc" name="EerHealth" provided="0" ref="0x40e08e00">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="EerHealth" ref="0x40e08e00" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename=".........net_EER.eer.EerHealth" qname="EerHealth"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="get_hlth_forwarded" ref="0x40e0d010" scoped=""/>
+        <function-ref name="hlth_forwarded" ref="0x40e0d0f0" scoped=""/>
+        <function-ref name="init" ref="0x40e0d1d0" scoped=""/>
+        <function-ref name="hlth_generated" ref="0x40e0d2b0" scoped=""/>
+        <function-ref name="get_hlth_generated" ref="0x40e0d390" scoped=""/>
+        <function-ref name="get_hlth_retx" ref="0x40e0d470" scoped=""/>
+        <function-ref name="get_hlth_psetSize" ref="0x40e0d550" scoped=""/>
+        <function-ref name="hlth_retx" ref="0x40e0d630" scoped=""/>
+        <function-ref name="get_hlth_dropped" ref="0x40e0d710" scoped=""/>
+        <function-ref name="hlth_dropped" ref="0x40e0d7f0" scoped=""/>
+        <function-ref name="get_hlth_eerParent" ref="0x40e0d8d0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="158:../../../net_EER/eer/CtpForwardingEngineP.nc" name="AMPacket" provided="0" ref="0x40de0570">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="AMPacket" ref="0x40de0570" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.AMPacket" qname="AMPacket"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="group" ref="0x40de0748" scoped=""/>
+        <function-ref name="source" ref="0x40de0828" scoped=""/>
+        <function-ref name="address" ref="0x40de0908" scoped=""/>
+        <function-ref name="destination" ref="0x40de09e8" scoped=""/>
+        <function-ref name="setSource" ref="0x40de0ac8" scoped=""/>
+        <function-ref name="setDestination" ref="0x40de0ba8" scoped=""/>
+        <function-ref name="type" ref="0x40de0c88" scoped=""/>
+        <function-ref name="setType" ref="0x40de0d68" scoped=""/>
+        <function-ref name="isForMe" ref="0x40de0e48" scoped=""/>
+        <function-ref name="setGroup" ref="0x40de0f28" scoped=""/>
+        <function-ref name="localGroup" ref="0x40ddf018" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="118:../../../net_EER/eer/CtpForwardingEngineP.nc" name="StdControl" provided="1" ref="0x40dce2b8">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="StdControl" ref="0x40dce2b8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.StdControl" qname="StdControl"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="start" ref="0x40dce490" scoped=""/>
+        <function-ref name="stop" ref="0x40dce570" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="154:../../../net_EER/eer/CtpForwardingEngineP.nc" name="SubSnoop" provided="0" ref="0x40de5720">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="SubSnoop" ref="0x40de5720" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Receive" qname="Receive"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="receive" ref="0x40de58f8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="150:../../../net_EER/eer/CtpForwardingEngineP.nc" name="MessagePool" provided="0" ref="0x40dec930">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="MessagePool" ref="0x40dec930" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Pool" qname="Pool"/>
+        <arguments>
+          <type-tag alignment="I:1" size="I:93"><nx_struct-ref name="message_t" ref="0x40408f20"/>
+            <typename><typedef-ref name="message_t" ref="0x40407cf0"/></typename>
+          </type-tag>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="get" ref="0x40debaa8" scoped=""/>
+        <function-ref name="maxSize" ref="0x40deb4c0" scoped=""/>
+        <function-ref name="empty" ref="0x40deb010" scoped=""/>
+        <function-ref name="put" ref="0x40deb718" scoped=""/>
+        <function-ref name="size" ref="0x40deb268" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="157:../../../net_EER/eer/CtpForwardingEngineP.nc" name="CollectionId" provided="0" ref="0x40de0100">
+      <component-ref nicename=".........net_EER.eer.CtpForwardingEngineP" qname="CtpForwardingEngineP"/>
+      <type-interface alignment="I:1" size="I:2"><interface-ref name="CollectionId" ref="0x40de0100" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename=".........net_EER.CollectionId" qname="CollectionId"/>
+      </instance>
+      <interface-parameters>
+        <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+          <typename><typedef-ref name="uint8_t" ref="0x401e1b70"/></typename>
+        </type-int>
+      </interface-parameters>
+      <interface-functions>
+        <function-ref name="fetch" ref="0x40de03d8" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced/></component>

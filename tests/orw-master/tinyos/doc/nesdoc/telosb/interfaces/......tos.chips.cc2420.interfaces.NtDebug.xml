@@ -1,0 +1,102 @@
+<?xml version="1.0" ?><interfacedef loc="34:../../tos/chips/cc2420/interfaces/NtDebug.nc" nicename="......tos.chips.cc2420.interfaces.NtDebug" qname="NtDebug">
+      <function command="" loc="36:../../tos/chips/cc2420/interfaces/NtDebug.nc" name="dumpTable" provided="0" ref="0x4107a060">
+        <interfacedef-ref nicename="......tos.chips.cc2420.interfaces.NtDebug" qname="NtDebug"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x40354da0"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-pointer alignment="I:2" size="I:2">
+              <type-tag alignment="I:2" size="I:4"><struct-ref name="nbTableEntry" ref="0x405dd010"/>
+                <typename><typedef-ref name="nbTableEntry_t" ref="0x405dd848"/></typename>
+              </type-tag>
+            </type-pointer>
+            <type-pointer alignment="I:2" size="I:2">
+              <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+                <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+              </type-int>
+            </type-pointer>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+            <type-int alignment="I:2" cname="unsigned long" size="I:4" unsigned="">
+              <typename><typedef-ref name="uint32_t" ref="0x401e2250"/></typename>
+            </type-int>
+            <type-int alignment="I:2" cname="unsigned long" size="I:4" unsigned="">
+              <typename><typedef-ref name="uint32_t" ref="0x401e2250"/></typename>
+            </type-int>
+            <type-int alignment="I:2" cname="unsigned long" size="I:4" unsigned="">
+              <typename><typedef-ref name="uint32_t" ref="0x401e2250"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="36:../../tos/chips/cc2420/interfaces/NtDebug.nc" name="nbTable" ref="0x4107cb58">
+            <type-pointer alignment="I:2" size="I:2">
+              <type-tag alignment="I:2" size="I:4"><struct-ref name="nbTableEntry" ref="0x405dd010"/>
+                <typename><typedef-ref name="nbTableEntry_t" ref="0x405dd848"/></typename>
+              </type-tag>
+            </type-pointer>
+          </variable>
+          <variable loc="36:../../tos/chips/cc2420/interfaces/NtDebug.nc" name="p" ref="0x4107cd48">
+            <type-pointer alignment="I:2" size="I:2">
+              <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+                <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+              </type-int>
+            </type-pointer>
+          </variable>
+          <variable loc="36:../../tos/chips/cc2420/interfaces/NtDebug.nc" name="type" ref="0x4107b010">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="36:../../tos/chips/cc2420/interfaces/NtDebug.nc" name="edc" ref="0x4107b1f0">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="36:../../tos/chips/cc2420/interfaces/NtDebug.nc" name="nextHopEdc" ref="0x4107b418">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="36:../../tos/chips/cc2420/interfaces/NtDebug.nc" name="indexesInUse" ref="0x4107b658">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="36:../../tos/chips/cc2420/interfaces/NtDebug.nc" name="indexes" ref="0x4107b860">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="36:../../tos/chips/cc2420/interfaces/NtDebug.nc" name="avgDc" ref="0x4107ba68">
+            <type-int alignment="I:2" cname="unsigned long" size="I:4" unsigned="">
+              <typename><typedef-ref name="uint32_t" ref="0x401e2250"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="36:../../tos/chips/cc2420/interfaces/NtDebug.nc" name="txTime" ref="0x4107bc78">
+            <type-int alignment="I:2" cname="unsigned long" size="I:4" unsigned="">
+              <typename><typedef-ref name="uint32_t" ref="0x401e2250"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="36:../../tos/chips/cc2420/interfaces/NtDebug.nc" name="timestamp" ref="0x4107bea8">
+            <type-int alignment="I:2" cname="unsigned long" size="I:4" unsigned="">
+              <typename><typedef-ref name="uint32_t" ref="0x401e2250"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+    </interfacedef>

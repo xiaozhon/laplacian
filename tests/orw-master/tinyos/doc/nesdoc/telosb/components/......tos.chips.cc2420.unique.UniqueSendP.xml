@@ -1,0 +1,94 @@
+<?xml version="1.0" ?><component loc="40:../../tos/chips/cc2420/unique/UniqueSendP.nc" nicename="......tos.chips.cc2420.unique.UniqueSendP" qname="UniqueSendP" safe="">
+      <documentation loc="33:../../tos/chips/cc2420/unique/UniqueSendP.nc">
+        <short>
+ This layer is responsible for supplying a unique data sequence number (dsn)
+ to each outgoing message.</short>
+        <long>
+ This layer is responsible for supplying a unique data sequence number (dsn)
+ to each outgoing message.
+ @author David Moss
+ @author Olaf Landsiedel
+</long>
+      </documentation>
+      <module/>
+    <specification><interface loc="47:../../tos/chips/cc2420/unique/UniqueSendP.nc" name="SubSend" provided="0" ref="0x41103228">
+      <component-ref nicename="......tos.chips.cc2420.unique.UniqueSendP" qname="UniqueSendP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="SubSend" ref="0x41103228" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Send" qname="Send"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="send" ref="0x41103400" scoped=""/>
+        <function-ref name="getPayload" ref="0x411034e0" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x411035c0" scoped=""/>
+        <function-ref name="cancel" ref="0x411036a0" scoped=""/>
+        <function-ref name="sendDone" ref="0x41103780" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="42:../../tos/chips/cc2420/unique/UniqueSendP.nc" name="Send" provided="1" ref="0x41106748">
+      <component-ref nicename="......tos.chips.cc2420.unique.UniqueSendP" qname="UniqueSendP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Send" ref="0x41106748" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Send" qname="Send"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="send" ref="0x41106920" scoped=""/>
+        <function-ref name="getPayload" ref="0x41106a00" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x41106ae0" scoped=""/>
+        <function-ref name="cancel" ref="0x41106bc0" scoped=""/>
+        <function-ref name="sendDone" ref="0x41106ca0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="49:../../tos/chips/cc2420/unique/UniqueSendP.nc" name="Random" provided="0" ref="0x41102190">
+      <component-ref nicename="......tos.chips.cc2420.unique.UniqueSendP" qname="UniqueSendP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Random" ref="0x41102190" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Random" qname="Random"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="rand16" ref="0x41102368" scoped=""/>
+        <function-ref name="rand32" ref="0x41102448" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="63:../../tos/chips/cc2420/unique/UniqueSendP.nc" name="initTask" provided="0" ref="0x411017d8">
+      <component-ref nicename="......tos.chips.cc2420.unique.UniqueSendP" qname="UniqueSendP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="initTask" ref="0x411017d8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.TaskBasic" qname="TaskBasic"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="postTask" ref="0x411019b0" scoped=""/>
+        <function-ref name="runTask" ref="0x41101a90" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="43:../../tos/chips/cc2420/unique/UniqueSendP.nc" name="Init" provided="1" ref="0x41106e10">
+      <component-ref nicename="......tos.chips.cc2420.unique.UniqueSendP" qname="UniqueSendP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Init" ref="0x41106e10" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x41103010" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="50:../../tos/chips/cc2420/unique/UniqueSendP.nc" name="CC2420PacketBody" provided="0" ref="0x41102630">
+      <component-ref nicename="......tos.chips.cc2420.unique.UniqueSendP" qname="UniqueSendP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="CC2420PacketBody" ref="0x41102630" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.chips.cc2420.interfaces.CC2420PacketBody" qname="CC2420PacketBody"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getPayload" ref="0x41102808" scoped=""/>
+        <function-ref name="getHeader" ref="0x411028e8" scoped=""/>
+        <function-ref name="getMetadata" ref="0x411029c8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="48:../../tos/chips/cc2420/unique/UniqueSendP.nc" name="State" provided="0" ref="0x411038f8">
+      <component-ref nicename="......tos.chips.cc2420.unique.UniqueSendP" qname="UniqueSendP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="State" ref="0x411038f8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.State" qname="State"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="getState" ref="0x41103ad0" scoped=""/>
+        <function-ref name="toIdle" ref="0x41103bb0" scoped=""/>
+        <function-ref name="isState" ref="0x41103c90" scoped=""/>
+        <function-ref name="isIdle" ref="0x41103d70" scoped=""/>
+        <function-ref name="requestState" ref="0x41103e50" scoped=""/>
+        <function-ref name="forceState" ref="0x41102010" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced/></component>

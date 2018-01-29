@@ -1,0 +1,119 @@
+<html>
+  <head>
+    <LINK rel="stylesheet" href="nesdoc.css" type="text/css" media="screen"><title>Component: SensorReaderC</title>
+  </head>
+  <body>
+    <h2>Component: SensorReaderC
+    </h2>
+    <b>configuration SensorReaderC</b>
+    <p>
+ Simply wires our implementation of SensorReader to
+ the sensors and provides the result
+ Author: Newlyn Erratt, Yimei Li
+
+    <p><p><div id=heading>Provides</div><div id=funcsig>interface <a href="../ihtml/SensorReader.html">SensorReader</a></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.StdControl.html">StdControl</a></div><p><div id=heading>Wiring</div><p>
+    <map name="comp">
+      <area shape="rect" id="node2" href="../chtml/SensorReaderP.html" title="SensorReaderP" alt="" coords="927,120,1069,168">
+
+      <area shape="poly" id="edge2" href="../ihtml/SensorReader.html" title="SensorReader" alt="" coords="930,51 973,108 969,111 926,55">
+
+      <area shape="rect" id="edge2" href="../ihtml/SensorReader.html" title="SensorReader" alt="" coords="959,78,1049,95">
+
+      <area shape="rect" id="node4" href="../chtml/...msp430.UartSerialC.html" title="UartSerialC" alt="" coords="7,236,125,295">
+
+      <area shape="poly" id="edge6" href="../ihtml/tos.interfaces.UartStream.html" title="UartStream" alt="" coords="927,147 696,151 398,160 137,174 51,183 25,189 13,194 9,201 8,208 17,225 12,227 3,209 4,199 10,190 24,184 50,178 136,168 398,154 695,146 927,142">
+
+      <area shape="rect" id="edge6" href="../ihtml/tos.interfaces.UartStream.html" title="UartStream" alt="" coords="11,193,89,210">
+
+      <area shape="poly" id="edge8" href="../ihtml/tos.interfaces.Resource.html" title="Resource" alt="" coords="927,148 488,161 266,174 186,184 140,194 117,209 98,227 94,223 114,204 138,190 185,178 265,169 488,155 927,142">
+
+      <area shape="rect" id="edge8" href="../ihtml/tos.interfaces.Resource.html" title="Resource" alt="" coords="139,193,198,210">
+
+      <area shape="rect" id="node5" href="../chtml/tos.chips.msp430.pins.HplMsp430GeneralIOC.html" title="HplMsp430GeneralIOC" alt="" coords="154,236,362,295">
+
+      <area shape="poly" id="edge10" href="../ihtml/tos.chips.msp430.pins.HplMsp430GeneralIO.html" title="HplMsp430GeneralIO" alt="" coords="927,148 506,164 305,177 239,185 210,194 206,201 206,208 213,225 208,227 200,209 201,199 207,190 238,180 304,172 506,158 927,143">
+
+      <area shape="rect" id="edge10" href="../ihtml/tos.chips.msp430.pins.HplMsp430GeneralIO.html" title="HplMsp430GeneralIO" alt="" coords="209,193,343,210">
+
+      <area shape="poly" id="edge12" href="../ihtml/tos.chips.msp430.pins.HplMsp430GeneralIO.html" title="HplMsp430GeneralIO" alt="" coords="927,149 657,165 518,178 417,195 369,211 323,232 321,227 367,206 416,189 517,173 657,160 927,144">
+
+      <area shape="rect" id="edge12" href="../ihtml/tos.chips.msp430.pins.HplMsp430GeneralIO.html" title="HplMsp430GeneralIO" alt="" coords="417,193,551,210">
+
+      <area shape="rect" id="node6" href="../chtml/tos.system.TimerMilliC.html" title="TimerMilliC" alt="" coords="461,236,573,295">
+
+      <area shape="poly" id="edge14" href="../ihtml/tos.lib.timer.Timer.html" title="Timer&lt;TMilli&gt;" alt="" coords="927,148 837,153 736,161 643,175 606,184 579,194 560,209 543,227 540,223 556,205 577,190 605,179 642,169 736,156 837,147 927,143">
+
+      <area shape="rect" id="edge14" href="../ihtml/tos.lib.timer.Timer.html" title="Timer&lt;TMilli&gt;" alt="" coords="578,193,667,210">
+
+      <area shape="rect" id="node7" href="../chtml/...msp430.InternalVoltageC.html" title="InternalVoltageC" alt="" coords="597,236,757,295">
+
+      <area shape="poly" id="edge16" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="927,153 777,170 714,182 693,188 683,194 675,207 672,223 667,222 670,205 679,190 691,183 713,176 776,165 927,147">
+
+      <area shape="rect" id="edge16" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="681,193,786,210">
+
+      <area shape="rect" id="node8" href="../chtml/tos.platforms.telosa.chips.sht11.SensirionSht11C.html" title="SensirionSht11C" alt="" coords="801,236,961,295">
+
+      <area shape="poly" id="edge18" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="927,154 849,169 817,180 797,194 793,202 793,210 805,226 800,229 788,211 788,201 793,190 814,176 847,164 926,149">
+
+      <area shape="rect" id="edge18" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="795,193,901,210">
+
+      <area shape="poly" id="edge20" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="957,170 928,194 904,226 900,222 924,190 954,166">
+
+      <area shape="rect" id="edge20" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="926,193,1031,210">
+
+      <area shape="rect" id="node9" href="../chtml/...msp430.ADC0C.html" title="ADC0C" alt="" coords="1022,236,1110,295">
+
+      <area shape="poly" id="edge22" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="1022,167 1039,191 1054,222 1049,225 1034,193 1018,170">
+
+      <area shape="rect" id="edge22" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="1045,193,1150,210">
+
+      <area shape="rect" id="node10" href="../chtml/...msp430.ADC1C.html" title="ADC1C" alt="" coords="1158,236,1246,295">
+
+      <area shape="poly" id="edge24" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="1070,152 1115,166 1157,190 1173,205 1185,223 1181,226 1169,209 1154,194 1112,171 1068,157">
+
+      <area shape="rect" id="edge24" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="1173,193,1278,210">
+
+      <area shape="rect" id="node11" href="../chtml/...msp430.ADC2C.html" title="ADC2C" alt="" coords="1294,236,1382,295">
+
+      <area shape="poly" id="edge26" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="1069,147 1191,163 1246,175 1285,190 1303,205 1318,223 1314,226 1299,208 1282,194 1245,180 1190,168 1069,153">
+
+      <area shape="rect" id="edge26" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="1303,193,1409,210">
+
+      <area shape="rect" id="node12" href="../chtml/...msp430.ADC3C.html" title="ADC3C" alt="" coords="1430,236,1518,295">
+
+      <area shape="poly" id="edge28" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="1069,143 1158,147 1259,156 1351,169 1388,179 1415,190 1435,205 1452,223 1448,227 1432,209 1413,194 1386,184 1350,175 1258,161 1158,153 1069,148">
+
+      <area shape="rect" id="edge28" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="1435,193,1541,210">
+
+      <area shape="rect" id="node13" href="../chtml/...msp430.ADC6C.html" title="ADC6C" alt="" coords="1566,236,1654,295">
+
+      <area shape="poly" id="edge30" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="1069,145 1344,162 1474,174 1520,182 1547,190 1568,204 1586,223 1582,227 1565,208 1545,194 1519,187 1473,180 1344,167 1069,150">
+
+      <area shape="rect" id="edge30" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="1569,193,1674,210">
+
+      <area shape="rect" id="node14" href="../chtml/...msp430.ADC7C.html" title="ADC7C" alt="" coords="1702,236,1790,295">
+
+      <area shape="poly" id="edge32" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="1069,143 1415,158 1585,172 1645,180 1680,190 1703,205 1721,223 1717,227 1699,209 1678,194 1644,185 1584,177 1415,164 1069,149">
+
+      <area shape="rect" id="edge32" href="../ihtml/tos.interfaces.Read.html" title="Read&lt;uint16_t&gt;" alt="" coords="1705,193,1810,210">
+
+      <area shape="rect" id="node15" href="../chtml/tos.platforms.telosb.MoteClockC.html" title="MoteClockC" alt="" coords="1821,236,1943,295">
+
+      <area shape="poly" id="edge34" href="../ihtml/tos.interfaces.Init.html" title="Init" alt="" coords="1069,142 1487,155 1697,169 1772,178 1816,190 1839,204 1857,223 1853,227 1835,209 1814,194 1771,184 1697,174 1487,161 1069,148">
+
+      <area shape="rect" id="edge34" href="../ihtml/tos.interfaces.Init.html" title="Init" alt="" coords="1841,193,1861,210">
+
+      <area shape="rect" id="node16" href="../chtml/tos.system.TimerMilliC.html" title="TimerMilliC\n(delayTimerC)" alt="" coords="1967,235,2106,296">
+
+      <area shape="poly" id="edge36" href="../ihtml/tos.lib.timer.Timer.html" title="Timer&lt;TMilli&gt;" alt="" coords="1069,142 1248,145 1478,153 1703,167 1796,177 1867,189 1919,206 1968,226 1966,231 1917,211 1865,195 1795,183 1703,173 1478,159 1248,151 1069,147">
+
+      <area shape="rect" id="edge36" href="../ihtml/tos.lib.timer.Timer.html" title="Timer&lt;TMilli&gt;" alt="" coords="1923,193,2013,210">
+
+      <area shape="poly" id="edge4" href="../ihtml/tos.interfaces.StdControl.html" title="StdControl" alt="" coords="1080,55 1056,98 1043,112 1039,109 1052,94 1075,52">
+
+      <area shape="rect" id="edge4" href="../ihtml/tos.interfaces.StdControl.html" title="StdControl" alt="" coords="1065,78,1134,95">
+
+    </map>
+    <img src="SensorReaderC.png" usemap="#comp" id=imgwiring>
+  </body>
+</html>

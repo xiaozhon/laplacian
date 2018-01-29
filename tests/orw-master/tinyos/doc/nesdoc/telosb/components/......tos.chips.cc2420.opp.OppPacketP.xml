@@ -1,0 +1,33 @@
+<?xml version="1.0" ?><component loc="36:../../tos/chips/cc2420/opp/OppPacketP.nc" nicename="......tos.chips.cc2420.opp.OppPacketP" qname="OppPacketP">
+      <module/>
+    <specification><interface loc="37:../../tos/chips/cc2420/opp/OppPacketP.nc" name="OppPacket" provided="1" ref="0x4105dca0">
+      <component-ref nicename="......tos.chips.cc2420.opp.OppPacketP" qname="OppPacketP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="OppPacket" ref="0x4105dca0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="......tos.chips.cc2420.interfaces.OppPacket" qname="OppPacket"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="setPull" ref="0x4105de78" scoped=""/>
+        <function-ref name="getSeqNum" ref="0x4105a010" scoped=""/>
+        <function-ref name="init" ref="0x4105a0f0" scoped=""/>
+        <function-ref name="setSource" ref="0x4105a1d0" scoped=""/>
+        <function-ref name="setSeqNum" ref="0x4105a2b0" scoped=""/>
+        <function-ref name="getTtl" ref="0x4105a390" scoped=""/>
+        <function-ref name="getSource" ref="0x4105a470" scoped=""/>
+        <function-ref name="setTtl" ref="0x4105a550" scoped=""/>
+        <function-ref name="isPull" ref="0x4105a630" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="39:../../tos/chips/cc2420/opp/OppPacketP.nc" name="Packet" provided="0" ref="0x4105a7d0">
+      <component-ref nicename="......tos.chips.cc2420.opp.OppPacketP" qname="OppPacketP"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Packet" ref="0x4105a7d0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Packet" qname="Packet"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="clear" ref="0x4105a9a8" scoped=""/>
+        <function-ref name="payloadLength" ref="0x4105aa88" scoped=""/>
+        <function-ref name="getPayload" ref="0x4105ab68" scoped=""/>
+        <function-ref name="maxPayloadLength" ref="0x4105ac48" scoped=""/>
+        <function-ref name="setPayloadLength" ref="0x4105ad28" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced/></component>

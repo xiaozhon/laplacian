@@ -1,0 +1,230 @@
+<?xml version="1.0" ?><component abstract="" loc="8:../msp430/ADC2C.nc" nicename="...msp430.ADC2C" qname="ADC2C">
+      <parameters>
+      </parameters>
+      <configuration/>
+      <wiring>
+        <wire loc="21:../msp430/ADC2C.nc">
+          <from><interface-ref name="Read" ref="0x41779f00" scoped=""/></from>
+          <to><interface-ref name="Read" ref="0x41774a30" scoped=""/></to>
+        </wire>
+        <wire loc="25:../msp430/ADC2C.nc">
+          <from><interface-ref name="ReadNow" ref="0x41776c20" scoped=""/></from>
+          <to><interface-ref name="ReadNow" ref="0x41770610" scoped=""/></to>
+        </wire>
+        <wire loc="26:../msp430/ADC2C.nc">
+          <from><interface-ref name="ReadNowResource" ref="0x417758d8" scoped=""/></from>
+          <to><interface-ref name="Resource" ref="0x41771eb8" scoped=""/></to>
+        </wire>
+        <wire loc="22:../msp430/ADC2C.nc">
+          <from><interface-ref name="AdcConfigure" ref="0x41773688" scoped=""/></from>
+          <to><interface-ref name="AdcConfigure" ref="0x415a7928" scoped=""/>
+          <arguments>
+            <value cst="I:2">
+              <type-int alignment="I:2" cname="int" size="I:2"/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+        <wire loc="27:../msp430/ADC2C.nc">
+          <from><interface-ref name="AdcConfigure" ref="0x4176f2b0" scoped=""/></from>
+          <to><interface-ref name="AdcConfigure" ref="0x415a7928" scoped=""/>
+          <arguments>
+            <value cst="I:2">
+              <type-int alignment="I:2" cname="int" size="I:2"/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+      </wiring>
+    <specification><interface loc="11:../msp430/ADC2C.nc" name="Read" provided="1" ref="0x41779f00">
+      <component-ref nicename="...msp430.ADC2C" qname="ADC2C"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Read" ref="0x41779f00" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x41776558" scoped=""/>
+        <function-ref name="readDone" ref="0x417767b0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="12:../msp430/ADC2C.nc" name="ReadNow" provided="1" ref="0x41776c20">
+      <component-ref nicename="...msp430.ADC2C" qname="ADC2C"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="ReadNow" ref="0x41776c20" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.ReadNow" qname="ReadNow"/>
+        <arguments>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x41775278" scoped=""/>
+        <function-ref name="readDone" ref="0x417754f0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="13:../msp430/ADC2C.nc" name="ReadNowResource" provided="1" ref="0x417758d8">
+      <component-ref nicename="...msp430.ADC2C" qname="ADC2C"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="ReadNowResource" ref="0x417758d8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Resource" qname="Resource"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="release" ref="0x41775ab0" scoped=""/>
+        <function-ref name="immediateRequest" ref="0x41775b90" scoped=""/>
+        <function-ref name="request" ref="0x41775c70" scoped=""/>
+        <function-ref name="granted" ref="0x41775d50" scoped=""/>
+        <function-ref name="isOwner" ref="0x41775e30" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced><interface loc="49:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/AdcReadNowClientC.nc" name="Resource" provided="1" ref="0x41771eb8">
+      <component-ref nicename="tos.chips.msp430.adc12.AdcReadNowClientC" qname="ADC2C.AdcReadNowClient"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Resource" ref="0x41771eb8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Resource" qname="Resource"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="release" ref="0x417700c0" scoped=""/>
+        <function-ref name="immediateRequest" ref="0x417701a0" scoped=""/>
+        <function-ref name="request" ref="0x41770280" scoped=""/>
+        <function-ref name="granted" ref="0x41770360" scoped=""/>
+        <function-ref name="isOwner" ref="0x41770440" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="49:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/AdcReadClientC.nc" name="AdcConfigure" provided="0" ref="0x41773688">
+      <component-ref nicename="tos.chips.msp430.adc12.AdcReadClientC" qname="ADC2C.AdcReadClient"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="AdcConfigure" ref="0x41773688" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.AdcConfigure" qname="AdcConfigure"/>
+        <arguments>
+          <type-pointer alignment="I:2" size="I:2">
+            <type-qualified const="">
+                <typename><typedef-ref name="msp430adc12_channel_config_t" ref="0x41575a70"/></typename>
+              <type-tag alignment="I:2" size="I:4"><struct-ref ref="0x415755b0"/></type-tag>
+            </type-qualified>
+          </type-pointer>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getConfiguration" ref="0x41773cd0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="46:../msp430/SensorSettingsC.nc" name="AdcConfigure" provided="1" ref="0x415a7928">
+      <component-ref nicename="...msp430.SensorSettingsC" qname="SensorSettingsC"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="AdcConfigure" ref="0x415a7928" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.AdcConfigure" qname="AdcConfigure"/>
+        <arguments>
+          <type-pointer alignment="I:2" size="I:2">
+            <type-qualified const="">
+                <typename><typedef-ref name="msp430adc12_channel_config_t" ref="0x41575a70"/></typename>
+              <type-tag alignment="I:2" size="I:4"><struct-ref ref="0x415755b0"/></type-tag>
+            </type-qualified>
+          </type-pointer>
+        </arguments>
+      </instance>
+      <interface-parameters>
+        <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+          <typename><typedef-ref name="uint8_t" ref="0x401e1dd0"/></typename>
+        </type-int>
+      </interface-parameters>
+      <interface-functions>
+        <function-ref name="getConfiguration" ref="0x415a8010" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="50:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/AdcReadNowClientC.nc" name="ReadNow" provided="1" ref="0x41770610">
+      <component-ref nicename="tos.chips.msp430.adc12.AdcReadNowClientC" qname="ADC2C.AdcReadNowClient"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="ReadNow" ref="0x41770610" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.ReadNow" qname="ReadNow"/>
+        <arguments>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x41770c58" scoped=""/>
+        <function-ref name="readDone" ref="0x41770ed0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="52:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/AdcReadNowClientC.nc" name="AdcConfigure" provided="0" ref="0x4176f2b0">
+      <component-ref nicename="tos.chips.msp430.adc12.AdcReadNowClientC" qname="ADC2C.AdcReadNowClient"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="AdcConfigure" ref="0x4176f2b0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.AdcConfigure" qname="AdcConfigure"/>
+        <arguments>
+          <type-pointer alignment="I:2" size="I:2">
+            <type-qualified const="">
+                <typename><typedef-ref name="msp430adc12_channel_config_t" ref="0x41575a70"/></typename>
+              <type-tag alignment="I:2" size="I:4"><struct-ref ref="0x415755b0"/></type-tag>
+            </type-qualified>
+          </type-pointer>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getConfiguration" ref="0x4176f8f8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="48:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/AdcReadClientC.nc" name="Read" provided="1" ref="0x41774a30">
+      <component-ref nicename="tos.chips.msp430.adc12.AdcReadClientC" qname="ADC2C.AdcReadClient"/>
+      <type-interface alignment="I:2" size="I:2"><interface-ref name="Read" ref="0x41774a30" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Read" qname="Read"/>
+        <arguments>
+          <type-int alignment="I:2" cname="unsigned int" size="I:2" unsigned="">
+            <typename><typedef-ref name="uint16_t" ref="0x401e2010"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="read" ref="0x41773068" scoped=""/>
+        <function-ref name="readDone" ref="0x417732c0" scoped=""/>
+      </interface-functions>
+    </interface><component abstract="" loc="47(ADC2C.AdcReadNowClient):/opt/tinyos-2.1.2/tos/chips/msp430/adc12/AdcReadNowClientC.nc" nicename="tos.chips.msp430.adc12.AdcReadNowClientC" qname="ADC2C.AdcReadNowClient">
+      <documentation loc="36:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/AdcReadNowClientC.nc">
+        <short> 
+ This component virtualizes the HIL of ADC12 on MSP430.</short>
+        <long> 
+ This component virtualizes the HIL of ADC12 on MSP430. A client must wire
+ &lt;code&gt;AdcConfigure&lt;/code&gt; to a component that returns the client's adc
+ configuration data.
+
+ @author Jan Hauer 
+ @see  Please refer to the README.txt and TEP 101 for more information about 
+ this component and its intended use.
+</long>
+      </documentation>
+      <instance>
+        <component-ref nicename="tos.chips.msp430.adc12.AdcReadNowClientC" qname="AdcReadNowClientC"/>
+      </instance>
+      <configuration/>
+    </component><component abstract="" loc="47(ADC2C.AdcReadClient):/opt/tinyos-2.1.2/tos/chips/msp430/adc12/AdcReadClientC.nc" nicename="tos.chips.msp430.adc12.AdcReadClientC" qname="ADC2C.AdcReadClient">
+      <documentation loc="36:/opt/tinyos-2.1.2/tos/chips/msp430/adc12/AdcReadClientC.nc">
+        <short> 
+ This component virtualizes the HIL of ADC12 on MSP430.</short>
+        <long> 
+ This component virtualizes the HIL of ADC12 on MSP430. A client must wire
+ &lt;code&gt;AdcConfigure&lt;/code&gt; to a component that returns the client's adc
+ configuration data.
+
+ @author Jan Hauer 
+ @see  Please refer to the README.txt and TEP 101 for more information about 
+ this component and its intended use.
+</long>
+      </documentation>
+      <instance>
+        <component-ref nicename="tos.chips.msp430.adc12.AdcReadClientC" qname="AdcReadClientC"/>
+      </instance>
+      <configuration/>
+    </component><component loc="45:../msp430/SensorSettingsC.nc" nicename="...msp430.SensorSettingsC" qname="SensorSettingsC">
+      <documentation loc="36:../msp430/SensorSettingsC.nc">
+        <short>
+ Default ADC channel configuration for eyesIFXv1 and eyesIFXv2.</short>
+        <long>
+ Default ADC channel configuration for eyesIFXv1 and eyesIFXv2. Future
+ eyesIFX platforms may shadow this configuration (and sensors.h) in their
+ respective subdirectory.
+
+ @author Jan Hauer
+</long>
+      </documentation>
+      <module/>
+    </component></referenced></component>

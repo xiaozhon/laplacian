@@ -1,0 +1,63 @@
+COMPONENT=LapTestAppC
+
+
+#CFLAGS += -I../net/ctp
+#CFLAGS += -I$(TOSDIR)/lib/net \
+#          -I$(TOSDIR)/lib/net/4bitle \
+#          -I$(TOSDIR)/lib/net/ctp
+
+
+#appEER = net/net_EER_sim
+#appEER = net/net_EER
+
+#CFLAGS += -I../$(appEER) \
+#         -I../$(appEER)/4bitle \
+#          -I../$(appEER)/eer \
+#          -I../$(appEER)/eer_parentselection \
+#   
+appEER = net/net_RCTP_v36_aswp
+#CFLAGS += -I../$(appEER)/4bitle 
+
+CFLAGS += -I../$(appEER) \
+          -I../$(appEER)/4bitle \
+          -I../$(appEER)/rctp \
+          -I../$(appEER)/rctp_parentselection \
+          -I../$(appEER)/rctp_datalinklayer
+          
+          
+# (R-CTP) Maximum parent set size
+CFLAGS += -DMAX_PARENTSET_SIZE=5
+
+# (R-CTP) Allowed retransmissions without penalization in the link estimator
+# This value should be less than the default retransmission for each forwarder node
+#CFLAGS += -DRCTP_ALLOWED_RETXS=1
+CFLAGS += -DRCTP_ALLOWED_RETXS=1
+
+
+
+####################
+#### Configure LPL and CCA checks for Telosb mote. Without this, the node-to-node
+#### PRR is very poor, 60~70%
+# Define hardware ACKs
+CFLAGS += -DCC2420_HW_ACKNOWLEDGEMENTS
+
+# Timeout for acks in CC2420 (telosb and micaz motes). Defined in CCA checks. 
+# The time for each CCA check varies depending on the platform.
+CFLAGS += -DMAX_LPL_CCA_CHECKS=1800
+
+####################
+
+CFLAGS += -DTOSH_DATA_LENGTH=100
+# Printf (comment to remove printf)
+CFLAGS += -I$(TOSDIR)/lib/printf
+CFLAGS += -DNEW_PRINTF_SEMANTICS
+CFLAGS += -DPRINTF_INDRIYA_ENABLED			# FOR OSR
+CFLAGS += -DPRINTF_BUFFER_SIZE=700
+
+
+CFLAGS += -DLOW_POWER_LISTENING
+CFLAGS += -DLPL_DEF_LOCAL_WAKEUP=1024
+CFLAGS += -DLPL_DEF_REMOTE_WAKEUP=1024
+CFLAGS += -DDELAY_AFTER_RECEIVE=30			## changed from 20 to 30
+
+include $(MAKERULES)

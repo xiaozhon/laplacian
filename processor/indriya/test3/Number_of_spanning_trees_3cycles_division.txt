@@ -1,0 +1,13 @@
+2016-09-29 22:03:40 Round: 1
+2016-09-29 22:18:41 Round: 2
+Number_of_spanning_trees: 4.61670579315e+37	protocol: 2.12801282653e+37	environment: 2.48869296662e+37
+	Spanning trees for intersection matrix: 12079595520.0
+
+2016-09-29 22:33:42 Round: 3
+Number_of_spanning_trees: 1.0259346207e+36	protocol: 5.0084997231e+35	environment: 5.25084648389e+35
+	Spanning trees for intersection matrix: 110075314176.0
+
+2016-09-29 22:48:43 Round: 4
+Number_of_spanning_trees: 4.14046079184e+33	protocol: 2.07023039592e+33	environment: 2.07023039592e+33
+	Spanning trees for intersection matrix: 16986931200.0
+

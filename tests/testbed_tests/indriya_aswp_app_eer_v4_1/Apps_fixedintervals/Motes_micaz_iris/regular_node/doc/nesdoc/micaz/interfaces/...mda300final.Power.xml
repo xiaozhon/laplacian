@@ -1,0 +1,22 @@
+<?xml version="1.0" ?><interfacedef loc="38:../mda300final/Power.nc" nicename="...mda300final.Power" qname="Power">
+      <function command="" loc="39:../mda300final/Power.nc" name="on" provided="0" ref="0x4112fe60">
+        <interfacedef-ref nicename="...mda300final.Power" qname="Power"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-void alignment="I:1" size="I:1"/>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="40:../mda300final/Power.nc" name="off" provided="0" ref="0x4112c1f0">
+        <interfacedef-ref nicename="...mda300final.Power" qname="Power"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-void alignment="I:1" size="I:1"/>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+    </interfacedef>
